@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="chapter1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graphing Points on the Coordinate Plane</title>
+  <introduction>
+    <p>
+      Graphing is one of the fundamental tools in Algebra. As visual creatures, humans can see solutions as pictures instead of only letters and numbers on a page. This helps people notice patterns in data that might be difficult to find when it is expressed only as text. Over the course of this semester, there will be a strong focus on understanding and interpreting graphs from both a mathematical and real-world point of view.
+    </p>
+  </introduction>
+
+  <subsection xml:id="ordered-pairs">
+    <title>Ordered Pairs</title>
+    <p>Points on a number line are described by a single number. We use notation such as <m>x=3</m> to show a value on the number line; we graph the point by placing a solid dot three spaces to the right of a place labeled 0 on the number line.</p>
+    <figure xml:id="graph-x-equals-3">
+      <caption>The graph of <m>x=3</m> plotted on the number line.</caption>
+      <image source="1D_graph_x_equals_3.png">
+        <shortdescription>Number line with a point at x=3</shortdescription>
+      </image>
+    </figure>
+    <p>When we move to a <term>coordinate plane</term>, we need two numbers to describe a point. One number describes the horizontal (left/right) movement, and the other describes the vertical (up/down) movement. In theoretical mathematics, the variable <m>x</m> represents horizontal movement, and the variable <m>y</m> represents vertical movement. Instead of writing a pair of equations such as <m>x = 3</m> and <m>y = 4</m> to represent a point, we use an abbreviated notation called an <term>ordered pair</term> to represent a point. In this case, the equations <m>x = 3</m> and <m>y = 4</m> are abbreviated as the ordered pair <m>(3,4)</m>.</p>
+
+<definition xml:id="def-ordered-pair">
+  <statement>
+    <p>
+      Let <m>x</m> and <m>y</m> be any real numbers. An <term>ordered pair</term> is a list of numbers, written as <m>(x, y)</m>, where the order in which you write the numbers matters (e.g. <m>(3,4) \ne (4,3)</m>).</p><p>There are additional definitions related to ordered pairs:
+  <ul>
+    <li><m>x</m> is known as the <term>x-coordinate</term> (or informally as the <term>first coordinate</term>).</li>
+    <li><m>y</m> is known as the <term>y-coordinate</term> (or informally as the <term>second coordinate</term>).</li>
+  </ul>
+    </p>
+  </statement>
+  
+</definition>
+
+<p>While coordinates are often written as ordered pairs, they can also be written as a pair of equations. The next two examples show us how to convert from ordered pairs to a pair of equations, and vice versa.</p>
+
+<example xml:id="ex-1-1-1" label="something else">
+  <title>Convert Coordinates to Ordered Pairs</title>
+  <statement>
+    <p>What point corresponds to the pair of equations <m>x = -2</m> and <m>y = \frac{3}{2}</m>?</p><p>Express the point as an ordered pair.</p>
+  </statement>
+  <answer>
+    <p>
+      <m>\left(-2, \frac{3}{2}\right)</m>
+    </p>
+  </answer>
+  <solution>
+    <p>Since every point on the coordinate plane can be expressed as an ordered pair <m>(x, y)</m>, this pair of equations can be represented by the ordered pair <m>\left(-2, \frac{3}{2}\right)</m>.</p>
+  </solution>
+</example>
+
+<example xml:id="ex-1-1-2">
+  <title>Convert Ordered Pair to Coordinates</title>
+  <statement>
+    <p>Let the ordered pair <m>(2.54, -4.12)</m> represent a point on the coordinate plane.</p>
+    <p>What are the values for <m>x</m> and <m>y</m>?</p>
+  </statement>
+  <answer>
+    <p>
+      <md>
+        <mrow>x \amp =2.54 </mrow>
+        <mrow>y \amp =-4.12</mrow>
+      </md>
+    </p>
+  </answer>
+  <solution>
+    <p>Since every point on the coordinate plane can be expressed as an ordered pair <m>(x, y)</m>, then 
+      <ul>
+        <li><m>x = 2.54</m> since <m>2.54</m> is the first coordinate,</li>
+        <li>and <m>y = -4.12</m> since <m>-4.12</m> is the second coordinate.</li>
+      </ul>
+    </p>
+  </solution>
+</example>
+  </subsection>
+</section>
