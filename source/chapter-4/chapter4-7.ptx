@@ -1,0 +1,139 @@
+<section xml:id="sec-arithmetic-with-complex-numbers">
+    <title>Arithmetic with Complex Numbers</title>
+    <introduction>
+        <p>
+            If you know how to add like terms and use the FOIL method, then addition, subtraction, and multiplication of complex numbers will seem very familiar.
+            We will not cover division of complex numbers in this course.
+        </p>
+    </introduction>
+
+    <subsection xml:id="subsec-adding-complex-numbers">
+        <title>Adding Complex Numbers</title>
+
+        <lemma xml:id="lem-how-to-add-complex-numbers">
+            <title>How to Add Complex Numbers</title>
+            <statement>
+                <p>
+                    Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+                    Then
+                    <me>(a+bi)+(c+di)=(a+c)+(b+d)i</me>.
+                </p>
+                <p>
+                    In other words, just add like terms.
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-adding-two-complex-numbers">
+            <title>Adding Two Complex Numbers</title>
+            <statement>
+                <p>
+                    Perform the operation <m>(3-4i)+(-2+9i)</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>1+5i</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>(3-4i)+(-2+9i)\amp=3-4i-2+9i</mrow>
+                        <mrow>\amp=(3-2)+(-4i+9i)</mrow>
+                        <mrow>\amp=1+5i</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <note xml:id="note-grouping-terms-and-negatives">
+    <title>Grouping Terms and Negatives</title>
+    <p>
+        When grouping terms in parentheses, include any negative signs inside the parentheses and place a plus sign between the groups. This helps you avoid sign errors.
+    </p>
+</note>
+
+    </subsection>
+
+    <subsection xml:id="subsec-subtracting-complex-numbers">
+        <title>Subtracting Complex Numbers</title>
+
+        <lemma xml:id="lem-how-to-subtract-complex-numbers">
+            <title>How to Subtract Complex Numbers</title>
+            <statement>
+                <p>
+                    Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+                    Then
+                    <me>(a+bi)-(c+di)=(a-c)+(b-d)i</me>.
+                </p>
+                <p>
+                    In other words, distribute the negative and add like terms.
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-subtracting-two-complex-numbers">
+            <title>Subtracting Two Complex Numbers</title>
+            <statement>
+                <p>
+                    Perform the operation <m>(-3+2i)-(-5+3i)</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>2-i</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>(-3+2i)-(-5+3i)\amp=-3+2i+5-3i</mrow>
+                        <mrow>\amp=(-3+5)+(2i-3i)</mrow>
+                        <mrow>\amp=2-i</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+    </subsection>
+
+    <subsection xml:id="subsec-multiplying-complex-numbers">
+        <title>Multiplying Complex Numbers</title>
+
+        <lemma xml:id="lem-how-to-multiply-complex-numbers">
+            <title>How to Multiply Complex Numbers</title>
+            <statement>
+                <p>
+                    Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+                    Then
+                    <me>(a+bi)(c+di)=(ac-bd)+(ad+bc)i</me>.
+                </p>
+                <p>
+                    In other words, just FOIL it out and simplify using <m>i^2=-1</m>.
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-multiply-two-complex-numbers">
+            <title>Multiply Two Complex Numbers</title>
+            <statement>
+                <p>
+                    Perform the operation <m>(-6+5i)(2-i)</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>-7+16i</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>(-6+5i)(2-i)\amp=-12+6i+10i-5i^2</mrow>
+                        <mrow>\amp=-12+16i-5(-1)</mrow>
+                        <mrow>\amp=-7+16i</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+    </subsection>
+</section>

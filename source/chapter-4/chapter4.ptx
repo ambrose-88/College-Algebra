@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Functions</title>
+ <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="chapter4-1.ptx" />
+  <xi:include href="chapter4-2.ptx" />
+  <xi:include href="chapter4-3.ptx" />
+  <xi:include href="chapter4-4.ptx" />
+  <xi:include href="chapter4-5.ptx" />
+  <xi:include href="chapter4-6.ptx" />
+  <xi:include href="chapter4-7.ptx" />
+  <xi:include href="chapter4-8.ptx" />
+  <xi:include href="chapter4-9.ptx" />
+  <xi:include href="chapter4-10.ptx" />
+  <xi:include href="chapter4-11.ptx" />
+  <xi:include href="chapter4-12.ptx" />
+  <xi:include href="chapter4-13.ptx" />
+  <xi:include href="chapter4-14.ptx" />
+  <xi:include href="chapter4-15.ptx" />
+  <xi:include href="chapter4-16.ptx" />
+  <xi:include href="chapter4-17.ptx" />
+</chapter>

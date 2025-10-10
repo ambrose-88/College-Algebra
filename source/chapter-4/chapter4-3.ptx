@@ -1,0 +1,280 @@
+<section xml:id="sec-factor-by-grouping">
+    <title>Factor by Grouping</title>
+
+    <subsection xml:id="subsec-factor-by-grouping">
+        <title>Factor by Grouping</title>
+
+        <lemma xml:id="lem-solving-by-grouping">
+            <title>Solving an Equation by Factoring by Grouping</title>
+            <statement>
+                <p>
+                    Consider any polynomial with an even number of terms.
+                    The following steps show how to solve an equation using the factor by grouping method.
+                </p>
+                <p>
+                    <ol>
+                        <li><p>Make sure one side of the equation is equal to zero.</p></li>
+                        <li><p>Group terms into pairs using parentheses. Put a plus sign between each pair of terms. All negative or minus signs come into the parentheses with the number.</p></li>
+                        <li><p>Factor out the GCF from each grouped pair.</p></li>
+                        <li><p>The binomial left behind after factoring out the GCF should be the same for each term. If it is not, repeat steps 1 and 2 until you get a common binomial.</p></li>
+                        <li><p>Factor out the common binomial.</p></li>
+                        <li><p>Perform any additional factoring needed until you get a complete factorization.</p></li>
+                        <li><p>Use the Zero Product Property to finish solving the problem.</p></li>
+                    </ol>
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-use-factor-by-grouping">
+            <title>Use Factor by Grouping to Solve an Equation with Four Terms</title>
+            <statement>
+                <p>
+                    Solve the equation <m>x^3 + 3x^2 - 2x - 6 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = \pm\sqrt{2}</m></p></li>
+                        <li><p><m>x = -3</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Since there are four terms equal to zero, factor by grouping is an ideal method for solving this equation.
+                    Group terms that have coefficients with common factors. For example, group <m>+3x^2</m> and <m>-6</m> (since both have a 3 in common),
+                    and group <m>x^3</m> and <m>-2x</m> (which have an <m>x</m> in common).
+                    We will also use the difference of squares to factor <m>x^2 - 2</m>.
+                </p>
+                <p>
+                    <md>
+                        <mrow>x^3 + 3x^2 - 2x - 6 \amp= 0</mrow>
+                        <mrow>(x^3 - 2x) + (3x^2 - 6) \amp= 0</mrow>
+                        <mrow>x(x^2 - 2) + 3(x^2 - 2) \amp= 0</mrow>
+                        <mrow>(x^2 - 2)(x + 3) \amp= 0</mrow>
+                        <mrow>(x - \sqrt{2})(x + \sqrt{2})(x + 3) \amp= 0</mrow>
+                        <mrow>x - \sqrt{2} \amp= 0 \amp x + \sqrt{2} \amp= 0 \amp x + 3 \amp= 0</mrow>
+                        <mrow>x \amp= \sqrt{2} \amp x \amp= -\sqrt{2} \amp x \amp= -3</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = \pm\sqrt{2}</m> and <m>x = -3</m>.
+                </p>
+            </solution>
+        </example>
+    </subsection>
+
+    <subsection xml:id="subsec-ac-method">
+        <title>The <m>ac</m>-Method</title>
+
+        <lemma xml:id="lem-ac-method">
+            <title>Using the <m>ac</m>-Method to Solve a Quadratic Equation</title>
+            <statement>
+                <p>
+                    Let <m>ax^2 + bx + c = 0</m> be a quadratic function.
+                    If there are factors of the product <m>ac</m> that add to <m>b</m>, we can factor this trinomial and use the Zero Product Property to solve for <m>x</m>.
+                    Here is how to check if we can factor using this method.
+                </p>
+                <p>
+                    <ol>
+                        <li><p>Compute the product <m>ac</m>.</p></li>
+<li><p>List all the factors of the product. You are looking for one of two things:
+                            <ul>
+                                <li><p>If <m>c &gt; 0</m>, find two numbers whose sum equals <m>b</m>.</p></li>
+                                <li><p>If <m>c &lt; 0</m>, find two numbers whose difference equals <m>b</m>.</p></li>
+                                <li><p>If you cannot find such a pair, you cannot use this method.</p></li>
+                            </ul>
+                            </p>
+                        </li>                        <li><p>Suppose you find factors <m>d</m> and <m>e</m> such that <m>de = ac</m> and <m>d + e = b</m>. Then replace <m>bx</m> with <m>dx + ex</m> to get <m>ax^2 + dx + ex + c = 0</m>.</p></li>
+                        <li><p>Use Factor by Grouping to solve the equation.</p></li>
+                    </ol>
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-ac-method-a-equals-1">
+            <title>Use the <m>ac</m>-Method to Solve a Quadratic Equation when <m>a = 1</m></title>
+            <statement>
+                <p>
+                    Solve <m>x^2 + 12x + 27 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = -9</m></p></li>
+                        <li><p><m>x = -3</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    In this case, <m>a = 1</m> and <m>c = 27</m>.
+                    Therefore, <m>ac = 27</m> and <m>c &gt; 0</m>.
+                    We need factors of <m>27</m> that sum to <m>12</m>.
+                    The following table shows all factors of <m>27</m>.
+                </p>
+                <table>
+                    <title>The Factors of 27</title>
+                    <tabular>
+                        <row header="yes" halign="center" bottom="major"><cell>Factor 1</cell><cell>Factor 2</cell></row>
+                        <row halign="center"><cell>1</cell><cell>27</cell></row>
+                        <row halign="center"><cell>3</cell><cell>9</cell></row>
+                    </tabular>
+                </table>
+                <p>
+                    From the table, we see that <m>3</m> and <m>9</m> sum to <m>12</m>.
+                    Substitute <m>12x = 3x + 9x</m> and rewrite the equation as <m>x^2 + 9x + 3x + 12 = 0</m>.
+                    Now factor by grouping.
+                </p>
+                <p>
+                    <md>
+                        <mrow>x^2 + 12x + 27 \amp= 0</mrow>
+                        <mrow>x^2 + 9x + 3x + 12 \amp= 0</mrow>
+                        <mrow>(x^2 + 9x) + (3x + 12) \amp= 0</mrow>
+                        <mrow>x(x + 9) + 3(x + 9) \amp= 0</mrow>
+                        <mrow>(x + 9)(x + 3) \amp= 0</mrow>
+                        <mrow>x + 9 \amp= 0 \amp x + 3 \amp= 0</mrow>
+                        <mrow>x \amp= -9 \amp x \amp= -3</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = -9</m> and <m>x = -3</m>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="ex-ac-method-a-not-equal-1">
+            <title>Use the <m>ac</m>-Method to Solve a Quadratic Equation when <m>a \ne 1</m></title>
+            <statement>
+                <p>
+                    Solve <m>2x^2 + 7x - 4 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = -4</m></p></li>
+                        <li><p><m>x = \frac{1}{2}</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Here <m>a = 2</m> and <m>c = -4</m>, so <m>ac = -8</m> and <m>c &lt; 0</m>.
+                    We need factors of <m>8</m> whose difference is <m>7</m>.
+                    The following table lists all factors of <m>8</m>.
+                </p>
+<table>
+    <title>The Factors of 8</title>
+    <tabular>
+        <row header="yes" halign="center" bottom="major">
+            <cell>Factor 1</cell>
+            <cell>Factor 2</cell>
+        </row>
+        <row halign="center">
+            <cell>1</cell>
+            <cell>8</cell>
+        </row>
+        <row halign="center">
+            <cell>2</cell>
+            <cell>4</cell>
+        </row>
+    </tabular>
+</table>
+
+                <p>
+                    <m>1</m> and <m>8</m> differ by <m>7</m>. To get <m>+7</m>, make <m>1</m> negative and <m>8</m> positive.
+                    Substitute <m>7x = 8x - x</m> and rewrite as <m>2x^2 + 8x - x - 4 = 0</m>.
+                    Now, factor by grouping.
+                </p>
+                <p>
+                    <md>
+                        <mrow>2x^2 + 7x - 4 \amp= 0</mrow>
+                        <mrow>2x^2 + 8x - x - 4 \amp= 0</mrow>
+                        <mrow>(2x^2 + 8x) + (-x - 4) \amp= 0</mrow>
+                        <mrow>2x(x + 4) - 1(x + 4) \amp= 0</mrow>
+                        <mrow>(x + 4)(2x - 1) \amp= 0</mrow>
+                        <mrow>x + 4 \amp= 0 \amp 2x - 1 \amp= 0</mrow>
+                        <mrow>x \amp= -4 \amp 2x \amp= 1</mrow>
+                        <mrow>x \amp= \frac{1}{2}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = -4</m> and <m>x = \frac{1}{2}</m>.
+                </p>
+            </solution>
+        </example>
+    </subsection>
+
+    <subsection xml:id="subsec-slide-and-divide">
+        <title>Slide and Divide</title>
+
+        <p>
+            The slide and divide method is a variant of the <m>ac</m>-method.
+            Many students like this technique since it takes much of the difficulty out of the <m>ac</m>-method when <m>a \ne 1</m>.
+        </p>
+
+        <lemma xml:id="lem-slide-and-divide">
+            <title>Slide and Divide</title>
+            <statement>
+                <p>
+                    Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m>.
+                    To perform slide-and-divide, follow these steps:
+                </p>
+                <p>
+                    <ol>
+                        <li><p>Rewrite the equation as <m>x^2 + bx + ac = 0</m>. (This is the slide step.)</p></li>
+                        <li><p>Factor using the <m>ac</m>-method as <m>(x + c_1)(x + c_2) = 0</m>.</p></li>
+                        <li><p>Divide the values of <m>c_1</m> and <m>c_2</m> by <m>a</m> to get <m>\left(x - \frac{c_1}{a}\right)\left(x - \frac{c_2}{a}\right) = 0</m>.</p></li>
+                        <li><p>Simplify the fractions.</p></li>
+                        <li><p>Use the Zero Product Property to solve for <m>x</m>.</p></li>
+                    </ol>
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-slide-and-divide">
+            <title>Use Slide and Divide to Solve a Quadratic Equation</title>
+            <statement>
+                <p>
+                    Use slide and divide to solve <m>2x^2 + 7x - 4 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = -4</m></p></li>
+                        <li><p><m>x = \frac{1}{2}</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>2x^2 + 7x - 4 \amp= 0</mrow>
+                        <mrow>x^2 + 7x - 8 \amp= 0</mrow>
+                        <mrow>(x + 8)(x - 1) \amp= 0</mrow>
+                        <mrow>\left(x + \frac{8}{2}\right)\left(x - \frac{1}{2}\right) \amp= 0</mrow>
+                        <mrow>(x + 4)\left(x - \frac{1}{2}\right) \amp= 0</mrow>
+                        <mrow>x + 4 \amp= 0 \amp x - \frac{1}{2} \amp= 0</mrow>
+                        <mrow>x \amp= -4 \amp x \amp= \frac{1}{2}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Just as before, we find <m>x = -4</m> and <m>x = \frac{1}{2}</m>.
+                </p>
+            </solution>
+        </example>
+
+        <note xml:id="note-slide-and-divide-factors">
+            <title>Writing the Factors with Slide and Divide</title>
+                <p>
+                    Formally, slide and divide requires rewriting <m>x - \frac{1}{2}</m> as <m>2x - 1</m>.
+                    If you are simplifying an expression, this is best practice.
+                    But when solving equations, it introduces two unnecessary steps, so we skip them here.
+                </p>
+        </note>
+    </subsection>
+</section>

@@ -13,6 +13,8 @@
   <!-- <solutions divisional="solution"> <title>Selected Solutions</title> </solutions> -->
 
   <!-- <appendix> <title>List of Symbols</title> <notation-list/> </appendix> -->
+  <xi:include href="./appendix/appendix-a.ptx" />
+  <xi:include href="./appendix/appendix-b.ptx" />
 
   <!-- <index> <title>Index</title> <index-list/> </index> -->
 

@@ -1,0 +1,596 @@
+<section>
+  <title>Chapter 4 Lecture Notes</title>
+<worksheet xml:id="chapter-4-notes">
+  <title>Quadratic Equations</title>
+
+  <definition xml:id="lecture-notes-def-quadratic-equations">
+    <title>Quadratic Equations</title>
+    <statement>
+      <p>
+        Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers with <m>a \ne 0</m>.
+        Any equation of the form <me>ax^2 + bx + c = 0</me> is called a <term>quadratic equation</term> in <m>x</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <exercise xml:id="lecture-notes-ex-determine-if-an-equation-is-quadratic" workspace="1in">
+    <title>Determine if an Equation is Quadratic</title>
+    <statement>
+      <p>Which of the following equations are examples of a quadratic equation?</p>
+      <ul>
+        <li><p><m>3x^2 + 4x - 9 = 0</m></p></li>
+        <li><p><m>3(x - 2)^2 = 1</m></p></li>
+        <li><p><m>5\sqrt{x - 1} + x = 0</m></p></li>
+        <li><p><m>\frac{1}{x} + x^2 - 4 = 0</m></p></li>
+      </ul>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-def-zero-product-property">
+    <title>The Zero Product Property</title>
+    <statement>
+      <p>
+        Let <m>A</m> and <m>B</m> be algebraic expressions such that <m>AB = 0</m>.
+        Then <m>A = 0</m> or <m>B = 0</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solve-by-factoring-a-gcf" workspace="2in">
+    <title>Solve by Factoring a GCF</title>
+    <statement>
+      <p>Solve the equation <m>4x^2 - 2x = 0</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-solve-using-the-zero-product-property" workspace="3in">
+    <title>Solve using the Zero Product Property</title>
+    <statement>
+      <p>Solve the equation <m>(3x - 2)(x + 4) = 0</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-solving-using-the-zero-product-property-on-three-factors" workspace="3in">
+    <title>Solving Using the Zero Product Property on 3 or More Factors</title>
+    <statement>
+      <p>Solve the equation <m>(x - 2)(x + 3)(x - 1) = 0</m>.</p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-difference-of-squares">
+    <title>Difference of Squares</title>
+    <statement>
+      <p>
+        For all positive real numbers <m>a</m>, <m>b</m>, the equation <me>a^2 - b^2 = (a - b)(a + b)</me> is always true.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solving-a-difference-of-squares-equation" workspace="1in">
+    <title>Solving a Difference of Squares Equation</title>
+    <statement>
+      <p>
+        Solve the equation <m>36x^2 - 16 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-sum-of-cubes">
+    <title>Sum of Cubes</title>
+    <statement>
+      <p>
+        For all real numbers <m>a</m> and <m>b</m>, the equation <me>a^3 + b^3 = (a + b)(a^2 - ab + b^2)</me> is true.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solve-a-sum-of-cubes-equation" workspace="1in">
+    <title>Solve a Sum of Cubes Equation</title>
+    <statement>
+      <p>
+        Solve <m>8x^3 + 27 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-difference-of-cubes">
+    <title>Difference of Cubes</title>
+    <statement>
+      <p>
+        For all real numbers <m>a</m> and <m>b</m>, the equation <me>a^3 - b^3 = (a - b)(a^2 + ab + b^2)</me> is true.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solve-a-difference-of-cubes-equation" workspace="1in">
+    <title>Solve a Difference of Cubes Equation</title>
+    <statement>
+      <p>
+        Solve <m>125 - 64x^3 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-solving-by-grouping">
+    <title>Solving an Equation by Factoring by Grouping</title>
+    <statement>
+      <p>
+        Consider any polynomial with an even number of terms.
+        The following steps show how to solve an equation using the factor by grouping method.
+      </p>
+      <p>
+        <ol>
+          <li><p>Make sure one side of the equation is equal to zero.</p></li>
+          <li><p>Group terms into pairs using parentheses. Put a plus sign between each pair of terms. All negative or minus signs come into the parentheses with the number.</p></li>
+          <li><p>Factor out the GCF from each grouped pair.</p></li>
+          <li><p>The binomial left behind after factoring out the GCF should be the same for each term. If it is not, repeat steps 1 and 2 until you get a common binomial.</p></li>
+          <li><p>Factor out the common binomial.</p></li>
+          <li><p>Perform any additional factoring needed until you get a complete factorization.</p></li>
+          <li><p>Use the Zero Product Property to finish solving the problem.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-use-factor-by-grouping" workspace="4in">
+    <title>Use Factor by Grouping to Solve an Equation with Four Terms</title>
+    <statement>
+      <p>
+        Solve the equation <m>x^3 + 3x^2 - 2x - 6 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-ac-method">
+    <title>Using the <m>ac</m>-Method to Solve a Quadratic Equation</title>
+    <statement>
+      <p>
+        Let <m>ax^2 + bx + c = 0</m> be a quadratic function.
+        If there are factors of the product <m>ac</m> that add to <m>b</m>, we can factor this trinomial and use the Zero Product Property to solve for <m>x</m>.
+        Here is how to check if we can factor using this method.
+      </p>
+      <p>
+        <ol>
+          <li><p>Compute the product <m>ac</m>.</p></li>
+          <li><p>List all the factors of the product. You are looking for one of two things:
+            <ul>
+              <li><p>If <m>c &gt; 0</m>, find two numbers whose sum equals <m>b</m>.</p></li>
+              <li><p>If <m>c &lt; 0</m>, find two numbers whose difference equals <m>b</m>.</p></li>
+              <li><p>If you cannot find such a pair, you cannot use this method.</p></li>
+            </ul>
+            </p>
+          </li>
+          <li><p>Suppose you find factors <m>d</m> and <m>e</m> such that <m>de = ac</m> and <m>d + e = b</m>. Then replace <m>bx</m> with <m>dx + ex</m> to get <m>ax^2 + dx + ex + c = 0</m>.</p></li>
+          <li><p>Use Factor by Grouping to solve the equation.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-ac-method-a-not-equal-1" workspace="4in">
+    <title>Use the <m>ac</m>-Method to Solve a Quadratic Equation when <m>a \ne 1</m></title>
+    <statement>
+      <p>
+        Solve <m>2x^2 + 7x - 4 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-slide-and-divide">
+    <title>Slide and Divide</title>
+    <statement>
+      <p>
+        Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m>.
+        To perform slide-and-divide, follow these steps:
+      </p>
+      <p>
+        <ol>
+          <li><p>Rewrite the equation as <m>x^2 + bx + ac = 0</m>. (This is the slide step.)</p></li>
+          <li><p>Factor using the <m>ac</m>-method as <m>(x + c_1)(x + c_2) = 0</m>.</p></li>
+          <li><p>Divide the values of <m>c_1</m> and <m>c_2</m> by <m>a</m> to get <m>\left(x - \frac{c_1}{a}\right)\left(x - \frac{c_2}{a}\right) = 0</m>.</p></li>
+          <li><p>Simplify the fractions.</p></li>
+          <li><p>Use the Zero Product Property to solve for <m>x</m>.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-slide-and-divide" workspace="6in">
+    <title>Use Slide and Divide to Solve a Quadratic Equation</title>
+    <statement>
+      <p>
+        Use slide and divide to solve <m>2x^2 + 7x - 4 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-square-root-theorem">
+    <title>Square Root Theorem</title>
+    <statement>
+      <p>
+        Let <m>c \ge 0</m>. If <m>x^2 = c</m>, then <m>x = \pm \sqrt{c}</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-using-factoring-and-square-root-property" workspace="1in">
+    <title>Using Factoring and the Square Root Property to Solve an Equation</title>
+    <statement>
+      <p>
+        Solve <m>x^3 - 3x = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <definition xml:id="lecture-notes-def-perfect-square-trinomials">
+    <title>Perfect Square Trinomials</title>
+    <statement>
+      <p>
+        Let <m>a</m> and <m>b</m> be any real, nonzero numbers.
+        Then the following two equations are true.
+      </p>
+      <p>
+        <md>
+          <mrow>a^2 + 2ab + b^2 \amp= (a + b)^2</mrow>
+          <mrow>a^2 - 2ab + b^2 \amp= (a - b)^2</mrow>
+        </md>
+      </p>
+    </statement>
+  </definition>
+
+  <lemma xml:id="lecture-notes-lem-how-to-recognize-perfect-square-trinomials">
+    <title>How to Recognize Perfect Square Trinomials</title>
+    <statement>
+      <p>
+        If you notice that the coefficient of <m>x^2</m> and the constant term are both perfect squares, it is worth checking if you have a perfect square trinomial.
+        In order to do this:
+      </p>
+      <p>
+        <ol>
+          <li><p>Take the square root of the coefficient of <m>x^2</m> and the constant term.</p></li>
+          <li><p>Multiply these resulting numbers together.</p></li>
+          <li><p>See if the coefficient of <m>x</m> is twice those numbers. If it is, you can use one of the above equations.</p></li>
+          <li>
+            <p>The equation you use is based on the sign of the coefficient of <m>x</m>.
+            <ul>
+              <li><p>If the coefficient of <m>x</m> is positive, use the identity <m>a^2 + 2ab + b^2 = (a + b)^2</m>.</p></li>
+              <li><p>If the coefficient of <m>x</m> is negative, use the identity <m>a^2 - 2ab + b^2 = (a - b)^2</m>.</p></li>
+            </ul>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-solving-perfect-square-trinomial-2" workspace="2in">
+    <title>Solving a Perfect Square Trinomial Using the Square Root Property</title>
+    <statement>
+      <p>
+        Solve the equation <m>9x^2 - 42x + 49 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-completing-the-square-traditional-method">
+    <title>Completing the Square (Traditional Method)</title>
+    <statement>
+      <p>
+        Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m> and <m>b \ne 0</m>.
+        Follow the steps below to complete the square.
+      </p>
+      <p>
+        <ol>
+          <li><p>Move <m>c</m> to the other side of the equation to get <m>ax^2 + bx = -c</m>.</p></li>
+          <li><p>Divide each term by the leading coefficient <m>a</m> to get <m>x^2 + \frac{b}{a}x = -\frac{c}{a}</m>.</p></li>
+          <li><p>Divide <m>\frac{b}{a}</m> by 2 to get <m>\frac{b}{2a}</m>.</p></li>
+          <li><p>Compute <m>\left(\frac{b}{2a}\right)^2 = \frac{b^2}{4a^2}</m>.</p></li>
+          <li><p>Add <m>\frac{b^2}{4a^2}</m> to both sides of the equation.</p></li>
+          <li><p>
+            The left-hand side is now a perfect square trinomial and can be factored as
+            <m>\left(x + \frac{b}{2a}\right)^2</m>. The equation becomes
+            <m>\left(x + \frac{b}{2a}\right)^2 = -\frac{c}{a} + \frac{b^2}{4a^2}</m>.
+          </p></li>
+          <li><p>Use the Square Root Property to solve for <m>x</m>.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-traditional-method-a-not-equals-1" workspace="2in">
+    <title>Use the Traditional Method to Solve a Quadratic Equation with <m>a \ne 1</m></title>
+    <statement>
+      <p>
+        Solve <m>4x^2 + 10x + 6 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-completing-the-square-box-method">
+    <title>Completing the Square (Box Method)</title>
+    <statement>
+      <p>
+        Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m> and <m>b \ne 0</m>.
+        Follow the steps below to complete the square.
+      </p>
+      <p>
+        <ol>
+          <li><p>Move <m>c</m> to the other side of the equation to get <m>ax^2 + bx = -c</m>.</p></li>
+          <li><p>Divide each term by the leading coefficient <m>a</m> to get <m>x^2 + \frac{b}{a}x = -\frac{c}{a}</m>.</p></li>
+          <li><p>Divide <m>\frac{b}{a}</m> by 2 to get <m>\frac{b}{2a}</m>.</p></li>
+          <li>
+            <p>Draw a box similar to the table below.</p>
+            <table>
+              <title>Box Method</title>
+              <tabular>
+                <row header="yes" halign="center" bottom="major">
+                  <cell right="major"></cell>
+                  <cell><m>x</m></cell>
+                  <cell><m>+\frac{b}{2a}</m></cell>
+                </row>
+                <row halign="center">
+                  <cell right="major"><m>x</m></cell>
+                  <cell><m>x^2</m></cell>
+                  <cell><m>+\frac{b}{2a}x</m></cell>
+                </row>
+                <row halign="center">
+                  <cell right="major"><m>+\frac{b}{2a}</m></cell>
+                  <cell><m>+\frac{b}{2a}x</m></cell>
+                  <cell><m>+\left(\frac{b}{2a}\right)^2</m></cell>
+                </row>
+              </tabular>
+            </table>
+          </li>
+          <li><p>The area of the box is <m>\left(x + \frac{b}{2a}\right)^2</m>. This becomes the new left-hand side of the equation.</p></li>
+          <li><p>Add <m>\frac{b^2}{4a^2}</m> to the right-hand side of the equation.</p></li>
+          <li><p>Use the Square Root Property to solve for <m>x</m>.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-box-method-solve-quadratic" workspace="4in">
+    <title>Use the Box Method to Solve a Quadratic Equation</title>
+    <statement>
+      <p>
+        Solve <m>2x^2 + 10x + 8 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+<worksheet xml:id="ws-complex-numbers">
+  <title>Complex Numbers</title>
+  <definition xml:id="lecture-notes-def-definition-of-i">
+    <title>Definition of <m>i</m></title>
+    <statement>
+      <p>
+        The <term>imaginary number</term> <m>i</m> is the positive solution to the equation <me>x^2+1=0</me>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Powers of <m>i</m> are really easy to calculate, and unlike real numbers, there are only four values you have to memorize since the powers cycle through four unique values.
+  </p>
+  <p>
+    <md>
+      <mrow>i^0 \amp= 1 \amp i^4 \amp= (i^2)^2 = (-1)^2 = 1</mrow>
+      <mrow>i^1 \amp= i \amp i^5 \amp= i^4 \cdot i^1 = 1 \cdot i = i</mrow>
+      <mrow>i^2 \amp= -1 \amp i^6 \amp= i^4 \cdot i^2 = (1)(-1) = -1</mrow>
+      <mrow>i^3 \amp= i^2 \cdot i^1 = -i \amp i^7 \amp= i^4 \cdot i^3 = -i</mrow>
+    </md>
+  </p>
+  <p>
+    The pattern continues forever like this.
+    If we look at the first four exponents—<m>0,1,2,3</m>—these are the possible remainders you get when you divide an integer by <m>4</m>.
+    Notice that the powers of <m>i</m> that have the same remainder after dividing the exponent by <m>4</m> will have the same value.
+  </p>
+
+  <theorem xml:id="lecture-notes-thm-divisibility-rule-for-4">
+    <title>Divisibility Rule for 4</title>
+    <statement>
+      <p>
+        An integer is divisible by <m>4</m> if its last two digits form a number that is divisible by <m>4</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <note xml:id="lecture-notes-note-divisibility-rule-in-terms-of-remainders">
+    <title>Divisibility Rule in Terms of Remainders</title>
+    <p>
+      In the language above, this means that a number is divisible by <m>4</m> if you divide the last two digits by <m>4</m> and get a remainder of <m>0</m>.
+    </p>
+  </note>
+
+  <lemma xml:id="lecture-notes-lem-computing-powers-of-i">
+    <title>Computing Powers of <m>i</m></title>
+    <statement>
+      <p>
+        To evaluate <m>i^n</m> for any positive integer <m>n</m>, complete the following steps.
+      </p>
+      <p>
+        <ol>
+          <li><p>Divide the last two digits of <m>n</m> by <m>4</m> using long division and determine the remainder. You should get <m>0</m>, <m>1</m>, <m>2</m>, or <m>3</m>.</p></li>
+          <li>
+            <p>
+              The remainder tells you which power of <m>i</m> to use from this list.
+              <md>
+                <mrow>i^0 \amp= 1 \amp i^1 \amp= i \amp i^2 \amp= -1 \amp i^3 \amp= -i</mrow>
+              </md>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-compute-a-power-of-i" workspace="2in">
+    <title>Compute a Power of <m>i</m></title>
+    <statement>
+      <p>
+        Compute <m>i^{487562438573735}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <definition xml:id="lecture-notes-def-complex-number">
+    <title>Complex Number</title>
+    <statement>
+      <p>
+        Let <m>a</m> and <m>b</m> be any real numbers.
+        A <term>complex number</term> is any number of the form <me>a+bi</me>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Do complex numbers really exist?
+    It turns out that complex numbers are just another way to describe points <m>(a,b)</m> in the coordinate plane.
+    For example, the point <m>(3,4)</m> can also be represented by the complex number <m>3+4i</m>.
+    But there is a subtle difference.
+    Instead of thinking of it as the corner of a rectangle, we think of <m>3+4i</m> as an arrow pointing from the origin to the point <m>(3,4)</m>.
+  </p>
+
+  <figure xml:id="lecture-notes-fig-rectangular-and-complex-visualization">
+    <caption>Two ways to visualize the point <m>(3,4)</m>. In rectangular coordinates, it is represented as a dot. As a complex number, it is represented as an arrow pointing from <m>(0,0)</m> to <m>(3,4)</m>.</caption>
+    <image source="chapter-4-6/rectangular-and-complex.png" width="50%">
+      <shortdescription>An arrow labeled 3+4i points from the origin to the point (3,4).</shortdescription>
+    </image>
+  </figure>
+
+  <lemma xml:id="lecture-notes-lem-how-to-add-complex-numbers">
+    <title>How to Add Complex Numbers</title>
+    <statement>
+      <p>
+        Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+        Then
+        <me>(a+bi)+(c+di)=(a+c)+(b+d)i</me>.
+      </p>
+      <p>
+        In other words, just add like terms.
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-adding-two-complex-numbers" workspace="1in">
+    <title>Adding Two Complex Numbers</title>
+    <statement>
+      <p>
+        Perform the operation <m>(3-4i)+(-2+9i)</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-how-to-subtract-complex-numbers">
+    <title>How to Subtract Complex Numbers</title>
+    <statement>
+      <p>
+        Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+        Then
+        <me>(a+bi)-(c+di)=(a-c)+(b-d)i</me>.
+      </p>
+      <p>
+        In other words, distribute the negative and add like terms.
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-subtracting-two-complex-numbers" workspace="1in">
+    <title>Subtracting Two Complex Numbers</title>
+    <statement>
+      <p>
+        Perform the operation <m>(-3+2i)-(-5+3i)</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-how-to-multiply-complex-numbers">
+    <title>How to Multiply Complex Numbers</title>
+    <statement>
+      <p>
+        Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+        Then
+        <me>(a+bi)(c+di)=(ac-bd)+(ad+bc)i</me>.
+      </p>
+      <p>
+        In other words, just FOIL it out and simplify using <m>i^2=-1</m>.
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-multiply-two-complex-numbers" workspace="4in">
+    <title>Multiply Two Complex Numbers</title>
+    <statement>
+      <p>
+        Perform the operation <m>(-6+5i)(2-i)</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <definition xml:id="lecture-notes-def-the-complex-conjugate">
+    <title>The Complex Conjugate</title>
+    <statement>
+      <p>
+        Let <m>a+bi</m> be any complex number. Then its <term>complex conjugate</term> is the complex number <me>a-bi</me>.
+      </p>
+    </statement>
+  </definition>
+
+  <exercise xml:id="lecture-notes-ex-find-the-complex-conjugate-of-a-number" workspace="2in">
+    <title>Find the Complex Conjugate of a Number</title>
+    <statement>
+      <p>
+        Determine the complex conjugate of the number <m>3-5i</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-find-the-complex-conjugate-of-a-purely-imaginary-number" workspace="2in">
+    <title>Find the Complex Conjugate of a Purely Imaginary Number</title>
+    <statement>
+      <p>
+        Determine the complex conjugate of the number <m>2i</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-find-the-complex-conjugate-of-a-real-number" workspace="2in">
+    <title>Find the Complex Conjugate of a Real Number</title>
+    <statement>
+      <p>
+        Determine the complex conjugate of the number <m>7</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-sum-of-squares-formula">
+    <title>Sum of Squares Formula</title>
+    <statement>
+      <p>
+        For any real numbers <m>a</m> and <m>b</m>, it is always true that
+        <me>a^2+b^2=(a+bi)(a-bi)</me>.
+        In other words, the sum of squares is the product of a complex number and its complex conjugate.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solve-by-factoring-x2-plus-16" workspace="2in">
+    <title>Solve an Equation by Factoring</title>
+    <statement>
+      <p>
+        Solve the equation <me>x^2+16=0</me> by factoring.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-computing-foil-with-complex-numbers-and-variables" workspace="4in">
+    <title>Computing FOIL with Complex Numbers and Variables</title>
+    <statement>
+      <p>
+        Perform the operation <me>(x-(2+3i))(x-(2-3i))</me>.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
+</section>

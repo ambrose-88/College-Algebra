@@ -5,15 +5,17 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <title>Interactive College Algebra</title>
+    <subtitle></subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./chapter1.ptx" />
-
+    <xi:include href="./chapter-1/chapter1.ptx" />
+    <xi:include href="./chapter-2/chapter2.ptx" />
+    <xi:include href="./chapter-3/chapter3.ptx" />
+    <xi:include href="./chapter-4/chapter4.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

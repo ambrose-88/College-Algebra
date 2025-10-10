@@ -1,0 +1,211 @@
+<section xml:id="sec-the-zero-product-property">
+    <title>The Zero Product Property</title>
+
+    <subsection xml:id="subsec-quadratic-equations">
+        <title>Quadratic Equations</title>
+
+        <definition xml:id="def-quadratic-equations">
+            <title>Quadratic Equations</title>
+            <statement>
+                <p>
+                    Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers with <m>a \ne 0</m>.
+                    Any equation of the form <me>ax^2 + bx + c = 0</me> is called a <term>quadratic equation</term> in <m>x</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <example xml:id="ex-determine-if-an-equation-is-quadratic">
+            <title>Determine if an Equation is Quadratic</title>
+            <statement>
+                <p>
+                    Which of the following equations are examples of a quadratic equation?
+                </p>
+                <p>
+                    <ul>
+                        <li><p><m>3x^2 + 4x - 9 = 0</m></p></li>
+                        <li><p><m>3(x - 2)^2 = 1</m></p></li>
+                        <li><p><m>5\sqrt{x - 1} + x = 0</m></p></li>
+                        <li><p><m>\frac{1}{x} + x^2 - 4 = 0</m></p></li>
+                    </ul>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ul>
+                        <li><p>This is a quadratic equation with <m>a=3</m>, <m>b=4</m>, and <m>c=-9</m>.</p></li>
+                        <li><p>If we fully simplify this equation, we get:
+                            <md>
+                        <mrow>3(x - 2)^2 \amp= 1</mrow>
+                        <mrow>3(x^2 - 4x + 4) - 1 \amp= 0</mrow>
+                        <mrow>3x^2 - 12x + 12 - 1 \amp= 0</mrow>
+                        <mrow>3x^2 - 12x + 11 \amp= 0</mrow>
+                            </md>
+                        </p>
+                        </li>
+                        <li><p>Since the variable is under the square root, this equation cannot be quadratic.</p></li>
+                        <li><p>Since we have a variable in the denominator, this equation cannot be quadratic.</p></li>
+                    </ul>
+                </p>
+            </solution>
+        </example>
+    </subsection>
+
+    <subsection xml:id="subsec-the-zero-product-property">
+        <title>The Zero Product Property</title>
+        <p>
+            Factoring is the most important tool we have to solve equations and to understand the properties of polynomial and rational functions.
+            Factoring gets a lot of its power from the Zero Product Property.
+            This property allows us to split a factored equation into two or more simpler equations that are easier to solve than the original equation,
+            but we have to satisfy one condition: the factorization must be equal to zero.
+        </p>
+
+        <theorem xml:id="def-zero-product-property">
+            <title>The Zero Product Property</title>
+            <statement>
+                <p>
+                    Let <m>A</m> and <m>B</m> be algebraic expressions such that <m>AB = 0</m>.
+                    Then <m>A = 0</m> or <m>B = 0</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <p>
+            One of the most common issues that occurs is when people try to apply this equation when the non-factored side is nonzero.
+            Let's see what happens in this case when we inappropriately apply this property to the equation <me>(x + 3)(x - 4) = 2</me>.
+        </p>
+
+        <p>
+            <md>
+                <mrow>x + 3 \amp= 2 \amp x - 4 \amp= 2</mrow>
+                <mrow>x \amp= -1 \amp x \amp= 6</mrow>
+            </md>
+        </p>
+
+        <p>
+            Now, let's check our work.
+        </p>
+
+        <p>
+            <md>
+                <mrow>(x + 3)(x - 4) \amp= 2 \amp (x + 3)(x - 4) \amp= 2</mrow>
+                <mrow>(2 + 3)(2 - 4) \amp= 2 \amp (6 + 3)(6 - 4) \amp= 2</mrow>
+                <mrow>5(-2) \amp\ne 2 \amp (9)(2) \amp\ne 2</mrow>
+            </md>
+        </p>
+
+        <p>
+            Notice that both values of <m>x</m> fail the check, which means that neither of them were a solution.
+            By making one side of the equation equal to zero, we are guaranteeing that this process will always result in solutions.
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-solving-equations-by-factoring">
+        <title>Solving Equations by Factoring</title>
+
+        <example xml:id="ex-solve-by-factoring-a-gcf">
+            <title>Solve by Factoring a GCF</title>
+            <statement>
+                <p>
+                    Solve the equation <m>4x^2 - 2x = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = 0</m></p></li>
+                        <li><p><m>x = \frac{1}{2}</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    To solve this problem, we will factor out a GCF which creates a product equal to zero.
+                    Then we apply the Zero Product Property.
+                    The following calculation shows us all the steps we need to perform.
+                </p>
+                <p>
+                    <md>
+                        <mrow>4x^2 - 2x \amp= 0</mrow>
+                        <mrow>2x(2x - 1) \amp= 0</mrow>
+                        <mrow>2x \amp= 0 \amp 2x - 1 \amp= 0</mrow>
+                        <mrow>x \amp= 0 \amp 2x \amp= 1</mrow>
+                        <mrow>\amp \amp x \amp= \frac{1}{2}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = 0</m> and <m>x = \frac{1}{2}</m>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="ex-solve-using-the-zero-product-property">
+            <title>Solve using the Zero Product Property</title>
+            <statement>
+                <p>
+                    Solve the equation <m>(3x - 2)(x + 4) = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = \frac{3}{2}</m></p></li>
+                        <li><p><m>x = -4</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    This problem is already factored.
+                    All we have to do is apply the Zero Product Property and solve for <m>x</m>.
+                    The following calculation shows us the necessary steps.
+                </p>
+                <p>
+                    <md>
+                        <mrow>(3x - 2)(x + 4) \amp= 0</mrow>
+                        <mrow>3x - 2 \amp= 0 \amp x + 4 \amp= 0</mrow>
+                        <mrow>3x \amp= 2 \amp x \amp= -4</mrow>
+                        <mrow>x \amp= \frac{3}{2} \amp x \amp= -4</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = \frac{3}{2}</m> and <m>x = -4</m>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="ex-solving-using-the-zero-product-property-on-three-factors">
+            <title>Solving Using the Zero Product Property on 3 or More Factors</title>
+            <statement>
+                <p>
+                    Solve the equation <m>(x - 2)(x + 3)(x - 1) = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = 2</m></p></li>
+                        <li><p><m>x = -3</m></p></li>
+                        <li><p><m>x = 1</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Due to the Associative Property of Multiplication, we can extend the Zero Product Property to any number of factors
+                    as long as the overall product is equal to zero.
+                    The following calculation demonstrates how to do this for this equation.
+                </p>
+                <p>
+                    <md>
+                        <mrow>(x - 2)(x + 3)(x - 1) \amp= 0</mrow>
+                        <mrow>x - 2 \amp= 0 \amp x + 3 \amp= 0 \amp x - 1 \amp= 0</mrow>
+                        <mrow>x \amp= 2 \amp x \amp= -3 \amp x \amp= 1</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = 2</m>, <m>x = -3</m>, and <m>x = 1</m>.
+                </p>
+            </solution>
+        </example>
+    </subsection>
+</section>

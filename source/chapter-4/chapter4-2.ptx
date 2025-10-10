@@ -1,0 +1,141 @@
+<section xml:id="sec-solving-quadratics-using-special-products">
+    <title>Solving Quadratics Using Special Products</title>
+
+    <subsection xml:id="subsec-difference-of-squares">
+        <title>Difference of Squares</title>
+
+        <theorem xml:id="thm-difference-of-squares">
+            <title>Difference of Squares</title>
+            <statement>
+                <p>
+                    For all positive real numbers <m>a</m>, <m>b</m>, the equation <me>a^2 - b^2 = (a - b)(a + b)</me> is always true.
+                </p>
+            </statement>
+        </theorem>
+
+        <example xml:id="ex-solving-a-difference-of-squares-equation">
+            <title>Solving a Difference of Squares Equation</title>
+            <statement>
+                <p>
+                    Solve the equation <m>36x^2 - 16 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x = \pm \frac{2}{3}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The left-hand side is a difference of squares problem with <m>a = 6x</m> and <m>b = 4</m>. This implies that
+                </p>
+                <p>
+                    <me>36x^2 - 16 = (6x - 4)(6x + 4)</me>
+                </p>
+                <p>
+                    The following calculation shows the complete calculation.
+                </p>
+                <p>
+                    <md>
+                        <mrow>36x^2 - 16 \amp= 0</mrow>
+                        <mrow>(6x - 4)(6x + 4) \amp= 0</mrow>
+                        <mrow>6x - 4 \amp= 0 \amp 6x + 4 \amp= 0</mrow>
+                        <mrow>6x \amp= 4 \amp 6x \amp= -4</mrow>
+                        <mrow>x \amp= \frac{4}{6} \amp x \amp= -\frac{4}{6}</mrow>
+                        <mrow>x \amp= \frac{2}{3} \amp x \amp= -\frac{2}{3}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = \pm \frac{2}{3}</m>.
+                </p>
+            </solution>
+        </example>
+    </subsection>
+
+    <subsection xml:id="subsec-sum-and-difference-of-cubes">
+        <title>Sum and Difference of Cubes</title>
+
+        <theorem xml:id="thm-sum-of-cubes">
+            <title>Sum of Cubes</title>
+            <statement>
+                <p>
+                    For all real numbers <m>a</m> and <m>b</m>, the equation <me>a^3 + b^3 = (a + b)(a^2 - ab + b^2)</me> is true.
+                </p>
+            </statement>
+        </theorem>
+
+        <example xml:id="ex-solve-a-sum-of-cubes-equation">
+            <title>Solve a Sum of Cubes Equation</title>
+            <statement>
+                <p>
+                    Solve <m>8x^3 + 27 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x = -\frac{3}{2}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    We recognize this as a sum of cubes form with <m>a = 2x</m> and <m>b = 3</m>. The following equation shows us how to find the real solutions of this equation.
+                </p>
+                <p>
+                    <md>
+                        <mrow>8x^3 + 27 \amp= 0</mrow>
+                        <mrow>(2x + 3)(4x^2 - 6x + 9) \amp= 0</mrow>
+                        <mrow>2x + 3 \amp= 0 \amp 4x^2 - 6x + 9 \amp= 0</mrow>
+                        <mrow>2x \amp= -3 \amp \text{no real solution}</mrow>
+                        <mrow>x \amp= -\frac{3}{2}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the only real solution is <m>x = -\frac{3}{2}</m>.
+                </p>
+            </solution>
+        </example>
+
+        <theorem xml:id="thm-difference-of-cubes">
+            <title>Difference of Cubes</title>
+            <statement>
+                <p>
+                    For all real numbers <m>a</m> and <m>b</m>, the equation <me>a^3 - b^3 = (a - b)(a^2 + ab + b^2)</me> is true.
+                </p>
+            </statement>
+        </theorem>
+
+        <example xml:id="ex-solve-a-difference-of-cubes-equation">
+            <title>Solve a Difference of Cubes Equation</title>
+            <statement>
+                <p>
+                    Solve <m>125 - 64x^3 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x = \frac{5}{4}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Solve <m>125 - 64x^3 = 0</m>.
+                </p>
+                <p>
+                    We recognize this as a difference of cubes form with <m>a = 5</m> and <m>b = 4x</m>. The following equation shows us how to find the real solutions of this equation.
+                </p>
+                <p>
+                    <md>
+                        <mrow>125 - 64x^3 \amp= 0</mrow>
+                        <mrow>(5 - 4x)(25 + 20x + 16x^2) \amp= 0</mrow>
+                        <mrow>5 - 4x \amp= 0 \amp 25 + 20x + 16x^2 \amp= 0</mrow>
+                        <mrow>-4x \amp= -5 \amp \text{no real solution}</mrow>
+                        <mrow>x \amp= \frac{5}{4}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the only real solution is <m>x = \frac{5}{4}</m>.
+                </p>
+            </solution>
+        </example>
+    </subsection>
+</section>

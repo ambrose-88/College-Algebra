@@ -1,0 +1,203 @@
+<section xml:id="sec-square-root-property">
+    <title>Square Root Property</title>
+
+    <subsection xml:id="subsec-solving-equations-using-square-root-property">
+        <title>Solving Equations using Square Root Property</title>
+
+        <theorem xml:id="thm-square-root-theorem">
+            <title>Square Root Theorem</title>
+            <statement>
+                <p>
+                    Let <m>c \ge 0</m>. If <m>x^2 = c</m>, then <m>x = \pm \sqrt{c}</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <example xml:id="ex-using-factoring-and-square-root-property">
+            <title>Using Factoring and the Square Root Property to Solve an Equation</title>
+            <statement>
+                <p>
+                    Solve <m>x^3 - 3x = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = 0</m></p></li>
+                        <li><p><m>x = \pm \sqrt{3}</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Note that the GCF is <m>x</m>. We can factor it out and then use the Zero Product Property along with the Square Root Property to solve for <m>x</m>.
+                </p>
+                <p>
+                    <md>
+                        <mrow>x^3 - 3x \amp= 0</mrow>
+                        <mrow>x(x^2 - 3) \amp= 0</mrow>
+                        <mrow>x \amp= 0 \amp x^2 - 3 \amp= 0</mrow>
+                        <mrow>x^2 \amp= 3</mrow>
+                        <mrow>x \amp= \pm \sqrt{3}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = 0</m> and <m>x = \pm \sqrt{3}</m>.
+                </p>
+            </solution>
+        </example>
+
+        <note xml:id="note-factoring-difference-of-squares">
+            <title>Factoring vs. Square Root Property</title>
+            <p>
+                We could have factored <m>x^2 - 3</m> as a difference of squares to get <m>x^2 - 3 = (x - \sqrt{3})(x + \sqrt{3})</m>.
+                We end up at the same solutions, but the square root property is a more intuitive path for completing this problem than difference of squares.
+            </p>
+        </note>
+
+        <note xml:id="note-do-not-divide-by-x">
+            <title>Do Not Divide by x</title>
+<p>
+    When one side of the equation equals <m>0</m>, do not divide by <m>x</m> after factoring it out.  
+    Dividing by <m>x</m> removes the equation <m>x = 0</m> from consideration, leaving only <m>x^2 - 3 = 0</m>.  
+    As a result, you would miss the solution <m>x = 0</m>, which is part of the complete solution set.
+</p>
+        </note>
+
+    </subsection>
+
+    <subsection xml:id="subsec-solving-equations-involving-perfect-square-trinomials">
+        <title>Solving Equations Involving Perfect Square Trinomials</title>
+        <p>
+            While the <m>ac</m>-method works for any trinomial, certain forms do not require the <m>ac</m>-method.
+            They are called <term>perfect square trinomials</term>.
+        </p>
+
+        <definition xml:id="def-perfect-square-trinomials">
+            <title>Perfect Square Trinomials</title>
+            <statement>
+                <p>
+                    Let <m>a</m> and <m>b</m> be any real, nonzero numbers.
+                    Then the following two equations are true.
+                </p>
+                <p>
+                    <md>
+                        <mrow>a^2 + 2ab + b^2 \amp= (a + b)^2</mrow>
+                        <mrow>a^2 - 2ab + b^2 \amp= (a - b)^2</mrow>
+                    </md>
+                </p>
+            </statement>
+        </definition>
+
+        <lemma xml:id="lem-how-to-recognize-perfect-square-trinomials">
+            <title>How to Recognize Perfect Square Trinomials</title>
+            <statement>
+                <p>
+                    If you notice that the coefficient of <m>x^2</m> and the constant term are both perfect squares, it is worth checking if you have a perfect square trinomial.
+                    In order to do this:
+                </p>
+                <p>
+                    <ol>
+                        <li><p>Take the square root of the coefficient of <m>x^2</m> and the constant term.</p></li>
+                        <li><p>Multiply these resulting numbers together.</p></li>
+                        <li><p>See if the coefficient of <m>x</m> is twice those numbers. If it is, you can use one of the above equations.</p></li>
+                        <li>
+                            <p>The equation you use is based on the sign of the coefficient of <m>x</m>.
+                            <ul>
+                                <li><p>If the coefficient of <m>x</m> is positive, use the identity <m>a^2 + 2ab + b^2 = (a + b)^2</m>.</p></li>
+                                <li><p>If the coefficient of <m>x</m> is negative, use the identity <m>a^2 - 2ab + b^2 = (a - b)^2</m>.</p></li>
+                            </ul>
+                        </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-how-to-factor-perfect-square-trinomials">
+            <title>How To Factor Perfect Square Trinomials</title>
+            <statement>
+                <p>
+                    Consider <m>4x^2 + 16x + 16</m>. Since
+                    <ul>
+                        <li><p><m>\sqrt{4} = 2</m> and <m>\sqrt{16} = 4</m></p></li>
+                        <li><p><m>2 \cdot 4 = 8</m></p></li>
+                        <li><p>and <m>16</m> is 2 times 8,</p></li>
+                    </ul>
+                    we can use the equation <me>(a^2 + 2ab + b^2) = (a + b)^2</me> with <m>a = 2x</m> and <m>b = 4</m>.
+                    Therefore, we have <me>4x^2 + 16x + 16 = (2x + 4)^2.</me>
+                </p>
+            </statement>
+        </example>
+
+        <example xml:id="ex-solving-perfect-square-trinomial-1">
+            <title>Solving a Perfect Square Trinomial Using the Square Root Property</title>
+            <statement>
+                <p>
+                    Solve the equation <m>x^2 + 12x + 36 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x = -6</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Since <m>a^2 = 1</m> and <m>b^2 = 36</m>, we have <m>a = 1</m> and <m>b = 6</m>.
+                    Their product <m>ab = (1)(6) = 6</m>, and notice that <m>12</m> is <m>2</m> times <m>6</m>.
+                    Therefore, <m>x^2 + 12x + 36</m> is a perfect square trinomial.
+                    We can factor it and use the factorization to solve for <m>x</m>.
+                </p>
+                <p>
+                    <md>
+                        <mrow>x^2 + 12x + 36 \amp= 0</mrow>
+                        <mrow>(x + 6)^2 \amp= 0</mrow>
+                        <mrow>x + 6 \amp= \pm 0</mrow>
+                        <mrow>x + 6 \amp= 0</mrow>
+                        <mrow>x \amp= -6</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, our only solution is <m>x = -6</m>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="ex-solving-perfect-square-trinomial-2">
+            <title>Solving a Perfect Square Trinomial Using the Square Root Property</title>
+            <statement>
+                <p>
+                    Solve the equation <m>9x^2 - 42x + 49 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x = \frac{7}{3}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Since <m>a^2 = 9</m> and <m>b^2 = 49</m>, we have <m>a = 3</m> and <m>b = 7</m>.
+                    Their product <m>ab = (3)(7) = 21</m>, and notice that <m>42</m> is <m>2</m> times <m>21</m>.
+                    Therefore, <m>9x^2 - 42x + 49</m> is a perfect square trinomial.
+                    We can factor it and use the factorization to solve for <m>x</m>.
+                </p>
+                <p>
+                    <md>
+                        <mrow>9x^2 - 42x + 49 \amp= 0</mrow>
+                        <mrow>(3x - 7)^2 \amp= 0</mrow>
+                        <mrow>3x - 7 \amp= \pm 0</mrow>
+                        <mrow>3x - 7 \amp= 0</mrow>
+                        <mrow>3x \amp= 7</mrow>
+                        <mrow>x \amp= \frac{7}{3}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, our only solution is <m>x = \frac{7}{3}</m>.
+                </p>
+            </solution>
+        </example>
+
+    </subsection>
+</section>

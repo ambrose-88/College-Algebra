@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="appendix" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lecture Notes</title>
+  <introduction>
+    <p>
+      This appendix contains additional resources and information that supplement the main content of the book.
+    </p>
+  </introduction>
+    <xi:include href="./chapter-1-notes.ptx"/>
+    <xi:include href="./chapter-2-notes.ptx"/>
+    <xi:include href="./chapter-3-notes.ptx"/>
+    <xi:include href="./chapter-4-notes.ptx"/>
+</appendix>

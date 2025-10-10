@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions and Their Basic Properties</title>
+
+  <introduction>
+    <p> Linear Functions </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="chapter3-1.ptx" />
+  <xi:include href="chapter3-2.ptx" />
+  <xi:include href="chapter3-3.ptx" />
+  <xi:include href="chapter3-4.ptx" />
+  <xi:include href="chapter3-5.ptx" />
+  <xi:include href="chapter3-6.ptx" />
+  <xi:include href="chapter3-7.ptx" />
+  <xi:include href="chapter3-8.ptx" />
+  <xi:include href="chapter3-9.ptx" />
+  <xi:include href="chapter3-10.ptx" />
+  <xi:include href="chapter3-11.ptx" />
+</chapter>

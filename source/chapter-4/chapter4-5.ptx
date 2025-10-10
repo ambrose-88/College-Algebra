@@ -1,0 +1,222 @@
+<section xml:id="sec-completing-the-square">
+    <title>Completing the Square</title>
+
+    <subsection xml:id="subsec-traditional-method">
+        <title>The Traditional Method</title>
+
+        <lemma xml:id="lem-completing-the-square-traditional-method">
+            <title>Completing the Square (Traditional Method)</title>
+            <statement>
+                <p>
+                    Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m> and <m>b \ne 0</m>.
+                    Follow the steps below to complete the square.
+                </p>
+                <p>
+                    <ol>
+                        <li><p>Move <m>c</m> to the other side of the equation to get <m>ax^2 + bx = -c</m>.</p></li>
+                        <li><p>Divide each term by the leading coefficient <m>a</m> to get <m>x^2 + \frac{b}{a}x = -\frac{c}{a}</m>.</p></li>
+                        <li><p>Divide <m>\frac{b}{a}</m> by 2 to get <m>\frac{b}{2a}</m>.</p></li>
+                        <li><p>Compute <m>\left(\frac{b}{2a}\right)^2 = \frac{b^2}{4a^2}</m>.</p></li>
+                        <li><p>Add <m>\frac{b^2}{4a^2}</m> to both sides of the equation.</p></li>
+                        <li><p>
+                            The left-hand side is now a perfect square trinomial and can be factored as
+                            <m>\left(x + \frac{b}{2a}\right)^2</m>. The equation becomes
+                            <m>\left(x + \frac{b}{2a}\right)^2 = -\frac{c}{a} + \frac{b^2}{4a^2}</m>.
+                        </p></li>
+                        <li><p>Use the Square Root Property to solve for <m>x</m>.</p></li>
+                    </ol>
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-traditional-method-a-equals-1">
+            <title>Use the Traditional Method to Solve a Quadratic Equation with <m>a = 1</m></title>
+            <statement>
+                <p>
+                    Solve <m>x^2 + 10x + 24 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = -4</m></p></li>
+                        <li><p><m>x = -6</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Since <m>a = 1</m>, we can avoid fractions, which makes the process simpler.
+                </p>
+                <p>
+                    <md>
+                        <mrow>x^2 + 10x + 24 \amp= 0</mrow>
+                        <mrow>x^2 + 10x \amp= -24\amp \frac{10}{2} \amp= 5 \amp 5^2 \amp= 25</mrow>
+                        <mrow>x^2 + 10x + 25 \amp= -24 + 25</mrow>
+                        <mrow>(x + 5)^2 \amp= 1</mrow>
+                        <mrow>x + 5 \amp= \pm 1</mrow>
+                        <mrow>x + 5 \amp= 1 \amp x + 5 \amp= -1</mrow>
+                        <mrow>x \amp= -4 \amp x \amp= -6</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="ex-traditional-method-a-not-equals-1">
+            <title>Use the Traditional Method to Solve a Quadratic Equation with <m>a \ne 1</m></title>
+            <statement>
+                <p>
+                    Solve <m>4x^2 + 10x + 6 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = -1</m></p></li>
+                        <li><p><m>x = -\frac{3}{2}</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Since <m>a \ne 1</m>, the calculations are slightly longer and involve fractions.
+                </p>
+                <p>
+                    <md>
+                        <mrow>4x^2 + 10x + 6 \amp= 0</mrow>
+                        <mrow>4x^2 + 10x \amp= -6</mrow>
+                        <mrow>x^2 + \frac{10}{4}x \amp= -\frac{6}{4}</mrow>
+                        <mrow>x^2 + \frac{5}{2}x \amp= -\frac{3}{2} \amp \frac{5/2}{2} \amp= \frac{5}{4} \amp \left(\frac{5}{4}\right)^2 \amp= \frac{25}{16}</mrow>
+                        <mrow>x^2 + \frac{5}{2}x + \frac{25}{16} \amp= -\frac{3}{2} + \frac{25}{16}</mrow>
+                        <mrow>\left(x + \frac{5}{4}\right)^2 \amp= -\frac{24}{16} + \frac{25}{16}</mrow>
+                        <mrow>\left(x + \frac{5}{4}\right)^2 \amp= \frac{1}{16}</mrow>
+                        <mrow>x + \frac{5}{4} \amp= \pm \frac{1}{4}</mrow>
+                        <mrow>x + \frac{5}{4} \amp= \frac{1}{4} \amp x + \frac{5}{4} \amp= -\frac{1}{4}</mrow>
+                        <mrow>x \amp= \frac{1}{4} - \frac{5}{4} \amp x \amp= -\frac{1}{4} - \frac{5}{4}</mrow>
+                        <mrow>x \amp= -1 \amp x \amp= -\frac{3}{2}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = -1</m> and <m>x = -\frac{3}{2}</m>.
+                </p>
+            </solution>
+        </example>
+    </subsection>
+
+    <subsection xml:id="subsec-box-method">
+        <title>The Box Method</title>
+
+        <lemma xml:id="lem-completing-the-square-box-method">
+            <title>Completing the Square (Box Method)</title>
+            <statement>
+                <p>
+                    Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m> and <m>b \ne 0</m>.
+                    Follow the steps below to complete the square.
+                </p>
+                <p>
+                    <ol>
+                        <li><p>Move <m>c</m> to the other side of the equation to get <m>ax^2 + bx = -c</m>.</p></li>
+                        <li><p>Divide each term by the leading coefficient <m>a</m> to get <m>x^2 + \frac{b}{a}x = -\frac{c}{a}</m>.</p></li>
+                        <li><p>Divide <m>\frac{b}{a}</m> by 2 to get <m>\frac{b}{2a}</m>.</p></li>
+                        <li>
+                            <p>Draw a box similar to the table below.</p>
+                            <table>
+                                <title>Box Method</title>
+                                <tabular>
+                                    <row header="yes" halign="center" bottom="major">
+                                        <cell></cell>
+                                        <cell><m>x</m></cell>
+                                        <cell><m>\frac{b}{2a}</m></cell>
+                                    </row>
+                                    <row halign="center">
+                                        <cell><m>x</m></cell>
+                                        <cell><m>x^2</m></cell>
+                                        <cell><m>\frac{b}{2a}x</m></cell>
+                                    </row>
+                                    <row halign="center">
+                                        <cell><m>\frac{b}{2a}</m></cell>
+                                        <cell><m>\frac{b}{2a}x</m></cell>
+                                        <cell><m>\left(\frac{b}{2a}\right)^2</m></cell>
+                                    </row>
+                                </tabular>
+                            </table>
+                        </li>
+                        <li><p>The area of the box is <m>\left(x + \frac{b}{2a}\right)^2</m>. This becomes the new left-hand side of the equation.</p></li>
+                        <li><p>Add <m>\frac{b^2}{4a^2}</m> to the right-hand side of the equation.</p></li>
+                        <li><p>Use the Square Root Property to solve for <m>x</m>.</p></li>
+                    </ol>
+                </p>
+            </statement>
+        </lemma>
+
+        <example xml:id="ex-box-method-solve-quadratic">
+            <title>Use the Box Method to Solve a Quadratic Equation</title>
+            <statement>
+                <p>
+                    Solve <m>2x^2 + 10x + 8 = 0</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = -1</m></p></li>
+                        <li><p><m>x = -4</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    First, move <m>8</m> to the other side of the equation and divide every term by 2.
+                </p>
+                <p>
+                    <md>
+                        <mrow>2x^2 + 10x + 8 \amp= 0</mrow>
+                        <mrow>2x^2 + 10x \amp= -8</mrow>
+                        <mrow>\frac{2x^2}{2} + \frac{10x}{2} \amp= -\frac{8}{2}</mrow>
+                        <mrow>x^2 + 5x \amp= -4</mrow>
+                    </md>
+                </p>
+                <p>
+                    Next, divide <m>5</m> by 2 to get <m>\frac{5}{2}</m>, then set up the table:
+                </p>
+                <table>
+                    <title>The Box Method for This Problem</title>
+                    <tabular>
+                        <row header="yes" halign="center" bottom="major">
+                            <cell></cell>
+                            <cell><m>x</m></cell>
+                            <cell><m>\frac{5}{2}</m></cell>
+                        </row>
+                        <row halign="center">
+                            <cell><m>x</m></cell>
+                            <cell><m>x^2</m></cell>
+                            <cell><m>+\frac{5}{2}x</m></cell>
+                        </row>
+                        <row halign="center">
+                            <cell><m>+\frac{5}{2}</m></cell>
+                            <cell><m>+\frac{5}{2}x</m></cell>
+                            <cell><m>+\frac{25}{4}</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p>
+                    Next, add <m>\frac{25}{4}</m> to the right-hand side:
+                    <me>-4 + \frac{25}{4} = \frac{9}{4}</me>.
+                    The left-hand side of the equation represents the area of a square, where each side equals <m>x + \frac{5}{2}</m>.
+                    Therefore, the left-hand side becomes <m>(x + \frac{5}{2})^2</m>.
+                </p>
+                <p>
+                    <md>
+                        <mrow>(x + \frac{5}{2})^2 \amp= \frac{9}{4}</mrow>
+                        <mrow>x + \frac{5}{2} \amp= \pm \frac{3}{2}</mrow>
+                        <mrow>x \amp= -\frac{5}{2} \pm \frac{3}{2}</mrow>
+                        <mrow>x \amp= -1 \amp x \amp= -4</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solutions are <m>x = -1</m> and <m>x = -4</m>.
+                </p>
+            </solution>
+        </example>
+    </subsection>
+</section>

@@ -1,0 +1,162 @@
+<section xml:id="sec-the-complex-conjugate">
+    <title>The Complex Conjugate</title>
+
+    <subsection xml:id="subsec-determining-the-complex-conjugate">
+        <title>Determining the Complex Conjugate</title>
+
+        <definition xml:id="def-the-complex-conjugate">
+            <title>The Complex Conjugate</title>
+            <statement>
+                <p>
+                    Let <m>a+bi</m> be any complex number. Then its <term>complex conjugate</term> is the complex number <me>a-bi</me>.
+                </p>
+            </statement>
+        </definition>
+
+        <example xml:id="ex-find-the-complex-conjugate-of-a-number">
+            <title>Find the Complex Conjugate of a Number</title>
+            <statement>
+                <p>
+                    Determine the complex conjugate of the number <m>3-5i</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>3+5i</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    To find the complex conjugate, just change the sign of <m>b</m>.
+                    In this case, change <m>-5</m> to <m>+5</m>.
+                    Therefore, the complex conjugate is <m>3+5i</m>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="ex-find-the-complex-conjugate-of-a-purely-imaginary-number">
+            <title>Find the Complex Conjugate of a Purely Imaginary Number</title>
+            <statement>
+                <p>
+                    Determine the complex conjugate of the number <m>2i</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>-2i</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    We can express <m>2i</m> as <m>0+2i</m>.
+                    Now, we just need to change the sign of <m>b</m> from <m>+2</m> to <m>-2</m>.
+                    Since <m>0-2i=-2i</m>, the complex conjugate is <m>-2i</m>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="ex-find-the-complex-conjugate-of-a-real-number">
+            <title>Find the Complex Conjugate of a Real Number</title>
+            <statement>
+                <p>
+                    Determine the complex conjugate of the number <m>7</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>7</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    We can express <m>7</m> as <m>7+0i</m>.
+                    Again, we change the sign of <m>b</m> from <m>+0</m> to <m>-0</m>.
+                    Since <m>7-0i=7</m>, the complex conjugate is <m>7</m>.
+                </p>
+            </solution>
+        </example>
+    </subsection>
+
+    <subsection xml:id="subsec-getting-real-numbers-from-complex-numbers">
+        <title>Getting Real Numbers from Complex Numbers</title>
+        <p>
+            It turns out you can factor <me>a^2+b^2</me>, but you need to allow complex numbers to do so.
+            The following theorem shows how it is done.
+        </p>
+
+        <theorem xml:id="thm-sum-of-squares-formula">
+            <title>Sum of Squares Formula</title>
+            <statement>
+                <p>
+                    For any real numbers <m>a</m> and <m>b</m>, it is always true that
+                    <me>a^2+b^2=(a+bi)(a-bi)</me>.
+                    In other words, the sum of squares is the product of a complex number and its complex conjugate.
+                </p>
+            </statement>
+        </theorem>
+
+        <example xml:id="ex-solve-by-factoring-x2-plus-16">
+            <title>Solve an Equation by Factoring</title>
+            <statement>
+                <p>
+                    Solve the equation <me>x^2+16=0</me> by factoring.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x=\pm 4i</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The Zero Product Property also works for complex numbers.
+                    So we use the Sum of Squares Formula followed by the Zero Product Property to solve.
+                </p>
+                <p>
+                    <md>
+                        <mrow>x^2+16 \amp= 0</mrow>
+                        <mrow>(x+4i)(x-4i) \amp= 0</mrow>
+                        <mrow>x+4i \amp= 0 \amp x-4i \amp= 0</mrow>
+                        <mrow>x \amp= -4i \amp x \amp= 4i</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the solution is <me>x=\pm 4i</me>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="ex-computing-foil-with-complex-numbers-and-variables">
+            <title>Computing FOIL with Complex Numbers and Variables</title>
+            <statement>
+                <p>
+                    Perform the operation <me>(x-(2+3i))(x-(2-3i))</me>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x^2-4x+13</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Use FOIL, but be very careful when simplifying. Also, notice we simplify the last term using the Sum of Squares Formula.
+                </p>
+                <p>
+                    <md>
+                        <mrow>(x-(2+3i))(x-(2-3i)) \amp= x^2 - x(2-3i) - x(2+3i) + (2+3i)(2-3i)</mrow>
+                        <mrow>\amp= x^2 - 2x + 3xi - 2x - 3xi + (2^2 + 3^2)</mrow>
+                        <mrow>\amp= x^2 - 4x + 13</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+
+        <note xml:id="note-hint-to-later-chapter">
+            <title>Looking Ahead</title>
+            <p>
+                While this may seem like a complicated example, it hints at an important idea discussed in <xref ref="chapter4-12"/> and expanded upon in Chapter 5.
+            </p>
+        </note>
+    </subsection>
+</section>
