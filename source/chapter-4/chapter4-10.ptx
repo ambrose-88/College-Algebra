@@ -1,6 +1,32 @@
-<section xml:id="chapter4-10">
-    <title></title>
-    <p>
-        
-    </p>
+<section xml:id="proof-of-the-quadratic-formula">
+    <title>Proof of the Quadratic Formula</title>
+
+    <theorem xml:id="the-quadratic-formula">
+        <title>The Quadratic Formula</title>
+
+        <statement>
+            <p>Let <m>a</m>, <m>b</m>, and <m>c</m> be any real numbers with <m>a \ne 0</m>. Then the solutions to the quadratic equation <m>ax^2 + bx + c = 0</m> can be found using the formula</p>
+            <p><me>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</me></p>
+        </statement>
+
+        <proof>
+            <p>To prove this equation, we will start with <m>ax^2 + bx + c = 0</m>, complete the square, and use the square root property to solve for <m>x</m>.</p>
+
+            <p>
+                <md>
+                    <mrow>ax^2 + bx + c \amp= 0 \\</mrow>
+                    <mrow>ax^2 + bx \amp= -c \\</mrow>
+                    <mrow>x^2 + \frac{b}{a}x \amp= -\frac{c}{a} \\</mrow>
+                    <mrow>x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} \amp= -\frac{c}{a} + \frac{b^2}{4a^2} \amp \frac{b/a}{2} \amp= \frac{b}{2a} \amp\left(\frac{b}{2a}\right)^2 \amp= \frac{b^2}{4a^2} \\</mrow>
+                    <mrow>\left(x + \frac{b}{2a}\right)^2 \amp= -\frac{4ac}{4a^2} + \frac{b^2}{4a^2} \\</mrow>
+                    <mrow>\left(x + \frac{b}{2a}\right)^2 \amp= \frac{b^2 - 4ac}{4a^2} \\</mrow>
+                    <mrow>x + \frac{b}{2a} \amp= \pm \sqrt{\frac{b^2 - 4ac}{4a^2}} \\</mrow>
+                    <mrow>x + \frac{b}{2a} \amp= \frac{\pm \sqrt{b^2 - 4ac}}{\sqrt{4a^2}} \\</mrow>
+                    <mrow>x + \frac{b}{2a} \amp= \frac{\pm \sqrt{b^2 - 4ac}}{2a} \\</mrow>
+                    <mrow>x \amp= -\frac{b}{2a} + \frac{\pm \sqrt{b^2 - 4ac}}{2a} \\</mrow>
+                    <mrow>x \amp= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\</mrow>
+                </md>
+            </p>
+        </proof>
+    </theorem>
 </section>
