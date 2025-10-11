@@ -87,7 +87,11 @@
       <statement>
         <p>Convert <m>f(x) = 3x^2 - 12x + 13</m> to vertex form.</p>
       </statement>
-
+      <answer>
+        <p>
+          <m>f(x)= 3(x - 2)^2 + 1</m>
+        </p>
+      </answer>
       <solution><p>
 <md>
   <mrow>f(x)\amp= 3x^2 - 12x + 13 \\</mrow>
@@ -105,6 +109,101 @@
 </p>
       </solution>
     </example>
+<p>While completing the square gets the job done, it is very cumbersome and time-consuming to do. It would be nice to have a formula for the <m>h</m> and <m>k</m> in the vertex formula. If we complete the square on <m>f(x)=ax^2+bx+c</m>, we get</p>
 
-  </subsection>
+<p>
+  <me>f(x)=a\left(x+\frac{b}{2a}\right)^2+c-\frac{b^2}{4a}</me>
+</p>
+
+<p>This tells us that</p>
+
+<p>
+  <md>
+    <mrow>h\amp=-\frac{b}{2a} \amp k\amp=c-\frac{b^2}{4a}</mrow>
+  </md>
+</p>
+
+<p>But, notice what happens when we evaluate <m>f\left(-\frac{b}{2a}\right)</m></p>
+
+<p>
+  <md>
+    <mrow>f\left(-\frac{b}{2a}\right)\amp=a\left(-\frac{b}{2a}+\frac{b}{2a}\right)^2+c-\frac{b^2}{4a} \\</mrow>
+    <mrow>\amp=a(0)^2+k \\</mrow>
+    <mrow>\amp=k</mrow>
+  </md>
+</p>
+
+<p>Therefore, the pair of formula you should use and memorize is</p>
+
+<p>
+  <md>
+    <mrow>h\amp=-\frac{b}{2a} \amp k\amp=f\left(-\frac{b}{2a}\right)</mrow>
+  </md>
+</p>
+
+<theorem xml:id="formula-for-the-vertex-of-a-parabola">
+  <title>Formula for the Vertex of a Parabola</title>
+  <statement>
+    <p>Let <m>f(x)=ax^2+bx+c</m> be a quadratic function. Then the formula for the vertex is</p>
+    <p>
+      <me>(h,k)=\left(-\frac{b}{2a},f\left(-\frac{b}{2a}\right)\right)</me>
+    </p>
+    <p>We can also rewrite this as the pair of equations <md><mrow>h\amp=-\frac{b}{2a}\amp k\amp=f\left(\frac{-b}{2a}\right)</mrow></md></p>
+  </statement>
+</theorem>
+
+<p>While these formulas still look unwieldy in this form, in practice they are very easy to use.</p>
+
+<example xml:id="using-formula-for-h-and-k">
+  <title>Using the Formula for <m>h</m> and <m>k</m> to find the Vertex Form of a Quadratic Function</title>
+  <statement>
+    <p>Write <m>f(x)=2x^2-4x-6</m> in vertex form.</p>
+  </statement>
+  <answer>
+    <p><m>f(x)=2(x-1)^2-8</m></p>
+  </answer>
+  <solution>
+    <p>Since <m>a=2</m> and <m>b=-4</m>, we have that</p>
+    <p>
+      <me>h=-\frac{b}{2a}=-\frac{-4}{2(2)}=1.</me>
+    </p>
+    <p>Then, evaluate <m>f(1)</m> to find the value of <m>k</m>:</p>
+    <p>
+      <md>
+        <mrow>f(x)\amp=2x^2-4x-6 \\</mrow>
+        <mrow>f(1)\amp=2(1)^2-4(1)-6 \\</mrow>
+        <mrow>f(1)\amp=2-4-6 \\</mrow>
+        <mrow>f(1)\amp=-8</mrow>
+      </md>
+    </p>
+    <p>Therefore, the vertex form is</p>
+    <p>
+      <me>f(x)=2(x-1)^2-8.</me>
+    </p>
+  </solution>
+</example>
+</subsection>
+<subsection xml:id="graphing-quadratic-functions-using-the-vertex-form">
+  <title>Graphing Quadratic Functions Using the Vertex Form</title>
+
+  <p>The vertex form gives us enough information to easily graph any quadratic function.</p>
+
+  <lemma xml:id="graphing-quadratic-functions">
+    <title>Graphing Quadratic Functions</title>
+    <statement>
+      <p>Let <m>f(x) = a(x - h)^2 + k</m> be a quadratic function in vertex form. Perform the following steps to plot its graph.</p>
+
+      <p>
+        <ol>
+          <li><p>Plot the vertex <m>(h, k)</m>.</p></li>
+          <li><p>To find another point, add <m>1</m> to <m>h</m> and add <m>a \cdot 1^2</m> to <m>k</m>. Then plot the point.</p></li>
+          <li><p>To find an additional point, add <m>2</m> to <m>h</m> and add <m>a \cdot 2^2</m> to <m>k</m>. Then plot the point.</p></li>
+          <li><p>Use the axis of symmetry to find and plot the last two points.</p></li>
+          <li><p>Draw a parabola through all five points.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+</subsection>
+
 </section>
