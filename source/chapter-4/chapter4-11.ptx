@@ -123,7 +123,8 @@
     <title>The Discriminant</title>
 
     <statement>
-        <p>We call the value <m>b^2 - 4ac</m> the <term>discriminant</term> of the quadratic equation <m>ax^2 + bx + c = 0</m>. We denote the discriminant by the letter <m>D</m>, which means that <m>D = b^2 - 4ac</m>.</p>
+        <p>We call the value <m>b^2 - 4ac</m> the <term>discriminant</term> of the quadratic equation.
+           We denote the discriminant by the letter <m>D</m>, which gives us the equation <me>D = b^2 - 4ac</me>.</p>
         <p>In particular, the discriminant tells us the following information:</p>
 
         <p>

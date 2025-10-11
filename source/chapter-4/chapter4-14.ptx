@@ -1,6 +1,110 @@
-<section xml:id="chapter4-14">
-    <title></title>
+<section xml:id="vertex-form-of-a-quadratic-function">
+  <title>The Vertex Form of a Quadratic Function</title>
+
+  <subsection xml:id="writing-quadratic-equations-in-vertex-form">
+    <title>Writing Quadratic Equations in Vertex Form</title>
+
+    <definition xml:id="standard-form-of-a-quadratic">
+      <title>The Standard Form of a Quadratic</title>
+      <statement>
+        <p>The <term>standard form</term> of a quadratic function is
+        <me>f(x) = ax^2 + bx + c.</me></p>
+      </statement>
+    </definition>
+
     <p>
-        
+      The standard form of a quadratic function is not very useful since the majority of its features,
+      like its vertex and axis of symmetry, are not baked into the algebraic expression
+      <m>ax^2 + bx + c</m>. So, while the standard form is useful for solving equations in one variable,
+      it is not as useful when set equal to <m>y</m> instead of 0.
+      Using the theory of transformations from Chapter 7, mathematicians discovered that the
+      vertex form of the function is the correct way to encapsulate all the important information
+      of the graph.
     </p>
+
+    <theorem xml:id="vertex-form-and-related-information">
+      <title>The Vertex Form and Related Information</title>
+
+      <statement>
+        <p>Let <m>f(x) = ax^2 + bx + c</m> be a quadratic function in standard form.
+        The <term>vertex form</term> of a quadratic function is given by
+        <me>f(x) = a(x - h)^2 + k,</me>
+        where <m>h</m> and <m>k</m> are the coordinates for the vertex of the function.</p>
+
+      <p>There are two important definitions related to the vertex form.
+
+      <ul>
+        <li>
+          The <term>vertex</term> of the parabola is the absolute minimum (when <m>a &gt; 0</m>)
+          or the absolute maximum (when <m>a &lt; 0</m>) of the function.
+          Note that the vertex is both a local and absolute extremum.
+        </li>
+
+        <li>
+          The <term>axis of symmetry</term> of a parabola is the vertical line that divides the parabola
+          into two mirror images. Every point on one side of this line has a corresponding point
+          on the other side that is the same distance from the line.
+        </li>
+      </ul>
+    </p>
+      <figure xml:id="parabola-axis-of-symmetry">
+        <caption>
+          The graph of a generic parabola with the vertex and axis of symmetry labeled.
+          Two mirrored points are labeled, and the distances from the points to the axis
+          of symmetry are shown as equal.
+        </caption>
+
+        <sidebyside>
+
+          <figure>
+            <caption>An upwards-facing parabola.</caption>
+            <image source="chapter-4-14/labeled-upwards-parabola">
+              <shortdescription>A labeled, upwards-facing parabola.</shortdescription>
+            </image>
+          </figure>
+
+          <figure>
+            <caption>A downwards-facing parabola.</caption>
+            <image source="chapter-4-14/labeled-downwards-parabola">
+              <shortdescription>A labeled, downwards-facing parabola.</shortdescription>
+            </image>
+          </figure>
+
+        </sidebyside>
+      </figure>
+
+      </statement>
+    </theorem>
+
+    <p>
+      There are two methods for finding the vertex form from the standard form.
+      The first one uses completing the square to accomplish the transformation.
+    </p>
+
+    <example xml:id="completing-the-square-to-vertex-form">
+      <title>Using Completing the Square to Convert from Standard to Vertex Form</title>
+
+      <statement>
+        <p>Convert <m>f(x) = 3x^2 - 12x + 13</m> to vertex form.</p>
+      </statement>
+
+      <solution><p>
+<md>
+  <mrow>f(x)\amp= 3x^2 - 12x + 13 \\</mrow>
+  <mrow>f(x) - 13\amp= 3x^2 - 12x \\</mrow>
+  <mrow>\frac{f(x)}{3} - \frac{13}{3}\amp= \frac{3x^2}{3} - \frac{12}{3}x \\</mrow>
+  <mrow>\frac{f(x)}{3} - \frac{13}{3}\amp= x^2 - 4x \\</mrow>
+  <mrow>\frac{f(x)}{3} - \frac{13}{3}\amp= x^2 - 4x \amp \frac{-4}{2}\amp= -2 \amp (-2)^2\amp= 4 \\</mrow>
+  <mrow>\frac{f(x)}{3} - \frac{13}{3} + 4\amp= x^2 - 4x + 4 \\</mrow>
+  <mrow>\frac{f(x)}{3} - \frac{13}{3} + 4\amp= (x - 2)^2 \\</mrow>
+  <mrow>3\left(\frac{f(x)}{3}\right) - 3\left(\frac{13}{3}\right) + 3(4)\amp= 3(x - 2)^2 \\</mrow>
+  <mrow>f(x) - 13 + 12\amp= 3(x - 2)^2 \\</mrow>
+  <mrow>f(x) - 1\amp= 3(x - 2)^2 \\</mrow>
+  <mrow>f(x)\amp= 3(x - 2)^2 + 1</mrow>
+</md>
+</p>
+      </solution>
+    </example>
+
+  </subsection>
 </section>

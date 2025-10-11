@@ -1,6 +1,215 @@
-<section xml:id="chapter4-12">
-    <title></title>
-    <p>
-        
-    </p>
+<section xml:id="equations-quadratic-in-form">
+    <title>Equations that are Quadratic in Form</title>
+
+    <subsection xml:id="solving-equations-in-one-variable">
+        <title>Solving Equations in One Variable</title>
+
+        <p>While we think of <m>ax^2 + bx + c = 0</m> using the variable <m>x</m>, we can solve quadratic equations <m>au^2 + bu + c = 0</m>, where <m>u</m> is a function of <m>x</m>. For example, the equation</p>
+
+        <p><me>3(x + 1)^2 + 5(x + 1) - 2 = 0</me></p>
+
+        <p>is quadratic in form. How do we see this? Let <m>u = (x + 1)</m> and make the substitution into the equation to get</p>
+
+        <p><me>3u^2 + 5u - 2 = 0</me></p>
+
+        <p>This allows us to solve more complicated problems by reducing them into an easier problem that we already know how to solve. We summarize the technique below.</p>
+
+        <lemma xml:id="solving-equations-that-are-quadratic-in-form">
+            <title>Solving Equations that are Quadratic in Form</title>
+
+            <p>
+                <ol>
+                    <li><p>Make a substitution <m>u = u(x)</m> that transforms the given equation into the quadratic equation <m>au^2 + bu + c = 0</m>.</p></li>
+                    <li><p>Solve this new quadratic with any method you know.</p></li>
+                    <li><p>You should get one or two equations starting with <m>u =</m>. Use your original substitution from Step 1 to convert your equations back to <m>x</m>.</p></li>
+                    <li><p>Solve the equation(s) for <m>x</m>.</p></li>
+                    <li><p>Check your solutions (required).</p></li>
+                </ol>
+            </p>
+        </lemma>
+
+        <example xml:id="quadratic-in-form-v1">
+            <title>Quadratic in Form, Version 1</title>
+
+            <statement>
+                <p>Solve <m>x^4 - 4x^2 + 3 = 0</m>.</p>
+            </statement>
+
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = \pm \sqrt{3}</m></p></li>
+                        <li><p><m>x = \pm 1</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+
+            <solution>
+                <p>We make the substitution <m>u = x^2</m> to get the equation</p>
+                <p><me>u^2 - 4u + 3 = 0</me></p>
+                <p>We can solve for <m>u</m> by factoring:</p>
+
+                <p>
+                    <md>
+                        <mrow>u^2 - 4u + 3 \amp= 0 \\</mrow>
+                        <mrow>(u - 3)(u - 1) \amp= 0 \\</mrow>
+                        <mrow>u - 3 \amp= 0 \amp u - 1 \amp= 0 \\</mrow>
+                        <mrow>u \amp= 3 \amp u \amp= 1 \\</mrow>
+                    </md>
+                </p>
+
+                <p>We obtained values for <m>u</m>, but we want values for <m>x</m>. Since <m>u = x^2</m>, we convert to</p>
+
+                <p>
+                    <md>
+                        <mrow>x^2 \amp= 3 \amp x^2 \amp= 1 \\</mrow>
+                    </md>
+                </p>
+
+                <p>Solving these equations for <m>x</m>, we get</p>
+
+                <p>
+                    <md>
+                        <mrow>x \amp= \pm \sqrt{3} \amp x \amp= \pm 1 \\</mrow>
+                    </md>
+                </p>
+
+                <p>It is left to the reader to verify that all four solutions check. Therefore, the solutions are <m>x = \pm \sqrt{3}</m> and <m>x = \pm 1</m>.</p>
+            </solution>
+        </example>
+
+        <example xml:id="quadratic-in-form-v2">
+            <title>Quadratic in Form, Version 2</title>
+
+            <statement>
+                <p>Solve <m>8(13x - 1)^2 - 2(13x - 1) - 3 = 0</m>.</p>
+            </statement>
+
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = \frac{1}{26}</m></p></li>
+                        <li><p><m>x = \frac{7}{52}</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+
+            <solution>
+                <p>Let <m>u = 13x - 1</m>. Substitute into the equation:</p>
+                <p><me>8u^2 - 2u - 3 = 0</me></p>
+
+                <p>We can solve for <m>u</m> by factoring. Since the product of <m>8 \times (-3)</m> is <m>-24</m>, we need two numbers that multiply to <m>-24</m> and add to <m>-2</m>. Those numbers are <m>4</m> and <m>-6</m>.</p>
+
+                <p>
+                    <md>
+                        <mrow>8u^2 - 2u - 3 \amp= 0 \\</mrow>
+                        <mrow>8u^2 + 4u - 6u - 3 \amp= 0 \\</mrow>
+                        <mrow>4u(2u + 1) - 3(2u + 1) \amp= 0 \\</mrow>
+                        <mrow>(4u - 3)(2u + 1) \amp= 0 \\</mrow>
+                        <mrow>4u - 3 \amp= 0 \amp 2u + 1 \amp= 0 \\</mrow>
+                        <mrow>4u \amp= 3 \amp 2u \amp= -1 \\</mrow>
+                        <mrow>u \amp= \frac{3}{4} \amp u \amp= -\frac{1}{2} \\</mrow>
+                    </md>
+                </p>
+
+                <p>Now substitute back <m>u = 13x - 1</m>:</p>
+
+                <p>
+                    <md>
+                        <mrow>13x - 1 \amp= \frac{3}{4} \amp 13x - 1 \amp= -\frac{1}{2} \\</mrow>
+                        <mrow>13x \amp= \frac{7}{4} \amp 13x \amp= \frac{1}{2} \\</mrow>
+                        <mrow>x \amp= \frac{7}{52} \amp x \amp= \frac{1}{26} \\</mrow>
+                    </md>
+                </p>
+
+                <p>Thus, the solutions are <m>x = \frac{1}{26}</m> and <m>x = \frac{7}{52}</m>.</p>
+            </solution>
+        </example>
+
+        <example xml:id="quadratic-in-form-v3">
+            <title>Quadratic in Form, Version 3</title>
+
+            <statement>
+                <p>Solve <m>x^{4/3} - 5x^{2/3} - 6 = 0</m>.</p>
+            </statement>
+
+            <answer>
+                <p>
+                    <ul>
+                        <li><p><m>x = \pm 6^{3/2}</m></p></li>
+                    </ul>
+                </p>
+            </answer>
+
+            <solution>
+                <p>Let <m>u = x^{2/3}</m>. Substitute into the equation:</p>
+                <p><me>u^2 - 5u - 6 = 0</me></p>
+
+                <p>We can solve by factoring:</p>
+
+                <p>
+                    <md>
+                        <mrow>u^2 - 5u - 6 \amp= 0 \\</mrow>
+                        <mrow>(u - 6)(u + 1) \amp= 0 \\</mrow>
+                        <mrow>u - 6 \amp= 0 \amp u + 1 \amp= 0 \\</mrow>
+                        <mrow>u \amp= 6 \amp u \amp= -1 \\</mrow>
+                    </md>
+                </p>
+
+                <p>Now substitute back <m>u = x^{2/3}</m>:</p>
+
+                <p>
+                    <md>
+                        <mrow>x^{2/3} \amp= 6 \amp x^{2/3} \amp= -1 \\</mrow>
+                    </md>
+                </p>
+
+                <p>The second equation <m>x^{2/3} = -1</m> has no real solutions since <m>x^{2/3}</m> is nonnegative for real <m>x</m>. Solving the first gives</p>
+
+                <p>
+                    <md>
+                        <mrow>x \amp= \pm 6^{3/2} \\</mrow>
+                    </md>
+                </p>
+
+                <p>Thus, the real solutions are <m>x = \pm 6^{3/2}</m>.</p>
+            </solution>
+        </example>
+
+    </subsection>
+        <subsection xml:id="solving-equations-for-other-variables">
+        <title>Solving Equations for Other Variables</title>
+
+        <p>An underappreciated use of the quadratic formula, especially with quadratic-in-form equations, is solving for one of two variables. The next example demonstrates this technique.</p>
+
+        <example xml:id="solving-an-equation-for-y-using-the-quadratic-formula">
+            <title>Solving an Equation for <m>y</m> Using the Quadratic Formula</title>
+
+            <statement>
+                <p>Solve the equation <m>y^2 + 4xy + 3 = 0</m> for <m>y</m>.</p>
+            </statement>
+
+            <answer>
+                <p><m>y = -2 \pm \sqrt{4x^2 - 3}</m></p>
+            </answer>
+
+            <solution>
+                <p>This equation is quadratic in <m>y</m> with <m>a = 1</m>, <m>b = 4x</m>, and <m>c = 3</m>. Applying the Quadratic Formula gives:</p>
+
+                <p>
+                    <md>
+                        <mrow>y \amp= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\</mrow>
+                        <mrow>y \amp= \frac{-4x \pm \sqrt{(4x)^2 - 4(1)(3)}}{2(1)} \\</mrow>
+                        <mrow>y \amp= \frac{-4x \pm \sqrt{16x^2 - 12}}{2} \\</mrow>
+                        <mrow>y \amp= \frac{-4x \pm \sqrt{4(4x^2 - 3)}}{2} \\</mrow>
+                        <mrow>y \amp= \frac{-4x \pm 2\sqrt{4x^2 - 3}}{2} \\</mrow>
+                        <mrow>y \amp= \frac{-4x}{2} \pm \frac{2\sqrt{4x^2 - 3}}{2} \\</mrow>
+                        <mrow>y \amp= -2x \pm \sqrt{4x^2 - 3} \\</mrow>
+                    </md>
+                </p>
+
+                <p>Thus, the solutions are <m>y = -2x \pm \sqrt{4x^2 - 3}</m>.</p>
+            </solution>
+        </example>
+    </subsection>
 </section>

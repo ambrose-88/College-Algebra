@@ -1,6 +1,95 @@
-<section xml:id="chapter4-9">
-    <title></title>
-    <p>
-        
-    </p>
+<section xml:id="square-roots-negative">
+    <title>Square Roots of Negative Numbers</title>
+
+        <theorem xml:id="pulling-out-negative">
+            <title>Pulling out the Negative as <m>i</m></title>
+            <statement>
+                <p>Let <m>r &gt; 0</m>. Then <m>\sqrt{-r} = i\sqrt{r}</m>.</p>
+            </statement>
+        </theorem>
+
+        <example xml:id="sqrt-neg-5">
+            <title>Simplifying the Square Root of a Negative Number, Version 1</title>
+            <statement>
+                <p>Simplify <m>\sqrt{-5}</m>.</p>
+            </statement>
+            <answer>
+                <p><m>i\sqrt{5}</m></p>
+            </answer>
+            <solution>
+                <p>You always want to apply <xref ref="pulling-out-negative"/> first. Therefore, <m>\sqrt{-5} = i\sqrt{5}</m>.</p>
+            </solution>
+        </example>
+
+        <example xml:id="sqrt-neg-121">
+            <title>Simplifying the Square Root of a Negative Number, Version 2</title>
+            <statement>
+                <p>Simplify <m>\sqrt{-121}</m>.</p>
+            </statement>
+            <answer>
+                <p><m>11i</m></p>
+            </answer>
+            <solution>
+                <p>
+                    <ol>
+                        <li><p>You always want to apply <xref ref="pulling-out-negative"/> first.</p></li>
+                        <li><p>Then, since <m>121</m> is a perfect square, we should take the square root second.</p></li>
+                    </ol>
+                </p>
+                <p>The full calculation is <me>\sqrt{-121} = i\sqrt{121} = i(11) = 11i</me>.</p>
+            </solution>
+        </example>
+
+        <example xml:id="sqrt-neg-72">
+            <title>Simplifying the Square Root of a Negative Number, Version 3</title>
+            <statement>
+                <p>Simplify <m>\sqrt{-72}</m>.</p>
+            </statement>
+            <answer>
+                <p><m>6i\sqrt{2}</m></p>
+            </answer>
+            <solution>
+                <p>
+                    <ol>
+                        <li><p>You always want to apply <xref ref="pulling-out-negative"/> first.</p></li>
+                        <li><p>Next, we need to find the largest perfect square that divides <m>72</m>. In this case, it’s <m>36</m>.</p></li>
+                        <li><p>Rewrite the part under the radical as <m>36\cdot 2</m>.</p></li>
+                        <li><p>Take the square root of <m>36</m>.</p></li>
+                    </ol>
+                </p>
+                <p>The full calculation is</p>
+                <p>
+                    <md>
+                        <mrow>\sqrt{-72} \amp= i\sqrt{72}\\</mrow>
+                        <mrow>\amp= i\sqrt{36\cdot 2}\\</mrow>
+                        <mrow>\amp= i(6)\sqrt{2}\\</mrow>
+                        <mrow>\amp= 6i\sqrt{2}\\</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="fraction-sqrt-neg-40">
+            <title>Simplifying a Fraction that Contains the Square Root of a Negative Number</title>
+            <statement>
+                <p>Simplify <m>\frac{2+\sqrt{-40}}{4}</m>. Write your final answer as <m>a+bi</m>.</p>
+            </statement>
+            <answer>
+                <p><m>\tfrac{1}{2} + \tfrac{\sqrt{10}}{2}i</m></p>
+            </answer>
+            <solution>
+                <p>You always want to apply <xref ref="pulling-out-negative"/> first. Then, simplify the square root and the fraction. The full calculation is</p>
+                <p>
+                    <md>
+                        <mrow>\frac{2+\sqrt{-40}}{4} \amp= \frac{2+i\sqrt{40}}{4}\\</mrow>
+                        <mrow>\amp= \frac{2+i\sqrt{4\cdot 10}}{4}\\</mrow>
+                        <mrow>\amp= \frac{2+i\sqrt{4}\sqrt{10}}{4}\\</mrow>
+                        <mrow>\amp= \frac{2+2i\sqrt{10}}{4}\\</mrow>
+                        <mrow>\amp= \frac{2}{4} + \frac{2i\sqrt{10}}{4}\\</mrow>
+                        <mrow>\amp= \frac{1}{2} + \frac{i\sqrt{10}}{2}\\</mrow>
+                        <mrow>\amp= \frac{1}{2} + \frac{\sqrt{10}}{2}i</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
 </section>
