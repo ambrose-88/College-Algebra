@@ -401,9 +401,7 @@
     <answer>
       <figure>
         <caption>The graph of <m>f(x) = -2x^2 - 8x - 6</m>, the vertex <m>(-2, 2)</m>, and the intercepts <m>(-3, 0)</m>, <m>(-1, 0)</m>, and <m>(0, -6)</m>.</caption>
-        <image source="chapter-4-14/example-quadratic-parabola-intercepts-final.png" width="60%" decoration="yes">
-          <shortdescription>The graph of the parabola showing its vertex and intercepts.</shortdescription>
-        </image>
+        <image source="chapter-4-14/example-quadratic-parabola-intercepts-final.png" width="60%" decorative="yes"/>
       </figure>
     </answer>
 

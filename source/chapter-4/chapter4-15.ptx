@@ -1,6 +1,221 @@
-<section xml:id="chapter4-15">
-    <title></title>
-    <p>
-        
-    </p>
+<section xml:id="optimization-using-quadratic-functions">
+  <title>Optimization Using Quadratic Functions</title>
+<introduction>
+  <p>
+    <term>Optimization</term> is an area of mathematics specializing in finding the absolute extrema of an equation to solve a real-world problem. Quadratic functions give a solid introduction to the topic with many mathematical and real-world applications.
+  </p>
+</introduction>
+  <subsection xml:id="applications-to-geometry">
+    <title>Applications to Geometry</title>
+
+    <example xml:id="minimizing-distance-to-parabola">
+      <title>Minimizing the Distance from a Point to a Parabola</title>
+      <statement>
+        <p>
+          Find the minimum distance between the parabola <m>y = x^2</m> and the point <m>(0, 3)</m>.
+        </p>
+        <figure>
+          <caption>The point <m>(0,3)</m> with multiple line segments connecting to different points of the the parabola <m>y=x^2</m>. One of the points is labeled as the closest point.</caption>
+          <image source="placeholder-point-to-parabola.png" decorative="yes"/>
+        </figure>
+      </statement>
+      <answer>
+        <p>
+          The minimum distance is (placeholder) from .
+        </p>
+      </answer>
+      <solution>
+        <p>
+          Let <m>(x, x^2)</m> be a point on the parabola. The distance between this point and <m>(0, 3)</m> is given by
+          <me>D = \sqrt{(x - 0)^2 + (x^2 - 3)^2}.</me>
+          Since distance is always positive, minimizing <m>D</m> is equivalent to minimizing <m>D^2.</m> 
+          Therefore, we need to minimize <me>D^2 = (x-0)^2 + (x^2 - 3)^2.</me>
+          <m> = x^4 - 6x^2 + 9 + x^2 = x^4 - 5x^2 + 9.</m>  
+          Let <m>u = x^2</m>, giving <m>D^2 = u^2 - 5u + 9.</m>
+        </p>
+
+        <p>
+          This quadratic in <m>u</m> opens upward, so its minimum occurs at <m>u = \frac{5}{2}</m>.  
+          Therefore, <m>x^2 = \frac{5}{2}</m>, giving <m>x = \pm \sqrt{\frac{5}{2}}</m>.
+        </p>
+
+        <p>
+          The closest points on the parabola are <m>\left(\sqrt{\frac{5}{2}}, \frac{5}{2}\right)</m> and <m>\left(-\sqrt{\frac{5}{2}}, \frac{5}{2}\right)</m>.
+        </p>
+      </solution>
+
+
+    </example>
+  </subsection>
+
+
+
+
+  <!-- =========================================================== -->
+  <!-- Subsection: Applications from Physics -->
+  <!-- =========================================================== -->
+  <subsection xml:id="applications-from-physics">
+    <title>Applications from Physics</title>
+
+    <theorem xml:id="height-of-projectiles">
+      <title>Height of Projectiles</title>
+      <statement>
+        <p>
+          The height of a projectile (in feet, ignoring air resistance) is given by the equation
+          <me>h(t) = -16t^2 + v_0t + h_0,</me>
+          where <m>v_0</m> is the initial velocity (in feet per second) and <m>h_0</m> is the initial height (in feet).
+        </p>
+      </statement>
+    </theorem>
+
+
+    <example xml:id="maximum-height-of-projectile">
+      <title>Finding the Maximum Height of a Projectile</title>
+      <statement>
+        <p>
+          A soccer ball is kicked upward with an initial velocity of <m>40</m> ft/s from a height of <m>3</m> feet.  
+          Its height after <m>t</m> seconds is given by <m>h(t) = -16t^2 + 40t + 3.</m>  
+          Find the time when the ball reaches its maximum height and determine that height.
+        </p>
+        <figure>
+          <caption>The trajectory of the soccer ball showing the maximum height point.</caption>
+          <image source="placeholder-projectile-trajectory.png">
+            <shortdescription>Parabolic path of a soccer ball reaching a peak before descending.</shortdescription>
+          </image>
+        </figure>
+      </statement>
+      <answer>
+        <p>
+          The ball reaches a maximum height of <m>28</m> feet after <m>1.25</m> seconds.
+        </p>
+      </answer>
+      <solution>
+        <p>
+          The height function <m>h(t) = -16t^2 + 40t + 3</m> is a downward-opening parabola.  
+          The time of the maximum height occurs at the vertex, given by
+          <me>t = \frac{-b}{2a} = \frac{-40}{2(-16)} = 1.25 \text{ seconds.}</me>
+        </p>
+
+        <p>
+          Substitute <m>t = 1.25</m> into the height equation:
+          <me>h(1.25) = -16(1.25)^2 + 40(1.25) + 3 = -25 + 50 + 3 = 28 \text{ feet.}</me>
+        </p>
+      </solution>
+
+    </example>
+
+
+    <example xml:id="finding-initial-velocity-from-max-height">
+      <title>Finding Initial Height and Velocity from Maximum Height</title>
+      <statement>
+        <p>
+          Suppose a rocket reaches a maximal height of <m>700</m> feet, <m>5</m> seconds after launch.  
+          Find its initial velocity and launch height assuming it follows the standard projectile model.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The rocket was launched from a height of <m>300</m> feet with an initial velocity of <m>160</m> ft/s.
+        </p>
+      </answer>
+      <solution>
+        <p>
+          Using the height equation <m>h(t) = -16t^2 + v_0t + h_0</m>, we know that at the vertex, <m>t = 5</m> and <m>h = 700</m>.
+          The vertex formula gives <m>t = \frac{-b}{2a} = \frac{v_0}{32}</m>.  
+          Substituting <m>t = 5</m> gives <m>v_0 = 160</m> ft/s.
+        </p>
+
+        <p>
+          Substituting into the height equation:
+          <me>700 = -16(5)^2 + 160(5) + h_0.</me>
+          Simplify to get <m>700 = -400 + 800 + h_0</m>, so <m>h_0 = 300</m>.
+        </p>
+      </solution>
+
+
+    </example>
+  </subsection>
+
+
+
+
+  <!-- =========================================================== -->
+  <!-- Subsection: Applications from Economics -->
+  <!-- =========================================================== -->
+  <subsection xml:id="applications-from-economics">
+    <title>Applications from Economics</title>
+
+    <example xml:id="maximizing-profit-in-game-design">
+      <title>Maximizing Profit in Game Design</title>
+      <statement>
+        <p>
+          A mobile game sells for <m>\$1.00</m> and attracts <m>50{,}000</m> downloads.  
+          For every <m>\$0.10</m> increase in price, downloads decrease by <m>2{,}000</m>.  
+          Find the price that maximizes the studio’s total revenue.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The price that maximizes revenue is <m>\$1.75</m>, yielding approximately <m>35{,}000</m> downloads.
+        </p>
+      </answer>
+      <solution>
+        <p>
+          Let <m>x</m> represent the number of <m>\$0.10</m> increases.  
+          Then the price is <m>p = 1 + 0.1x</m>, and the number of downloads is <m>n = 50{,}000 - 2{,}000x</m>.
+        </p>
+
+        <p>
+          Revenue is <m>R = p \times n = (1 + 0.1x)(50{,}000 - 2{,}000x).</m>  
+          Expanding gives <m>R = 50{,}000 + 3{,}000x - 200x^2.</m>
+        </p>
+
+        <p>
+          This quadratic opens downward, so its maximum occurs at <m>x = \frac{-b}{2a} = \frac{-3{,}000}{2(-200)} = 7.5.</m>
+        </p>
+
+        <p>
+          The optimal price is <m>1 + 0.1(7.5) = \$1.75</m>.  
+          At this price, the expected downloads are <m>50{,}000 - 2{,}000(7.5) = 35{,}000</m>.
+        </p>
+      </solution>
+
+
+    </example>
+
+
+    <example xml:id="maximizing-revenue-business-model">
+      <title>Maximizing Revenue in a Business Model</title>
+      <statement>
+        <p>
+          A local coffee shop sells <m>80</m> lattes each day at <m>\$5.00</m> each.  
+          For every <m>\$0.50</m> increase in price, the shop sells <m>5</m> fewer lattes.  
+          Find the price that maximizes daily revenue.
+        </p>
+      </statement>
+
+      <answer>
+        <p>
+          The coffee shop should charge <m>\$6.50</m> per latte to maximize daily revenue.
+        </p>
+      </answer>
+      <solution>
+        <p>
+          Let <m>x</m> represent the number of <m>\$0.50</m> price increases.  
+          Then the price per latte is <m>p = 5 + 0.5x</m>, and the number sold is <m>n = 80 - 5x</m>.
+        </p>
+
+        <p>
+          The daily revenue is <m>R = p \times n = (5 + 0.5x)(80 - 5x).</m>  
+          Simplify to get <m>R = 400 + 15x - 2.5x^2.</m>
+        </p>
+
+        <p>
+          The maximum occurs at <m>x = \frac{-b}{2a} = \frac{-15}{2(-2.5)} = 3.</m>  
+          Thus, the optimal price is <m>p = 5 + 0.5(3) = \$6.50</m>.
+        </p>
+      </solution>
+
+    </example>
+  </subsection>
 </section>
