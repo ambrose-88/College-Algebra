@@ -96,7 +96,7 @@
         </solution>
     </example>
 </subsection>
-    <subsection xml:id="-sub-the-discriminant">
+    <subsection xml:id="sub-the-discriminant">
         <title>The Discriminant</title>
         <p>
             The number and types of solutions for <xref ref="solving-an-equation-with-two-real-roots"/>, <xref ref="solving-an-equation-with-one-real-root"/>, and <xref ref="solving-an-equation-with-two-complex-solutions"/> can be summarized as follows.
