@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="lecture-notes-worksheet-quadratic-formula" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Using the Quadratic Formula</title>
+        <theorem xml:id="lecture-notes-the-quadratic-formula">
+        <title>The Quadratic Formula</title>
+
+        <statement>
+            <p>Let <m>a</m>, <m>b</m>, and <m>c</m> be any real numbers with <m>a \ne 0</m>. Then the solutions to the quadratic equation <m>ax^2 + bx + c = 0</m> can be found using the formula</p>
+            <p><me>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</me></p>
+        </statement>
+      </theorem>
+      <exercise xml:id="lecture-notes-solving-an-equation-with-two-real-roots" workspace="2in">
+    <title>Solving an Equation with Two Real Roots</title>
+    <statement>
+        <p>Solve the equation <m>4x^2 + 13x + 10 = 0</m> using the Quadratic Formula.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-solving-an-equation-with-one-real-root" workspace="2in">
+    <title>Solving an Equation with One Real Root</title>
+    <statement>
+        <p>Solve the equation <m>16x^2 + 24x + 9 = 0</m> using the Quadratic Formula.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-solving-an-equation-with-two-complex-solutions" workspace="2in">
+    <title>Solving an Equation with Two Complex Solutions</title>
+    <statement>
+        <p>Solve the equation <m>x^2 - 4x + 13 = 0</m> using the Quadratic Formula.</p>
+    </statement>
+</exercise>
+
+<definition xml:id="lecture-notes-the-discriminant">
+    <title>The Discriminant</title>
+    <statement>
+        <p>
+            We call the value <m>b^2 - 4ac</m> the <term>discriminant</term> of the quadratic equation.
+            We denote the discriminant by the letter <m>D</m>, which gives us the equation <me>D = b^2 - 4ac</me>.
+        </p>
+        <p>In particular, the discriminant tells us the following information:</p>
+        <p>
+            <ul>
+                <li><p>If <m>D &gt; 0</m>, then the quadratic equation has two distinct, real-valued solutions.</p></li>
+                <li><p>If <m>D = 0</m>, then the quadratic equation has a unique, real-valued solution.</p></li>
+                <li><p>If <m>D &lt; 0</m>, then the quadratic equation has a pair of complex-valued solutions that are complex conjugates of one another.</p></li>
+            </ul>
+        </p>
+      </statement>
+      </definition>
+
+<exercise xml:id="lecture-notes-use-the-discriminant-to-determine-the-number-and-types-of-solutions-v1" workspace="2in">
+    <title>Use the Discriminant to Determine the Number and Types of Solutions, Version 1</title>
+    <statement>
+        <p>Determine the number and type of solutions for the equation <m>6x^2 + x - 40 = 0</m>.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-use-the-discriminant-to-determine-the-number-and-types-of-solutions-v2" workspace="2in">
+    <title>Use the Discriminant to Determine the Number and Types of Solutions, Version 2</title>
+    <statement>
+        <p>Determine the number and type of solutions for the equation <m>16x^2 - 8x + 1 = 0</m>.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-use-the-discriminant-to-determine-the-number-and-types-of-solutions-v3" workspace="2in">
+    <title>Use the Discriminant to Determine the Number and Types of Solutions, Version 3</title>
+    <statement>
+        <p>Determine the number and type of solutions for the equation <m>x^2 - 10x + 74 = 0</m>.</p>
+    </statement>
+</exercise>
+<lemma xml:id="lecture-notes-solving-equations-that-are-quadratic-in-form">
+    <title>Solving Equations that are Quadratic in Form</title>
+    <statement>
+    <p>
+        <ol>
+            <li><p>Make a substitution <m>u = u(x)</m> that transforms the given equation into the quadratic equation <m>au^2 + bu + c = 0</m>.</p></li>
+            <li><p>Solve this new quadratic with any method you know.</p></li>
+            <li><p>You should get one or two equations starting with <m>u =</m>. Use your original substitution from Step 1 to convert your equations back to <m>x</m>.</p></li>
+            <li><p>Solve the equation(s) for <m>x</m>.</p></li>
+            <li><p>Check your solutions (required).</p></li>
+        </ol>
+    </p>
+  </statement>
+</lemma>
+
+<exercise xml:id="lecture-notes-quadratic-in-form-v2" workspace="4in">
+    <title>Quadratic in Form, Version 2</title>
+    <statement>
+        <p>Solve <m>8(13x - 1)^2 - 2(13x - 1) - 3 = 0</m>.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-solving-an-equation-for-y-using-the-quadratic-formula" workspace="4in">
+    <title>Solving an Equation for <m>y</m> Using the Quadratic Formula</title>
+    <statement>
+        <p>Solve the equation <m>y^2 + 4xy + 3 = 0</m> for <m>y</m>.</p>
+    </statement>
+</exercise>
+
+</worksheet>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="worksheet-quadratic-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Equations</title>
+
+  <definition xml:id="lecture-notes-def-quadratic-equations">
+    <title>Quadratic Equations</title>
+    <statement>
+      <p>
+        Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers with <m>a \ne 0</m>.
+        Any equation of the form <me>ax^2 + bx + c = 0</me> is called a <term>quadratic equation</term> in <m>x</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <exercise xml:id="lecture-notes-ex-determine-if-an-equation-is-quadratic" workspace="1in">
+    <title>Determine if an Equation is Quadratic</title>
+    <statement>
+      <p>Which of the following equations are examples of a quadratic equation?
+      <ul>
+        <li><p><m>3x^2 + 4x - 9 = 0</m></p></li>
+        <li><p><m>3(x - 2)^2 = 1</m></p></li>
+        <li><p><m>5\sqrt{x - 1} + x = 0</m></p></li>
+        <li><p><m>\frac{1}{x} + x^2 - 4 = 0</m></p></li>
+      </ul>
+    </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-def-zero-product-property">
+    <title>The Zero Product Property</title>
+    <statement>
+      <p>
+        Let <m>A</m> and <m>B</m> be algebraic expressions such that <m>AB = 0</m>.
+        Then <m>A = 0</m> or <m>B = 0</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solve-by-factoring-a-gcf" workspace="2in">
+    <title>Solve by Factoring a GCF</title>
+    <statement>
+      <p>Solve the equation <m>4x^2 - 2x = 0</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-solve-using-the-zero-product-property" workspace="3in">
+    <title>Solve using the Zero7 Product Property</title>
+    <statement>
+      <p>Solve the equation <m>(3x - 2)(x + 4) = 0</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-solving-using-the-zero-product-property-on-three-factors" workspace="3in">
+    <title>Solving Using the Zero Product Property on 3 or More Factors</title>
+    <statement>
+      <p>Solve the equation <m>(x - 2)(x + 3)(x - 1) = 0</m>.</p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-difference-of-squares">
+    <title>Difference of Squares</title>
+    <statement>
+      <p>
+        For all positive real numbers <m>a</m>, <m>b</m>, the equation <me>a^2 - b^2 = (a - b)(a + b)</me> is always true.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solving-a-difference-of-squares-equation" workspace="1in">
+    <title>Solving a Difference of Squares Equation</title>
+    <statement>
+      <p>
+        Solve the equation <m>36x^2 - 16 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-sum-of-cubes">
+    <title>Sum of Cubes</title>
+    <statement>
+      <p>
+        For all real numbers <m>a</m> and <m>b</m>, the equation <me>a^3 + b^3 = (a + b)(a^2 - ab + b^2)</me> is true.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solve-a-sum-of-cubes-equation" workspace="1in">
+    <title>Solve a Sum of Cubes Equation</title>
+    <statement>
+      <p>
+        Solve <m>8x^3 + 27 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-difference-of-cubes">
+    <title>Difference of Cubes</title>
+    <statement>
+      <p>
+        For all real numbers <m>a</m> and <m>b</m>, the equation <me>a^3 - b^3 = (a - b)(a^2 + ab + b^2)</me> is true.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solve-a-difference-of-cubes-equation" workspace="1in">
+    <title>Solve a Difference of Cubes Equation</title>
+    <statement>
+      <p>
+        Solve <m>125 - 64x^3 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-solving-by-grouping">
+    <title>Solving an Equation by Factoring by Grouping</title>
+    <statement>
+      <p>
+        Consider any polynomial with an even number of terms.
+        The following steps show how to solve an equation using the factor by grouping method.
+      </p>
+      <p>
+        <ol>
+          <li><p>Make sure one side of the equation is equal to zero.</p></li>
+          <li><p>Group terms into pairs using parentheses. Put a plus sign between each pair of terms. All negative or minus signs come into the parentheses with the number.</p></li>
+          <li><p>Factor out the GCF from each grouped pair.</p></li>
+          <li><p>The binomial left behind after factoring out the GCF should be the same for each term. If it is not, repeat steps 1 and 2 until you get a common binomial.</p></li>
+          <li><p>Factor out the common binomial.</p></li>
+          <li><p>Perform any additional factoring needed until you get a complete factorization.</p></li>
+          <li><p>Use the Zero Product Property to finish solving the problem.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-use-factor-by-grouping" workspace="4in">
+    <title>Use Factor by Grouping to Solve an Equation with Four Terms</title>
+    <statement>
+      <p>
+        Solve the equation <m>x^3 + 3x^2 - 2x - 6 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-ac-method">
+    <title>Using the <m>ac</m>-Method to Solve a Quadratic Equation</title>
+    <statement>
+      <p>
+        Let <m>ax^2 + bx + c = 0</m> be a quadratic function.
+        If there are factors of the product <m>ac</m> that add to <m>b</m>, we can factor this trinomial and use the Zero Product Property to solve for <m>x</m>.
+        Here is how to check if we can factor using this method.
+      </p>
+      <p>
+        <ol>
+          <li><p>Compute the product <m>ac</m>.</p></li>
+          <li><p>List all the factors of the product. You are looking for one of two things:
+            <ul>
+              <li><p>If <m>c &gt; 0</m>, find two numbers whose sum equals <m>b</m>.</p></li>
+              <li><p>If <m>c &lt; 0</m>, find two numbers whose difference equals <m>b</m>.</p></li>
+              <li><p>If you cannot find such a pair, you cannot use this method.</p></li>
+            </ul>
+            </p>
+          </li>
+          <li><p>Suppose you find factors <m>d</m> and <m>e</m> such that <m>de = ac</m> and <m>d + e = b</m>. Then replace <m>bx</m> with <m>dx + ex</m> to get <m>ax^2 + dx + ex + c = 0</m>.</p></li>
+          <li><p>Use Factor by Grouping to solve the equation.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-ac-method-a-not-equal-1" workspace="4in">
+    <title>Use the <m>ac</m>-Method to Solve a Quadratic Equation when <m>a \ne 1</m></title>
+    <statement>
+      <p>
+        Solve <m>2x^2 + 7x - 4 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-slide-and-divide">
+    <title>Slide and Divide</title>
+    <statement>
+      <p>
+        Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m>.
+        To perform slide-and-divide, follow these steps:
+      </p>
+      <p>
+        <ol>
+          <li><p>Rewrite the equation as <m>x^2 + bx + ac = 0</m>. (This is the slide step.)</p></li>
+          <li><p>Factor using the <m>ac</m>-method as <m>(x + c_1)(x + c_2) = 0</m>.</p></li>
+          <li><p>Divide the values of <m>c_1</m> and <m>c_2</m> by <m>a</m> to get <m>\left(x - \frac{c_1}{a}\right)\left(x - \frac{c_2}{a}\right) = 0</m>.</p></li>
+          <li><p>Simplify the fractions.</p></li>
+          <li><p>Use the Zero Product Property to solve for <m>x</m>.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-slide-and-divide" workspace="6in">
+    <title>Use Slide and Divide to Solve a Quadratic Equation</title>
+    <statement>
+      <p>
+        Use slide and divide to solve <m>2x^2 + 7x - 4 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-square-root-theorem">
+    <title>Square Root Theorem</title>
+    <statement>
+      <p>
+        Let <m>c \ge 0</m>. If <m>x^2 = c</m>, then <m>x = \pm \sqrt{c}</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-using-factoring-and-square-root-property" workspace="1in">
+    <title>Using Factoring and the Square Root Property to Solve an Equation</title>
+    <statement>
+      <p>
+        Solve <m>x^3 - 3x = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <definition xml:id="lecture-notes-def-perfect-square-trinomials">
+    <title>Perfect Square Trinomials</title>
+    <statement>
+      <p>
+        Let <m>a</m> and <m>b</m> be any real, nonzero numbers.
+        Then the following two equations are true.
+      </p>
+      <p>
+        <md>
+          <mrow>a^2 + 2ab + b^2 \amp= (a + b)^2</mrow>
+          <mrow>a^2 - 2ab + b^2 \amp= (a - b)^2</mrow>
+        </md>
+      </p>
+    </statement>
+  </definition>
+
+  <lemma xml:id="lecture-notes-lem-how-to-recognize-perfect-square-trinomials">
+    <title>How to Recognize Perfect Square Trinomials</title>
+    <statement>
+      <p>
+        If you notice that the coefficient of <m>x^2</m> and the constant term are both perfect squares, it is worth checking if you have a perfect square trinomial.
+        In order to do this:
+      </p>
+      <p>
+        <ol>
+          <li><p>Take the square root of the coefficient of <m>x^2</m> and the constant term.</p></li>
+          <li><p>Multiply these resulting numbers together.</p></li>
+          <li><p>See if the coefficient of <m>x</m> is twice those numbers. If it is, you can use one of the above equations.</p></li>
+          <li>
+            <p>The equation you use is based on the sign of the coefficient of <m>x</m>.
+            <ul>
+              <li><p>If the coefficient of <m>x</m> is positive, use the identity <m>a^2 + 2ab + b^2 = (a + b)^2</m>.</p></li>
+              <li><p>If the coefficient of <m>x</m> is negative, use the identity <m>a^2 - 2ab + b^2 = (a - b)^2</m>.</p></li>
+            </ul>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-solving-perfect-square-trinomial-2" workspace="2in">
+    <title>Solving a Perfect Square Trinomial Using the Square Root Property</title>
+    <statement>
+      <p>
+        Solve the equation <m>9x^2 - 42x + 49 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-completing-the-square-traditional-method">
+    <title>Completing the Square (Traditional Method)</title>
+    <statement>
+      <p>
+        Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m> and <m>b \ne 0</m>.
+        Follow the steps below to complete the square.
+      </p>
+      <p>
+        <ol>
+          <li><p>Move <m>c</m> to the other side of the equation to get <m>ax^2 + bx = -c</m>.</p></li>
+          <li><p>Divide each term by the leading coefficient <m>a</m> to get <m>x^2 + \frac{b}{a}x = -\frac{c}{a}</m>.</p></li>
+          <li><p>Divide <m>\frac{b}{a}</m> by 2 to get <m>\frac{b}{2a}</m>.</p></li>
+          <li><p>Compute <m>\left(\frac{b}{2a}\right)^2 = \frac{b^2}{4a^2}</m>.</p></li>
+          <li><p>Add <m>\frac{b^2}{4a^2}</m> to both sides of the equation.</p></li>
+          <li><p>
+            The left-hand side is now a perfect square trinomial and can be factored as
+            <m>\left(x + \frac{b}{2a}\right)^2</m>. The equation becomes
+            <m>\left(x + \frac{b}{2a}\right)^2 = -\frac{c}{a} + \frac{b^2}{4a^2}</m>.
+          </p></li>
+          <li><p>Use the Square Root Property to solve for <m>x</m>.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-traditional-method-a-not-equals-1" workspace="2in">
+    <title>Use the Traditional Method to Solve a Quadratic Equation with <m>a \ne 1</m></title>
+    <statement>
+      <p>
+        Solve <m>4x^2 + 10x + 6 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-completing-the-square-box-method">
+    <title>Completing the Square (Box Method)</title>
+    <statement>
+      <p>
+        Let <m>ax^2 + bx + c = 0</m> with <m>a \ne 0</m> and <m>b \ne 0</m>.
+        Follow the steps below to complete the square.
+      </p>
+      <p>
+        <ol>
+          <li><p>Move <m>c</m> to the other side of the equation to get <m>ax^2 + bx = -c</m>.</p></li>
+          <li><p>Divide each term by the leading coefficient <m>a</m> to get <m>x^2 + \frac{b}{a}x = -\frac{c}{a}</m>.</p></li>
+          <li><p>Divide <m>\frac{b}{a}</m> by 2 to get <m>\frac{b}{2a}</m>.</p></li>
+          <li>
+            <p>Draw a box similar to the table below.</p>
+            <table>
+              <title>Box Method</title>
+              <tabular>
+                <row header="yes" halign="center" bottom="major">
+                  <cell right="major"></cell>
+                  <cell><m>x</m></cell>
+                  <cell><m>+\frac{b}{2a}</m></cell>
+                </row>
+                <row halign="center">
+                  <cell right="major"><m>x</m></cell>
+                  <cell><m>x^2</m></cell>
+                  <cell><m>+\frac{b}{2a}x</m></cell>
+                </row>
+                <row halign="center">
+                  <cell right="major"><m>+\frac{b}{2a}</m></cell>
+                  <cell><m>+\frac{b}{2a}x</m></cell>
+                  <cell><m>+\left(\frac{b}{2a}\right)^2</m></cell>
+                </row>
+              </tabular>
+            </table>
+          </li>
+          <li><p>The area of the box is <m>\left(x + \frac{b}{2a}\right)^2</m>. This becomes the new left-hand side of the equation.</p></li>
+          <li><p>Add <m>\frac{b^2}{4a^2}</m> to the right-hand side of the equation.</p></li>
+          <li><p>Use the Square Root Property to solve for <m>x</m>.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-box-method-solve-quadratic" workspace="4in">
+    <title>Use the Box Method to Solve a Quadratic Equation</title>
+    <statement>
+      <p>
+        Solve <m>2x^2 + 10x + 8 = 0</m>.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
