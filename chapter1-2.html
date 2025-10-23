@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: salem                          *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Graphing Points on the Coordinate Plane</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Interactive College Algebra">
+<meta property="book:author" content="Charles S. McCauley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.14';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.cc8d78735f870736.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.29d986501a531379.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Interactive College Algebra</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Charles S. McCauley</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="chapter1-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chapter1-3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter1.html" class="internal"><span class="codenumber">1</span> <span class="title">Graphing in Two Dimensions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Graphing Points on the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-1.html#sub-ordered-pairs" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Ordered Pairs</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="chapter1-1.html#sub-visualizing-coordinate-plane" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Visualizing The Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-coordinate-axes" class="internal"><span class="codenumber">1.1.2.1</span> <span class="title">Coordinate Axes</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-origin-and-rectangular-coordinates" class="internal"><span class="codenumber">1.1.2.2</span> <span class="title">The Origin and Rectangular Coordinates</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-quadrants" class="internal"><span class="codenumber">1.1.2.3</span> <span class="title">The Quadrants of a Coordinate Plane</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="chapter1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Graphing Points on the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="chapter1-2.html#chapter1-2-3" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Graphing a Point by Hand</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#chapter1-2-3-2" class="internal"><span class="codenumber">1.2.1.1</span> <span class="title">Positive and Negative Signs as Directions of Travel.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-Graphing-a-Point-By-Hand" class="internal"><span class="codenumber">1.2.1.2</span> <span class="title">Graphing a Point By Hand</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-Graphing-Points-Using-Technology" class="internal"><span class="codenumber">1.2.1.3</span> <span class="title">Graphing Points Using Technology</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-variables-other-than-x-y" class="internal"><span class="codenumber">1.2.1.4</span> <span class="title">Using Variables Other Than <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span></span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The Distance Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-3.html#sub-distances-in-the-real-world" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Distances in the Real World</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-3.html#sub-distance-formula" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Proof of the Distance Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-4.html" class="internal"><span class="codenumber">1.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-5.html" class="internal"><span class="codenumber">1.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-6.html" class="internal"><span class="codenumber">1.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-7.html" class="internal"><span class="codenumber">1.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-8.html" class="internal"><span class="codenumber">1.8</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter2.html" class="internal"><span class="codenumber">2</span> <span class="title">Functions and Their Basic Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-1.html" class="internal"><span class="codenumber">2.1</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-2.html" class="internal"><span class="codenumber">2.2</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-6.html" class="internal"><span class="codenumber">2.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-7.html" class="internal"><span class="codenumber">2.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-8.html" class="internal"><span class="codenumber">2.8</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-9.html" class="internal"><span class="codenumber">2.9</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-10.html" class="internal"><span class="codenumber">2.10</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-11.html" class="internal"><span class="codenumber">2.11</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-12.html" class="internal"><span class="codenumber">2.12</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-13.html" class="internal"><span class="codenumber">2.13</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-14.html" class="internal"><span class="codenumber">2.14</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-15.html" class="internal"><span class="codenumber">2.15</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter3.html" class="internal"><span class="codenumber">3</span> <span class="title">Functions and Their Basic Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-6.html" class="internal"><span class="codenumber">3.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-7.html" class="internal"><span class="codenumber">3.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-8.html" class="internal"><span class="codenumber">3.8</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-9.html" class="internal"><span class="codenumber">3.9</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-10.html" class="internal"><span class="codenumber">3.10</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-11.html" class="internal"><span class="codenumber">3.11</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter4.html" class="internal"><span class="codenumber">4</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-zero-product-property.html" class="internal"><span class="codenumber">4.1</span> <span class="title">The Zero Product Property</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-quadratic-equations" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-the-zero-product-property" class="internal"><span class="codenumber">4.1.2</span> <span class="title">The Zero Product Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-solving-equations-by-factoring" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Solving Equations by Factoring</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Solving Quadratics Using Special Products</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html#subsec-difference-of-squares" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Difference of Squares</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html#subsec-sum-and-difference-of-cubes" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Sum and Difference of Cubes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factor-by-grouping.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Factor by Grouping</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-factor-by-grouping" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Factor by Grouping</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-ac-method" class="internal"><span class="codenumber">4.3.2</span> <span class="title">The <span class="process-math">\(ac\)</span>-Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-slide-and-divide" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Slide and Divide</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-square-root-property.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Square Root Property</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-square-root-property.html#subsec-solving-equations-using-square-root-property" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Solving Equations using Square Root Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-square-root-property.html#subsec-solving-equations-involving-perfect-square-trinomials" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Solving Equations Involving Perfect Square Trinomials</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-completing-the-square.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Completing the Square</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsec-traditional-method" class="internal"><span class="codenumber">4.5.1</span> <span class="title">The Traditional Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsec-box-method" class="internal"><span class="codenumber">4.5.2</span> <span class="title">The Box Method</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html" class="internal"><span class="codenumber">4.6</span> <span class="title">The Definition of Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html#subsec-the-imaginary-number-i" class="internal"><span class="codenumber">4.6.1</span> <span class="title">The Imaginary Number <span class="process-math">\(i\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html#subsec-complex-numbers" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Arithmetic with Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-adding-complex-numbers" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Adding Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-subtracting-complex-numbers" class="internal"><span class="codenumber">4.7.2</span> <span class="title">Subtracting Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-multiplying-complex-numbers" class="internal"><span class="codenumber">4.7.3</span> <span class="title">Multiplying Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-complex-conjugate.html" class="internal"><span class="codenumber">4.8</span> <span class="title">The Complex Conjugate</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-complex-conjugate.html#subsec-determining-the-complex-conjugate" class="internal"><span class="codenumber">4.8.1</span> <span class="title">Determining the Complex Conjugate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-complex-conjugate.html#subsec-getting-real-numbers-from-complex-numbers" class="internal"><span class="codenumber">4.8.2</span> <span class="title">Getting Real Numbers from Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="square-roots-negative.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Square Roots of Negative Numbers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="proof-of-the-quadratic-formula.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Proof of the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="using-the-quadratic-formula.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Using the Quadratic Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="using-the-quadratic-formula.html#solving-equations-using-the-quadratic-formula" class="internal"><span class="codenumber">4.11.1</span> <span class="title">Solving Equations Using the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="using-the-quadratic-formula.html#sub-the-discriminant" class="internal"><span class="codenumber">4.11.2</span> <span class="title">The Discriminant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="equations-quadratic-in-form.html" class="internal"><span class="codenumber">4.12</span> <span class="title">Equations that are Quadratic in Form</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equations-quadratic-in-form.html#solving-equations-in-one-variable" class="internal"><span class="codenumber">4.12.1</span> <span class="title">Solving Equations in One Variable</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equations-quadratic-in-form.html#solving-equations-for-other-variables" class="internal"><span class="codenumber">4.12.2</span> <span class="title">Solving Equations for Other Variables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratic-functions.html" class="internal"><span class="codenumber">4.13</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-functions.html#graphs-of-quadratic-functions" class="internal"><span class="codenumber">4.13.1</span> <span class="title">Graphs of Quadratic Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-functions.html#properties-of-quadratic-functions" class="internal"><span class="codenumber">4.13.2</span> <span class="title">Properties of Quadratic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html" class="internal"><span class="codenumber">4.14</span> <span class="title">The Vertex Form of a Quadratic Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#writing-quadratic-equations-in-vertex-form" class="internal"><span class="codenumber">4.14.1</span> <span class="title">Writing Quadratic Equations in Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#graphing-quadratic-functions-using-the-vertex-form" class="internal"><span class="codenumber">4.14.2</span> <span class="title">Graphing Quadratic Functions Using the Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#graphing-quadratic-functions-using-intercepts" class="internal"><span class="codenumber">4.14.3</span> <span class="title">Graphing Quadratic Functions Using Intercepts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="optimization-using-quadratic-functions.html" class="internal"><span class="codenumber">4.15</span> <span class="title">Optimization Using Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-to-geometry" class="internal"><span class="codenumber">4.15.1</span> <span class="title">Applications to Geometry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-from-physics" class="internal"><span class="codenumber">4.15.2</span> <span class="title">Applications from Physics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-from-economics" class="internal"><span class="codenumber">4.15.3</span> <span class="title">Applications from Economics</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix.html" class="internal"><span class="codenumber">A</span> <span class="title">Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-1-notes.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Chapter 1 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-2-notes.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Chapter 2 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-3-notes.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Chapter 3 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-4-lecture-notes.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Chapter 4 Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-4-lecture-notes.html#worksheet-quadratic-equations" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-4-lecture-notes.html#ws-complex-numbers" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Complex Numbers</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-4-lecture-notes.html#lecture-notes-worksheet-quadratic-formula" class="internal"><span class="codenumber">A.4.3</span> <span class="title">Using the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-4-lecture-notes.html#worksheet-quadratic-functions" class="internal"><span class="codenumber">A.4.4</span> <span class="title">Quadratic Functions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main" style="background-image:url('data:image/svg+xml;charset=utf-8,&lt;svg version=&quot;1.1&quot; height=&quot;600&quot; width=&quot;600&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; text-anchor=&quot;middle&quot; transform=&quot;rotate(-45,300,300)&quot; fill=&quot;rgb(204,204,204)&quot; style=&quot;font-family:sans-serif; font-size:2.5cm;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;DRAFT&lt;/text&gt;&lt;/svg&gt;');background-position:center top;background-repeat:repeat-y;"><div id="ptx-content" class="ptx-content"><section class="section" id="chapter1-2"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Graphing Points on the Coordinate Plane</span>
+</h2>
+<p class="watermark">Watermark text: DRAFT</p>
+<section class="introduction" id="chapter1-2-2"><div class="para" id="chapter1-2-2-1">In the last section, we reviewed terminology related to coordinate planes. In this section, we will demonstrate how to graph points. We will draw points by hand, and we will use technology to plot points. We will build upon this skill when we learn how to graph equations and functions.<div class="autopermalink" data-description="Paragraph"><a href="#chapter1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="chapter1-2-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Graphing a Point by Hand</span>
+</h3>
+<section class="subsubsection" id="chapter1-2-3-2"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Positive and Negative Signs as Directions of Travel.</span>
+</h4>
+<div class="para" id="chapter1-2-3-2-2">When graphing on a number line, all the numbers to the right of 0 are positive, and all the numbers to the left of 0 are negative. To understand why we label the number line this way, think of a car parked at <span class="process-math">\(x=0\)</span> on an infinite straight road. <span class="process-math">\(x=0\)</span> is the <dfn class="terminology">starting point</dfn> (also known as the <dfn class="terminology">reference point</dfn>); it is where the car is located before we start measuring how far it travels. The positive numbers indicate how many miles forward the car travels from the starting point; the negative numbers indicate how many miles backward the car travels in reverse from the starting point.<div class="autopermalink" data-description="Paragraph"><a href="#chapter1-2-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-three-cars"><div class="sbsgroup">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:100%;column-gap:0%;"><div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-car-reverse"><img src="external/chapter-1-2/car_x_equals_neg_3.png" class="contained" alt="The car is positioned at x = -3 while facing to the right."><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Negative numbers are like a car driving in reverse. If you are at <span class="process-math">\(x=-3\text{,}\)</span> then you have driven 3 feet in reverse.<div class="autopermalink" data-description="Figure 1.2.(a)"><a href="#graph-car-reverse" title="Copy heading and permalink for Figure 1.2.(a)" aria-label="Copy heading and permalink for Figure 1.2.(a)">🔗</a></div></figcaption></figure></div></div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:100%;column-gap:0%;"><div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-car-zero"><img src="external/chapter-1-2/car_x_equals_0.png" class="contained" alt="The car is positioned at x = 0 while facing to the right."><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Negative numbers are like a car driving in reverse. If you are at <span class="process-math">\(x=0\text{,}\)</span> then you have not driven anywhere yet.<div class="autopermalink" data-description="Figure 1.2.(b)"><a href="#graph-car-zero" title="Copy heading and permalink for Figure 1.2.(b)" aria-label="Copy heading and permalink for Figure 1.2.(b)">🔗</a></div></figcaption></figure></div></div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:100%;column-gap:0%;"><div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-car-positive"><img src="external/chapter-1-2/car_x_equals_3.png" class="contained" alt="The car is positioned at x = 3 while facing to the right."><figcaption><span class="codenumber">(c)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Negative numbers are like a car driving in reverse. If you are at <span class="process-math">\(x=3\text{,}\)</span> then you have driven 3 feet forwards.<div class="autopermalink" data-description="Figure 1.2.(c)"><a href="#graph-car-positive" title="Copy heading and permalink for Figure 1.2.(c)" aria-label="Copy heading and permalink for Figure 1.2.(c)">🔗</a></div></figcaption></figure></div></div></div>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Positive numbers always indicate the forward direction of travel. No matter its position, the car is always facing to the right.<div class="autopermalink" data-description="Figure 1.2.1"><a href="#graph-three-cars" title="Copy heading and permalink for Figure 1.2.1" aria-label="Copy heading and permalink for Figure 1.2.1">🔗</a></div></figcaption></figure><div class="para" id="chapter1-2-3-2-4">Unlike a number line, the coordinate plane uses two number lines—one horizontal and one vertical. Each axis has a positive (forward) and negative (backward) direction. On a standard coordinate plane, moving to the right (east) is the positive horizontal direction, and moving up (north) is the positive vertical direction. An ordered pair <span class="process-math">\((x,y)\)</span> tells you how far and in which direction to travel along each axis. The number tells you how far to travel, and the sign of the number tells you which direction to travel. For example, the point <span class="process-math">\((-3,2)\)</span> means that—starting at the origin—you need to move 3 units to the left and 2 units up.<div class="autopermalink" data-description="Paragraph"><a href="#chapter1-2-3-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-plot-neg3_2"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/plot_neg_3_comma_2.png" class="contained" alt="A graph showing how to plot the point (-3, 2) by moving left and up from the origin."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph showing how to plot the point <span class="process-math">\((-3,2)\)</span> by moving left and up from the origin.<div class="autopermalink" data-description="Figure 1.2.2"><a href="#graph-plot-neg3_2" title="Copy heading and permalink for Figure 1.2.2" aria-label="Copy heading and permalink for Figure 1.2.2">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Subsubsection 1.2.1.1: Positive and Negative Signs as Directions of Travel."><a href="#chapter1-2-3-2" title="Copy heading and permalink for Subsubsection 1.2.1.1: Positive and Negative Signs as Directions of Travel." aria-label="Copy heading and permalink for Subsubsection 1.2.1.1: Positive and Negative Signs as Directions of Travel.">🔗</a></div></section><section class="subsubsection" id="subsub-Graphing-a-Point-By-Hand"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Graphing a Point By Hand</span>
+</h4>
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-2">When we look at our rectangle example for <span class="process-math">\((3,4)\)</span> from the last section, notice that there were two ways we could travel the perimeter of the rectangle to reach the point. We could travel 3 along the south edge, and then go up by 4 along the east edge. This is the standard way to plot the point. Equivalently, we could have gone up 4 along the west edge, then traveled 3 along the north edge. While technically not the standard method, there is no harm in plotting a point this way. It can be shown any point on the rectangular coordinate plane can be reached using either method.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-plot-3_4-two-ways"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-plot-3_4-standard"><img src="external/chapter-1-2/plot_3_comma_4_V1.png" class="contained" alt="A graph showing the standard way to plot the point (3, 4)."><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Standard way to plot the point <span class="process-math">\((3,4)\)</span> by moving right 3 first, then up 4.<div class="autopermalink" data-description="Figure 1.2.3.(a)"><a href="#graph-plot-3_4-standard" title="Copy heading and permalink for Figure 1.2.3.(a)" aria-label="Copy heading and permalink for Figure 1.2.3.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-plot-3_4-nonstandard"><img src="external/chapter-1-2/plot_3_comma_4_V2.png" class="contained" alt="A graph showing an alternate way to plot the point (3, 4)."><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Non-standard way to plot the point <span class="process-math">\((3,4)\)</span> by moving up 4, then right 3.<div class="autopermalink" data-description="Figure 1.2.3.(b)"><a href="#graph-plot-3_4-nonstandard" title="Copy heading and permalink for Figure 1.2.3.(b)" aria-label="Copy heading and permalink for Figure 1.2.3.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph showing two ways to plot the point <span class="process-math">\((3,4)\text{.}\)</span><div class="autopermalink" data-description="Figure 1.2.3"><a href="#graph-plot-3_4-two-ways" title="Copy heading and permalink for Figure 1.2.3" aria-label="Copy heading and permalink for Figure 1.2.3">🔗</a></div></figcaption></figure><article class="lemma theorem-like" id="lem-how-to-graph-a-point"><h5 class="heading">
+<span class="type">Procedure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">How to Graph a Point.</span>
+</h5>
+<div class="para logical" id="lem-how-to-graph-a-point-2-1">
+<div class="para">Let <span class="process-math">\((x,y)\)</span> be any point on the rectangular coordinate system. To plot the point, you can either</div>
+<ol class="decimal" id="lem-how-to-graph-a-point-2-1-2">
+<li id="lem-how-to-graph-a-point-2-1-2-1">
+<div class="para" id="p-derived-lem-how-to-graph-a-point-2-1-2-1">Travel horizontally by <span class="process-math">\(x\text{,}\)</span> then move vertically by <span class="process-math">\(y\text{,}\)</span> or</div>
+<div class="autopermalink" data-description="Item 1"><a href="#lem-how-to-graph-a-point-2-1-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="lem-how-to-graph-a-point-2-1-2-2">
+<div class="para" id="p-derived-lem-how-to-graph-a-point-2-1-2-2">Travel vertically by <span class="process-math">\(y\text{,}\)</span> then move horizontally by <span class="process-math">\(x\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#lem-how-to-graph-a-point-2-1-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#lem-how-to-graph-a-point-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Procedure 1.2.4: How to Graph a Point"><a href="#lem-how-to-graph-a-point" title="Copy heading and permalink for Procedure 1.2.4: How to Graph a Point" aria-label="Copy heading and permalink for Procedure 1.2.4: How to Graph a Point">🔗</a></div></article><div class="para" id="subsub-Graphing-a-Point-By-Hand-5">The following set of examples demonstrates how to graph points by hand in all four quadrants of the coordinate plane and on the axes.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsub-Graphing-a-Point-By-Hand-6"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Plotting in Quadrant 1.</span>
+</h5>
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-6-2-1">Plot the point <span class="process-math">\((2,4)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsub-Graphing-a-Point-By-Hand-6-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-6-3-1">Start at the origin, move 2 to the right, and then up by 4.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-6-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-plot-2_4"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/plot_2_comma_4_example_1_1_4.png" class="contained" alt="A graph showing how to plot the point (2, 4) by moving right 2 and up 4 from the origin."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph showing how to plot the point <span class="process-math">\((2,4)\)</span> by moving right 2 and up 4 from the origin.<div class="autopermalink" data-description="Figure 1.2.6"><a href="#graph-plot-2_4" title="Copy heading and permalink for Figure 1.2.6" aria-label="Copy heading and permalink for Figure 1.2.6">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.2.5.1"><a href="#subsub-Graphing-a-Point-By-Hand-6-3" title="Copy heading and permalink for Solution 1.2.5.1" aria-label="Copy heading and permalink for Solution 1.2.5.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.5: Plotting in Quadrant 1"><a href="#subsub-Graphing-a-Point-By-Hand-6" title="Copy heading and permalink for Example 1.2.5: Plotting in Quadrant 1" aria-label="Copy heading and permalink for Example 1.2.5: Plotting in Quadrant 1">🔗</a></div></article><article class="example example-like" id="subsub-Graphing-a-Point-By-Hand-7"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Plotting in Quadrant 2.</span>
+</h5>
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-7-2-1">Plot the point <span class="process-math">\((-1,3)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsub-Graphing-a-Point-By-Hand-7-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-7-3-1">Start at the origin, move 1 to the left, and then up by 3.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-7-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-plot-neg1_3"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/plot_neg_1_comma_3_example_1_1_4.png" class="contained" alt="A graph showing how to plot the point (-1, 3) by moving left 1 and up 3 from the origin."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph showing how to plot the point <span class="process-math">\((-1,3)\)</span> by moving left 1 and up 3 from the origin.<div class="autopermalink" data-description="Figure 1.2.8"><a href="#graph-plot-neg1_3" title="Copy heading and permalink for Figure 1.2.8" aria-label="Copy heading and permalink for Figure 1.2.8">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.2.7.1"><a href="#subsub-Graphing-a-Point-By-Hand-7-3" title="Copy heading and permalink for Solution 1.2.7.1" aria-label="Copy heading and permalink for Solution 1.2.7.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.7: Plotting in Quadrant 2"><a href="#subsub-Graphing-a-Point-By-Hand-7" title="Copy heading and permalink for Example 1.2.7: Plotting in Quadrant 2" aria-label="Copy heading and permalink for Example 1.2.7: Plotting in Quadrant 2">🔗</a></div></article><article class="example example-like" id="subsub-Graphing-a-Point-By-Hand-8"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Plotting in Quadrant 3.</span>
+</h5>
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-8-2-1">Plot the point <span class="process-math">\((-3,-2)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsub-Graphing-a-Point-By-Hand-8-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-8-3-1">Start at the origin, move 3 to the left, and then down by 2.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-8-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-plot-neg3_neg2"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/plot_neg_3_comma_neg_2_example_1_1_4.png" class="contained" alt="A graph showing how to plot the point (-3, -2) by moving left 3 and down 2 from the origin."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph showing how to plot the point <span class="process-math">\((-3,-2)\)</span> by moving left 3 and down 2 from the origin.<div class="autopermalink" data-description="Figure 1.2.10"><a href="#graph-plot-neg3_neg2" title="Copy heading and permalink for Figure 1.2.10" aria-label="Copy heading and permalink for Figure 1.2.10">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.2.9.1"><a href="#subsub-Graphing-a-Point-By-Hand-8-3" title="Copy heading and permalink for Solution 1.2.9.1" aria-label="Copy heading and permalink for Solution 1.2.9.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.9: Plotting in Quadrant 3"><a href="#subsub-Graphing-a-Point-By-Hand-8" title="Copy heading and permalink for Example 1.2.9: Plotting in Quadrant 3" aria-label="Copy heading and permalink for Example 1.2.9: Plotting in Quadrant 3">🔗</a></div></article><article class="example example-like" id="subsub-Graphing-a-Point-By-Hand-9"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Plotting in Quadrant 4.</span>
+</h5>
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-9-2-1">Plot the point <span class="process-math">\((4,-4)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsub-Graphing-a-Point-By-Hand-9-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-9-3-1">Start at the origin, move 4 to the right, and then down by 4.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-9-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-plot-4_neg4"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/plot_4_comma_neg_4_example_1_1_4.png" class="contained" alt="A graph showing how to plot the point (4, -4) by moving right 4 and down 4 from the origin."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph showing how to plot the point <span class="process-math">\((4,-4)\)</span> by moving right 4 and down 4 from the origin.<div class="autopermalink" data-description="Figure 1.2.12"><a href="#graph-plot-4_neg4" title="Copy heading and permalink for Figure 1.2.12" aria-label="Copy heading and permalink for Figure 1.2.12">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.2.11.1"><a href="#subsub-Graphing-a-Point-By-Hand-9-3" title="Copy heading and permalink for Solution 1.2.11.1" aria-label="Copy heading and permalink for Solution 1.2.11.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.11: Plotting in Quadrant 4"><a href="#subsub-Graphing-a-Point-By-Hand-9" title="Copy heading and permalink for Example 1.2.11: Plotting in Quadrant 4" aria-label="Copy heading and permalink for Example 1.2.11: Plotting in Quadrant 4">🔗</a></div></article><article class="example example-like" id="subsub-Graphing-a-Point-By-Hand-10"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Plotting on the <span class="process-math">\(x\)</span>-axis.</span>
+</h5>
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-10-2-1">Plot the point <span class="process-math">\((3,0)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsub-Graphing-a-Point-By-Hand-10-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-10-3-1">Start at the origin, move 3 to the right, and then stay on the <span class="process-math">\(x\)</span>-axis.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-10-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-plot-3_0"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/plot_3_comma_0_example_1_1_4.png" class="contained" alt="A graph showing how to plot the point (3, 0) by moving right 3 from the origin and staying on the x-axis."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph showing how to plot the point <span class="process-math">\((3,0)\)</span> by moving right 3 from the origin and staying on the <span class="process-math">\(x\)</span>-axis.<div class="autopermalink" data-description="Figure 1.2.14"><a href="#graph-plot-3_0" title="Copy heading and permalink for Figure 1.2.14" aria-label="Copy heading and permalink for Figure 1.2.14">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.2.13.1"><a href="#subsub-Graphing-a-Point-By-Hand-10-3" title="Copy heading and permalink for Solution 1.2.13.1" aria-label="Copy heading and permalink for Solution 1.2.13.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.13: Plotting on the x-axis"><a href="#subsub-Graphing-a-Point-By-Hand-10" title="Copy heading and permalink for Example 1.2.13: Plotting on the x-axis" aria-label="Copy heading and permalink for Example 1.2.13: Plotting on the x-axis">🔗</a></div></article><article class="example example-like" id="subsub-Graphing-a-Point-By-Hand-11"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Plotting on the <span class="process-math">\(y\)</span>-axis.</span>
+</h5>
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-11-2-1">Plot the point <span class="process-math">\((0,-2)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsub-Graphing-a-Point-By-Hand-11-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsub-Graphing-a-Point-By-Hand-11-3-1">Start at the origin, stay on the <span class="process-math">\(y\)</span>-axis, and then move down by 2.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-a-Point-By-Hand-11-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-plot-0_neg2"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/plot_0_comma_neg_2_example_1_1_4.png" class="contained" alt="A graph showing how to plot the point (0, -2) by staying on the y-axis and moving down 2 from the origin."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph showing how to plot the point <span class="process-math">\((0,-2)\)</span> by staying on the <span class="process-math">\(y\)</span>-axis and moving down 2 from the origin.<div class="autopermalink" data-description="Figure 1.2.16"><a href="#graph-plot-0_neg2" title="Copy heading and permalink for Figure 1.2.16" aria-label="Copy heading and permalink for Figure 1.2.16">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.2.15.1"><a href="#subsub-Graphing-a-Point-By-Hand-11-3" title="Copy heading and permalink for Solution 1.2.15.1" aria-label="Copy heading and permalink for Solution 1.2.15.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.15: Plotting on the y-axis"><a href="#subsub-Graphing-a-Point-By-Hand-11" title="Copy heading and permalink for Example 1.2.15: Plotting on the y-axis" aria-label="Copy heading and permalink for Example 1.2.15: Plotting on the y-axis">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 1.2.1.2: Graphing a Point By Hand"><a href="#subsub-Graphing-a-Point-By-Hand" title="Copy heading and permalink for Subsubsection 1.2.1.2: Graphing a Point By Hand" aria-label="Copy heading and permalink for Subsubsection 1.2.1.2: Graphing a Point By Hand">🔗</a></div></section><section class="subsubsection" id="subsub-Graphing-Points-Using-Technology"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Graphing Points Using Technology</span>
+</h4>
+<div class="para" id="subsub-Graphing-Points-Using-Technology-2">In this course, we will use the <a class="external" href="https://www.desmos.com/calculator" target="_blank">Desmos</a> as our graphing calculator. (An app version of Desmos is also available for both Android and iOS.) If you prefer to use a TI-84, you may visit this page to see how to graph points on a TI-84.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-Points-Using-Technology-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsub-Graphing-Points-Using-Technology-3">Graphing points in Desmos is simple! Type the point into the Input Field, and it will automatically plot it for you. Let replot our points from our last six examples all at once in Desmos.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-Points-Using-Technology-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsub-Graphing-Points-Using-Technology-4"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.17</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Plotting Points in Desmos.</span>
+</h5>
+<div class="para" id="subsub-Graphing-Points-Using-Technology-4-2-1">Plot the points <span class="process-math">\((2,4)\text{,}\)</span> <span class="process-math">\((-1,3)\text{,}\)</span> <span class="process-math">\((-3,-2)\text{,}\)</span> <span class="process-math">\((4,-4)\text{,}\)</span> <span class="process-math">\((3,0)\text{,}\)</span> and <span class="process-math">\((0,-2)\)</span> in Desmos.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-Points-Using-Technology-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsub-Graphing-Points-Using-Technology-4-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsub-Graphing-Points-Using-Technology-4-3-1">Type each point on its own separate line in the Input Panel, and the points will automatically plot on the graph.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-Points-Using-Technology-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-desmos-points"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/desmos_example_1_1_5.png" class="contained" alt="A screenshot of Desmos with all the points plotted.  Each point is entered on a separate line."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Desmos graph showing the points <span class="process-math">\((2,4)\text{,}\)</span> <span class="process-math">\((-1,3)\text{,}\)</span> <span class="process-math">\((-3,-2)\text{,}\)</span> <span class="process-math">\((4,-4)\text{,}\)</span> <span class="process-math">\((3,0)\text{,}\)</span> and <span class="process-math">\((0,-2)\text{.}\)</span><div class="autopermalink" data-description="Figure 1.2.18"><a href="#graph-desmos-points" title="Copy heading and permalink for Figure 1.2.18" aria-label="Copy heading and permalink for Figure 1.2.18">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.2.17.1"><a href="#subsub-Graphing-Points-Using-Technology-4-3" title="Copy heading and permalink for Solution 1.2.17.1" aria-label="Copy heading and permalink for Solution 1.2.17.1">🔗</a></div>
+</div></details><details id="subsub-Graphing-Points-Using-Technology-4-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsub-Graphing-Points-Using-Technology-4-4-1">
+<div class="para">You can write all the points on a single line with list notation. To create a list of points, type a square left bracket [, a comma separated list of points, and then close the list with a right square bracket ]. If you have it typed correctly, it should look like this:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+[(2,4), (-2,3), (-3,-2), (4,-4), (3,0), (0, -2)]\].
+\end{equation*}
+</div>
+<div class="para">The output will render in Desmos like this.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsub-Graphing-Points-Using-Technology-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-desmos-points-list"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/chapter-1-2/desmos_example_1_1_5_V2.png" class="contained" alt="A screenshot of Desmos with all the points plotted using list notation."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Desmos graph showing the points <span class="process-math">\((2,4)\text{,}\)</span> <span class="process-math">\((-1,3)\text{,}\)</span> <span class="process-math">\((-3,-2)\text{,}\)</span> <span class="process-math">\((4,-4)\text{,}\)</span> <span class="process-math">\((3,0)\text{,}\)</span> and <span class="process-math">\((0,-2)\)</span> plotted using list notation.<div class="autopermalink" data-description="Figure 1.2.19"><a href="#graph-desmos-points-list" title="Copy heading and permalink for Figure 1.2.19" aria-label="Copy heading and permalink for Figure 1.2.19">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.2.17.2"><a href="#subsub-Graphing-Points-Using-Technology-4-4" title="Copy heading and permalink for Solution 1.2.17.2" aria-label="Copy heading and permalink for Solution 1.2.17.2">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Example 1.2.17: Plotting Points in Desmos"><a href="#subsub-Graphing-Points-Using-Technology-4" title="Copy heading and permalink for Example 1.2.17: Plotting Points in Desmos" aria-label="Copy heading and permalink for Example 1.2.17: Plotting Points in Desmos">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 1.2.1.3: Graphing Points Using Technology"><a href="#subsub-Graphing-Points-Using-Technology" title="Copy heading and permalink for Subsubsection 1.2.1.3: Graphing Points Using Technology" aria-label="Copy heading and permalink for Subsubsection 1.2.1.3: Graphing Points Using Technology">🔗</a></div></section><section class="subsubsection" id="subsub-variables-other-than-x-y"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Using Variables Other Than <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span></span>
+</h4>
+<div class="para" id="subsub-variables-other-than-x-y-2">While using <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> is common in mathematics, when working with real-world examples, you may want to use variables to represent the quantities in the problem. Informally, we can even use words or short phrases to represent <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span> This is commonly used to label charts and reports.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsub-variables-other-than-x-y-3">The rectangular coordinate plane is also called the <dfn class="terminology"><span class="process-math">\(xy\)</span>-plane</dfn> to emphasize which variable names we are using. When using variable names other than <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> we will use the &gt;<span class="process-math">\(xy\)</span>-plane naming convention, but substitute the variables relevant to the problem context.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsub-variables-other-than-x-y-4"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.20</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Economics.</span>
+</h5>
+<div class="para" id="subsub-variables-other-than-x-y-4-2-1">If <span class="process-math">\(x\)</span> is the quantity of items produced by a factory and <span class="process-math">\(y\)</span> is the cost (in thousands of dollars) to produce those items, we could use <span class="process-math">\(q\)</span> instead of <span class="process-math">\(x\)</span> for quantity produced and <span class="process-math">\(C\)</span> instead of <span class="process-math">\(y\)</span> for the cost to produce <span class="process-math">\(q\)</span> items. Ordered pairs would be <span class="process-math">\((q,C)\)</span> plotted in the <span class="process-math">\(qC\)</span>-plane.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="graph-economics"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-economics-qc"><img src="external/chapter-1-2/economics.png" class="contained" alt="The qC-plane. The q-axis is labeled from 0 to 700 in hundreds. The C-axis is labeled from 0 to 100 by tens."><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The axes have been labeled <span class="process-math">\(q\)</span> and <span class="process-math">\(C\)</span> instead of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span><div class="autopermalink" data-description="Figure 1.2.21.(a)"><a href="#graph-economics-qc" title="Copy heading and permalink for Figure 1.2.21.(a)" aria-label="Copy heading and permalink for Figure 1.2.21.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-economics-words"><img src="external/chapter-1-2/economics_V2.png" class="contained" alt="The qC-plane. The q-axis is labeled Quantity of Items Produced. The C-axis is labeled Cost (in thousands)."><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The <span class="process-math">\(q\)</span>-axis is labeled Quantity of Items Produced. The <span class="process-math">\(C\)</span>-axis is labeled Cost (in thousands)<div class="autopermalink" data-description="Figure 1.2.21.(b)"><a href="#graph-economics-words" title="Copy heading and permalink for Figure 1.2.21.(b)" aria-label="Copy heading and permalink for Figure 1.2.21.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.21<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>We can either label the axes with variables or in words<div class="autopermalink" data-description="Figure 1.2.21"><a href="#graph-economics" title="Copy heading and permalink for Figure 1.2.21" aria-label="Copy heading and permalink for Figure 1.2.21">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Example 1.2.20: Economics"><a href="#subsub-variables-other-than-x-y-4" title="Copy heading and permalink for Example 1.2.20: Economics" aria-label="Copy heading and permalink for Example 1.2.20: Economics">🔗</a></div></article><article class="example example-like" id="subsub-variables-other-than-x-y-5"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.22</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Physics.</span>
+</h5>
+<div class="para" id="subsub-variables-other-than-x-y-5-2-1">In the study of motion, it is common to represent time and position using variables. While mathematics often uses <span class="process-math">\(x\)</span> for time and <span class="process-math">\(y\)</span> for position, physicists typically use <span class="process-math">\(t\)</span> to denote time and <span class="process-math">\(s\)</span> to represent the position of an object relative to its starting point. Thus, the motion of an object can be described using ordered pairs <span class="process-math">\((t, s)\text{,}\)</span> which are plotted in the <span class="process-math">\(ts\)</span>-plane.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="graph-physics"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-physics-ts"><img src="external/chapter-1-2/physics_v1.png" class="contained" alt="The ts-plane. The t-axis is labeled from 0 to 10 by 1s. The s-axis is labeled from 0 to 100 by 10s."><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The axes have been labeled <span class="process-math">\(t\)</span> and <span class="process-math">\(s\)</span> instead of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span><div class="autopermalink" data-description="Figure 1.2.23.(a)"><a href="#graph-physics-ts" title="Copy heading and permalink for Figure 1.2.23.(a)" aria-label="Copy heading and permalink for Figure 1.2.23.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-physics-words"><img src="external/chapter-1-2/physics_V2.png" class="contained" alt="The ts-plane. The t-axis is labeled Time (in seconds). The s-axis is labeled Position (in feet)."><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The <span class="process-math">\(t\)</span>-axis is labeled Time (in seconds). The <span class="process-math">\(s\)</span>-axis is labeled Position (in feet).<div class="autopermalink" data-description="Figure 1.2.23.(b)"><a href="#graph-physics-words" title="Copy heading and permalink for Figure 1.2.23.(b)" aria-label="Copy heading and permalink for Figure 1.2.23.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.23<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>We can either label the axes with variables or in words<div class="autopermalink" data-description="Figure 1.2.23"><a href="#graph-physics" title="Copy heading and permalink for Figure 1.2.23" aria-label="Copy heading and permalink for Figure 1.2.23">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Example 1.2.22: Physics"><a href="#subsub-variables-other-than-x-y-5" title="Copy heading and permalink for Example 1.2.22: Physics" aria-label="Copy heading and permalink for Example 1.2.22: Physics">🔗</a></div></article><article class="example example-like" id="subsub-variables-other-than-x-y-6"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.24</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Biology.</span>
+</h5>
+<div class="para" id="subsub-variables-other-than-x-y-6-2-1">In a biology experiment, let <span class="process-math">\(d\)</span> represent the number of days since a seed was planted, and let <span class="process-math">\(h\)</span> be the height of the plant (in centimeters) after <span class="process-math">\(d\)</span> days. Ordered pairs would be <span class="process-math">\((d, h)\text{,}\)</span> plotted in the <span class="process-math">\(dh\)</span>-plane.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="graph-biology"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-biology-dh"><img src="external/chapter-1-2/biology_v1.png" class="contained" alt="The dh-plane. The d-axis is labeled from 0 to 10 by 1s. The h-axis is labeled from 0 to 50 by 5s."><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The axes have been labeled <span class="process-math">\(d\)</span> and <span class="process-math">\(h\)</span> instead of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span><div class="autopermalink" data-description="Figure 1.2.25.(a)"><a href="#graph-biology-dh" title="Copy heading and permalink for Figure 1.2.25.(a)" aria-label="Copy heading and permalink for Figure 1.2.25.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="graph-biology-words"><img src="external/chapter-1-2/biology_V2.png" class="contained" alt="The dh-plane. The d-axis is labeled Days Since Planted. The h-axis is labeled Height (in centimeters)."><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The <span class="process-math">\(d\)</span>-axis is labeled Days Since Planted. The <span class="process-math">\(h\)</span>-axis is labeled Height (in centimeters).<div class="autopermalink" data-description="Figure 1.2.25.(b)"><a href="#graph-biology-words" title="Copy heading and permalink for Figure 1.2.25.(b)" aria-label="Copy heading and permalink for Figure 1.2.25.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>We can either label the axes with variables or in words<div class="autopermalink" data-description="Figure 1.2.25"><a href="#graph-biology" title="Copy heading and permalink for Figure 1.2.25" aria-label="Copy heading and permalink for Figure 1.2.25">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Example 1.2.24: Biology"><a href="#subsub-variables-other-than-x-y-6" title="Copy heading and permalink for Example 1.2.24: Biology" aria-label="Copy heading and permalink for Example 1.2.24: Biology">🔗</a></div></article><div class="para" id="subsub-variables-other-than-x-y-7">Now that you have seen several examples of how to use other variables, let’s try do a full example from psychology.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsub-variables-other-than-x-y-8"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Psychology.</span>
+</h5>
+<div class="para logical" id="subsub-variables-other-than-x-y-8-2-1">
+<div class="para">In a psychology study, researchers recorded data about participants’ daily screen time and reported stress levels. Let <span class="process-math">\(x\)</span> represent the average number of hours of screen time per day, and let <span class="process-math">\(y\)</span> represent the participant’s stress level on a scale from 1 to 10.</div>
+<ul class="disc" id="subsub-variables-other-than-x-y-8-2-1-3">
+<li id="subsub-variables-other-than-x-y-8-2-1-3-1">
+<div class="para" id="p-derived-subsub-variables-other-than-x-y-8-2-1-3-1">What variable names might better represent these quantities than using <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{?}\)</span> What would the ordered pairs be instead of <span class="process-math">\((x, y)\text{?}\)</span> What would we call the <span class="process-math">\(xy\)</span>-plane when we use these variables?</div>
+<div class="autopermalink" data-description="Item"><a href="#subsub-variables-other-than-x-y-8-2-1-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsub-variables-other-than-x-y-8-2-1-3-2">
+<div class="para" id="p-derived-subsub-variables-other-than-x-y-8-2-1-3-2">Suppose the study reports the point <span class="process-math">\((5, 8)\text{.}\)</span> Interpret this point in the context of the study.</div>
+<div class="autopermalink" data-description="Item"><a href="#subsub-variables-other-than-x-y-8-2-1-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsub-variables-other-than-x-y-8-2-1-3-3">
+<div class="para" id="p-derived-subsub-variables-other-than-x-y-8-2-1-3-3">One participant reported using screens for 2.5 hours in a day and had a stress level of 4. Write this information as a coordinate point. Then graph the point on the same coordinate plane as <span class="process-math">\((5, 8)\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsub-variables-other-than-x-y-8-2-1-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsub-variables-other-than-x-y-8-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsub-variables-other-than-x-y-8-3-1">
+<ul class="disc" id="subsub-variables-other-than-x-y-8-3-1-1">
+<li id="subsub-variables-other-than-x-y-8-3-1-1-1">
+<div class="para" id="subsub-variables-other-than-x-y-8-3-1-1-1-1">A better variable name for average daily screen time could be <span class="process-math">\(h\)</span> for screen time in hours, and a better variable name for stress level could be <span class="process-math">\(S\)</span> for stress level. The ordered pairs would be <span class="process-math">\((h,S)\text{,}\)</span> and we would call the <span class="process-math">\(hS\)</span>-plane the screen time-stress level plane.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-8-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsub-variables-other-than-x-y-8-3-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsub-variables-other-than-x-y-8-3-1-1-2">
+<div class="para" id="subsub-variables-other-than-x-y-8-3-1-1-2-1">The point <span class="process-math">\((5, 8)\)</span> means that <span class="process-math">\(h = 5\)</span> and <span class="process-math">\(S = 8\text{.}\)</span> Therefore, a participant who used screens for an average of 5 hours per day reported a stress level of 8 on the 1–10 scale.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-8-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsub-variables-other-than-x-y-8-3-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsub-variables-other-than-x-y-8-3-1-1-3">
+<div class="para" id="subsub-variables-other-than-x-y-8-3-1-1-3-1">Since the participant reported an average screen time of 2.5 hours, we have that <span class="process-math">\(h = 2.5\text{.}\)</span> Their stress level is a 4; therefore, <span class="process-math">\(S = 4\text{.}\)</span> Since our points are of the form <span class="process-math">\((h, S)\text{,}\)</span> we should use the ordered pair <span class="process-math">\((2.5, 4)\)</span> to represent this individual.<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-8-3-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsub-variables-other-than-x-y-8-3-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsub-variables-other-than-x-y-8-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.26.1"><a href="#subsub-variables-other-than-x-y-8-3" title="Copy heading and permalink for Solution 1.2.26.1" aria-label="Copy heading and permalink for Solution 1.2.26.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.26: Psychology"><a href="#subsub-variables-other-than-x-y-8" title="Copy heading and permalink for Example 1.2.26: Psychology" aria-label="Copy heading and permalink for Example 1.2.26: Psychology">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 1.2.1.4: Using Variables Other Than x and y"><a href="#subsub-variables-other-than-x-y" title="Copy heading and permalink for Subsubsection 1.2.1.4: Using Variables Other Than x and y" aria-label="Copy heading and permalink for Subsubsection 1.2.1.4: Using Variables Other Than x and y">🔗</a></div></section><div class="autopermalink" data-description="Subsection 1.2.1: Graphing a Point by Hand"><a href="#chapter1-2-3" title="Copy heading and permalink for Subsection 1.2.1: Graphing a Point by Hand" aria-label="Copy heading and permalink for Subsection 1.2.1: Graphing a Point by Hand">🔗</a></div></section><div class="autopermalink" data-description="Section 1.2: Graphing Points on the Coordinate Plane"><a href="#chapter1-2" title="Copy heading and permalink for Section 1.2: Graphing Points on the Coordinate Plane" aria-label="Copy heading and permalink for Section 1.2: Graphing Points on the Coordinate Plane">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="chapter1-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="chapter1-3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
