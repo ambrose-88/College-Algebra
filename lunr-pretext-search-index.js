@@ -1666,6 +1666,519 @@ var ptx_lunr_docs = [
   "body": " Maximizing Revenue in Game Design   A mobile game sells for and attracts downloads. For every increase in price, downloads decrease by . Find the maximum revenue, the price that maximizes revenue, and the number of downloads at that price.    The price that maximizes revenue is , yielding approximately downloads. The maximum revenue is     Let represent the number of increases. Then the price is , and the number of downloads is .  The revenue is the price of the video game times the number of downloads. Converting that into symbols and simplifying, we get the following calculation: Since the value of is negative, the parabola opens downward, and the -coordinate of the vertex is the maximum profit. To find the value of at the vertex, we first find the value of at the vertex using the formula The following calculation shows how to do this: Now, we substitute into the revenue equation to find the maximum revenue: Thus, the maximum revenue is , which occurs when . To find the price that maximizes revenue, we substitute into the price equation: Therefore, the price that maximizes revenue is . To find the number of downloads, we perform the following calculation: Therefore, the number of downloads at that price is approximately    "
 },
 {
+  "id": "polynomial-functions",
+  "level": "1",
+  "url": "polynomial-functions.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "Polynomial Functions",
+  "body": " Polynomial Functions    "
+},
+{
+  "id": "end-behavior-polynomial-functions",
+  "level": "1",
+  "url": "end-behavior-polynomial-functions.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "End Behavior of Polynomial Functions",
+  "body": " End Behavior of Polynomial Functions    "
+},
+{
+  "id": "zeroes-and-multiplicity",
+  "level": "1",
+  "url": "zeroes-and-multiplicity.html",
+  "type": "Section",
+  "number": "5.3",
+  "title": "Zeros and Multiplicity",
+  "body": " Zeros and Multiplicity    "
+},
+{
+  "id": "turning-points",
+  "level": "1",
+  "url": "turning-points.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Turning Points",
+  "body": " Turning Points    "
+},
+{
+  "id": "polynomial-increasing-decreasing",
+  "level": "1",
+  "url": "polynomial-increasing-decreasing.html",
+  "type": "Section",
+  "number": "5.5",
+  "title": "Where are Polynomial Functions Increasing and Decreasing?",
+  "body": " Where are Polynomial Functions Increasing and Decreasing?    "
+},
+{
+  "id": "graphing-polynomials",
+  "level": "1",
+  "url": "graphing-polynomials.html",
+  "type": "Section",
+  "number": "5.6",
+  "title": "Graphing Polynomial Functions",
+  "body": " Graphing Polynomial Functions    "
+},
+{
+  "id": "polynomial-long-division",
+  "level": "1",
+  "url": "polynomial-long-division.html",
+  "type": "Section",
+  "number": "5.7",
+  "title": "Polynomial Long Division",
+  "body": " Polynomial Long Division    "
+},
+{
+  "id": "synthetic-division",
+  "level": "1",
+  "url": "synthetic-division.html",
+  "type": "Section",
+  "number": "5.8",
+  "title": "Synthetic Division",
+  "body": " Synthetic Division    "
+},
+{
+  "id": "remainder-factor-theroems",
+  "level": "1",
+  "url": "remainder-factor-theroems.html",
+  "type": "Section",
+  "number": "5.9",
+  "title": "The Remainder and Factor Theorems",
+  "body": " The Remainder and Factor Theorems    "
+},
+{
+  "id": "text-for-pm-one",
+  "level": "1",
+  "url": "text-for-pm-one.html",
+  "type": "Section",
+  "number": "5.10",
+  "title": "The Test for <span class=\"process-math\">\\(\\pm 1\\)<\/span>",
+  "body": " The Test for    "
+},
+{
+  "id": "rational-zeroes-theorem",
+  "level": "1",
+  "url": "rational-zeroes-theorem.html",
+  "type": "Section",
+  "number": "5.11",
+  "title": "The Rational Root Theorem",
+  "body": " The Rational Root Theorem    "
+},
+{
+  "id": "irrational-zeroes",
+  "level": "1",
+  "url": "irrational-zeroes.html",
+  "type": "Section",
+  "number": "5.12",
+  "title": "The Irrational Zeroes of a Polynomial",
+  "body": " The Irrational Zeroes of a Polynomial    "
+},
+{
+  "id": "intermediate-value-theorem",
+  "level": "1",
+  "url": "intermediate-value-theorem.html",
+  "type": "Section",
+  "number": "5.13",
+  "title": "Intermediate Value Theorem",
+  "body": " Intermediate Value Theorem    "
+},
+{
+  "id": "complex-zeroes",
+  "level": "1",
+  "url": "complex-zeroes.html",
+  "type": "Section",
+  "number": "5.14",
+  "title": "The Complex Zeroes of a Polynomial",
+  "body": " The Complex Zeroes of a Polynomial    "
+},
+{
+  "id": "fundamental-theorem-of-algebra",
+  "level": "1",
+  "url": "fundamental-theorem-of-algebra.html",
+  "type": "Section",
+  "number": "5.15",
+  "title": "The Fundamental Theorem of Algebra",
+  "body": " The Fundamental Theorem of Algebra    "
+},
+{
+  "id": "polynomial-inequalities",
+  "level": "1",
+  "url": "polynomial-inequalities.html",
+  "type": "Section",
+  "number": "5.16",
+  "title": "Solving Polynomial Inequalities",
+  "body": " Solving Polynomial Inequalities    "
+},
+{
+  "id": "rational-functions",
+  "level": "1",
+  "url": "rational-functions.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Rational Functions",
+  "body": " Rational Functions    "
+},
+{
+  "id": "zeroes-rational-functions",
+  "level": "1",
+  "url": "zeroes-rational-functions.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "The Zeros of Rational Functions",
+  "body": " The Zeros of Rational Functions    "
+},
+{
+  "id": "vertical-horizontal-asymptotes",
+  "level": "1",
+  "url": "vertical-horizontal-asymptotes.html",
+  "type": "Section",
+  "number": "6.3",
+  "title": "Vertical and Horinzontal Asymptotes",
+  "body": " Vertical and Horinzontal Asymptotes    "
+},
+{
+  "id": "holes-rational-functions",
+  "level": "1",
+  "url": "holes-rational-functions.html",
+  "type": "Section",
+  "number": "6.4",
+  "title": "Holes in Rational Functions",
+  "body": " Holes in Rational Functions    "
+},
+{
+  "id": "end-behavior-rational",
+  "level": "1",
+  "url": "end-behavior-rational.html",
+  "type": "Section",
+  "number": "6.5",
+  "title": "The End Behavior of a Rational Function",
+  "body": " The End Behavior of a Rational Function    "
+},
+{
+  "id": "rational-inequalities",
+  "level": "1",
+  "url": "rational-inequalities.html",
+  "type": "Section",
+  "number": "6.6",
+  "title": "Rational Inequalities",
+  "body": " Rational Inequalities    "
+},
+{
+  "id": "library-of-functions",
+  "level": "1",
+  "url": "library-of-functions.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "The Library of Functions",
+  "body": " The Library of Functions   This section summarizes the properties of common functions that are the building blocks for other, more compilcated functions.    The Constant Function      The Identity Function      The Power Function ( odd case)      The Power Function ( even case)      The Root Function ( odd case)      The Root Function ( even case)      The Absolute Value Function     "
+},
+{
+  "id": "vertical-translations",
+  "level": "1",
+  "url": "vertical-translations.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "How to Move Functions Up and Down",
+  "body": " How to Move Functions Up and Down    "
+},
+{
+  "id": "horizontal-translations",
+  "level": "1",
+  "url": "horizontal-translations.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "How to Move Functions Left and Right",
+  "body": " How to Move Functions Left and Right    "
+},
+{
+  "id": "vertical-stretch-compress",
+  "level": "1",
+  "url": "vertical-stretch-compress.html",
+  "type": "Section",
+  "number": "7.4",
+  "title": "How to Stretch and Shrink Functions Vertically",
+  "body": " How to Stretch and Shrink Functions Vertically    "
+},
+{
+  "id": "horizontal-stretch-shrink",
+  "level": "1",
+  "url": "horizontal-stretch-shrink.html",
+  "type": "Section",
+  "number": "7.5",
+  "title": "How to Stretch and Shrink Functions Horizontally",
+  "body": " How to Stretch and Shrink Functions Horizontally    "
+},
+{
+  "id": "vertical-reflection",
+  "level": "1",
+  "url": "vertical-reflection.html",
+  "type": "Section",
+  "number": "7.6",
+  "title": "How to Reflect Functions Vertically",
+  "body": " How to Reflect Functions Vertically    "
+},
+{
+  "id": "horizontal-reflections",
+  "level": "1",
+  "url": "horizontal-reflections.html",
+  "type": "Section",
+  "number": "7.7",
+  "title": "How to Reflect Functions Horizontally",
+  "body": " How to Reflect Functions Horizontally    "
+},
+{
+  "id": "graphing-multiple-transformations",
+  "level": "1",
+  "url": "graphing-multiple-transformations.html",
+  "type": "Section",
+  "number": "7.8",
+  "title": "Graphing Multiple Transformations at Once",
+  "body": " Graphing Multiple Transformations at Once    "
+},
+{
+  "id": "piecewise-defined-functions",
+  "level": "1",
+  "url": "piecewise-defined-functions.html",
+  "type": "Section",
+  "number": "7.9",
+  "title": "Piecewise-Defined Functions",
+  "body": " Piecewise-Defined Functions    "
+},
+{
+  "id": "arithmetic-operations-functions",
+  "level": "1",
+  "url": "arithmetic-operations-functions.html",
+  "type": "Section",
+  "number": "7.10",
+  "title": "Arithmetic Operations and Functions",
+  "body": " Arithmetic Operations and Functions    "
+},
+{
+  "id": "composition-functions",
+  "level": "1",
+  "url": "composition-functions.html",
+  "type": "Section",
+  "number": "7.11",
+  "title": "The Composition of Functions",
+  "body": " The Composition of Functions    "
+},
+{
+  "id": "one-to-one-functions",
+  "level": "1",
+  "url": "one-to-one-functions.html",
+  "type": "Section",
+  "number": "7.12",
+  "title": "One-to-One Functions",
+  "body": " One-to-One Functions    "
+},
+{
+  "id": "inverse-functions",
+  "level": "1",
+  "url": "inverse-functions.html",
+  "type": "Section",
+  "number": "7.13",
+  "title": "The Inverse of a Function",
+  "body": " The Inverse of a Function    "
+},
+{
+  "id": "exponential-functions",
+  "level": "1",
+  "url": "exponential-functions.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Exponential Functions",
+  "body": " Exponential Functions    "
+},
+{
+  "id": "properties-exponential-functions",
+  "level": "1",
+  "url": "properties-exponential-functions.html",
+  "type": "Section",
+  "number": "8.2",
+  "title": "The Properties of Exponential Functions",
+  "body": " The Properties of Exponential Functions    "
+},
+{
+  "id": "graphing-exponential-functions",
+  "level": "1",
+  "url": "graphing-exponential-functions.html",
+  "type": "Section",
+  "number": "8.3",
+  "title": "Graphing Exponential Functions",
+  "body": " Graphing Exponential Functions    "
+},
+{
+  "id": "the-number-e",
+  "level": "1",
+  "url": "the-number-e.html",
+  "type": "Section",
+  "number": "8.4",
+  "title": "The Number <span class=\"process-math\">\\(e\\)<\/span>",
+  "body": " The Number    "
+},
+{
+  "id": "logarithmic-functions",
+  "level": "1",
+  "url": "logarithmic-functions.html",
+  "type": "Section",
+  "number": "8.5",
+  "title": "Logarithmic Functions",
+  "body": " Logarithmic Functions    "
+},
+{
+  "id": "properties-logarithmic-functions",
+  "level": "1",
+  "url": "properties-logarithmic-functions.html",
+  "type": "Section",
+  "number": "8.6",
+  "title": "The Properties of Logarithmic Functions",
+  "body": " The Properties of Logarithmic Functions    "
+},
+{
+  "id": "graphing-logarithmic-functions",
+  "level": "1",
+  "url": "graphing-logarithmic-functions.html",
+  "type": "Section",
+  "number": "8.7",
+  "title": "Graphing Logarithmic Functions",
+  "body": " Graphing Logarithmic Functions    "
+},
+{
+  "id": "cancellation-properties-logarithms",
+  "level": "1",
+  "url": "cancellation-properties-logarithms.html",
+  "type": "Section",
+  "number": "8.8",
+  "title": "The Cancellation Properties of Logarithms",
+  "body": " The Cancellation Properties of Logarithms    "
+},
+{
+  "id": "evaluating-logarithmic-functions",
+  "level": "1",
+  "url": "evaluating-logarithmic-functions.html",
+  "type": "Section",
+  "number": "8.9",
+  "title": "Evaluating Logarithmic Functions",
+  "body": " Evaluating Logarithmic Functions    "
+},
+{
+  "id": "solving-exponential-equations",
+  "level": "1",
+  "url": "solving-exponential-equations.html",
+  "type": "Section",
+  "number": "8.10",
+  "title": "Solving Equations Involving Exponential Functions",
+  "body": " Solving Equations Involving Exponential Functions    "
+},
+{
+  "id": "laws-logarithms",
+  "level": "1",
+  "url": "laws-logarithms.html",
+  "type": "Section",
+  "number": "8.11",
+  "title": "The Laws of Logarithms",
+  "body": " The Laws of Logarithms    "
+},
+{
+  "id": "solving-logarithmic-equations",
+  "level": "1",
+  "url": "solving-logarithmic-equations.html",
+  "type": "Section",
+  "number": "8.12",
+  "title": "Solving Equations Involving Exponential Functions",
+  "body": " Solving Equations Involving Exponential Functions    "
+},
+{
+  "id": "applications-exponential-logarithmic",
+  "level": "1",
+  "url": "applications-exponential-logarithmic.html",
+  "type": "Section",
+  "number": "8.13",
+  "title": "Applications of Exponential and Logarithmic Functions",
+  "body": " Applications of Exponential and Logarithmic Functions    "
+},
+{
+  "id": "systems-of-linear-equations",
+  "level": "1",
+  "url": "systems-of-linear-equations.html",
+  "type": "Section",
+  "number": "9.1",
+  "title": "Systems of Linear Equations",
+  "body": " Systems of Linear Equations    "
+},
+{
+  "id": "substitution-method",
+  "level": "1",
+  "url": "substitution-method.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "The Substitution Method",
+  "body": " The Substitution Method    "
+},
+{
+  "id": "elimination-method",
+  "level": "1",
+  "url": "elimination-method.html",
+  "type": "Section",
+  "number": "9.3",
+  "title": "The Elimination Method",
+  "body": " The Elimination Method    "
+},
+{
+  "id": "matrix-method",
+  "level": "1",
+  "url": "matrix-method.html",
+  "type": "Section",
+  "number": "9.4",
+  "title": "The Matrix Method",
+  "body": " The Matrix Method    "
+},
+{
+  "id": "systems-of-inequalities",
+  "level": "1",
+  "url": "systems-of-inequalities.html",
+  "type": "Section",
+  "number": "9.5",
+  "title": "Graphing the Solution Set to a System of Inequalities",
+  "body": " Graphing the Solution Set to a System of Inequalities    "
+},
+{
+  "id": "solving-non-linear-systems",
+  "level": "1",
+  "url": "solving-non-linear-systems.html",
+  "type": "Section",
+  "number": "9.6",
+  "title": "Solving Nonlinear Systems of Equations",
+  "body": " Solving Nonlinear Systems of Equations    "
+},
+{
+  "id": "binomial-coefficients",
+  "level": "1",
+  "url": "binomial-coefficients.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "Binomial Coefficients",
+  "body": " Binomial Coefficients    "
+},
+{
+  "id": "pascals-triangle",
+  "level": "1",
+  "url": "pascals-triangle.html",
+  "type": "Section",
+  "number": "10.2",
+  "title": "Pascal’s Triangle",
+  "body": " Pascal's Triangle    "
+},
+{
+  "id": "binomial-theorem",
+  "level": "1",
+  "url": "binomial-theorem.html",
+  "type": "Section",
+  "number": "10.3",
+  "title": "The Binomial Theorem",
+  "body": " The Binomial Theorem    "
+},
+{
   "id": "chapter-1-notes",
   "level": "1",
   "url": "chapter-1-notes.html",
