@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial Functions</title>
+ <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="polynomial-functions.ptx"/>
+  <xi:include href="end-behavior-polynomials.ptx"/>
+  <xi:include href="zeroes-and-multiplicity.ptx"/>
+  <xi:include href="turning-points.ptx"/>
+  <xi:include href="polynomial-increasing-decreasing.ptx"/>
+  <xi:include href="graphing-polynomials.ptx"/>
+  <xi:include href="polynomial-long-division.ptx"/>
+  <xi:include href="synthetic-division.ptx"/>
+  <xi:include href="remainder-factor-theorems.ptx"/>
+  <xi:include href="test-for-pm-one.ptx"/>
+  <xi:include href="rational-zeroes-theorem.ptx"/>
+  <xi:include href="irrational-zeroes.ptx"/>
+  <xi:include href="intermediate-value-theorem.ptx" />
+  <xi:include href="complex-zeroes.ptx"/>
+  <xi:include href="fundamental-theorem-of-algebra.ptx"/>
+  <xi:include href="polynomial-inequalities.ptx"/>
+</chapter>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter8" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential and Logarithmic Functions</title>
+ <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="exponential-functions.ptx"/>
+  <xi:include href="properties-exponential-functions.ptx"/>
+  <xi:include href="graphing-exponential-functions.ptx"/>
+  <xi:include href="the-number-e.ptx"/>
+  <xi:include href="logarithmic-functions.ptx"/>
+  <xi:include href="properties-logarithmic-functions.ptx"/>
+  <xi:include href="graphing-logaritmic-functions.ptx"/>
+  <xi:include href="logarithmic-cancellation-properties.ptx"/>
+  <xi:include href="evaluating-logarithms.ptx"/>
+  <xi:include href="solving-exponential-equations.ptx"/>
+  <xi:include href="laws-of-logarithms.ptx"/>
+  <xi:include href="solving-logarithmic-equations.ptx"/>
+  <xi:include href="applications-exponential-logarithmic.ptx"/>
+
+</chapter>

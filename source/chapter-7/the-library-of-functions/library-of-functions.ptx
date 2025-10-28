@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="library-of-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Library of Functions</title>
+  <introduction>
+    <p>
+      This section summarizes the properties of common functions that are the building blocks for other, more compilcated functions.
+    </p>
+  </introduction>
+    <xi:include href="constant-function.ptx"/>
+    <xi:include href="identity-function.ptx"/>
+    <xi:include href="odd-power-functions.ptx"/>
+    <xi:include href="even-power-functions.ptx"/>
+    <xi:include href="odd-root-functions.ptx"/>
+    <xi:include href="even-root-functions.ptx"/>
+    <xi:include href="absolute-value-function.ptx"/>
+</section>

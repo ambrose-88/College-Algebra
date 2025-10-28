@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter7" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Creating New Functions from Old Functions</title>
+ <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="./the-library-of-functions/library-of-functions.ptx"/>
+  <xi:include href="vertical-translation.ptx"/>
+  <xi:include href="horizontal-translation.ptx"/>
+  <xi:include href="vertical-stretch-shrink.ptx"/>
+  <xi:include href="horizontal-stretch-shrink.ptx"/>
+  <xi:include href="vertical-reflection.ptx"/>
+  <xi:include href="horizontal-reflection.ptx"/>
+  <xi:include href="graphing-functions-multiple-transformations.ptx"/>
+  <xi:include href="piecewise-defined-functions.ptx"/>
+  <xi:include href="arithmetic-operations-functions.ptx"/>
+  <xi:include href="composition-of-functions.ptx"/>
+  <xi:include href="one-to-one-functions.ptx"/>
+  <xi:include href="inverse-functions.ptx"/>
+
+</chapter>

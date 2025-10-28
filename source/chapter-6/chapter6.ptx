@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter6" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Rational Functions</title>
+ <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="rational-functions.ptx"/>
+  <xi:include href="zeroes-of-rational-functions.ptx"/>
+  <xi:include href="vertial-and-horizontal-asymptotes.ptx"/>
+  <xi:include href="holes-rational-functions.ptx"/>
+  <xi:include href="end-behavior-rational-functions.ptx"/>
+  <xi:include href="rational-inequalities.ptx"/>
+</chapter>

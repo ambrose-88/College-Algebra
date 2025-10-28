@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter9" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Systems of Equations and Inequalities</title>
+ <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="systems-of-linear-equations.ptx"/>
+  <xi:include href="substitution-method.ptx"/>
+  <xi:include href="elimination-method.ptx"/>
+  <xi:include href="matrix-method.ptx"/>
+  <xi:include href="system-of-inequalities.ptx"/>
+  <xi:include href="non-linear-systems.ptx"/>
+</chapter>
