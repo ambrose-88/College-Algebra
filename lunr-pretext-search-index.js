@@ -1672,7 +1672,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Polynomial Functions",
-  "body": " Polynomial Functions    "
+  "body": " Polynomial Functions   Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .      Before exploring the properties of polynomial functions, we need to be able to identify which functions are polynomials.   Identifying Polynomial Functions   Which of the following functions are polynomial?            This is a polynomial function with , , , and .  This is a polynomial function with .  While this function is quadratic-in-form, this function is not a polynomial function since the exponents are not integers.  While this function is quadratic-in-form, this is not a polynomial function since a variable appears under a square root.      Now that we have a sense of which functions are polynomials, we need to be able to identify the degree, leading term, leading coefficient, and the constant term at a glance since features of the polynomial determine many (but not all) of the important features of its graph.   Identifying the Key Parts of a Polynomial, Version 1   Let . Find the degree, leading term, leading coefficient, and constant term.      Degree:  Leading Term:  Leading Coefficient:  Constant Term:       Identifying the Key Parts of a Polynomial, Version 2   Let . Find the degree, leading term, leading coefficient, and constant term.    Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.    Degree:  Leading Term:  Leading Coefficient:  Constant Term:       Identifying the Key Parts of a Polynomial, Version 3   Let . Find the degree, leading term, leading coefficient, and constant term.    Every real number can be written as since . Therefore, horizontal lines such as are also degree 0 polynomials, since the highest power of is 0.    Degree:  Leading Term:  Leading Coefficient:  Constant Term:       Identifying the Key Parts of a Factored Polynomial   Let Find the degree, leading term, and constant term.    While this seems harder, the solution is very straightforward.  First, we find the leading term by ignoring the and in the factors to get the product Now that we have the leading term, we see that the degree is and the leading coefficient is .  To find the constant term, we just ignore the in each factor and multiply to get     "
+},
+{
+  "id": "polynomial-function",
+  "level": "2",
+  "url": "polynomial-functions.html#polynomial-function",
+  "type": "Definition",
+  "number": "5.1.1",
+  "title": "Polynomial Function.",
+  "body": " Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .     "
+},
+{
+  "id": "identifying-polynomial-functions",
+  "level": "2",
+  "url": "polynomial-functions.html#identifying-polynomial-functions",
+  "type": "Example",
+  "number": "5.1.2",
+  "title": "Identifying Polynomial Functions.",
+  "body": " Identifying Polynomial Functions   Which of the following functions are polynomial?            This is a polynomial function with , , , and .  This is a polynomial function with .  While this function is quadratic-in-form, this function is not a polynomial function since the exponents are not integers.  While this function is quadratic-in-form, this is not a polynomial function since a variable appears under a square root.     "
+},
+{
+  "id": "identifying-key-parts-polynomial-v1",
+  "level": "2",
+  "url": "polynomial-functions.html#identifying-key-parts-polynomial-v1",
+  "type": "Example",
+  "number": "5.1.3",
+  "title": "Identifying the Key Parts of a Polynomial, Version 1.",
+  "body": " Identifying the Key Parts of a Polynomial, Version 1   Let . Find the degree, leading term, leading coefficient, and constant term.      Degree:  Leading Term:  Leading Coefficient:  Constant Term:     "
+},
+{
+  "id": "identifying-key-parts-polynomial-v2",
+  "level": "2",
+  "url": "polynomial-functions.html#identifying-key-parts-polynomial-v2",
+  "type": "Example",
+  "number": "5.1.4",
+  "title": "Identifying the Key Parts of a Polynomial, Version 2.",
+  "body": " Identifying the Key Parts of a Polynomial, Version 2   Let . Find the degree, leading term, leading coefficient, and constant term.    Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.    Degree:  Leading Term:  Leading Coefficient:  Constant Term:     "
+},
+{
+  "id": "identifying-key-parts-polynomial-v3",
+  "level": "2",
+  "url": "polynomial-functions.html#identifying-key-parts-polynomial-v3",
+  "type": "Example",
+  "number": "5.1.5",
+  "title": "Identifying the Key Parts of a Polynomial, Version 3.",
+  "body": " Identifying the Key Parts of a Polynomial, Version 3   Let . Find the degree, leading term, leading coefficient, and constant term.    Every real number can be written as since . Therefore, horizontal lines such as are also degree 0 polynomials, since the highest power of is 0.    Degree:  Leading Term:  Leading Coefficient:  Constant Term:     "
+},
+{
+  "id": "identifying-key-parts-of-a-factored-polynomial",
+  "level": "2",
+  "url": "polynomial-functions.html#identifying-key-parts-of-a-factored-polynomial",
+  "type": "Example",
+  "number": "5.1.6",
+  "title": "Identifying the Key Parts of a Factored Polynomial.",
+  "body": " Identifying the Key Parts of a Factored Polynomial   Let Find the degree, leading term, and constant term.    While this seems harder, the solution is very straightforward.  First, we find the leading term by ignoring the and in the factors to get the product Now that we have the leading term, we see that the degree is and the leading coefficient is .  To find the constant term, we just ignore the in each factor and multiply to get    "
 },
 {
   "id": "end-behavior-polynomial-functions",
@@ -1681,7 +1735,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "End Behavior of Polynomial Functions",
-  "body": " End Behavior of Polynomial Functions    "
+  "body": " End Behavior of Polynomial Functions  When graphing a polynomial or any other type of function, we focus on illustrating its key features and allow the curve to exit the visible region once its overall direction is clear. The pattern that describes how the values of increase or decrease as approaches is known as the end behavior of the function. In particular, polynomials have four different types of end behavior. The Leading Coefficient Test gives an efficient way to quickly tell which of the four different end behaviors a polynomial has.   The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.    If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.     If and is odd, then   will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.    If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.         Using the Leading Coefficient Test, version 1   Determine the end behavior of .    Since this is an odd degree polynomial with a positive leading coefficient, the graph will rise to the right and fall to the left.   The graph of .       Using the Leading Coefficient Test, version 2   Determine the end behavior of .    Since this is an odd degree polynomial with a negative leading coefficient, the graph will fall to the right and rise to the left.   The graph of .       Using the Leading Coefficient Test, version 3   Determine the end behavior of .    Since this is an even degree polynomial with a positive leading coefficient, the graph will rise to the right and rise to the left.   The graph of .       Using the Leading Coefficient Test, version 4   Determine the end behavior of .    Since this is an even degree polynomial with a negative leading coefficient, the graph will fall to the right and fall to the left.   The graph of .      "
+},
+{
+  "id": "end-behavior-polynomial-functions-2",
+  "level": "2",
+  "url": "end-behavior-polynomial-functions.html#end-behavior-polynomial-functions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "end behavior "
+},
+{
+  "id": "leading-coefficient-test",
+  "level": "2",
+  "url": "end-behavior-polynomial-functions.html#leading-coefficient-test",
+  "type": "Theorem",
+  "number": "5.2.1",
+  "title": "The Leading Coefficient Test.",
+  "body": " The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.    If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.     If and is odd, then   will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.    If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.       "
+},
+{
+  "id": "using-leading-coefficient-test-v1",
+  "level": "2",
+  "url": "end-behavior-polynomial-functions.html#using-leading-coefficient-test-v1",
+  "type": "Example",
+  "number": "5.2.4",
+  "title": "Using the Leading Coefficient Test, version 1.",
+  "body": " Using the Leading Coefficient Test, version 1   Determine the end behavior of .    Since this is an odd degree polynomial with a positive leading coefficient, the graph will rise to the right and fall to the left.   The graph of .     "
+},
+{
+  "id": "using-leading-coefficient-test-v1b",
+  "level": "2",
+  "url": "end-behavior-polynomial-functions.html#using-leading-coefficient-test-v1b",
+  "type": "Example",
+  "number": "5.2.6",
+  "title": "Using the Leading Coefficient Test, version 2.",
+  "body": " Using the Leading Coefficient Test, version 2   Determine the end behavior of .    Since this is an odd degree polynomial with a negative leading coefficient, the graph will fall to the right and rise to the left.   The graph of .     "
+},
+{
+  "id": "using-leading-coefficient-test-v3",
+  "level": "2",
+  "url": "end-behavior-polynomial-functions.html#using-leading-coefficient-test-v3",
+  "type": "Example",
+  "number": "5.2.8",
+  "title": "Using the Leading Coefficient Test, version 3.",
+  "body": " Using the Leading Coefficient Test, version 3   Determine the end behavior of .    Since this is an even degree polynomial with a positive leading coefficient, the graph will rise to the right and rise to the left.   The graph of .     "
+},
+{
+  "id": "using-leading-coefficient-test-v4",
+  "level": "2",
+  "url": "end-behavior-polynomial-functions.html#using-leading-coefficient-test-v4",
+  "type": "Example",
+  "number": "5.2.10",
+  "title": "Using the Leading Coefficient Test, version 4.",
+  "body": " Using the Leading Coefficient Test, version 4   Determine the end behavior of .    Since this is an even degree polynomial with a negative leading coefficient, the graph will fall to the right and fall to the left.   The graph of .     "
 },
 {
   "id": "zeroes-and-multiplicity",
@@ -1690,7 +1798,115 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Zeros and Multiplicity",
-  "body": " Zeros and Multiplicity    "
+  "body": " Zeros and Multiplicity   The Complete Linear Factorization of  The ultimate goal of this chapter is to find the complete linear factorization of a polynomial function .    The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .    Let's think about what this statement says.    There is a relationship between factoring and solutions to polynomial equations.  A degree polynomial function has solutions.  Since the can be the same value, a solution can be “repeated.”  Since this statement is a theorem, there is a proof that this complete linear factorization can always be found.    While the proof is beyond the scope of this course, our main focus is on the first implication: there is a relationship between factoring and solving equations. We already this relationship in Chapter 4: the Zero Product Theorem. We also said in Chapter 4 that the Zero Product Theorem works no matter how many factors there are. That means if then finding the solution to the equation is equivalent to solving the equations   This is very abstract. So, let's look at a concrete example of this idea in action.   Using the Complete Linear Factorization to Solve an Equation   The complete linear factorization of the polynomial function is Use the complete linear factorization of the function to solve the equation .              We will replace the original definition of with its complete linear factorization and then use the Zero Product Property to solve the equation.         It is mysterious, though, how we went from to None of our factoring techniques show us how to factor this polynomial. Starting in , we will develop techniques that will allow us to factor these types of polynomials. But, for the moment, we will explore the relationship between the solutions of and the -intercepts of the graph of .    The Zeroes of a Polynomial Function   A complex number is a zero of a polynomial function if .    Zeros are also called the roots or solutions of the polynomial equation .   Wait — a complex number ? You might ask yourself if that is a typo, but that is correct. Some of the in our complete linear factorization will be complex! Let's look at two examples and see how this plays out.   Finding the zeroes of a polynomial function with distinct, real zeroes   Find the zeroes of the polynomial             “Find the zeroes of ” is another way to say “solve the equation ” Therefore, we get the following calculation.       Now, you might note that is not of the form , which is required for the complete linear factorization. There is a theorem that helps us with that.   Rewriting Linear Factors that Have Rational Solutions   Any linear factor of the form can always be rewritten as .    In other words, we could have rewritten as , but that requires an extra step that is really not necessary when we are solving for .  Now, let's solve an equation with complex solutions.   Finding the zeroes of a polynomial function with one real solution and two complex solutions   Find the zeroes of the function             Since this is a sum of cubes formula, we will first apply that formula.     Notice that the factor is irreducible since its discriminant is negative. But if we allow complex solutions, we can use the quadratic formula to find the complex solutions without having to factor over the complex numbers. The calculation for the quadratic formula is given below.     Now, we can finish solving the equation.        We did not write out the complete linear factorization when solving since this tends to confuse students at first. For the record, the complete linear factorization is Also, notice that we have see products like before in .     The Multiplicity of a Zero  When we stated , we mentioned that the solutions to the polynomial equation can be repeated. This leads to the idea of multiplicity, which has two major uses in this chapter:   Visualizing how the graph of a polynomial crosses or bounces off the -axis.    As a trick to simplify solving polynomial inequalities.   We first start by defining multiplicity.   The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .       Let's illustrate this definition with an example.   Finding the Multiplicities of a Factored Polynomial   Let . Find the zeroes and their multiplicities.      has multiplicity  has multiplicity  has multiplicity      To find the zeroes, we will set and use the Zero Product Property.     To find the multiplicity of the zeroes, we just have to look back at which factor generated each solution.    Since came from the factor and , the multiplicity of is .  Since came from the factor , the multiplicity of is .  Since came from the factor and , the multiplicity of is .  Note that both and are repeated zeroes since their multiplicities are greater than 1.      Visualizing Zeroes as -intercepts  The real zeroes of a polynomial correspond to the -intercepts of the graph. On top of that, the multiplicity of the zero also dictates the shape of the graph near the -intercept. The key feature is not the exact value of the multiplicity—it is whether the multiplicity is , an odd number greater than , or an even number.   The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.         Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.       There is a zero at with even multiplicity. The graph will bounce off the -axis at .    There is a zero at with odd multiplicity. The graph will cross the -axis at .        "
+},
+{
+  "id": "complete-linear-factorization-theorem",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#complete-linear-factorization-theorem",
+  "type": "Theorem",
+  "number": "5.3.1",
+  "title": "",
+  "body": "  The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .   "
+},
+{
+  "id": "using-complete-linear-factorization",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#using-complete-linear-factorization",
+  "type": "Example",
+  "number": "5.3.2",
+  "title": "Using the Complete Linear Factorization to Solve an Equation.",
+  "body": " Using the Complete Linear Factorization to Solve an Equation   The complete linear factorization of the polynomial function is Use the complete linear factorization of the function to solve the equation .              We will replace the original definition of with its complete linear factorization and then use the Zero Product Property to solve the equation.        "
+},
+{
+  "id": "zero-of-a-polynomial",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#zero-of-a-polynomial",
+  "type": "Definition",
+  "number": "5.3.3",
+  "title": "",
+  "body": " A complex number is a zero of a polynomial function if .  "
+},
+{
+  "id": "zeros-alternate-names",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#zeros-alternate-names",
+  "type": "Note",
+  "number": "5.3.4",
+  "title": "",
+  "body": " Zeros are also called the roots or solutions of the polynomial equation .  "
+},
+{
+  "id": "finding-zeroes-distinct-real",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#finding-zeroes-distinct-real",
+  "type": "Example",
+  "number": "5.3.5",
+  "title": "Finding the zeroes of a polynomial function with distinct, real zeroes.",
+  "body": " Finding the zeroes of a polynomial function with distinct, real zeroes   Find the zeroes of the polynomial             “Find the zeroes of ” is another way to say “solve the equation ” Therefore, we get the following calculation.      "
+},
+{
+  "id": "rewriting-linear-factors",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#rewriting-linear-factors",
+  "type": "Theorem",
+  "number": "5.3.6",
+  "title": "Rewriting Linear Factors that Have Rational Solutions.",
+  "body": " Rewriting Linear Factors that Have Rational Solutions   Any linear factor of the form can always be rewritten as .   "
+},
+{
+  "id": "finding-zeroes-one-real-two-complex",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#finding-zeroes-one-real-two-complex",
+  "type": "Example",
+  "number": "5.3.7",
+  "title": "Finding the zeroes of a polynomial function with one real solution and two complex solutions.",
+  "body": " Finding the zeroes of a polynomial function with one real solution and two complex solutions   Find the zeroes of the function             Since this is a sum of cubes formula, we will first apply that formula.     Notice that the factor is irreducible since its discriminant is negative. But if we allow complex solutions, we can use the quadratic formula to find the complex solutions without having to factor over the complex numbers. The calculation for the quadratic formula is given below.     Now, we can finish solving the equation.      "
+},
+{
+  "id": "complete-linear-factorization-clarification",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#complete-linear-factorization-clarification",
+  "type": "Note",
+  "number": "5.3.8",
+  "title": "",
+  "body": " We did not write out the complete linear factorization when solving since this tends to confuse students at first. For the record, the complete linear factorization is Also, notice that we have see products like before in .  "
+},
+{
+  "id": "multiplicity-of-a-zero-definition",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#multiplicity-of-a-zero-definition",
+  "type": "Definition",
+  "number": "5.3.9",
+  "title": "The Multiplicity of a Zero.",
+  "body": " The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .      "
+},
+{
+  "id": "finding-multiplicities-of-a-factored-polynomial",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#finding-multiplicities-of-a-factored-polynomial",
+  "type": "Example",
+  "number": "5.3.10",
+  "title": "Finding the Multiplicities of a Factored Polynomial.",
+  "body": " Finding the Multiplicities of a Factored Polynomial   Let . Find the zeroes and their multiplicities.      has multiplicity  has multiplicity  has multiplicity      To find the zeroes, we will set and use the Zero Product Property.     To find the multiplicity of the zeroes, we just have to look back at which factor generated each solution.    Since came from the factor and , the multiplicity of is .  Since came from the factor , the multiplicity of is .  Since came from the factor and , the multiplicity of is .  Note that both and are repeated zeroes since their multiplicities are greater than 1.   "
+},
+{
+  "id": "shape-of-graph-near-x-intercept",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#shape-of-graph-near-x-intercept",
+  "type": "Theorem",
+  "number": "5.3.11",
+  "title": "The Shape of the Graph Near an <span class=\"process-math\">\\(x\\)<\/span>-intercept.",
+  "body": " The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.       "
+},
+{
+  "id": "determine-cross-or-bounce-at-x-intercept",
+  "level": "2",
+  "url": "zeroes-and-multiplicity.html#determine-cross-or-bounce-at-x-intercept",
+  "type": "Example",
+  "number": "5.3.15",
+  "title": "Determine if the Graph Will Cross or Bounce at an <span class=\"process-math\">\\(x\\)<\/span>-intercept.",
+  "body": " Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.       There is a zero at with even multiplicity. The graph will bounce off the -axis at .    There is a zero at with odd multiplicity. The graph will cross the -axis at .      "
 },
 {
   "id": "turning-points",
@@ -1725,8 +1941,8 @@ var ptx_lunr_docs = [
   "url": "polynomial-long-division.html",
   "type": "Section",
   "number": "5.7",
-  "title": "Polynomial Long Division",
-  "body": " Polynomial Long Division    "
+  "title": "The Division Algorithm for Polynomials",
+  "body": " The Division Algorithm for Polynomials    "
 },
 {
   "id": "synthetic-division",
@@ -2924,6 +3140,159 @@ var ptx_lunr_docs = [
   "number": "A.4.4.8",
   "title": "Maximizing Revenue in Game Design.",
   "body": " Maximizing Revenue in Game Design   A mobile game sells for and attracts downloads. For every increase in price, downloads decrease by . Find the maximum revenue, the price that maximizes revenue, and the number of downloads at that price.   "
+},
+{
+  "id": "chapter-5-lecture-notes",
+  "level": "1",
+  "url": "chapter-5-lecture-notes.html",
+  "type": "Section",
+  "number": "A.5",
+  "title": "Chapter 5 Lecture Notes",
+  "body": " Chapter 5 Lecture Notes   Properties of Polynomial Functions   Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form . There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .       Identifying Polynomial Functions   Which of the following functions are polynomial?             Identifying the Key Parts of a Polynomial, Version 2   Let . Find the degree, leading term, leading coefficient, and constant term.   Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.    Identifying the Key Parts of a Polynomial, Version 3   Let . Find the degree, leading term, leading coefficient, and constant term.   Every real number can be written as since . Therefore, horizontal lines such as are also degree 0 polynomials, since the highest power of is 0.    Identifying the Key Parts of a Factored Polynomial   Let . Find the degree, leading term, and constant term.   While this seems harder, the solution is very straightforward.  First, we find the leading term by ignoring the and in the factors to get the product Now that we have the leading term, we see that the degree is and the leading coefficient is .  To find the constant term, we just ignore the in each factor and multiply to get    The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.     If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.      If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.      If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.         Using the Leading Coefficient Test, Version 3   Determine the end behavior of .      The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .    Let's think about what this statement says.    There is a relationship between factoring and solutions to polynomial equations.  A degree polynomial function has solutions.  Since the can be the same value, a solution can be “repeated.”  Since this statement is a theorem, there is a proof that this complete linear factorization can always be found.     Using the Complete Linear Factorization to Solve an Equation   The complete linear factorization of the polynomial function is Use the complete linear factorization of the function to solve the equation .     A complex number is a zero of a polynomial function if .    Zeros are also called the roots or solutions of the polynomial equation .    Finding the zeroes of a polynomial function with one real solution and two complex solutions   Find the zeroes of the function     The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .        Finding the Multiplicities of a Factored Polynomial   Let . Find the zeroes and their multiplicities.     The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.         Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.     "
+},
+{
+  "id": "lecture-notes-polynomial-function",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-polynomial-function",
+  "type": "Definition",
+  "number": "A.5.1",
+  "title": "Polynomial Function.",
+  "body": " Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form . There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .     "
+},
+{
+  "id": "lecture-notes-identifying-polynomial-functions",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-identifying-polynomial-functions",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.1",
+  "title": "Identifying Polynomial Functions.",
+  "body": " Identifying Polynomial Functions   Which of the following functions are polynomial?           "
+},
+{
+  "id": "lecture-notes-identifying-key-parts-polynomial-v2",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-identifying-key-parts-polynomial-v2",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.2",
+  "title": "Identifying the Key Parts of a Polynomial, Version 2.",
+  "body": " Identifying the Key Parts of a Polynomial, Version 2   Let . Find the degree, leading term, leading coefficient, and constant term.   Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.  "
+},
+{
+  "id": "lecture-notes-identifying-key-parts-polynomial-v3",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-identifying-key-parts-polynomial-v3",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.3",
+  "title": "Identifying the Key Parts of a Polynomial, Version 3.",
+  "body": " Identifying the Key Parts of a Polynomial, Version 3   Let . Find the degree, leading term, leading coefficient, and constant term.   Every real number can be written as since . Therefore, horizontal lines such as are also degree 0 polynomials, since the highest power of is 0.  "
+},
+{
+  "id": "lecture-notes-identifying-key-parts-of-a-factored-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-identifying-key-parts-of-a-factored-polynomial",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.4",
+  "title": "Identifying the Key Parts of a Factored Polynomial.",
+  "body": " Identifying the Key Parts of a Factored Polynomial   Let . Find the degree, leading term, and constant term.   While this seems harder, the solution is very straightforward.  First, we find the leading term by ignoring the and in the factors to get the product Now that we have the leading term, we see that the degree is and the leading coefficient is .  To find the constant term, we just ignore the in each factor and multiply to get  "
+},
+{
+  "id": "lecture-notes-leading-coefficient-test",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-leading-coefficient-test",
+  "type": "Theorem",
+  "number": "A.5.2",
+  "title": "The Leading Coefficient Test.",
+  "body": " The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.     If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.      If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.      If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.       "
+},
+{
+  "id": "lecture-notes-using-leading-coefficient-test-v3",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-using-leading-coefficient-test-v3",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.5",
+  "title": "Using the Leading Coefficient Test, Version 3.",
+  "body": " Using the Leading Coefficient Test, Version 3   Determine the end behavior of .   "
+},
+{
+  "id": "lecture-notes-complete-linear-factorization-theorem",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-complete-linear-factorization-theorem",
+  "type": "Theorem",
+  "number": "A.5.5",
+  "title": "",
+  "body": "  The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .   "
+},
+{
+  "id": "lecture-notes-using-complete-linear-factorization",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-using-complete-linear-factorization",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.6",
+  "title": "Using the Complete Linear Factorization to Solve an Equation.",
+  "body": " Using the Complete Linear Factorization to Solve an Equation   The complete linear factorization of the polynomial function is Use the complete linear factorization of the function to solve the equation .   "
+},
+{
+  "id": "lecture-notes-zero-of-a-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-zero-of-a-polynomial",
+  "type": "Definition",
+  "number": "A.5.6",
+  "title": "",
+  "body": " A complex number is a zero of a polynomial function if .  "
+},
+{
+  "id": "lecture-notes-zeros-alternate-names",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-zeros-alternate-names",
+  "type": "Note",
+  "number": "A.5.7",
+  "title": "",
+  "body": " Zeros are also called the roots or solutions of the polynomial equation .  "
+},
+{
+  "id": "lecture-notes-finding-zeroes-one-real-two-complex",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-finding-zeroes-one-real-two-complex",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.7",
+  "title": "Finding the zeroes of a polynomial function with one real solution and two complex solutions.",
+  "body": " Finding the zeroes of a polynomial function with one real solution and two complex solutions   Find the zeroes of the function   "
+},
+{
+  "id": "lecture-notes-multiplicity-of-a-zero-definition",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-multiplicity-of-a-zero-definition",
+  "type": "Definition",
+  "number": "A.5.8",
+  "title": "The Multiplicity of a Zero.",
+  "body": " The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .      "
+},
+{
+  "id": "lecture-notes-finding-multiplicities-of-a-factored-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-finding-multiplicities-of-a-factored-polynomial",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.8",
+  "title": "Finding the Multiplicities of a Factored Polynomial.",
+  "body": " Finding the Multiplicities of a Factored Polynomial   Let . Find the zeroes and their multiplicities.   "
+},
+{
+  "id": "lecture-notes-shape-of-graph-near-x-intercept",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-shape-of-graph-near-x-intercept",
+  "type": "Theorem",
+  "number": "A.5.9",
+  "title": "The Shape of the Graph Near an <span class=\"process-math\">\\(x\\)<\/span>-intercept.",
+  "body": " The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.       "
+},
+{
+  "id": "lecture-notes-determine-cross-or-bounce-at-x-intercept",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-determine-cross-or-bounce-at-x-intercept",
+  "type": "Worksheet Exercise",
+  "number": "A.5.1.9",
+  "title": "Determine if the Graph Will Cross or Bounce at an <span class=\"process-math\">\\(x\\)<\/span>-intercept.",
+  "body": " Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.   "
 },
 {
   "id": "backmatter-3",
