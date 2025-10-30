@@ -11,4 +11,5 @@
     <xi:include href="./chapter-2-notes.ptx"/>
     <xi:include href="./chapter-3-notes.ptx"/>
     <xi:include href="./chapter-4-notes.ptx"/>
+    <xi:include href="./chapter-5-notes.ptx"/>
 </appendix>

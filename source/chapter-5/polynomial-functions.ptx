@@ -1,6 +1,133 @@
 <section xml:id="polynomial-functions">
     <title>Polynomial Functions</title>
+    <definition xml:id="polynomial-function">
+  <title>Polynomial Function</title>
+
+  <statement>
     <p>
-        
+        Let <m>a_n</m>, <m>a_{n-1}</m>, <m>\ldots</m>, <m>a_2</m>, <m>a_1</m>, <m>a_0</m> be any real numbers with <m>a_n \ne 0</m> and an integer <m>n\geq 0</m>. 
+        The <term>standard form of a polynomial function</term> is any function of the form <me>p(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_2 x^2 + a_1 x + a_0</me>
+        There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.
+      <ul>
+        <li><p>The highest power of <m>x</m> is called the <term>degree</term> of the polynomial function. The degree of a generic function is denoted as <m>n</m>.</p></li>       
+        <li><p>The term containing the highest power of <m>x</m> is called the <term>leading term</term>. The leading term of a generic polynomial function is denoted as <m>a_n x^n</m>.</p></li>
+        <li><p><m>a_n</m> is called the <term>leading coefficient</term>.</p></li>
+        <li><p>The term without any variables is called the <term>constant term</term>. The constant term of a generic polynomial is denoted as <m>a_0</m>.</p></li>
+      </ul>
     </p>
+  </statement>
+</definition>
+<p>Before exploring the properties of polynomial functions, we need to be able to identify which functions are polynomials.</p>
+
+<example xml:id="identifying-polynomial-functions">
+  <title>Identifying Polynomial Functions</title>
+  <statement>
+    <p>Which of the following functions are polynomial?
+    <ul>
+      <li><p><m>p(x) = 7x^3 + 8x^2 + 2x - 1</m></p></li>
+      <li><p><m>q(x) = 8</m></p></li>
+      <li><p><m>r(x) = 8x^{-2} + 3x^{-1} + 4</m></p></li>
+      <li><p><m>s(x) = 12x + 4\sqrt{x} + 2</m></p></li>
+    </ul>
+    </p>
+  </statement>
+
+  <solution>
+    <p>
+    <ul>
+      <li><p>This is a polynomial function with <m>a_3 = 7</m>, <m>a_2 = 8</m>, <m>a_1 = 2</m>, and <m>a_0 = -1</m>.</p></li>
+      <li><p>This is a polynomial function with <m>a_0 = 8</m>.</p></li>
+      <li><p>While this function is quadratic-in-form, this function is not a polynomial function since the exponents are not integers.</p></li>
+      <li><p>While this function is quadratic-in-form, this is not a polynomial function since a variable appears under a square root.</p></li>
+    </ul>
+</p>
+  </solution>
+</example>
+<p>Now that we have a sense of which functions are polynomials, we need to be able to identify the degree, leading term, leading coefficient, and the constant term at a glance since features of the polynomial determine many (but not all) of the important features of its graph.</p>
+
+<example xml:id="identifying-key-parts-polynomial-v1">
+  <title>Identifying the Key Parts of a Polynomial, Version 1</title>
+
+  <statement>
+    <p>Let <m>p(x) = 8x^4 - 9x^3 + 7x^2 - 2x + 1</m>. Find the degree, leading term, leading coefficient, and constant term.</p>
+  </statement>
+
+  <solution>
+    <p>
+      <ul>
+        <li><p>Degree: <m>4</m></p></li>
+        <li><p>Leading Term: <m>8x^4</m></p></li>
+        <li><p>Leading Coefficient: <m>8</m></p></li>
+        <li><p>Constant Term: <m>1</m></p></li>
+      </ul>
+    </p>
+  </solution>
+</example>
+<example xml:id="identifying-key-parts-polynomial-v2">
+  <title>Identifying the Key Parts of a Polynomial, Version 2</title>
+
+  <statement>
+    <p>Let <m>p(x) = 5x^3 - 4 - 2x^2 + 11x^7 - 2x^8 + 9x</m>. Find the degree, leading term, leading coefficient, and constant term.</p>
+  </statement>
+
+  <solution>
+    <p>
+        Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. 
+        Only certain techniques, such as polynomial long division or synthetic division, rely on that order. 
+        Therefore, do not assume the leading or constant terms will always appear first and last.</p>
+
+    <p>
+      <ul>
+        <li><p>Degree: <m>8</m></p></li>
+        <li><p>Leading Term: <m>-2x^8</m></p></li>
+        <li><p>Leading Coefficient: <m>-2</m></p></li>
+        <li><p>Constant Term: <m>-4</m></p></li>
+      </ul>
+    </p>
+  </solution>
+</example>
+<example xml:id="identifying-key-parts-polynomial-v3">
+  <title>Identifying the Key Parts of a Polynomial, Version 3</title>
+
+  <statement>
+    <p>Let <m>p(x) = 12</m>. Find the degree, leading term, leading coefficient, and constant term.</p>
+  </statement>
+
+  <solution>
+    <p>Every real number <m>a_0</m> can be written as <m>a_0 x^0</m> since <m>x^0 = 1</m>. Therefore, horizontal lines such as <m>f(x) = 12</m> are also degree 0 polynomials, since the highest power of <m>x</m> is 0.</p>
+
+    <p>
+      <ul>
+        <li><p>Degree: <m>0</m></p></li>
+        <li><p>Leading Term: <m>12</m></p></li>
+        <li><p>Leading Coefficient: <m>12</m></p></li>
+        <li><p>Constant Term: <m>12</m></p></li>
+      </ul>
+    </p>
+  </solution>
+</example>
+<example xml:id="identifying-key-parts-of-a-factored-polynomial">
+  <title>Identifying the Key Parts of a Factored Polynomial</title>
+
+  <statement>
+    <p>Let <m>p(x)=4(x-2)^2(x-1)^3.</m> Find the degree, leading term, and constant term.</p>
+  </statement>
+
+  <solution>
+    <p>
+      While this seems harder, the solution is very straightforward.
+    </p>
+    <p>
+      First, we find the leading term by ignoring the <m>-2</m> and <m>-1</m> in the factors to get the product
+      <me>4\cdot(x)^2\cdot(x)^3=4x^5.</me>
+      Now that we have the leading term, we see that the degree is <m>5</m> and the leading coefficient is <m>4</m>.
+    </p>
+
+    <p>
+      To find the constant term, we just ignore the <m>x</m> in each factor and multiply to get
+      <me>4\cdot(-2)^2\cdot(-1)^3=-16.</me>
+    </p>
+  </solution>
+</example>
+
 </section>
