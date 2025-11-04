@@ -3355,7 +3355,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "A.5",
   "title": "Chapter 5 Lecture Notes",
-  "body": " Chapter 5 Lecture Notes   Properties of Polynomial Functions   Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form . There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .       Identifying Polynomial Functions   Which of the following functions are polynomial?             Identifying the Key Parts of a Polynomial, Version 2   Let . Find the degree, leading term, leading coefficient, and constant term.   Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.    Identifying the Key Parts of a Polynomial, Version 3   Let . Find the degree, leading term, leading coefficient, and constant term.   Every real number can be written as since . Therefore, horizontal lines such as are also degree 0 polynomials, since the highest power of is 0.    Identifying the Key Parts of a Factored Polynomial   Let . Find the degree, leading term, and constant term.   While this seems harder, the solution is very straightforward.  First, we find the leading term by ignoring the and in the factors to get the product Now that we have the leading term, we see that the degree is and the leading coefficient is .  To find the constant term, we just ignore the in each factor and multiply to get    The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.     If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.      If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.      If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.         Using the Leading Coefficient Test, Version 3   Determine the end behavior of .      The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .    Let's think about what this statement says.    There is a relationship between factoring and solutions to polynomial equations.  A degree polynomial function has solutions.  Since the can be the same value, a solution can be “repeated.”  Since this statement is a theorem, there is a proof that this complete linear factorization can always be found.     Using the Complete Linear Factorization to Solve an Equation   The complete linear factorization of the polynomial function is Use the complete linear factorization of the function to solve the equation .     A complex number is a zero of a polynomial function if .    Zeros are also called the roots or solutions of the polynomial equation .    Finding the zeroes of a polynomial function with one real solution and two complex solutions   Find the zeroes of the function     The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .        Finding the Multiplicities of a Factored Polynomial   Let . Find the zeroes and their multiplicities.     The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.         Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.     "
+  "body": " Chapter 5 Lecture Notes   Properties of Polynomial Functions   Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form . There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .       Identifying Polynomial Functions   Which of the following functions are polynomial?             Identifying the Key Parts of a Polynomial, Version 2   Let . Find the degree, leading term, leading coefficient, and constant term.   Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.    Identifying the Key Parts of a Polynomial, Version 3   Let . Find the degree, leading term, leading coefficient, and constant term.   Every real number can be written as since . Therefore, horizontal lines such as are also degree 0 polynomials, since the highest power of is 0.    Identifying the Key Parts of a Factored Polynomial   Let . Find the degree, leading term, and constant term.   While this seems harder, the solution is very straightforward.  First, we find the leading term by ignoring the and in the factors to get the product Now that we have the leading term, we see that the degree is and the leading coefficient is .  To find the constant term, we just ignore the in each factor and multiply to get    The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.     If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.      If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.      If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.         Using the Leading Coefficient Test, Version 3   Determine the end behavior of .      The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .    Let's think about what this statement says.    There is a relationship between factoring and solutions to polynomial equations.  A degree polynomial function has solutions.  Since the can be the same value, a solution can be “repeated.”  Since this statement is a theorem, there is a proof that this complete linear factorization can always be found.     Using the Complete Linear Factorization to Solve an Equation   The complete linear factorization of the polynomial function is Use the complete linear factorization of the function to solve the equation .     A complex number is a zero of a polynomial function if .    Zeros are also called the roots or solutions of the polynomial equation .    Finding the zeroes of a polynomial function with one real solution and two complex solutions   Find the zeroes of the function     The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .        Finding the Multiplicities of a Factored Polynomial   Let . Find the zeroes and their multiplicities.     The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.         Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.      Graphing and Factor Theorem Notes   Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.  Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (local extrema).       Graphing a Degree 3 Polynomial   Graph the function .    Consider the following graph of .   The graph of .    While it is clear from the graph that we have two -intercepts: and , try to solve using any of the techniques we have learned so far. You will see that they all fail. Furthermore, the polynomial factors nicely as . Again, no factoring technique we have learned will factor this polynomial.   The Division Algorithm for Natural Numbers   Let and be natural numbers (nonzero, positive, whole numbers). Then there exist two unique numbers, a quotient  and a remainder  , such that , where .  is known as the dividend .  is known as the divisor .      The Division Algorithm gives us a way to define division in terms of multiplication and addition for any two numbers and . We find the values and using long division . Our next two examples show us what happens.   Long Division with a Zero Remainder   Use long division to divide by . Then express the result using the Division Algorithm.     The Zero Polynomial   The zero polynomial is the polynomial whose value is zero for every value of . We write the zero polynomial as for all real numbers .     Don’t confuse the zero polynomial with solving a polynomial equation . While the notations are identical, the contexts are very different. Thankfully, these concepts don’t typically come into direct contact with one another, so the context of the problem will tell you which version of the notation we are using.    The Division Algorithm   Let and be polynomials, where is not the zero polynomial. Then there exist unique polynomials, a quotient  and a remainder  , such that   where the degree of is less than the degree of .  is called the dividend .  is called the divisor .       Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.     Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.    Recall that we are looking for a way to factor any polynomial function as . Since we have seen that there is a relationship between factoring and dividing, notice that all our factors look like minus a number. So, let’s look at how dividing by and the Division Algorithm work together.  But polynomial long division, as we have seen, can be long, tedious, and cumbersome to write. It turns out that when we divide by , there is a shorthand version of polynomial long division called synthetic division that can make this process faster and less error-prone. Instead of writing a step-by-step method, we will just illustrate how this works in the next three examples.   Synthetic Division, First Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     Synthetic Division, Second Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     Synthetic Division, Third Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     The Remainder Theorem   Let be any polynomial function and let for some real number . Then the remainder is equal to .     Evaluating a Polynomial Using the Remainder Theorem   Let . Evaluate .     The Factor Theorem   Let be any polynomial function. The following two statements are equivalent to each other.  is a zero of .  is a factor of .      Since we just proved that factoring is another way to find solutions to polynomial equations,  We don't have to set polynomials equal to zero to solve them; we just need to factor them. This alleviates the confusion between solving an equation and simplifying an expression.  If we know a zero of the polynomial, we can use Synthetic or Polynomial Long Division to find the other factor that doesn't correspond to the zero. This helps us factor higher-degree polynomials.     Factoring a Degree 4 Polynomial   Suppose you know that and are zeroes of the polynomial . Find the other zeroes of the polynomial.    The overall technique we will use is  Find any zero of .  Use synthetic division to factor the polynomial.  Repeat steps 1 and 2 until you end with a quadratic factor.  Use the methods from Chapter 4 to find the remaining two solutions (if they exist).     "
 },
 {
   "id": "lecture-notes-polynomial-function",
@@ -3500,6 +3500,177 @@ var ptx_lunr_docs = [
   "number": "A.5.1.9",
   "title": "Determine if the Graph Will Cross or Bounce at an <span class=\"process-math\">\\(x\\)<\/span>-intercept.",
   "body": " Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.   "
+},
+{
+  "id": "lecture-notes-graphing-polynomial-functions",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-graphing-polynomial-functions",
+  "type": "Procedure",
+  "number": "A.5.13",
+  "title": "Graphing Polynomial Functions.",
+  "body": " Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.  Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (local extrema).     "
+},
+{
+  "id": "lecture-notes-graphing-a-degree-3-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-graphing-a-degree-3-polynomial",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.1",
+  "title": "Graphing a Degree 3 Polynomial.",
+  "body": " Graphing a Degree 3 Polynomial   Graph the function .   "
+},
+{
+  "id": "ws-factor-theorem-5",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#ws-factor-theorem-5",
+  "type": "Figure",
+  "number": "A.5.14",
+  "title": "",
+  "body": " The graph of .   "
+},
+{
+  "id": "lecture-notes-division-algorithm-natural-numbers",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-division-algorithm-natural-numbers",
+  "type": "Theorem",
+  "number": "A.5.15",
+  "title": "The Division Algorithm for Natural Numbers.",
+  "body": " The Division Algorithm for Natural Numbers   Let and be natural numbers (nonzero, positive, whole numbers). Then there exist two unique numbers, a quotient  and a remainder  , such that , where .  is known as the dividend .  is known as the divisor .     "
+},
+{
+  "id": "ws-factor-theorem-8",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#ws-factor-theorem-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "long division "
+},
+{
+  "id": "lecture-notes-long-division-136-by-4",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-long-division-136-by-4",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.2",
+  "title": "Long Division with a Zero Remainder.",
+  "body": " Long Division with a Zero Remainder   Use long division to divide by . Then express the result using the Division Algorithm.   "
+},
+{
+  "id": "lecture-notes-zero-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-zero-polynomial",
+  "type": "Definition",
+  "number": "A.5.16",
+  "title": "The Zero Polynomial.",
+  "body": " The Zero Polynomial   The zero polynomial is the polynomial whose value is zero for every value of . We write the zero polynomial as for all real numbers .   "
+},
+{
+  "id": "ws-factor-theorem-11",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#ws-factor-theorem-11",
+  "type": "Note",
+  "number": "A.5.17",
+  "title": "",
+  "body": " Don’t confuse the zero polynomial with solving a polynomial equation . While the notations are identical, the contexts are very different. Thankfully, these concepts don’t typically come into direct contact with one another, so the context of the problem will tell you which version of the notation we are using.  "
+},
+{
+  "id": "lecture-notes-division-algorithm-polynomials",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-division-algorithm-polynomials",
+  "type": "Theorem",
+  "number": "A.5.18",
+  "title": "The Division Algorithm.",
+  "body": " The Division Algorithm   Let and be polynomials, where is not the zero polynomial. Then there exist unique polynomials, a quotient  and a remainder  , such that   where the degree of is less than the degree of .  is called the dividend .  is called the divisor .     "
+},
+{
+  "id": "lecture-notes-polynomial-long-division-x2plus3xminus1-by-xplus4",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-polynomial-long-division-x2plus3xminus1-by-xplus4",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.3",
+  "title": "Polynomial Long Division Example.",
+  "body": " Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.   "
+},
+{
+  "id": "lecture-notes-even-polynomial-long-division",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-even-polynomial-long-division",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.4",
+  "title": "Polynomial Long Division Example.",
+  "body": " Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.   "
+},
+{
+  "id": "ws-factor-theorem-16",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#ws-factor-theorem-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "synthetic division "
+},
+{
+  "id": "lecture-notes-synthetic-division-first-example",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-synthetic-division-first-example",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.5",
+  "title": "Synthetic Division, First Example.",
+  "body": " Synthetic Division, First Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.   "
+},
+{
+  "id": "lecture-notes-synthetic-division-second-example",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-synthetic-division-second-example",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.6",
+  "title": "Synthetic Division, Second Example.",
+  "body": " Synthetic Division, Second Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.   "
+},
+{
+  "id": "lecture-notes-synthetic-division-third-example",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-synthetic-division-third-example",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.7",
+  "title": "Synthetic Division, Third Example.",
+  "body": " Synthetic Division, Third Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.   "
+},
+{
+  "id": "lecture-notes-remainder-theorem",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-remainder-theorem",
+  "type": "Theorem",
+  "number": "A.5.19",
+  "title": "The Remainder Theorem.",
+  "body": " The Remainder Theorem   Let be any polynomial function and let for some real number . Then the remainder is equal to .   "
+},
+{
+  "id": "lecture-notes-evaluating-a-polynomial-using-the-remainder-theorem",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-evaluating-a-polynomial-using-the-remainder-theorem",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.8",
+  "title": "Evaluating a Polynomial Using the Remainder Theorem.",
+  "body": " Evaluating a Polynomial Using the Remainder Theorem   Let . Evaluate .   "
+},
+{
+  "id": "lecture-notes-thm-the-factor-theorem",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-thm-the-factor-theorem",
+  "type": "Theorem",
+  "number": "A.5.20",
+  "title": "The Factor Theorem.",
+  "body": " The Factor Theorem   Let be any polynomial function. The following two statements are equivalent to each other.  is a zero of .  is a factor of .     "
+},
+{
+  "id": "lecture-notes-factoring-a-degree-4-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-factoring-a-degree-4-polynomial",
+  "type": "Worksheet Exercise",
+  "number": "A.5.2.9",
+  "title": "Factoring a Degree 4 Polynomial.",
+  "body": " Factoring a Degree 4 Polynomial   Suppose you know that and are zeroes of the polynomial . Find the other zeroes of the polynomial.   "
 },
 {
   "id": "backmatter-3",
