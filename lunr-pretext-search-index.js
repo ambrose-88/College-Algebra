@@ -1915,7 +1915,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Turning Points",
-  "body": " Turning Points    "
+  "body": " Turning Points   Turning Points and Local Extrema   Turning Points   The turning points of a polynomial function are the local extrema of the function.    Why do we call the local extrema of the function turning points? Think of the graph as a road twisting through the countryside. At certain points, we have to turn to the left or right and make a sharp turn. The graph of the function does this as well: instead of turning left and right, we are turning sharply from increasing to decreasing or vice versa. The turning point is just the sharpest point in the turn.  Unlike quadratic functions, the local extrema of a function are typically hard to find using algebra alone. This implies that the turning points of a polynomial function are hard to find. In fact, most turning points require calculus in order to find their exact coordinates. But, even if we can't calculate the points exactly, there are still somethings we can still say about turning points, as the following theorem shows.   Bounds on the Number of Turning Points   Let be a degree polynomial function. Then there are at most turning points.     "
+},
+{
+  "id": "def-turning-points",
+  "level": "2",
+  "url": "turning-points.html#def-turning-points",
+  "type": "Definition",
+  "number": "5.4.1",
+  "title": "Turning Points.",
+  "body": " Turning Points   The turning points of a polynomial function are the local extrema of the function.   "
+},
+{
+  "id": "thm-number-of-turning-points",
+  "level": "2",
+  "url": "turning-points.html#thm-number-of-turning-points",
+  "type": "Theorem",
+  "number": "5.4.2",
+  "title": "Bounds on the Number of Turning Points.",
+  "body": " Bounds on the Number of Turning Points   Let be a degree polynomial function. Then there are at most turning points.   "
 },
 {
   "id": "polynomial-increasing-decreasing",
@@ -1933,7 +1951,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.6",
   "title": "Graphing Polynomial Functions",
-  "body": " Graphing Polynomial Functions    "
+  "body": " Graphing Polynomial Functions   Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.    Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (aka the local extrema).       Graphing a Degree 3 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is , the end behavior of is approximated by the end behavior of . In this case, the graph will end with an arrow rising up and to the right and with an arrow falling down and to the left.   The end behavior of the function has been drawn, leaving the middle of the graph undrawn at this time.    Next, since the constant term is , we know that the -intercept is .   The point has been added to the plot.    Then, solve the equation using factoring by grouping.     Therefore, the -intercepts are and .  Since the zero has multiplicity , the graph will bounce at the -axis at like ,  since has multiplicity , it will cross the -axis at like .     The -intercepts and are added. The graph bounces from below at and crosses from negative to positive at .    Since we have zeros at and , we now compute additional points at :   Selected Points for                                   Plotting these points yields the following figure.   The additional points from the table are added to the graph.    Since a polynomial cannot have more than local extrema and our graph has 2 local extrema, we have a complete graph. We connect the points and finish graphing the function.   The graph of .       Graphing a Degree 4 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is with a negative coefficient and even degree, both ends of the graph look similar to . Therefore, the graph travels down and to the right as approaches . Similarly, the graph travels down and to the left as approaches .   The end behavior is drawn with both ends decreasing.    Next, since the constant term is , the -intercept is .   The point has been added to the plot.    Since is quadratic in form, let ). Then we can solve for , and then , as follows:     Therefore, the -intercepts are , , , and . Each zero has multiplicity , so the graph crosses the -axis like at each intercept.   The -intercepts , , , and are added to the graph.    Because is an even function (only even powers of appear), its graph is symmetric with respect to the -axis. We therefore only need to compute values for positive and reflect them for negative .  Let us compute values at , , and :   Selected Points for      (x, y)                     approximately     Using the fact that is an even function, we see that the points , , and approximately . We plot all these points in the following figure.   The additional symmetric points from the table are added to the graph.    Because a degree- polynomial can have at most turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of .   The graph of .      Consider the following graph of .   The graph of .   Graph of p(x) = x^3 - 3x - 2    While it is clear from the graph that we have two -intercepts: and , try to solve using any of the techniques we have learned so far. You will see that they all fail. Furthermore, the polynomial factors nicely as . Again, no factoring technique we have learned will factor this polynomial.  Our next goal is to develop a factoring method that can factor polynomials such as . Once we have established that method, we can then find the -intercepts of . This technique will have a side effect: we will end up with a result known as the Fundamental Theorem of Algebra.  "
+},
+{
+  "id": "graphing-polynomial-functions",
+  "level": "2",
+  "url": "graphing-polynomials.html#graphing-polynomial-functions",
+  "type": "Procedure",
+  "number": "5.6.1",
+  "title": "Graphing Polynomial Functions.",
+  "body": " Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.    Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (aka the local extrema).     "
+},
+{
+  "id": "graphing-a-degree-3-polynomial",
+  "level": "2",
+  "url": "graphing-polynomials.html#graphing-a-degree-3-polynomial",
+  "type": "Example",
+  "number": "5.6.2",
+  "title": "Graphing a Degree 3 Polynomial.",
+  "body": " Graphing a Degree 3 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is , the end behavior of is approximated by the end behavior of . In this case, the graph will end with an arrow rising up and to the right and with an arrow falling down and to the left.   The end behavior of the function has been drawn, leaving the middle of the graph undrawn at this time.    Next, since the constant term is , we know that the -intercept is .   The point has been added to the plot.    Then, solve the equation using factoring by grouping.     Therefore, the -intercepts are and .  Since the zero has multiplicity , the graph will bounce at the -axis at like ,  since has multiplicity , it will cross the -axis at like .     The -intercepts and are added. The graph bounces from below at and crosses from negative to positive at .    Since we have zeros at and , we now compute additional points at :   Selected Points for                                   Plotting these points yields the following figure.   The additional points from the table are added to the graph.    Since a polynomial cannot have more than local extrema and our graph has 2 local extrema, we have a complete graph. We connect the points and finish graphing the function.   The graph of .     "
+},
+{
+  "id": "graphing-a-degree-4-polynomial",
+  "level": "2",
+  "url": "graphing-polynomials.html#graphing-a-degree-4-polynomial",
+  "type": "Example",
+  "number": "5.6.10",
+  "title": "Graphing a Degree 4 Polynomial.",
+  "body": " Graphing a Degree 4 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is with a negative coefficient and even degree, both ends of the graph look similar to . Therefore, the graph travels down and to the right as approaches . Similarly, the graph travels down and to the left as approaches .   The end behavior is drawn with both ends decreasing.    Next, since the constant term is , the -intercept is .   The point has been added to the plot.    Since is quadratic in form, let ). Then we can solve for , and then , as follows:     Therefore, the -intercepts are , , , and . Each zero has multiplicity , so the graph crosses the -axis like at each intercept.   The -intercepts , , , and are added to the graph.    Because is an even function (only even powers of appear), its graph is symmetric with respect to the -axis. We therefore only need to compute values for positive and reflect them for negative .  Let us compute values at , , and :   Selected Points for      (x, y)                     approximately     Using the fact that is an even function, we see that the points , , and approximately . We plot all these points in the following figure.   The additional symmetric points from the table are added to the graph.    Because a degree- polynomial can have at most turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of .   The graph of .     "
+},
+{
+  "id": "graphing-polynomials-6",
+  "level": "2",
+  "url": "graphing-polynomials.html#graphing-polynomials-6",
+  "type": "Figure",
+  "number": "5.6.18",
+  "title": "",
+  "body": " The graph of .   Graph of p(x) = x^3 - 3x - 2   "
 },
 {
   "id": "polynomial-long-division",
@@ -1941,8 +1995,89 @@ var ptx_lunr_docs = [
   "url": "polynomial-long-division.html",
   "type": "Section",
   "number": "5.7",
-  "title": "The Division Algorithm for Polynomials",
-  "body": " The Division Algorithm for Polynomials    "
+  "title": "The Division Algorithm",
+  "body": " The Division Algorithm   Natural Numbers Version   The Division Algorithm for Natural Numbers   Let and be natural numbers (nonzero, positive, whole numbers). Then there exist two unique numbers, a quotient  and a remainder  , such that , where .    is known as the dividend .     is known as the divisor .      The Division Algorithm gives us a way to define division in terms of multiplication and addition for any two numbers and . We find the values and using long division . Our next two examples show us what happens.   Long Division with a Non-Zero Remainder   Use long division to divide by . Then express the result using the Division Algorithm.       First, we set up the long division as follows:   The 35 goes under the long division symbol and the 5 is written to the left of the symbol.    Then, we ask ourselves, how many times does divide into ? It divides 7 times, and we write the above the one's digit of 37 and above the long division symbol as follows:   The 7 is written above the 7 in 37 and above the long division symbol.    We then multiply by to get and write that below the .   The 35 is written below 37.    Then we subtract from to get .   We put a line under 35 and write 2 below the line.    Since , the Division Algorithm says we can stop dividing. The number above the long division symbol is the quotient , and the we get after the subtraction is the remainder . Therefore, the Division Algorithm says that     Long Division with a Zero Remainder   Use long division to divide by . Then express the result using the Division Algorithm.       First, we set up the long division as follows:   The 136 goes under the long division symbol and the 4 is written to the left of the symbol.    We ask ourselves, how many times does divide into the first digit, ? It does not divide evenly, so we consider the first two digits, . The number divides into three times, since .   The 3 is written above the 3 in 136 and above the long division symbol.    We multiply and write below .   We write 12 under the hundreds and tens digits, which look like \"13\".    Then, we subtract to get .   We put a line under 12 and write 1 below the line.    We then bring down the next digit, , to make .   We bring down the 6 and place it next to the 1.    The number divides into exactly times, and we write the above the one's digit in .   The next quotient digit 4 is written above the 6.    Since , we write below the existing .   We write 16 below the existing 16 in preparation for another subtraction.    We subtract from to get .   We write a line below the second , and write below the line.    Since , the division ends here. The number above the long division symbol is the quotient , and the remainder is . Therefore, the Division Algorithm says that .    Notice that, in our last example, simplifies to . We just proved that factors as and . Sound familiar? This is what we want to do with polynomials. Fortunately, a Division Algorithm for polynomials exists as well!    Polynomial Version  Before we state the Division Algorithm for Polynomials, we need to define what is the “zero” for polynomials.   The Zero Polynomial  The zero polynomial is the polynomial whose value is zero for every value of . We write the zero polynomial as for all real numbers .    Don’t confuse the zero polynomial with solving a polynomial equation . While the notations are identical, the contexts are very different. Thankfully, these concepts don’t typically come into direct contact with one another, so the context of the problem will tell you which version of the notation we are using.    The Division Algorithm   Let and be polynomials, where is not the zero polynomial. Then there exist unique polynomials, a quotient  and a remainder  , such that   where the degree of is less than the degree of .    is called the dividend .     is called the divisor .        Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.       First, we set up the division as follows.   We set up the long division by putting under the long division symbol and to the left of the division symbol    We begin by writing a fraction: the numerator is the leading term of and the denominator is the leading term of . We then simplify this fraction, and this is the number of times the leading term of the divisor divides the leading term of the dividend. In this case, we get the following: Since is a degree 1 term, we will write it above the degree 1 term of the dividend.   The leading term is written above the long division symbol.    Next, we multiply the divisor by to get . We write this result below the dividend, make sure the terms with the same powers are vertically lined up. We then write a line under this expression.   We write below the and the terms.    Next, we subtract from the dividend     and write that result below the horizontal line we drew.   After subtraction, the new expression is .    Again, we write a fraction: the numerator is the leading term of and the denominator is the leading term of . We then simplify this fraction to get the next division: We write the above the constant term of the dividend   is written above the constant term in .    and multiply by the divisor to get . We write this product below and write a line below it.   The product written below .    Now we subtract the two expressions     and write the 3 below the horizontal line we drew.   After the final subtraction, the remainder is .    Since the remainder has degree 0 and the divisor has degree 1, the Division Algorithm tells us we can stop here. The quotient is and the remainder is . Therefore,      Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.       First, we set up the division as follows.   We set up the long division by putting under the long division symbol and to the left of the division symbol.    We begin by writing a fraction: the numerator is the leading term of and the denominator is the leading term of . We then simplify this fraction; the result tells us how many times the leading term of the divisor divides the leading term of the dividend. In this case,  Since is degree 2, we write it above the degree 2 term of the dividend.   The leading quotient term is written above the long division symbol.    Next, we multiply the divisor by to get . We write this result below the dividend, aligning like powers, and draw a horizontal line.   We write below the matching power terms.    Now subtract:      After the first subtraction, the new expression is .    Again, form the fraction of leading terms and simplify to get the next quotient term:  We write in the quotient.   The next quotient term is written above the degree 1 place.    Multiply by the divisor to get . Write this below and draw a line.   The product is written below .    Subtract again:      After the second subtraction, the new expression is .    Form the leading-term fraction once more:  We write in the quotient.   The final quotient term is written above the constant place, completing the quotient .    Multiply by the divisor to get , write it below, and subtract:      After the final subtraction, the remainder is .    Since the remainder has degree less than the divisor , the Division Algorithm tells us we can stop here. The quotient is and the remainder is . Therefore,     Just like with integers, notice that when the remainder is zero, we get a factorization of the polynomials. Our next goal is to find a consistent way to divide polynomials to get remainders of zero. But first, we will introduce a simpler way to divide polynomials of certain forms in the next section.   "
+},
+{
+  "id": "division-algorithm-natural-numbers",
+  "level": "2",
+  "url": "polynomial-long-division.html#division-algorithm-natural-numbers",
+  "type": "Theorem",
+  "number": "5.7.1",
+  "title": "The Division Algorithm for Natural Numbers.",
+  "body": " The Division Algorithm for Natural Numbers   Let and be natural numbers (nonzero, positive, whole numbers). Then there exist two unique numbers, a quotient  and a remainder  , such that , where .    is known as the dividend .     is known as the divisor .     "
+},
+{
+  "id": "division-algorithm-3",
+  "level": "2",
+  "url": "polynomial-long-division.html#division-algorithm-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "long division "
+},
+{
+  "id": "long-division-nonzero-remainder",
+  "level": "2",
+  "url": "polynomial-long-division.html#long-division-nonzero-remainder",
+  "type": "Example",
+  "number": "5.7.2",
+  "title": "Long Division with a Non-Zero Remainder.",
+  "body": " Long Division with a Non-Zero Remainder   Use long division to divide by . Then express the result using the Division Algorithm.       First, we set up the long division as follows:   The 35 goes under the long division symbol and the 5 is written to the left of the symbol.    Then, we ask ourselves, how many times does divide into ? It divides 7 times, and we write the above the one's digit of 37 and above the long division symbol as follows:   The 7 is written above the 7 in 37 and above the long division symbol.    We then multiply by to get and write that below the .   The 35 is written below 37.    Then we subtract from to get .   We put a line under 35 and write 2 below the line.    Since , the Division Algorithm says we can stop dividing. The number above the long division symbol is the quotient , and the we get after the subtraction is the remainder . Therefore, the Division Algorithm says that   "
+},
+{
+  "id": "long-division-136-by-4",
+  "level": "2",
+  "url": "polynomial-long-division.html#long-division-136-by-4",
+  "type": "Example",
+  "number": "5.7.7",
+  "title": "Long Division with a Zero Remainder.",
+  "body": " Long Division with a Zero Remainder   Use long division to divide by . Then express the result using the Division Algorithm.       First, we set up the long division as follows:   The 136 goes under the long division symbol and the 4 is written to the left of the symbol.    We ask ourselves, how many times does divide into the first digit, ? It does not divide evenly, so we consider the first two digits, . The number divides into three times, since .   The 3 is written above the 3 in 136 and above the long division symbol.    We multiply and write below .   We write 12 under the hundreds and tens digits, which look like \"13\".    Then, we subtract to get .   We put a line under 12 and write 1 below the line.    We then bring down the next digit, , to make .   We bring down the 6 and place it next to the 1.    The number divides into exactly times, and we write the above the one's digit in .   The next quotient digit 4 is written above the 6.    Since , we write below the existing .   We write 16 below the existing 16 in preparation for another subtraction.    We subtract from to get .   We write a line below the second , and write below the line.    Since , the division ends here. The number above the long division symbol is the quotient , and the remainder is . Therefore, the Division Algorithm says that .   "
+},
+{
+  "id": "zero-polynomial",
+  "level": "2",
+  "url": "polynomial-long-division.html#zero-polynomial",
+  "type": "Definition",
+  "number": "5.7.16",
+  "title": "The Zero Polynomial.",
+  "body": " The Zero Polynomial  The zero polynomial is the polynomial whose value is zero for every value of . We write the zero polynomial as for all real numbers .  "
+},
+{
+  "id": "polynomial-division-algorithm-4",
+  "level": "2",
+  "url": "polynomial-long-division.html#polynomial-division-algorithm-4",
+  "type": "Note",
+  "number": "5.7.17",
+  "title": "",
+  "body": " Don’t confuse the zero polynomial with solving a polynomial equation . While the notations are identical, the contexts are very different. Thankfully, these concepts don’t typically come into direct contact with one another, so the context of the problem will tell you which version of the notation we are using.  "
+},
+{
+  "id": "division-algorithm-polynomials",
+  "level": "2",
+  "url": "polynomial-long-division.html#division-algorithm-polynomials",
+  "type": "Theorem",
+  "number": "5.7.18",
+  "title": "The Division Algorithm.",
+  "body": " The Division Algorithm   Let and be polynomials, where is not the zero polynomial. Then there exist unique polynomials, a quotient  and a remainder  , such that   where the degree of is less than the degree of .    is called the dividend .     is called the divisor .      "
+},
+{
+  "id": "polynomial-long-division-x2plus3xminus1-by-xplus4",
+  "level": "2",
+  "url": "polynomial-long-division.html#polynomial-long-division-x2plus3xminus1-by-xplus4",
+  "type": "Example",
+  "number": "5.7.19",
+  "title": "Polynomial Long Division Example.",
+  "body": " Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.       First, we set up the division as follows.   We set up the long division by putting under the long division symbol and to the left of the division symbol    We begin by writing a fraction: the numerator is the leading term of and the denominator is the leading term of . We then simplify this fraction, and this is the number of times the leading term of the divisor divides the leading term of the dividend. In this case, we get the following: Since is a degree 1 term, we will write it above the degree 1 term of the dividend.   The leading term is written above the long division symbol.    Next, we multiply the divisor by to get . We write this result below the dividend, make sure the terms with the same powers are vertically lined up. We then write a line under this expression.   We write below the and the terms.    Next, we subtract from the dividend     and write that result below the horizontal line we drew.   After subtraction, the new expression is .    Again, we write a fraction: the numerator is the leading term of and the denominator is the leading term of . We then simplify this fraction to get the next division: We write the above the constant term of the dividend   is written above the constant term in .    and multiply by the divisor to get . We write this product below and write a line below it.   The product written below .    Now we subtract the two expressions     and write the 3 below the horizontal line we drew.   After the final subtraction, the remainder is .    Since the remainder has degree 0 and the divisor has degree 1, the Division Algorithm tells us we can stop here. The quotient is and the remainder is . Therefore,    "
+},
+{
+  "id": "even-polynomial-long-division",
+  "level": "2",
+  "url": "polynomial-long-division.html#even-polynomial-long-division",
+  "type": "Example",
+  "number": "5.7.27",
+  "title": "Polynomial Long Division Example.",
+  "body": " Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.       First, we set up the division as follows.   We set up the long division by putting under the long division symbol and to the left of the division symbol.    We begin by writing a fraction: the numerator is the leading term of and the denominator is the leading term of . We then simplify this fraction; the result tells us how many times the leading term of the divisor divides the leading term of the dividend. In this case,  Since is degree 2, we write it above the degree 2 term of the dividend.   The leading quotient term is written above the long division symbol.    Next, we multiply the divisor by to get . We write this result below the dividend, aligning like powers, and draw a horizontal line.   We write below the matching power terms.    Now subtract:      After the first subtraction, the new expression is .    Again, form the fraction of leading terms and simplify to get the next quotient term:  We write in the quotient.   The next quotient term is written above the degree 1 place.    Multiply by the divisor to get . Write this below and draw a line.   The product is written below .    Subtract again:      After the second subtraction, the new expression is .    Form the leading-term fraction once more:  We write in the quotient.   The final quotient term is written above the constant place, completing the quotient .    Multiply by the divisor to get , write it below, and subtract:      After the final subtraction, the remainder is .    Since the remainder has degree less than the divisor , the Division Algorithm tells us we can stop here. The quotient is and the remainder is . Therefore,    "
 },
 {
   "id": "synthetic-division",
@@ -1951,7 +2086,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.8",
   "title": "Synthetic Division",
-  "body": " Synthetic Division    "
+  "body": " Synthetic Division  Recall that we are looking for a way to factor any polynomial function as . Since we have seen that there is a relationship between factoring and dividing, notice that all our factors look like minus a number. So, let’s look at how dividing by and the Division Algorithm work together.  But polynomial long division, as we have seen, can be long, tedious, and cumbersome to write. It turns out that when we divide by , there is a shorthand version of polynomial long division called synthetic division that can make this process faster and less error-prone. Instead of writing a step-by-step method, we will just illustrate how this works in the next three examples.   Synthetic Division, First Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.       First, we need to write the value of and box it off. In this case, since we have that . Therefore, we write and the box as follows.   Write down and enclose it on the right and bottom sides.    Next, we write the coefficients of in order from the highest degree term to the lowest degree term. If a degree is missing, use a zero as a placeholder.   Write down the coefficients of .    Next, leave some space under the coefficients of . Then, draw a horizontal line under that space.   Write a horizontal line under the coefficients, leaving some space between the numbers and the line for additional information.    Always bring down the first coefficient and write it below the line.   Write the coefficient below itself under the line.    Next, multiply by and write the product under the .   Write the product below the .    Add and together to get . Write this number below the and under the line.   Write the sum below the line under .    Next, we multiply by to get . We write under the .   Write the product under .    Then, add to to get .   Write below and under the line.    Next, multiply by to get . Write under the .   Write the product under .    Finally, add and together to get .   Write the sum under the and below the line.    Now that the synthetic division is done, we have to use the numbers under the line to construct the quotient and the remainder .  The last number in the row is the remainder; so, we have that .  The remaining three numbers are the coefficients of . Since is degree 3 and we divided by a degree 1 polynomial, the quotient will be a degree 2 polynomial. Therefore, .  Using the Division Algorithm, we have that .     Synthetic Division, Second Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.       First, we need to write the value of and box it off. In this case, since we have that . Therefore, we write and the box as follows.   Write down and enclose it on the right and bottom sides.    Next, we write the coefficients of in order from the highest degree term to the lowest degree term. If a degree is missing, use a zero as a placeholder.   Write down the coefficients of .    Next, leave some space under the coefficients of . Then, draw a horizontal line under that space.   Write a horizontal line under the coefficients, leaving some space between the numbers and the line for additional information.    Always bring down the first coefficient and write it below the line.   Write the coefficient below itself under the line.    Next, multiply by and write the product under the .   Write the product below the .    Add and together to get . Write this number below the and under the line.   Write the sum below the line under .    Next, we multiply by to get . We write under the .   Write the product under .    Then, add to to get .   Write below and under the line.    Next, multiply by to get . Write under the .   Write the product under .    Finally, add and together to get .   Write the sum under the and below the line.    Now that the synthetic division is done, we have to use the numbers under the line to construct the quotient and the remainder .  The last number in the row is the remainder; so, we have that .  The remaining three numbers are the coefficients of . Since is degree 3 and we divided by a degree 1 polynomial, the quotient will be a degree 2 polynomial. Therefore, .  Using the Division Algorithm, we have that .     Synthetic Division, Third Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.       First, we need to write the value of and box it off. In this case, since we have that . Therefore, we write and the box as follows.   Write down and enclose it on the right and bottom sides.    Next, we write the coefficients of in order from the highest degree term to the lowest degree term. If a degree is missing, use a zero as a placeholder.   Write down the coefficients of .    Next, leave some space under the coefficients of . Then, draw a horizontal line under that space.   Write a horizontal line under the coefficients, leaving some space between the numbers and the line for additional information.    Always bring down the first coefficient and write it below the line.   Write the coefficient below itself under the line.    Next, multiply by and write the product under the .   Write the product below the .    Add and together to get . Write this number below the and under the line.   Write the sum below the line under .    Next, we multiply by to get . We write under the (the next coefficient).   Write the product under .    Then, add to to get .   Write below and under the line.    Next, multiply by to get . Write under the .   Write the product under .    Then, add and together to get .   Write the sum below the line under .    Next, multiply by to get . Write under the .   Write the product under .    Finally, add and together to get .   Write the sum under the and below the line.    Now that the synthetic division is done, we have to use the numbers under the line to construct the quotient and the remainder .  The last number in the row is the remainder; so, we have that .  The remaining four numbers are the coefficients of . Since is degree 4 and we divided by a degree 1 polynomial, the quotient will be a degree 3 polynomial. Therefore, .  Using the Division Algorithm, we have that .    "
+},
+{
+  "id": "synthetic-division-3",
+  "level": "2",
+  "url": "synthetic-division.html#synthetic-division-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "synthetic division "
+},
+{
+  "id": "synthetic-division-first-example",
+  "level": "2",
+  "url": "synthetic-division.html#synthetic-division-first-example",
+  "type": "Example",
+  "number": "5.8.1",
+  "title": "Synthetic Division, First Example.",
+  "body": " Synthetic Division, First Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.       First, we need to write the value of and box it off. In this case, since we have that . Therefore, we write and the box as follows.   Write down and enclose it on the right and bottom sides.    Next, we write the coefficients of in order from the highest degree term to the lowest degree term. If a degree is missing, use a zero as a placeholder.   Write down the coefficients of .    Next, leave some space under the coefficients of . Then, draw a horizontal line under that space.   Write a horizontal line under the coefficients, leaving some space between the numbers and the line for additional information.    Always bring down the first coefficient and write it below the line.   Write the coefficient below itself under the line.    Next, multiply by and write the product under the .   Write the product below the .    Add and together to get . Write this number below the and under the line.   Write the sum below the line under .    Next, we multiply by to get . We write under the .   Write the product under .    Then, add to to get .   Write below and under the line.    Next, multiply by to get . Write under the .   Write the product under .    Finally, add and together to get .   Write the sum under the and below the line.    Now that the synthetic division is done, we have to use the numbers under the line to construct the quotient and the remainder .  The last number in the row is the remainder; so, we have that .  The remaining three numbers are the coefficients of . Since is degree 3 and we divided by a degree 1 polynomial, the quotient will be a degree 2 polynomial. Therefore, .  Using the Division Algorithm, we have that .   "
+},
+{
+  "id": "synthetic-division-second-example",
+  "level": "2",
+  "url": "synthetic-division.html#synthetic-division-second-example",
+  "type": "Example",
+  "number": "5.8.12",
+  "title": "Synthetic Division, Second Example.",
+  "body": " Synthetic Division, Second Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.       First, we need to write the value of and box it off. In this case, since we have that . Therefore, we write and the box as follows.   Write down and enclose it on the right and bottom sides.    Next, we write the coefficients of in order from the highest degree term to the lowest degree term. If a degree is missing, use a zero as a placeholder.   Write down the coefficients of .    Next, leave some space under the coefficients of . Then, draw a horizontal line under that space.   Write a horizontal line under the coefficients, leaving some space between the numbers and the line for additional information.    Always bring down the first coefficient and write it below the line.   Write the coefficient below itself under the line.    Next, multiply by and write the product under the .   Write the product below the .    Add and together to get . Write this number below the and under the line.   Write the sum below the line under .    Next, we multiply by to get . We write under the .   Write the product under .    Then, add to to get .   Write below and under the line.    Next, multiply by to get . Write under the .   Write the product under .    Finally, add and together to get .   Write the sum under the and below the line.    Now that the synthetic division is done, we have to use the numbers under the line to construct the quotient and the remainder .  The last number in the row is the remainder; so, we have that .  The remaining three numbers are the coefficients of . Since is degree 3 and we divided by a degree 1 polynomial, the quotient will be a degree 2 polynomial. Therefore, .  Using the Division Algorithm, we have that .   "
+},
+{
+  "id": "synthetic-division-third-example",
+  "level": "2",
+  "url": "synthetic-division.html#synthetic-division-third-example",
+  "type": "Example",
+  "number": "5.8.23",
+  "title": "Synthetic Division, Third Example.",
+  "body": " Synthetic Division, Third Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.       First, we need to write the value of and box it off. In this case, since we have that . Therefore, we write and the box as follows.   Write down and enclose it on the right and bottom sides.    Next, we write the coefficients of in order from the highest degree term to the lowest degree term. If a degree is missing, use a zero as a placeholder.   Write down the coefficients of .    Next, leave some space under the coefficients of . Then, draw a horizontal line under that space.   Write a horizontal line under the coefficients, leaving some space between the numbers and the line for additional information.    Always bring down the first coefficient and write it below the line.   Write the coefficient below itself under the line.    Next, multiply by and write the product under the .   Write the product below the .    Add and together to get . Write this number below the and under the line.   Write the sum below the line under .    Next, we multiply by to get . We write under the (the next coefficient).   Write the product under .    Then, add to to get .   Write below and under the line.    Next, multiply by to get . Write under the .   Write the product under .    Then, add and together to get .   Write the sum below the line under .    Next, multiply by to get . Write under the .   Write the product under .    Finally, add and together to get .   Write the sum under the and below the line.    Now that the synthetic division is done, we have to use the numbers under the line to construct the quotient and the remainder .  The last number in the row is the remainder; so, we have that .  The remaining four numbers are the coefficients of . Since is degree 4 and we divided by a degree 1 polynomial, the quotient will be a degree 3 polynomial. Therefore, .  Using the Division Algorithm, we have that .   "
 },
 {
   "id": "remainder-factor-theroems",
@@ -1960,7 +2131,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.9",
   "title": "The Remainder and Factor Theorems",
-  "body": " The Remainder and Factor Theorems    "
+  "body": " The Remainder and Factor Theorems   The Remainder Theorem   The Remainder Theorem   Let be any polynomial function and let for some real number . Then the remainder is equal to .    By the Division Algorithm, we know that . Since is a degree 1 polynomial, we know that is a degree 0 polynomial, aka a constant; therefore, we write as instead to indicate it is just a number and does not contain any variables. Therefore, we get that .  Evaluating , we get that        Evaluating a Polynomial Using the Remainder Theorem   Let . Evaluate .       Performing synthetic division, we get the following calculation.   The synthetic division shows that and .    Since the remainder is , we have that .      The Factor Theorem   The Factor Theorem   Let be any polynomial function. The following two statements are equivalent to each other.    is a zero of .     is a factor of           Assume that is a zero of . We want to prove that is a factor of . By the Remainder Theorem, we know that for any value of , we have that . Since is a zero of , we know that . Simplifying the result from the Remainder Theorem, we get that Therefore, is a factor of .    Assume that is a factor of . Then for some polynomial . Evaluating , we get that Since , then is a zero of        Since we just proved that factoring is another way to find solutions to polynomial equations,  We don't have to set polynomials equal to zero to solve them. We just need to factor them. This alleviates the confusion between solving an equation and simplifying an expression.  If we know a zero of the polynomial, we can use Synthetic or Polynomial Long Division to find the other factor that doesn't correspond to the zero. This helps us factor higher degree polynomials.     Factoring a Degree 4 Polynomial   Suppose you know that and are zeroes of the polynomial . Find the other zeroes of the polynomial.            Since we know two of the zeroes, we can use synthetic division to factor. It doesn't matter if we use or . I am going to choose . The following calculation shows us how to perform the synthetic division.   Synthetic division shows us that .    Therefore, we can factor as follows: .  Since we haven't gotten a factor of yet, it turns out that is guaranteed to be a zero of . We perform synthetic division a second time to get the following calculation.   Synthetic division shows us that .    Therefore, we can further factor as .  Notice our remaining factor is quadratic. We can use any technique from Chapter 4 to show that . By the Factor Theorem, we know that the other two solutions are and .    The overall technique we will use is  Find any zero of .  Use synthetic division to factor the polynomial.  Repeat steps 1 and 2 until you end with a quadratic factor.  Use the methods from Chapter 4 to find the remaining two solutions (if they exist).    There are some variations to this method. For example, it is possible to get more than one quadratic factor we will have to solve. But overall, this pattern serves most students well when they factor higher degree polynomials.  Notice that one issue still remains: how do we get a zero to begin with? That is the next issue we will address, and it will lead us to our main result: the Fundamental Theorem of Algebra and its consequent: the Linear Factorization Theorem.   "
+},
+{
+  "id": "remainder-theorem",
+  "level": "2",
+  "url": "remainder-factor-theroems.html#remainder-theorem",
+  "type": "Theorem",
+  "number": "5.9.1",
+  "title": "The Remainder Theorem.",
+  "body": " The Remainder Theorem   Let be any polynomial function and let for some real number . Then the remainder is equal to .    By the Division Algorithm, we know that . Since is a degree 1 polynomial, we know that is a degree 0 polynomial, aka a constant; therefore, we write as instead to indicate it is just a number and does not contain any variables. Therefore, we get that .  Evaluating , we get that      "
+},
+{
+  "id": "evaluating-a-polynomial-using-the-remainder-theorem",
+  "level": "2",
+  "url": "remainder-factor-theroems.html#evaluating-a-polynomial-using-the-remainder-theorem",
+  "type": "Example",
+  "number": "5.9.2",
+  "title": "Evaluating a Polynomial Using the Remainder Theorem.",
+  "body": " Evaluating a Polynomial Using the Remainder Theorem   Let . Evaluate .       Performing synthetic division, we get the following calculation.   The synthetic division shows that and .    Since the remainder is , we have that .   "
+},
+{
+  "id": "thm-the-factor-theorem",
+  "level": "2",
+  "url": "remainder-factor-theroems.html#thm-the-factor-theorem",
+  "type": "Theorem",
+  "number": "5.9.4",
+  "title": "The Factor Theorem.",
+  "body": " The Factor Theorem   Let be any polynomial function. The following two statements are equivalent to each other.    is a zero of .     is a factor of           Assume that is a zero of . We want to prove that is a factor of . By the Remainder Theorem, we know that for any value of , we have that . Since is a zero of , we know that . Simplifying the result from the Remainder Theorem, we get that Therefore, is a factor of .    Assume that is a factor of . Then for some polynomial . Evaluating , we get that Since , then is a zero of       "
+},
+{
+  "id": "factoring-a-degree-4-polynomial",
+  "level": "2",
+  "url": "remainder-factor-theroems.html#factoring-a-degree-4-polynomial",
+  "type": "Example",
+  "number": "5.9.5",
+  "title": "Factoring a Degree 4 Polynomial.",
+  "body": " Factoring a Degree 4 Polynomial   Suppose you know that and are zeroes of the polynomial . Find the other zeroes of the polynomial.            Since we know two of the zeroes, we can use synthetic division to factor. It doesn't matter if we use or . I am going to choose . The following calculation shows us how to perform the synthetic division.   Synthetic division shows us that .    Therefore, we can factor as follows: .  Since we haven't gotten a factor of yet, it turns out that is guaranteed to be a zero of . We perform synthetic division a second time to get the following calculation.   Synthetic division shows us that .    Therefore, we can further factor as .  Notice our remaining factor is quadratic. We can use any technique from Chapter 4 to show that . By the Factor Theorem, we know that the other two solutions are and .   "
 },
 {
   "id": "text-for-pm-one",
