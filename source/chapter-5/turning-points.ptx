@@ -1,6 +1,36 @@
 <section xml:id="turning-points">
     <title>Turning Points</title>
-    <p>
-        
-    </p>
+    <subsection xml:id="turning-points-and-local-extrema">
+  <title>Turning Points and Local Extrema</title>
+
+  <definition xml:id="def-turning-points">
+    <title>Turning Points</title>
+    <statement>
+      <p>
+        The <term>turning points</term> of a polynomial function <m>p</m> are the local extrema of the function.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Why do we call the local extrema of the function turning points? Think of the graph as a road twisting through the countryside. At certain points, we have to turn to the left or right and make a sharp turn. The graph of the function does this as well: instead of turning left and right, we are turning sharply from increasing to decreasing or vice versa. The turning point is just the sharpest point in the turn.
+  </p>
+
+  <p>
+    Unlike quadratic functions, the local extrema of a function are typically hard to find using algebra alone. 
+    This implies that the turning points of a polynomial function are hard to find. 
+    In fact, most turning points require calculus in order to find their exact coordinates.
+    But, even if we can't calculate the points exactly, there are still somethings we can still say about turning points, as the following theorem shows.
+  </p>
+  <theorem xml:id="thm-number-of-turning-points">
+    <title>Bounds on the Number of Turning Points</title>    
+    <statement>
+      <p>
+        Let <m>p</m> be a degree <m>n</m> polynomial function. Then there are at most <m>n-1</m> turning points.
+      </p>
+    </statement>
+  </theorem>
+  
+</subsection>
+
 </section>
