@@ -1,6 +1,206 @@
 <section xml:id="fundamental-theorem-of-algebra">
     <title>The Fundamental Theorem of Algebra</title>
+    <theorem xml:id="thm-fundamental-theorem-algebra">
+        <title>The Fundamental Theorem of Algebra</title>
+        <statement>
+            <p>
+                Let <m>p(x)</m> be any degree <m>n\geq 1</m> polynomial function. Then a complex zero <m>c</m> exists.
+            </p>
+        </statement>
+    </theorem>
+        <theorem xml:id="cor-any-polynomial-factors">
+            <statement>
+                <p>
+                    Any <m>n\geq 2</m> degree polynomial can be factored.
+                </p>
+            </statement>
+        </theorem>
+          <theorem xml:id="cor-complete-linear-factorization-theorem">
+    <statement>
+      <p>
+        The <term>complete linear factorization</term> of a degree <m>n</m> polynomial function <m>p(x)</m> with leading coefficient <m>a_n</m> 
+        is given by the formula 
+        <me>p(x)=a_n(x-c_1)(x-c_2)\cdots(x-c_{n-1})(x-c_n),</me>
+        where <m>c_1</m>, <m>c_2</m>, <m>\ldots</m>, <m>c_{n-1}</m>, <m>c_n</m> 
+        are the <m>n</m> (not necessarily distinct) solutions to the equation <m>p(x)=0</m>.
+      </p>
+    </statement>
+</theorem>
+<example xml:id="fta-example-1">
+    <title>Using the Fundamental Theorem of Algebra to Construct a Polynomial</title>
+<statement>
     <p>
-        
+        Let <m>p(x)</m> be a real-valued polynomial that has leading coefficient <m>-2</m>, degree <m>3</m> and roots <m>x=-3</m> and <m>x=2i</m>.  Determine what polynomial <m>p(x)</m> should equal. You may leave the polynomial in its factored form.
     </p>
+</statement>
+<answer>
+    <p>
+        <m>p(x)=-2(x-3)(x^2+4)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        Since <m>p(x)</m> had degree <m>3</m>, we know there are three zeroes. 
+        But, the problem only gives us two solutions. 
+        But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that <m>x=-2i</m> is another zero of the polynomial.
+        By the Complete Linear Factorization Theorem, <me>p(x)=-2(x-3)(x-2i)(x+2i)</me>
+        But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply <m>(x-(3-i))(x-(3+i))</m>.
+        Thankfully, this is a sum of squares and easily multiplies: <me>(x-2i)(x+2i)=x^2+4</me>
+        Therefore, the polynomial we are looking for is <me>p(x)=-2(x-3)(x^2+4)</me>
+        While the instructions say you can leave it factored, if you multiplied the polynomial out, we get <me>p(x)=-2x^3+6x^2-8x+24</me>
+    </p>
+</solution>
+</example>
+<example xml:id="fta-example-2">
+    <title>Using the Fundamental Theorem of Algebra to Construct a Polynomial</title>
+<statement>
+    <p>
+        Let <m>p(x)</m> be a real-valued polynomial that has leading coefficient <m>4</m>, degree <m>3</m> and roots <m>x=-6</m> and <m>x=3-i</m>.  Determine what polynomial <m>p(x)</m> should equal. You may leave the polynomial in its factored form.
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>p(x)=-2(x-3)(x^2+4)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        Since <m>p(x)</m> had degree <m>3</m>, we know there are three zeroes. 
+        But, the problem only gives us two solutions. 
+        But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that <m>x=3+i</m> is another zero of the polynomial.
+        By the Complete Linear Factorization Theorem, <me>p(x)=4(x+6)(x-(3-i))(x+(3+i))</me>
+        But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply <m>(x-2i)(x+2i)</m>.
+        <md>
+            <mrow>(x-(3-i))(x-(3+i)) \amp= x^2-x(3+i)-x(3-i)+(3^2+1^1)\\ </mrow>
+            <mrow>\amp= x^2-3x-xi-3x+xi+10\\ </mrow>
+            <mrow>\amp= x^2-6x+10\\ </mrow>
+        </md>
+        Therefore, the polynomial we are looking for is <me>p(x)=4(x+6)(x^2-6x+10)</me>
+        While the instructions say you can leave it factored, if you multiplied the polynomial out, we get <me>p(x)=4x^3-104x+240</me>
+    </p>
+</solution>
+</example>
+<definition xml:id="def-irreducible-polynomial">
+    <statement>
+        <p>
+            A real-valued polynomial <m>p(x)</m> is irreducible if it can be only be factored using complex numbers.
+        </p>
+    </statement>
+</definition>
+<theorem xml:id="thm-reducible-real-polynomials">
+    <statement>
+        <p>
+            Any degree <m>n\geq 3</m> polynomial is reducible over the real numbers.
+        </p>
+    </statement>
+</theorem>
+<p>This is easy to see with odd degree polynomials.  Since complex zeroes come in pairs and there are an odd number of zeroes in an odd degree polynomial, it always has at least 1 real zero.  We'll do an example to show the plausibility for even degree polynomials.</p>
+<example xml:id="even-degree-reducible">
+<title>Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots</title>
+<statement>
+    <p>
+        Factor the polynomial <m>p(x)=x^4+13x^2+36</m>. Express your final answer as a product of irreducible factors.
+    </p>
+</statement>
+    <answer>
+        <p>
+            <m>p(x)=(x^2+4)(x^2+36)</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Notice that the given polynomial is quadratic in form.  Let <m>u=x^2</m>. Then, we get the following calculation.
+            <md>
+                <mrow>p(x) \amp=x^4+13x^2+36\\ </mrow>
+                <mrow>p(x) \amp=u^2+13u+36\\ </mrow>
+                <mrow>p(x)\amp=(u+4)(u+9)\\</mrow>
+                <mrow>p(x)\amp=(x^2+4)(x^2+9)\\</mrow>
+            </md>
+        </p>
+    </solution>
+</example>
+<example xml:id="even-degree-reducible-2">
+<title>Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots</title>
+<statement>
+    <p>
+        Factor the polynomial <m>p(x)=x^4+2x^3+3x^2+2x+1</m>. Express your final answer as a product of irreducible factors.
+    </p>
+</statement>
+    <answer>
+        <p>
+            <m>p(x)=(x^2+x+1)^2</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            This problem requires a couple of tricks. 
+            While none of these tricks are beyond your skill set, you are not likely to see them unless they are pointed out.
+            The first trick is factor out an <m>x^2</m> and group the terms in a particular way.
+            <md>
+                <mrow>p(x) \amp= x^4+2x^3+3x^2+2x+1\\</mrow>
+                <mrow>p(x) \amp= x^2\left(x^2+2x+3+\frac{2}{x}+\frac{1}{x^2}\right)\\</mrow>
+                <mrow>p(x) \amp= x^2\left[\left(x^2+\frac{1}{x^2}\right)+2\left(x+\frac{1}{x}\right)+3\right]\\</mrow>
+            </md>
+            Now, the factor in the square brackets is almost quadratic in form.  Unfortunately, <m>x^2+\frac{1}{x}\ne\left(x+\frac{1}{x}\right)^2</m>. 
+            But they are barely not equal to each other.  
+            To see this, let's pretend the factor in the square brackets is quadratic in form.  Let <m>u=x+\frac{1}{x}</m>. Then
+            <md>
+                <mrow>u^2 \amp=\left(x+\frac{1}{x}\right)^2\\ </mrow>
+                <mrow>u^2 \amp= x^2+1+1+\frac{1}{x^2}\\ </mrow>
+                <mrow>u^2 \amp= x^2+2+\frac{1}{x^2}\\ </mrow>
+                <mrow>u^2-2 \amp= x^2+\frac{1}{x^2}\\ </mrow>
+            </md>
+            Since we have a substitution for both <m>x^2+\frac{1}{x^2}</m> and <m>x+\frac{1}{x}</m> in terms of <m>u</m>, we can continue to factor:
+            <md>
+                <mrow>p(x) \amp= x^2\left[\left(x^2+\frac{1}{x^2}\right)+2\left(x+\frac{1}{x}\right)+3\right]\\</mrow>
+                <mrow>p(x)\amp=x^2[(u^2-2)+2(u)+3]\\</mrow>
+                <mrow>p(x)\amp=x^2(u^2-2+2u+3)\\</mrow>
+                <mrow>p(x)\amp=x^2(u^2+2u+1)\\</mrow>
+                <mrow>p(x)\amp=x^2(u+1)^2\\</mrow>
+                <mrow>p(x)\amp=(x(u+1))^2\\</mrow>
+                <mrow>p(x)\amp=(xu+x)^2\\</mrow>
+                <mrow>p(x)\amp=\left[x\left(x+\frac{1}{x}\right)+x\right]^2\\</mrow>
+                <mrow>p(x)\amp=(x^2+1+x)^2\\</mrow>
+                <mrow>p(x)\amp=(x^2+x+1)^2\\</mrow>
+            </md>
+        </p>
+    </solution>
+</example>
+<p>Linear factors are always irreducible; but quadratic factors may or may not be reducible. The following theorem tells us when we can reduce a quadratic factor into linear factors with real zeroes.</p>
+<theorem xml:id="thm-irreducibility-of-the-quadratic">
+    <statement>
+        <p>
+           Let <m>p(x)=ax^2+bx+c</m> be any quadratic function. If the discriminant <m>D</m> is negative, then <m>p(x)</m> is irreducible over the real numbers. 
+        </p>
+    </statement>
+    <proof>
+        <p>
+        By the Complete Linear Factorization Theorem, <me>p(x)=a(x-c_1)(x-c_2)</me> 
+        The solutions to the equation <m>p(x)=0</m> given by the Quadratic Formula are the values of <m>c_1</m> and <m>c_2</m> by the Factor Theorem. 
+        We know that the Quadratic Formula only gives complex solutions when the discriminant is negative.
+        Therefore, a quadratic polynomial is irreducible when the discriminant is negative.
+    </p> 
+    </proof>
+</theorem>
+<p>This leads us to the our final statement in this section.</p>
+<theorem xml:id="thm-polynomial-linear-quadratic-factors">
+    <statement>
+        <p>
+            Let <m>p(x)</m> be any real-valued polynomial.  Then it can always be factored using linear and irreducible quadratic factors.
+        </p>
+    </statement>
+</theorem>
+<example xml:id="thm-hard-example-factoring">
+    <title>Illustrative example of <xref ref="thm-polynomial-linear-quadratic-factors"/></title>
+    <statement>
+        <p>
+            Factor <m>p(x)=x^6+2x^5+35x^4+70x^3-60x^2-72x-864</m>.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>p(x)=(x-2)(x+3)(x^2+x+4)(x^2+36)</m>
+        </p>
+    </answer>
+</example>
 </section>
