@@ -1,0 +1,182 @@
+<worksheet xml:id="ws-fundamental-theorem-of-algebra">
+    <title>The Fundamental Theorem of Algebra</title>
+    <theorem xml:id="lecture-notes-test-for-pm1">
+  <title>Test for <m>\pm1</m></title>
+
+  <statement>
+    <p>Let <m>p(x)</m> be any polynomial function.</p>
+    <p>
+      <ul>
+        <li><p>If the coefficients of <m>p(x)</m> sum to <m>0</m>, then <m>x = 1</m> is a zero of <m>p(x)</m>.</p></li>
+        <li><p>If the coefficients of <m>p(-x)</m> sum to <m>0</m>, then <m>x = -1</m> is a zero of <m>p(x)</m>.</p></li>
+      </ul>
+    </p>
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-show-that-x-equals-1-zero-polynomial" workspace="3in">
+  <title>Show that <m>x = 1</m> is a zero of a polynomial</title>
+  <statement>
+    <p>Show that <m>x = 1</m> is a zero of the polynomial <m>p(x) = x^3 - 4x^2 - 7x + 10</m>. Then find the remaining zeros.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-show-that-x-equals-neg1-zero-polynomial" workspace="3in">
+  <title>Show that <m>x = -1</m> is a zero of a polynomial</title>
+  <statement>
+    <p>Show that <m>x = -1</m> is a zero of the polynomial <m>p(x) = x^3 + 2x^2 - 11x - 12</m>. Then find the remaining zeros.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-graphing-test-for-pm-one" workspace="8in">
+  <title>Graphing a Degree 4 Polynomial</title>
+  <statement>
+    <p>Graph the function <m>p(x) = x^3 + 4x^2 - x - 4</m>.</p>
+  </statement>
+</exercise>
+<theorem xml:id="lecture-notes-rational-root-theorem">
+  <title>Rational Root Theorem</title>
+  <p>Let <m>p(x)</m> be any polynomial function with leading coefficient <m>a_n</m> and constant term <m>a_0</m>. Then any rational root has the form <m>\frac{p}{q}</m>, where <m>p</m> divides <m>a_0</m> and <m>q</m> divides <m>a_n</m>.</p>
+</theorem>
+
+<exercise xml:id="lecture-notes-finding-rational-zeroes-updated" workspace="3in">
+  <title>Finding the Possible Rational Zeroes of a Polynomial Function, Version 1</title>
+  <statement>
+    <p>Find all the possible rational zeroes of <m>p(x) = 2x^5 - 4x^3 - x^2 + 23x + 3</m>.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-finding-possible-rational-zeroes" workspace="3in">
+  <title>Finding the Possible Rational Zeroes of a Polynomial Function, Version 2</title>
+  <statement>
+    <p>Find all the possible rational zeroes of <m>p(x) = 6x^5 - 7x^2 - x + 8</m>.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-finding-zeroes-polynomial-function" workspace="4in">
+  <title>Finding Zeroes of a Polynomial Function</title>
+  <statement>
+    <p>Find all the zeroes of <m>p(x) = 9x^3 + 21x^2 - 17x + 3</m>.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-graph-rational-roots-test-pm-one" workspace="8in">
+  <title>Graphing a Degree 4 Polynomial</title>
+  <statement>
+    <p>Graph the function <m>p(x) = x^4 - 11x^3 + 42x^2 - 64x + 32</m>.</p>
+  </statement>
+</exercise>
+<theorem xml:id="lecture-notes-thm-complex-zeroes-real-polynomials">
+  <title>Complex Zeroes of a Real Polynomial</title>
+  <statement>
+    <p>Let <m>p(x)</m> be any polynomial with real coefficients. Then the complex zeroes of the polynomial come in complex conjugate pairs.</p>
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-ex-complex-zeroes-1" workspace="3in">
+  <title>Finding Real and Complex Zeroes of a Polynomial</title>
+  <statement>
+    <p>Find all the real and complex zeroes of the function <m>p(x)=x^3-4x^2+9x-36</m>.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-ex-complex-zeroes-2" workspace="3in">
+  <title>Finding Real and Complex Zeroes of a Polynomial</title>
+  <statement>
+    <p>Find all the real and complex zeroes of the function <m>p(x)=x^4+3x^3+5x^2-3x-54</m>.</p>
+  </statement>
+</exercise>
+<theorem xml:id="lecture-notes-thm-fundamental-theorem-algebra">
+  <title>The Fundamental Theorem of Algebra</title>
+  <statement>
+    <p>Let <m>p(x)</m> be any degree <m>n\geq 1</m> polynomial function. Then a complex zero <m>c</m> exists.</p>
+  </statement>
+</theorem>
+
+<theorem xml:id="lecture-notes-cor-any-polynomial-factors">
+  <statement>
+    <p>Any <m>n\geq 2</m> degree polynomial can be factored.</p>
+  </statement>
+</theorem>
+
+<theorem xml:id="lecture-notes-cor-complete-linear-factorization-theorem">
+  <statement>
+    <p>
+      The <term>complete linear factorization</term> of a degree <m>n</m> polynomial function <m>p(x)</m> with leading coefficient <m>a_n</m>
+      is given by the formula
+      <me>p(x)=a_n(x-c_1)(x-c_2)\cdots(x-c_{n-1})(x-c_n),</me>
+      where <m>c_1</m>, <m>c_2</m>, <m>\ldots</m>, <m>c_{n-1}</m>, <m>c_n</m>
+      are the <m>n</m> (not necessarily distinct) solutions to the equation <m>p(x)=0</m>.
+    </p>
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-fta-example-1" workspace="4in">
+  <title>Using the Fundamental Theorem of Algebra to Construct a Polynomial</title>
+  <statement>
+    <p>Let <m>p(x)</m> be a real-valued polynomial that has leading coefficient <m>-2</m>, degree <m>3</m> and roots <m>x=-3</m> and <m>x=2i</m>. Determine what polynomial <m>p(x)</m> should equal. You may leave the polynomial in its factored form.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-fta-example-2" workspace="3in">
+  <title>Using the Fundamental Theorem of Algebra to Construct a Polynomial</title>
+  <statement>
+    <p>Let <m>p(x)</m> be a real-valued polynomial that has leading coefficient <m>4</m>, degree <m>3</m> and roots <m>x=-6</m> and <m>x=3-i</m>. Determine what polynomial <m>p(x)</m> should equal. You may leave the polynomial in its factored form.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-fta-example-3" workspace="3in">
+  <title>Using the Fundamental Theorem of Algebra to Construct a Polynomial</title>
+  <statement>
+    <p>Let <m>p(x)</m> be a real-valued polynomial that has degree <m>3</m> and roots <m>x=1</m> and <m>x=\pm 2i</m>. Determine what polynomial <m>p(x)</m> should equal if <m>f(2)=16</m>. You may leave the polynomial in its factored form.</p>
+  </statement>
+</exercise>
+
+<definition xml:id="lecture-notes-def-irreducible-polynomial">
+  <statement>
+    <p>A real-valued polynomial <m>p(x)</m> is irreducible if it can be only be factored using complex numbers.</p>
+  </statement>
+</definition>
+
+<theorem xml:id="lecture-notes-thm-reducible-real-polynomials">
+  <statement>
+    <p>Any degree <m>n\geq 3</m> polynomial is reducible over the real numbers.</p>
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-even-degree-reducible" workspace="2in">
+  <title>Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots</title>
+  <statement>
+    <p>Factor the polynomial <m>p(x)=x^4+13x^2+36</m>. Express your final answer as a product of irreducible factors.</p>
+  </statement>
+</exercise>
+
+<theorem xml:id="lecture-notes-thm-irreducibility-of-the-quadratic">
+  <statement>
+    <p>Let <m>p(x)=ax^2+bx+c</m> be any quadratic function. If the discriminant <m>D</m> is negative, then <m>p(x)</m> is irreducible over the real numbers.</p>
+  </statement>
+  <proof>
+    <p>By the Complete Linear Factorization Theorem, <me>p(x)=a(x-c_1)(x-c_2)</me> The solutions to the equation <m>p(x)=0</m> given by the Quadratic Formula are the values of <m>c_1</m> and <m>c_2</m> by the Factor Theorem. We know that the Quadratic Formula only gives complex solutions when the discriminant is negative. Therefore, a quadratic polynomial is irreducible when the discriminant is negative.</p>
+  </proof>
+</theorem>
+
+<theorem xml:id="lecture-notes-thm-polynomial-linear-quadratic-factors">
+  <statement>
+    <p>Let <m>p(x)</m> be any real-valued polynomial. Then it can always be factored using linear and irreducible quadratic factors.</p>
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-thm-hard-example-factoring">
+  <title>Illustrative example of <xref ref="lecture-notes-thm-polynomial-linear-quadratic-factors"/></title>
+  <statement>
+    <p>Factor <m>p(x)=x^6+2x^5+35x^4+70x^3-60x^2-72x-864</m>.</p>
+  </statement>
+      <answer>
+        <p>
+            <m>p(x)=(x-2)(x+3)(x^2+x+4)(x^2+36)</m>
+        </p>
+    </answer>
+</exercise>
+
+    
+</worksheet>

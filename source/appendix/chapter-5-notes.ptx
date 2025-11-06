@@ -4,4 +4,5 @@
   <title>Chapter 5 Lecture Notes</title>
   <xi:include href="./polynomial-function-properties.ptx"/>
   <xi:include href="./factor-theorem-notes.ptx"/>
+  <xi:include href="./fta.ptx"/>
 </section>

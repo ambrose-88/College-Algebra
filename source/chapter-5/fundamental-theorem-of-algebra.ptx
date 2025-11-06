@@ -60,7 +60,7 @@
 </statement>
 <answer>
     <p>
-        <m>p(x)=-2(x-3)(x^2+4)</m>
+        <m>p(x)=4(x+6)(x^2-6x+10)</m>
     </p>
 </answer>
 <solution>
@@ -69,7 +69,7 @@
         But, the problem only gives us two solutions. 
         But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that <m>x=3+i</m> is another zero of the polynomial.
         By the Complete Linear Factorization Theorem, <me>p(x)=4(x+6)(x-(3-i))(x+(3+i))</me>
-        But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply <m>(x-2i)(x+2i)</m>.
+        But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply <m>(x-(3-i))(x-(3+i))</m>.
         <md>
             <mrow>(x-(3-i))(x-(3+i)) \amp= x^2-x(3+i)-x(3-i)+(3^2+1^1)\\ </mrow>
             <mrow>\amp= x^2-3x-xi-3x+xi+10\\ </mrow>
@@ -77,6 +77,36 @@
         </md>
         Therefore, the polynomial we are looking for is <me>p(x)=4(x+6)(x^2-6x+10)</me>
         While the instructions say you can leave it factored, if you multiplied the polynomial out, we get <me>p(x)=4x^3-104x+240</me>
+    </p>
+</solution>
+</example>
+<example xml:id="fta-example-3">
+    <title>Using the Fundamental Theorem of Algebra to Construct a Polynomial</title>
+<statement>
+    <p>
+        Let <m>p(x)</m> be a real-valued polynomial that has degree <m>3</m> and roots <m>x=1</m> and <m>x=\pm 2i</m>.  Determine what polynomial <m>p(x)</m> should equal if <m>f(2)=16</m>. You may leave the polynomial in its factored form.
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>p(x)=2(x-1)(x^2+4)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        Since we know all the zeroes, the Complete Linear Factorization Theorem tells us that, <me>p(x)=a_n(x-1)(x-2i)(x+2i)</me>
+        But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply <m>(x-2i)(x+2i)</m>.
+        Thankfully, this is a sum of squares and easily multiplies: <me>(x-2i)(x+2i)=x^2+4</me>
+        Therefore, the polynomial we are looking for is <me>p(x)=a_n(x-1)(x^2+4)</me>
+        To find the value of <m>a_n</m>, we solve the equation <m>p(2)=16</m> for <m>a_n</m>:
+        <md>
+            <mrow>p(2) \amp= 16\\</mrow>
+            <mrow>a_n(2-1)(2^2+4) \amp= 16\\</mrow>
+            <mrow>8a_n \amp= 16\\</mrow>
+            <mrow>a_n\amp =2 </mrow>
+        </md>
+        Therefore, the polynomial we are looking for is <me>p(x)=2(x-1)(x^2+4)</me>
+        If we fully multiply it out, we get <me>p(x)=2x^3-2x^2+8x-8</me>
     </p>
 </solution>
 </example>
