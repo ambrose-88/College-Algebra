@@ -1951,7 +1951,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.6",
   "title": "Graphing Polynomial Functions",
-  "body": " Graphing Polynomial Functions   Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.    Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (aka the local extrema).       Graphing a Degree 3 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is , the end behavior of is approximated by the end behavior of . In this case, the graph will end with an arrow rising up and to the right and with an arrow falling down and to the left.   The end behavior of the function has been drawn, leaving the middle of the graph undrawn at this time.    Next, since the constant term is , we know that the -intercept is .   The point has been added to the plot.    Then, solve the equation using factoring by grouping.     Therefore, the -intercepts are and .  Since the zero has multiplicity , the graph will bounce at the -axis at like ,  since has multiplicity , it will cross the -axis at like .     The -intercepts and are added. The graph bounces from below at and crosses from negative to positive at .    Since we have zeros at and , we now compute additional points at :   Selected Points for                                   Plotting these points yields the following figure.   The additional points from the table are added to the graph.    Since a polynomial cannot have more than local extrema and our graph has 2 local extrema, we have a complete graph. We connect the points and finish graphing the function.   The graph of .       Graphing a Degree 4 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is with a negative coefficient and even degree, both ends of the graph look similar to . Therefore, the graph travels down and to the right as approaches . Similarly, the graph travels down and to the left as approaches .   The end behavior is drawn with both ends decreasing.    Next, since the constant term is , the -intercept is .   The point has been added to the plot.    Since is quadratic in form, let ). Then we can solve for , and then , as follows:     Therefore, the -intercepts are , , , and . Each zero has multiplicity , so the graph crosses the -axis like at each intercept.   The -intercepts , , , and are added to the graph.    Because is an even function (only even powers of appear), its graph is symmetric with respect to the -axis. We therefore only need to compute values for positive and reflect them for negative .  Let us compute values at , , and :   Selected Points for      (x, y)                     approximately     Using the fact that is an even function, we see that the points , , and approximately . We plot all these points in the following figure.   The additional symmetric points from the table are added to the graph.    Because a degree- polynomial can have at most turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of .   The graph of .      Consider the following graph of .   The graph of .   Graph of p(x) = x^3 - 3x - 2    While it is clear from the graph that we have two -intercepts: and , try to solve using any of the techniques we have learned so far. You will see that they all fail. Furthermore, the polynomial factors nicely as . Again, no factoring technique we have learned will factor this polynomial.  Our next goal is to develop a factoring method that can factor polynomials such as . Once we have established that method, we can then find the -intercepts of . This technique will have a side effect: we will end up with a result known as the Fundamental Theorem of Algebra.  "
+  "body": " Graphing Polynomial Functions   Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.    Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (aka the local extrema).       Graphing a Degree 3 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is , the end behavior of is approximated by the end behavior of . In this case, the graph will end with an arrow rising up and to the right and with an arrow falling down and to the left.   The end behavior of the function has been drawn, leaving the middle of the graph not drawn at this time.    Next, since the constant term is , we know that the -intercept is .   The point has been added to the plot.    Then, solve the equation using factoring by grouping.     Therefore, the -intercepts are and .  Since the zero has multiplicity , the graph will bounce at the -axis at like ,  since has multiplicity , it will cross the -axis at like .     The -intercepts and are added. The graph bounces from below at and crosses from negative to positive at .    Since we have zeros at and , we now compute additional points at :   Selected Points for                                   Plotting these points yields the following figure.   The additional points from the table are added to the graph.    Since a polynomial cannot have more than local extrema and our graph has 2 local extrema, we have a complete graph. We connect the points and finish graphing the function.   The graph of .       Graphing a Degree 4 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is with a negative coefficient and even degree, both ends of the graph look similar to . Therefore, the graph travels down and to the right as approaches . Similarly, the graph travels down and to the left as approaches .   The end behavior is drawn with both ends decreasing.    Next, since the constant term is , the -intercept is .   The point has been added to the plot.    Since is quadratic in form, let ). Then we can solve for , and then , as follows:     Therefore, the -intercepts are , , , and . Each zero has multiplicity , so the graph crosses the -axis like at each intercept.   The -intercepts , , , and are added to the graph.    Because is an even function (only even powers of appear), its graph is symmetric with respect to the -axis. We therefore only need to compute values for positive and reflect them for negative .  Let us compute values at , , and :   Selected Points for      (x, y)                     approximately     Using the fact that is an even function, we see that the points , , and approximately . We plot all these points in the following figure.   The additional symmetric points from the table are added to the graph.    Because a degree- polynomial can have at most turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of .   The graph of .      Consider the following graph of .   The graph of .   Graph of p(x) = x^3 - 3x - 2    While it is clear from the graph that we have two -intercepts: and , try to solve using any of the techniques we have learned so far. You will see that they all fail. Furthermore, the polynomial factors nicely as . Again, no factoring technique we have learned will factor this polynomial.  Our next goal is to develop a factoring method that can factor polynomials such as . Once we have established that method, we can then find the -intercepts of . This technique will have a side effect: we will end up with a result known as the Fundamental Theorem of Algebra.  "
 },
 {
   "id": "graphing-polynomial-functions",
@@ -1969,7 +1969,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.6.2",
   "title": "Graphing a Degree 3 Polynomial.",
-  "body": " Graphing a Degree 3 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is , the end behavior of is approximated by the end behavior of . In this case, the graph will end with an arrow rising up and to the right and with an arrow falling down and to the left.   The end behavior of the function has been drawn, leaving the middle of the graph undrawn at this time.    Next, since the constant term is , we know that the -intercept is .   The point has been added to the plot.    Then, solve the equation using factoring by grouping.     Therefore, the -intercepts are and .  Since the zero has multiplicity , the graph will bounce at the -axis at like ,  since has multiplicity , it will cross the -axis at like .     The -intercepts and are added. The graph bounces from below at and crosses from negative to positive at .    Since we have zeros at and , we now compute additional points at :   Selected Points for                                   Plotting these points yields the following figure.   The additional points from the table are added to the graph.    Since a polynomial cannot have more than local extrema and our graph has 2 local extrema, we have a complete graph. We connect the points and finish graphing the function.   The graph of .     "
+  "body": " Graphing a Degree 3 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term is , the end behavior of is approximated by the end behavior of . In this case, the graph will end with an arrow rising up and to the right and with an arrow falling down and to the left.   The end behavior of the function has been drawn, leaving the middle of the graph not drawn at this time.    Next, since the constant term is , we know that the -intercept is .   The point has been added to the plot.    Then, solve the equation using factoring by grouping.     Therefore, the -intercepts are and .  Since the zero has multiplicity , the graph will bounce at the -axis at like ,  since has multiplicity , it will cross the -axis at like .     The -intercepts and are added. The graph bounces from below at and crosses from negative to positive at .    Since we have zeros at and , we now compute additional points at :   Selected Points for                                   Plotting these points yields the following figure.   The additional points from the table are added to the graph.    Since a polynomial cannot have more than local extrema and our graph has 2 local extrema, we have a complete graph. We connect the points and finish graphing the function.   The graph of .     "
 },
 {
   "id": "graphing-a-degree-4-polynomial",
@@ -2176,7 +2176,52 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.10",
   "title": "The Test for <span class=\"process-math\">\\(\\pm 1\\)<\/span>",
-  "body": " The Test for    "
+  "body": " The Test for   Test for   Let be any polynomial function.    If the coefficients of sum to , then is a zero of .  If the coefficients of sum to , then is a zero of .       Show that is a zero of a polynomial   Show that is a zero of the polynomial . Then find the remaining zeros.             To determine whether is a zero of , we add the coefficients together:   Since the sum is zero, is a zero of . We then use synthetic division to factor the polynomial. The synthetic division yields the following result:   Synthetic division shows that the quotient is .    Therefore, we can factor the polynomial as follows:     By the Factor Theorem, the solutions are , , and .     Show that is a zero of a polynomial   Show that is a zero of the polynomial . Then find the remaining zeros.             We begin by finding :   Now, add the coefficients of :   Since the sum is zero, by the Test for , is a zero of .  We now use synthetic division to factor the polynomial. The synthetic division yields the following result:   Synthetic division shows that the quotient is .    Therefore, we can factor the polynomial as follows:     By the Factor Theorem, the solutions are , , and .     An example using the test multiple times   Find the zeroes of the polynomial .              To determine whether is a zero of , we add the coefficients together:   Since the sum is zero, is a zero of . We then use synthetic division to factor the polynomial. The synthetic division yields the following result:   Synthetic division shows that the quotient is .    Therefore, we can factor the polynomial as follows:     Next, we compute :   Now, add the coefficients of :   Since the sum is zero, by the Test for , is a zero of .  We now use synthetic division to factor the polynomial. The synthetic division yields the following result:   Synthetic division shows that the new quotient is .    Therefore, we can factor the polynomial as follows:        Graphing a Degree 4 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term has a positive coefficient and odd degree, both ends of the graph look similar to . Therefore, the graph travels up and to the right as approaches . Similarly, the graph travels down and to the left as approaches .   The end behavior is drawn with an arrow going up and right and an arrow going down and left.    Next, since the constant term is , the -intercept is .   The point has been added to the plot.    Now, we have to find the zeroes of the polynomial. You should always try the Test for first. Adding the coefficients of , we get the following calculation. Since the coefficients sum to 0, then is a zero of . We use synthetic division to factor the polynomial.   Synthetic division gives us the quotient .    Now, we can fully factor the polynomial.   Therefore, the -intercepts are , , and . Each zero has multiplicity , so the graph crosses the -axis like at each intercept.   The -intercepts , , , and are added to the graph.    Finally, let us compute values at , , , and :   Selected Points for                              We plot all these points in the following figure.   The additional points from the table are added to the graph.    Because a degree- polynomial can have at most turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of .   The graph of .      "
+},
+{
+  "id": "test-for-pm1",
+  "level": "2",
+  "url": "text-for-pm-one.html#test-for-pm1",
+  "type": "Theorem",
+  "number": "5.10.1",
+  "title": "Test for <span class=\"process-math\">\\(\\pm1\\)<\/span>.",
+  "body": " Test for   Let be any polynomial function.    If the coefficients of sum to , then is a zero of .  If the coefficients of sum to , then is a zero of .     "
+},
+{
+  "id": "show-that-x-equals-1-zero-polynomial",
+  "level": "2",
+  "url": "text-for-pm-one.html#show-that-x-equals-1-zero-polynomial",
+  "type": "Example",
+  "number": "5.10.2",
+  "title": "Show that <span class=\"process-math\">\\(x = 1\\)<\/span> is a zero of a polynomial.",
+  "body": " Show that is a zero of a polynomial   Show that is a zero of the polynomial . Then find the remaining zeros.             To determine whether is a zero of , we add the coefficients together:   Since the sum is zero, is a zero of . We then use synthetic division to factor the polynomial. The synthetic division yields the following result:   Synthetic division shows that the quotient is .    Therefore, we can factor the polynomial as follows:     By the Factor Theorem, the solutions are , , and .   "
+},
+{
+  "id": "show-that-x-equals-neg1-zero-polynomial",
+  "level": "2",
+  "url": "text-for-pm-one.html#show-that-x-equals-neg1-zero-polynomial",
+  "type": "Example",
+  "number": "5.10.4",
+  "title": "Show that <span class=\"process-math\">\\(x = -1\\)<\/span> is a zero of a polynomial.",
+  "body": " Show that is a zero of a polynomial   Show that is a zero of the polynomial . Then find the remaining zeros.             We begin by finding :   Now, add the coefficients of :   Since the sum is zero, by the Test for , is a zero of .  We now use synthetic division to factor the polynomial. The synthetic division yields the following result:   Synthetic division shows that the quotient is .    Therefore, we can factor the polynomial as follows:     By the Factor Theorem, the solutions are , , and .   "
+},
+{
+  "id": "test-pos-and-neg-one",
+  "level": "2",
+  "url": "text-for-pm-one.html#test-pos-and-neg-one",
+  "type": "Example",
+  "number": "5.10.6",
+  "title": "An example using the test multiple times.",
+  "body": " An example using the test multiple times   Find the zeroes of the polynomial .              To determine whether is a zero of , we add the coefficients together:   Since the sum is zero, is a zero of . We then use synthetic division to factor the polynomial. The synthetic division yields the following result:   Synthetic division shows that the quotient is .    Therefore, we can factor the polynomial as follows:     Next, we compute :   Now, add the coefficients of :   Since the sum is zero, by the Test for , is a zero of .  We now use synthetic division to factor the polynomial. The synthetic division yields the following result:   Synthetic division shows that the new quotient is .    Therefore, we can factor the polynomial as follows:      "
+},
+{
+  "id": "graphing-test-for-pm-one",
+  "level": "2",
+  "url": "text-for-pm-one.html#graphing-test-for-pm-one",
+  "type": "Example",
+  "number": "5.10.9",
+  "title": "Graphing a Degree 4 Polynomial.",
+  "body": " Graphing a Degree 4 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term has a positive coefficient and odd degree, both ends of the graph look similar to . Therefore, the graph travels up and to the right as approaches . Similarly, the graph travels down and to the left as approaches .   The end behavior is drawn with an arrow going up and right and an arrow going down and left.    Next, since the constant term is , the -intercept is .   The point has been added to the plot.    Now, we have to find the zeroes of the polynomial. You should always try the Test for first. Adding the coefficients of , we get the following calculation. Since the coefficients sum to 0, then is a zero of . We use synthetic division to factor the polynomial.   Synthetic division gives us the quotient .    Now, we can fully factor the polynomial.   Therefore, the -intercepts are , , and . Each zero has multiplicity , so the graph crosses the -axis like at each intercept.   The -intercepts , , , and are added to the graph.    Finally, let us compute values at , , , and :   Selected Points for                              We plot all these points in the following figure.   The additional points from the table are added to the graph.    Because a degree- polynomial can have at most turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of .   The graph of .     "
 },
 {
   "id": "rational-zeroes-theorem",
@@ -2185,7 +2230,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.11",
   "title": "The Rational Root Theorem",
-  "body": " The Rational Root Theorem    "
+  "body": " The Rational Root Theorem   Rational Root Theorem  Let be any polynomial function with leading coefficient and constant term . Then the possible rational roots are given by     Finding the Possible Rational Zeroes of a Polynomial Function, Version 1   Find all the possible rational zeroes of .       The factors of are and , and the factors of are and . Therefore, the possible rational zeroes are   When we simplify this list, we have .     Finding the Possible Rational Zeroes of a Polynomial Function, Version 2   Find all the possible rational zeroes of .       The factors of are , , , and , and the factors of are , , , . Therefore, the possible rational zeroes are   When we simplify this list, we have .     Finding Zeroes of a Polynomial Function   Find all the zeroes of .            The factors of are , , and the factors of are , , . Therefore, the possible rational zeroes are   When we simplify this list, we have .  Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the function and built a table until I found that is a zero of .   A table evaluating the function at and . The final row shows that .    Since is a zero of , we can use synthetic division to factor .   Synthetic division shows that the quotient is .    We also observe that is a perfect square trinomial and factors as . Therefore, our final factorization is   Therefore, our zeroes are and .     Finding Zeroes of a Polynomial Function, Version 2   Find all the zeroes of .             The factors of are , , and the factors of are , , , , , , , , , , , . Therefore, the possible rational roots are   When we simplify this list, we have  .  Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the function and built a table until I found that is a zero of .   A table evaluating the function at , , , and . The final row shows that .    Since is a zero of , we can use synthetic division to factor .   Synthetic division shows that the quotient is .    Therefore, we have the factorization . Now, we find the possible rational roots of the quotient. The factors of are and , and the factors of are , , , , , , , , , , , . Therefore, the possible rational zeroes are   When we simplify this list, we have .  Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the quotient and built a table until I found that is a zero of .   A table evaluating the quotient at , , , and . The final row shows that .    Since is a zero of , we can use synthetic division to factor .   Synthetic division shows that the quotient is .    Therefore, we have the factorization By the Factor Theorem, the zeroes are , , and      Graphing a Degree 4 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term has a positive coefficient and even degree, both ends of the graph look similar to . Therefore, the graph travels up and to the right as approaches . Similarly, the graph travels up and to the left as approaches .   The end behavior is drawn with an arrow going up and right and an arrow going down and left.    Next, since the constant term is , the -intercept is .   The point has been added to the plot.    Now, we have to find the zeroes of the polynomial. You should always try the Test for first. Adding the coefficients of , we get the following calculation. Since the coefficients sum to 0, then is a zero of . We use synthetic division to factor the polynomial.   Synthetic division gives us the quotient .    Now, we can factor the polynomial as follows: Now, we start over with the quotient . The Test for fails for ; so, we have to resort to the Rational Roots Theorem. The factors of are , , , , , , and the factors of the leading coefficient are . Therefore, the possible rational zeroes are   When we simplify this list, we have . Since we already know that are not zeroes, we start building our table with . The last row in our table shows that is a zero of   A table evaluating the quotient at , , , and . The final row shows that .    Since is a zero of , we can use synthetic division to factor .   Synthetic division shows that the quotient is .    Notice that is a perfect square trinomial and factors as . Therefore, our complete factorization is given by the following calculation. Therefore, the -intercepts are , , and . The multiplicities are , , and respectively. We add these points to the graph.   The -intercepts , , and are added to the graph.    Finally, let us compute values at and :   Selected Points for                    We plot all these points in the following figure.   The additional points from the table are added to the graph.    Because a degree- polynomial can have at most turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of .   The graph of .      "
+},
+{
+  "id": "rational-root-theorem",
+  "level": "2",
+  "url": "rational-zeroes-theorem.html#rational-root-theorem",
+  "type": "Theorem",
+  "number": "5.11.1",
+  "title": "Rational Root Theorem.",
+  "body": " Rational Root Theorem  Let be any polynomial function with leading coefficient and constant term . Then the possible rational roots are given by   "
+},
+{
+  "id": "finding-rational-zeroes-updated",
+  "level": "2",
+  "url": "rational-zeroes-theorem.html#finding-rational-zeroes-updated",
+  "type": "Example",
+  "number": "5.11.2",
+  "title": "Finding the Possible Rational Zeroes of a Polynomial Function, Version 1.",
+  "body": " Finding the Possible Rational Zeroes of a Polynomial Function, Version 1   Find all the possible rational zeroes of .       The factors of are and , and the factors of are and . Therefore, the possible rational zeroes are   When we simplify this list, we have .   "
+},
+{
+  "id": "finding-possible-rational-zeroes",
+  "level": "2",
+  "url": "rational-zeroes-theorem.html#finding-possible-rational-zeroes",
+  "type": "Example",
+  "number": "5.11.3",
+  "title": "Finding the Possible Rational Zeroes of a Polynomial Function, Version 2.",
+  "body": " Finding the Possible Rational Zeroes of a Polynomial Function, Version 2   Find all the possible rational zeroes of .       The factors of are , , , and , and the factors of are , , , . Therefore, the possible rational zeroes are   When we simplify this list, we have .   "
+},
+{
+  "id": "finding-zeroes-polynomial-function",
+  "level": "2",
+  "url": "rational-zeroes-theorem.html#finding-zeroes-polynomial-function",
+  "type": "Example",
+  "number": "5.11.4",
+  "title": "Finding Zeroes of a Polynomial Function.",
+  "body": " Finding Zeroes of a Polynomial Function   Find all the zeroes of .            The factors of are , , and the factors of are , , . Therefore, the possible rational zeroes are   When we simplify this list, we have .  Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the function and built a table until I found that is a zero of .   A table evaluating the function at and . The final row shows that .    Since is a zero of , we can use synthetic division to factor .   Synthetic division shows that the quotient is .    We also observe that is a perfect square trinomial and factors as . Therefore, our final factorization is   Therefore, our zeroes are and .   "
+},
+{
+  "id": "finding-zeroes-polynomial-function-2",
+  "level": "2",
+  "url": "rational-zeroes-theorem.html#finding-zeroes-polynomial-function-2",
+  "type": "Example",
+  "number": "5.11.7",
+  "title": "Finding Zeroes of a Polynomial Function, Version 2.",
+  "body": " Finding Zeroes of a Polynomial Function, Version 2   Find all the zeroes of .             The factors of are , , and the factors of are , , , , , , , , , , , . Therefore, the possible rational roots are   When we simplify this list, we have  .  Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the function and built a table until I found that is a zero of .   A table evaluating the function at , , , and . The final row shows that .    Since is a zero of , we can use synthetic division to factor .   Synthetic division shows that the quotient is .    Therefore, we have the factorization . Now, we find the possible rational roots of the quotient. The factors of are and , and the factors of are , , , , , , , , , , , . Therefore, the possible rational zeroes are   When we simplify this list, we have .  Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the quotient and built a table until I found that is a zero of .   A table evaluating the quotient at , , , and . The final row shows that .    Since is a zero of , we can use synthetic division to factor .   Synthetic division shows that the quotient is .    Therefore, we have the factorization By the Factor Theorem, the zeroes are , , and    "
+},
+{
+  "id": "graph-rational-roots-test-pm-one",
+  "level": "2",
+  "url": "rational-zeroes-theorem.html#graph-rational-roots-test-pm-one",
+  "type": "Example",
+  "number": "5.11.12",
+  "title": "Graphing a Degree 4 Polynomial.",
+  "body": " Graphing a Degree 4 Polynomial   Graph the function .     The graph of .      The first step is to determine the end behavior of . Since the leading term has a positive coefficient and even degree, both ends of the graph look similar to . Therefore, the graph travels up and to the right as approaches . Similarly, the graph travels up and to the left as approaches .   The end behavior is drawn with an arrow going up and right and an arrow going down and left.    Next, since the constant term is , the -intercept is .   The point has been added to the plot.    Now, we have to find the zeroes of the polynomial. You should always try the Test for first. Adding the coefficients of , we get the following calculation. Since the coefficients sum to 0, then is a zero of . We use synthetic division to factor the polynomial.   Synthetic division gives us the quotient .    Now, we can factor the polynomial as follows: Now, we start over with the quotient . The Test for fails for ; so, we have to resort to the Rational Roots Theorem. The factors of are , , , , , , and the factors of the leading coefficient are . Therefore, the possible rational zeroes are   When we simplify this list, we have . Since we already know that are not zeroes, we start building our table with . The last row in our table shows that is a zero of   A table evaluating the quotient at , , , and . The final row shows that .    Since is a zero of , we can use synthetic division to factor .   Synthetic division shows that the quotient is .    Notice that is a perfect square trinomial and factors as . Therefore, our complete factorization is given by the following calculation. Therefore, the -intercepts are , , and . The multiplicities are , , and respectively. We add these points to the graph.   The -intercepts , , and are added to the graph.    Finally, let us compute values at and :   Selected Points for                    We plot all these points in the following figure.   The additional points from the table are added to the graph.    Because a degree- polynomial can have at most turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of .   The graph of .     "
 },
 {
   "id": "irrational-zeroes",
@@ -2212,7 +2311,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.14",
   "title": "The Complex Zeroes of a Polynomial",
-  "body": " The Complex Zeroes of a Polynomial    "
+  "body": " The Complex Zeroes of a Polynomial   Complex Zeroes of a Real Polynomial   Let be any polynomial with real coefficients. Then the complex zeroes of the polynomial come in complex conjugate pairs.       Find all the real and complex zeroes of the function .                         The Test for fails; so, we need to use the Rational Roots Theorem. The list of possible rational roots are , , , , , , , , and . Using a table to evaluate these possible roots, we see that is the only rational root that exists.   The only rational root of is .    Now, we will use synthetic division to factor.   Synthetic division shows that the quotient is .    Since is a sum of squares, we can factor it over the complex numbers as . Therefore, our fully factored polynomial is By the Factor Theorem, our zeroes are , , and .       Find all the real and complex zeroes of the function .                              The Test for fails; so, we need to use the Rational Roots Theorem. The list of possible rational roots are , , , , , , , and . Using a table to evaluate these possible roots, we see that and are the only rational roots that exist.   The only rational roots of are and .    We can use either zero to factor; I will choose . Now, we will use synthetic division to factor.   Synthetic division shows that the quotient is .    If we try the Test for on the quotient, we will see that it fails. The list of possible rational roots are , , , , , and . Using a table to evaluate these possible roots, we see that is the only rational root that exists.   The only rational root of is .    Now, we will use synthetic division to factor.   Synthetic division shows that the quotient is .    Therefore, our factored polynomial is By the Factor Theorem, we know that and are zeroes of . The discriminant for the quadratic factor is negative; so, we will use the quadratic formula to find the two complex roots. Therefore, our zeroes are , , , and .    "
+},
+{
+  "id": "thm-complex-zeroes-real-polynomials",
+  "level": "2",
+  "url": "complex-zeroes.html#thm-complex-zeroes-real-polynomials",
+  "type": "Theorem",
+  "number": "5.14.1",
+  "title": "Complex Zeroes of a Real Polynomial.",
+  "body": " Complex Zeroes of a Real Polynomial   Let be any polynomial with real coefficients. Then the complex zeroes of the polynomial come in complex conjugate pairs.   "
+},
+{
+  "id": "ex-complex-zeroes-1",
+  "level": "2",
+  "url": "complex-zeroes.html#ex-complex-zeroes-1",
+  "type": "Example",
+  "number": "5.14.2",
+  "title": ".",
+  "body": "   Find all the real and complex zeroes of the function .                         The Test for fails; so, we need to use the Rational Roots Theorem. The list of possible rational roots are , , , , , , , , and . Using a table to evaluate these possible roots, we see that is the only rational root that exists.   The only rational root of is .    Now, we will use synthetic division to factor.   Synthetic division shows that the quotient is .    Since is a sum of squares, we can factor it over the complex numbers as . Therefore, our fully factored polynomial is By the Factor Theorem, our zeroes are , , and .   "
+},
+{
+  "id": "ex-complex-zeroes-2",
+  "level": "2",
+  "url": "complex-zeroes.html#ex-complex-zeroes-2",
+  "type": "Example",
+  "number": "5.14.5",
+  "title": ".",
+  "body": "   Find all the real and complex zeroes of the function .                              The Test for fails; so, we need to use the Rational Roots Theorem. The list of possible rational roots are , , , , , , , and . Using a table to evaluate these possible roots, we see that and are the only rational roots that exist.   The only rational roots of are and .    We can use either zero to factor; I will choose . Now, we will use synthetic division to factor.   Synthetic division shows that the quotient is .    If we try the Test for on the quotient, we will see that it fails. The list of possible rational roots are , , , , , and . Using a table to evaluate these possible roots, we see that is the only rational root that exists.   The only rational root of is .    Now, we will use synthetic division to factor.   Synthetic division shows that the quotient is .    Therefore, our factored polynomial is By the Factor Theorem, we know that and are zeroes of . The discriminant for the quadratic factor is negative; so, we will use the quadratic formula to find the two complex roots. Therefore, our zeroes are , , , and .   "
 },
 {
   "id": "fundamental-theorem-of-algebra",
@@ -2221,7 +2347,124 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.15",
   "title": "The Fundamental Theorem of Algebra",
-  "body": " The Fundamental Theorem of Algebra    "
+  "body": " The Fundamental Theorem of Algebra   The Fundamental Theorem of Algebra   Let be any degree polynomial function. Then a complex zero exists.      Any degree polynomial can be factored.      The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .     Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has leading coefficient , degree and roots and . Determine what polynomial should equal. You may leave the polynomial in its factored form.         Since had degree , we know there are three zeroes. But, the problem only gives us two solutions. But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that is another zero of the polynomial. By the Complete Linear Factorization Theorem, But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply . Thankfully, this is a sum of squares and easily multiplies: Therefore, the polynomial we are looking for is While the instructions say you can leave it factored, if you multiplied the polynomial out, we get      Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has leading coefficient , degree and roots and . Determine what polynomial should equal. You may leave the polynomial in its factored form.         Since had degree , we know there are three zeroes. But, the problem only gives us two solutions. But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that is another zero of the polynomial. By the Complete Linear Factorization Theorem, But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply . Therefore, the polynomial we are looking for is While the instructions say you can leave it factored, if you multiplied the polynomial out, we get      Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has degree and roots and . Determine what polynomial should equal if . You may leave the polynomial in its factored form.         Since we know all the zeroes, the Complete Linear Factorization Theorem tells us that, But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply . Thankfully, this is a sum of squares and easily multiplies: Therefore, the polynomial we are looking for is To find the value of , we solve the equation for : Therefore, the polynomial we are looking for is If we fully multiply it out, we get       A real-valued polynomial is irreducible if it can be only be factored using complex numbers.      Any degree polynomial is reducible over the real numbers.    This is easy to see with odd degree polynomials. Since complex zeroes come in pairs and there are an odd number of zeroes in an odd degree polynomial, it always has at least 1 real zero. We'll do an example to show the plausibility for even degree polynomials.   Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots   Factor the polynomial . Express your final answer as a product of irreducible factors.         Notice that the given polynomial is quadratic in form. Let . Then, we get the following calculation.      Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots   Factor the polynomial . Express your final answer as a product of irreducible factors.         This problem requires a couple of tricks. While none of these tricks are beyond your skill set, you are not likely to see them unless they are pointed out. The first trick is factor out an and group the terms in a particular way. Now, the factor in the square brackets is almost quadratic in form. Unfortunately, . But they are barely not equal to each other. To see this, let's pretend the factor in the square brackets is quadratic in form. Let . Then Since we have a substitution for both and in terms of , we can continue to factor:     Linear factors are always irreducible; but quadratic factors may or may not be reducible. The following theorem tells us when we can reduce a quadratic factor into linear factors with real zeroes.    Let be any quadratic function. If the discriminant is negative, then is irreducible over the real numbers.    By the Complete Linear Factorization Theorem, The solutions to the equation given by the Quadratic Formula are the values of and by the Factor Theorem. We know that the Quadratic Formula only gives complex solutions when the discriminant is negative. Therefore, a quadratic polynomial is irreducible when the discriminant is negative.    This leads us to the our final statement in this section.    Let be any real-valued polynomial. Then it can always be factored using linear and irreducible quadratic factors.     Illustrative example of   Factor .         "
+},
+{
+  "id": "thm-fundamental-theorem-algebra",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#thm-fundamental-theorem-algebra",
+  "type": "Theorem",
+  "number": "5.15.1",
+  "title": "The Fundamental Theorem of Algebra.",
+  "body": " The Fundamental Theorem of Algebra   Let be any degree polynomial function. Then a complex zero exists.   "
+},
+{
+  "id": "cor-any-polynomial-factors",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#cor-any-polynomial-factors",
+  "type": "Theorem",
+  "number": "5.15.2",
+  "title": "",
+  "body": "  Any degree polynomial can be factored.   "
+},
+{
+  "id": "cor-complete-linear-factorization-theorem",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#cor-complete-linear-factorization-theorem",
+  "type": "Theorem",
+  "number": "5.15.3",
+  "title": "",
+  "body": "  The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .   "
+},
+{
+  "id": "fta-example-1",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#fta-example-1",
+  "type": "Example",
+  "number": "5.15.4",
+  "title": "Using the Fundamental Theorem of Algebra to Construct a Polynomial.",
+  "body": " Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has leading coefficient , degree and roots and . Determine what polynomial should equal. You may leave the polynomial in its factored form.         Since had degree , we know there are three zeroes. But, the problem only gives us two solutions. But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that is another zero of the polynomial. By the Complete Linear Factorization Theorem, But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply . Thankfully, this is a sum of squares and easily multiplies: Therefore, the polynomial we are looking for is While the instructions say you can leave it factored, if you multiplied the polynomial out, we get    "
+},
+{
+  "id": "fta-example-2",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#fta-example-2",
+  "type": "Example",
+  "number": "5.15.5",
+  "title": "Using the Fundamental Theorem of Algebra to Construct a Polynomial.",
+  "body": " Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has leading coefficient , degree and roots and . Determine what polynomial should equal. You may leave the polynomial in its factored form.         Since had degree , we know there are three zeroes. But, the problem only gives us two solutions. But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that is another zero of the polynomial. By the Complete Linear Factorization Theorem, But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply . Therefore, the polynomial we are looking for is While the instructions say you can leave it factored, if you multiplied the polynomial out, we get    "
+},
+{
+  "id": "fta-example-3",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#fta-example-3",
+  "type": "Example",
+  "number": "5.15.6",
+  "title": "Using the Fundamental Theorem of Algebra to Construct a Polynomial.",
+  "body": " Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has degree and roots and . Determine what polynomial should equal if . You may leave the polynomial in its factored form.         Since we know all the zeroes, the Complete Linear Factorization Theorem tells us that, But, we don't want any complex numbers in our polynomial since it is real-valued; so, we need to multiply . Thankfully, this is a sum of squares and easily multiplies: Therefore, the polynomial we are looking for is To find the value of , we solve the equation for : Therefore, the polynomial we are looking for is If we fully multiply it out, we get    "
+},
+{
+  "id": "def-irreducible-polynomial",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#def-irreducible-polynomial",
+  "type": "Definition",
+  "number": "5.15.7",
+  "title": "",
+  "body": "  A real-valued polynomial is irreducible if it can be only be factored using complex numbers.   "
+},
+{
+  "id": "thm-reducible-real-polynomials",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#thm-reducible-real-polynomials",
+  "type": "Theorem",
+  "number": "5.15.8",
+  "title": "",
+  "body": "  Any degree polynomial is reducible over the real numbers.   "
+},
+{
+  "id": "even-degree-reducible",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#even-degree-reducible",
+  "type": "Example",
+  "number": "5.15.9",
+  "title": "Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots.",
+  "body": " Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots   Factor the polynomial . Express your final answer as a product of irreducible factors.         Notice that the given polynomial is quadratic in form. Let . Then, we get the following calculation.    "
+},
+{
+  "id": "even-degree-reducible-2",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#even-degree-reducible-2",
+  "type": "Example",
+  "number": "5.15.10",
+  "title": "Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots.",
+  "body": " Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots   Factor the polynomial . Express your final answer as a product of irreducible factors.         This problem requires a couple of tricks. While none of these tricks are beyond your skill set, you are not likely to see them unless they are pointed out. The first trick is factor out an and group the terms in a particular way. Now, the factor in the square brackets is almost quadratic in form. Unfortunately, . But they are barely not equal to each other. To see this, let's pretend the factor in the square brackets is quadratic in form. Let . Then Since we have a substitution for both and in terms of , we can continue to factor:    "
+},
+{
+  "id": "thm-irreducibility-of-the-quadratic",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#thm-irreducibility-of-the-quadratic",
+  "type": "Theorem",
+  "number": "5.15.11",
+  "title": "",
+  "body": "  Let be any quadratic function. If the discriminant is negative, then is irreducible over the real numbers.    By the Complete Linear Factorization Theorem, The solutions to the equation given by the Quadratic Formula are the values of and by the Factor Theorem. We know that the Quadratic Formula only gives complex solutions when the discriminant is negative. Therefore, a quadratic polynomial is irreducible when the discriminant is negative.   "
+},
+{
+  "id": "thm-polynomial-linear-quadratic-factors",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#thm-polynomial-linear-quadratic-factors",
+  "type": "Theorem",
+  "number": "5.15.12",
+  "title": "",
+  "body": "  Let be any real-valued polynomial. Then it can always be factored using linear and irreducible quadratic factors.   "
+},
+{
+  "id": "thm-hard-example-factoring",
+  "level": "2",
+  "url": "fundamental-theorem-of-algebra.html#thm-hard-example-factoring",
+  "type": "Example",
+  "number": "5.15.13",
+  "title": "Illustrative example of Theorem 5.15.12.",
+  "body": " Illustrative example of   Factor .        "
 },
 {
   "id": "polynomial-inequalities",
@@ -3355,7 +3598,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "A.5",
   "title": "Chapter 5 Lecture Notes",
-  "body": " Chapter 5 Lecture Notes   Properties of Polynomial Functions   Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form . There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .       Identifying Polynomial Functions   Which of the following functions are polynomial?             Identifying the Key Parts of a Polynomial, Version 2   Let . Find the degree, leading term, leading coefficient, and constant term.   Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.    Identifying the Key Parts of a Polynomial, Version 3   Let . Find the degree, leading term, leading coefficient, and constant term.   Every real number can be written as since . Therefore, horizontal lines such as are also degree 0 polynomials, since the highest power of is 0.    Identifying the Key Parts of a Factored Polynomial   Let . Find the degree, leading term, and constant term.   While this seems harder, the solution is very straightforward.  First, we find the leading term by ignoring the and in the factors to get the product Now that we have the leading term, we see that the degree is and the leading coefficient is .  To find the constant term, we just ignore the in each factor and multiply to get    The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.     If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.      If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.      If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.         Using the Leading Coefficient Test, Version 3   Determine the end behavior of .      The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .    Let's think about what this statement says.    There is a relationship between factoring and solutions to polynomial equations.  A degree polynomial function has solutions.  Since the can be the same value, a solution can be “repeated.”  Since this statement is a theorem, there is a proof that this complete linear factorization can always be found.     Using the Complete Linear Factorization to Solve an Equation   The complete linear factorization of the polynomial function is Use the complete linear factorization of the function to solve the equation .     A complex number is a zero of a polynomial function if .    Zeros are also called the roots or solutions of the polynomial equation .    Finding the zeroes of a polynomial function with one real solution and two complex solutions   Find the zeroes of the function     The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .        Finding the Multiplicities of a Factored Polynomial   Let . Find the zeroes and their multiplicities.     The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.         Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.      Graphing and Factor Theorem Notes   Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.  Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (local extrema).       Graphing a Degree 3 Polynomial   Graph the function .    Consider the following graph of .   The graph of .    While it is clear from the graph that we have two -intercepts: and , try to solve using any of the techniques we have learned so far. You will see that they all fail. Furthermore, the polynomial factors nicely as . Again, no factoring technique we have learned will factor this polynomial.   The Division Algorithm for Natural Numbers   Let and be natural numbers (nonzero, positive, whole numbers). Then there exist two unique numbers, a quotient  and a remainder  , such that , where .  is known as the dividend .  is known as the divisor .      The Division Algorithm gives us a way to define division in terms of multiplication and addition for any two numbers and . We find the values and using long division . Our next two examples show us what happens.   Long Division with a Zero Remainder   Use long division to divide by . Then express the result using the Division Algorithm.     The Zero Polynomial   The zero polynomial is the polynomial whose value is zero for every value of . We write the zero polynomial as for all real numbers .     Don’t confuse the zero polynomial with solving a polynomial equation . While the notations are identical, the contexts are very different. Thankfully, these concepts don’t typically come into direct contact with one another, so the context of the problem will tell you which version of the notation we are using.    The Division Algorithm   Let and be polynomials, where is not the zero polynomial. Then there exist unique polynomials, a quotient  and a remainder  , such that   where the degree of is less than the degree of .  is called the dividend .  is called the divisor .       Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.     Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.    Recall that we are looking for a way to factor any polynomial function as . Since we have seen that there is a relationship between factoring and dividing, notice that all our factors look like minus a number. So, let’s look at how dividing by and the Division Algorithm work together.  But polynomial long division, as we have seen, can be long, tedious, and cumbersome to write. It turns out that when we divide by , there is a shorthand version of polynomial long division called synthetic division that can make this process faster and less error-prone. Instead of writing a step-by-step method, we will just illustrate how this works in the next three examples.   Synthetic Division, First Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     Synthetic Division, Second Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     Synthetic Division, Third Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     The Remainder Theorem   Let be any polynomial function and let for some real number . Then the remainder is equal to .     Evaluating a Polynomial Using the Remainder Theorem   Let . Evaluate .     The Factor Theorem   Let be any polynomial function. The following two statements are equivalent to each other.  is a zero of .  is a factor of .      Since we just proved that factoring is another way to find solutions to polynomial equations,  We don't have to set polynomials equal to zero to solve them; we just need to factor them. This alleviates the confusion between solving an equation and simplifying an expression.  If we know a zero of the polynomial, we can use Synthetic or Polynomial Long Division to find the other factor that doesn't correspond to the zero. This helps us factor higher-degree polynomials.     Factoring a Degree 4 Polynomial   Suppose you know that and are zeroes of the polynomial . Find the other zeroes of the polynomial.    The overall technique we will use is  Find any zero of .  Use synthetic division to factor the polynomial.  Repeat steps 1 and 2 until you end with a quadratic factor.  Use the methods from Chapter 4 to find the remaining two solutions (if they exist).     "
+  "body": " Chapter 5 Lecture Notes   Properties of Polynomial Functions   Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form . There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .       Identifying Polynomial Functions   Which of the following functions are polynomial?             Identifying the Key Parts of a Polynomial, Version 2   Let . Find the degree, leading term, leading coefficient, and constant term.   Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.    Identifying the Key Parts of a Polynomial, Version 3   Let . Find the degree, leading term, leading coefficient, and constant term.   Every real number can be written as since . Therefore, horizontal lines such as are also degree 0 polynomials, since the highest power of is 0.    Identifying the Key Parts of a Factored Polynomial   Let . Find the degree, leading term, and constant term.   While this seems harder, the solution is very straightforward.  First, we find the leading term by ignoring the and in the factors to get the product Now that we have the leading term, we see that the degree is and the leading coefficient is .  To find the constant term, we just ignore the in each factor and multiply to get    The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.     If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.      If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.      If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.         Using the Leading Coefficient Test, Version 3   Determine the end behavior of .      The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .    Let's think about what this statement says.    There is a relationship between factoring and solutions to polynomial equations.  A degree polynomial function has solutions.  Since the can be the same value, a solution can be “repeated.”  Since this statement is a theorem, there is a proof that this complete linear factorization can always be found.     Using the Complete Linear Factorization to Solve an Equation   The complete linear factorization of the polynomial function is Use the complete linear factorization of the function to solve the equation .     A complex number is a zero of a polynomial function if .    Zeros are also called the roots or solutions of the polynomial equation .    Finding the zeroes of a polynomial function with one real solution and two complex solutions   Find the zeroes of the function     The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .        Finding the Multiplicities of a Factored Polynomial   Let . Find the zeroes and their multiplicities.     The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.         Determine if the Graph Will Cross or Bounce at an -intercept   Let . Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.      Graphing and Factor Theorem Notes   Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.  Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (local extrema).       Graphing a Degree 3 Polynomial   Graph the function .    Consider the following graph of .   The graph of .    While it is clear from the graph that we have two -intercepts: and , try to solve using any of the techniques we have learned so far. You will see that they all fail. Furthermore, the polynomial factors nicely as . Again, no factoring technique we have learned will factor this polynomial.   The Division Algorithm for Natural Numbers   Let and be natural numbers (nonzero, positive, whole numbers). Then there exist two unique numbers, a quotient  and a remainder  , such that , where .  is known as the dividend .  is known as the divisor .      The Division Algorithm gives us a way to define division in terms of multiplication and addition for any two numbers and . We find the values and using long division . Our next two examples show us what happens.   Long Division with a Zero Remainder   Use long division to divide by . Then express the result using the Division Algorithm.     The Zero Polynomial   The zero polynomial is the polynomial whose value is zero for every value of . We write the zero polynomial as for all real numbers .     Don’t confuse the zero polynomial with solving a polynomial equation . While the notations are identical, the contexts are very different. Thankfully, these concepts don’t typically come into direct contact with one another, so the context of the problem will tell you which version of the notation we are using.    The Division Algorithm   Let and be polynomials, where is not the zero polynomial. Then there exist unique polynomials, a quotient  and a remainder  , such that   where the degree of is less than the degree of .  is called the dividend .  is called the divisor .       Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.     Polynomial Long Division Example   Use polynomial long division to divide by . Then express the result using the Division Algorithm for polynomials.    Recall that we are looking for a way to factor any polynomial function as . Since we have seen that there is a relationship between factoring and dividing, notice that all our factors look like minus a number. So, let’s look at how dividing by and the Division Algorithm work together.  But polynomial long division, as we have seen, can be long, tedious, and cumbersome to write. It turns out that when we divide by , there is a shorthand version of polynomial long division called synthetic division that can make this process faster and less error-prone. Instead of writing a step-by-step method, we will just illustrate how this works in the next three examples.   Synthetic Division, First Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     Synthetic Division, Second Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     Synthetic Division, Third Example   Use Synthetic Division to divide by . Write your final answer using the Division Algorithm.     The Remainder Theorem   Let be any polynomial function and let for some real number . Then the remainder is equal to .     Evaluating a Polynomial Using the Remainder Theorem   Let . Evaluate .     The Factor Theorem   Let be any polynomial function. The following two statements are equivalent to each other.  is a zero of .  is a factor of .      Since we just proved that factoring is another way to find solutions to polynomial equations,  We don't have to set polynomials equal to zero to solve them; we just need to factor them. This alleviates the confusion between solving an equation and simplifying an expression.  If we know a zero of the polynomial, we can use Synthetic or Polynomial Long Division to find the other factor that doesn't correspond to the zero. This helps us factor higher-degree polynomials.     Factoring a Degree 4 Polynomial   Suppose you know that and are zeroes of the polynomial . Find the other zeroes of the polynomial.    The overall technique we will use is  Find any zero of .  Use synthetic division to factor the polynomial.  Repeat steps 1 and 2 until you end with a quadratic factor.  Use the methods from Chapter 4 to find the remaining two solutions (if they exist).      The Fundamental Theorem of Algebra   Test for   Let be any polynomial function.    If the coefficients of sum to , then is a zero of .  If the coefficients of sum to , then is a zero of .       Show that is a zero of a polynomial   Show that is a zero of the polynomial . Then find the remaining zeros.     Show that is a zero of a polynomial   Show that is a zero of the polynomial . Then find the remaining zeros.     Graphing a Degree 4 Polynomial   Graph the function .     Rational Root Theorem  Let be any polynomial function with leading coefficient and constant term . Then any rational root has the form , where divides and divides .    Finding the Possible Rational Zeroes of a Polynomial Function, Version 1   Find all the possible rational zeroes of .     Finding the Possible Rational Zeroes of a Polynomial Function, Version 2   Find all the possible rational zeroes of .     Finding Zeroes of a Polynomial Function   Find all the zeroes of .     Graphing a Degree 4 Polynomial   Graph the function .     Complex Zeroes of a Real Polynomial   Let be any polynomial with real coefficients. Then the complex zeroes of the polynomial come in complex conjugate pairs.     Finding Real and Complex Zeroes of a Polynomial   Find all the real and complex zeroes of the function .     Finding Real and Complex Zeroes of a Polynomial   Find all the real and complex zeroes of the function .     The Fundamental Theorem of Algebra   Let be any degree polynomial function. Then a complex zero exists.      Any degree polynomial can be factored.      The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .     Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has leading coefficient , degree and roots and . Determine what polynomial should equal. You may leave the polynomial in its factored form.     Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has leading coefficient , degree and roots and . Determine what polynomial should equal. You may leave the polynomial in its factored form.     Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has degree and roots and . Determine what polynomial should equal if . You may leave the polynomial in its factored form.      A real-valued polynomial is irreducible if it can be only be factored using complex numbers.      Any degree polynomial is reducible over the real numbers.     Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots   Factor the polynomial . Express your final answer as a product of irreducible factors.      Let be any quadratic function. If the discriminant is negative, then is irreducible over the real numbers.    By the Complete Linear Factorization Theorem, The solutions to the equation given by the Quadratic Formula are the values of and by the Factor Theorem. We know that the Quadratic Formula only gives complex solutions when the discriminant is negative. Therefore, a quadratic polynomial is irreducible when the discriminant is negative.      Let be any real-valued polynomial. Then it can always be factored using linear and irreducible quadratic factors.     Illustrative example of   Factor .          "
 },
 {
   "id": "lecture-notes-polynomial-function",
@@ -3671,6 +3914,222 @@ var ptx_lunr_docs = [
   "number": "A.5.2.9",
   "title": "Factoring a Degree 4 Polynomial.",
   "body": " Factoring a Degree 4 Polynomial   Suppose you know that and are zeroes of the polynomial . Find the other zeroes of the polynomial.   "
+},
+{
+  "id": "lecture-notes-test-for-pm1",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-test-for-pm1",
+  "type": "Theorem",
+  "number": "A.5.21",
+  "title": "Test for <span class=\"process-math\">\\(\\pm1\\)<\/span>.",
+  "body": " Test for   Let be any polynomial function.    If the coefficients of sum to , then is a zero of .  If the coefficients of sum to , then is a zero of .     "
+},
+{
+  "id": "lecture-notes-show-that-x-equals-1-zero-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-show-that-x-equals-1-zero-polynomial",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.1",
+  "title": "Show that <span class=\"process-math\">\\(x = 1\\)<\/span> is a zero of a polynomial.",
+  "body": " Show that is a zero of a polynomial   Show that is a zero of the polynomial . Then find the remaining zeros.   "
+},
+{
+  "id": "lecture-notes-show-that-x-equals-neg1-zero-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-show-that-x-equals-neg1-zero-polynomial",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.2",
+  "title": "Show that <span class=\"process-math\">\\(x = -1\\)<\/span> is a zero of a polynomial.",
+  "body": " Show that is a zero of a polynomial   Show that is a zero of the polynomial . Then find the remaining zeros.   "
+},
+{
+  "id": "lecture-notes-graphing-test-for-pm-one",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-graphing-test-for-pm-one",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.3",
+  "title": "Graphing a Degree 4 Polynomial.",
+  "body": " Graphing a Degree 4 Polynomial   Graph the function .   "
+},
+{
+  "id": "lecture-notes-rational-root-theorem",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-rational-root-theorem",
+  "type": "Theorem",
+  "number": "A.5.22",
+  "title": "Rational Root Theorem.",
+  "body": " Rational Root Theorem  Let be any polynomial function with leading coefficient and constant term . Then any rational root has the form , where divides and divides .  "
+},
+{
+  "id": "lecture-notes-finding-rational-zeroes-updated",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-finding-rational-zeroes-updated",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.4",
+  "title": "Finding the Possible Rational Zeroes of a Polynomial Function, Version 1.",
+  "body": " Finding the Possible Rational Zeroes of a Polynomial Function, Version 1   Find all the possible rational zeroes of .   "
+},
+{
+  "id": "lecture-notes-finding-possible-rational-zeroes",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-finding-possible-rational-zeroes",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.5",
+  "title": "Finding the Possible Rational Zeroes of a Polynomial Function, Version 2.",
+  "body": " Finding the Possible Rational Zeroes of a Polynomial Function, Version 2   Find all the possible rational zeroes of .   "
+},
+{
+  "id": "lecture-notes-finding-zeroes-polynomial-function",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-finding-zeroes-polynomial-function",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.6",
+  "title": "Finding Zeroes of a Polynomial Function.",
+  "body": " Finding Zeroes of a Polynomial Function   Find all the zeroes of .   "
+},
+{
+  "id": "lecture-notes-graph-rational-roots-test-pm-one",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-graph-rational-roots-test-pm-one",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.7",
+  "title": "Graphing a Degree 4 Polynomial.",
+  "body": " Graphing a Degree 4 Polynomial   Graph the function .   "
+},
+{
+  "id": "lecture-notes-thm-complex-zeroes-real-polynomials",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-thm-complex-zeroes-real-polynomials",
+  "type": "Theorem",
+  "number": "A.5.23",
+  "title": "Complex Zeroes of a Real Polynomial.",
+  "body": " Complex Zeroes of a Real Polynomial   Let be any polynomial with real coefficients. Then the complex zeroes of the polynomial come in complex conjugate pairs.   "
+},
+{
+  "id": "lecture-notes-ex-complex-zeroes-1",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-ex-complex-zeroes-1",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.8",
+  "title": "Finding Real and Complex Zeroes of a Polynomial.",
+  "body": " Finding Real and Complex Zeroes of a Polynomial   Find all the real and complex zeroes of the function .   "
+},
+{
+  "id": "lecture-notes-ex-complex-zeroes-2",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-ex-complex-zeroes-2",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.9",
+  "title": "Finding Real and Complex Zeroes of a Polynomial.",
+  "body": " Finding Real and Complex Zeroes of a Polynomial   Find all the real and complex zeroes of the function .   "
+},
+{
+  "id": "lecture-notes-thm-fundamental-theorem-algebra",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-thm-fundamental-theorem-algebra",
+  "type": "Theorem",
+  "number": "A.5.24",
+  "title": "The Fundamental Theorem of Algebra.",
+  "body": " The Fundamental Theorem of Algebra   Let be any degree polynomial function. Then a complex zero exists.   "
+},
+{
+  "id": "lecture-notes-cor-any-polynomial-factors",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-cor-any-polynomial-factors",
+  "type": "Theorem",
+  "number": "A.5.25",
+  "title": "",
+  "body": "  Any degree polynomial can be factored.   "
+},
+{
+  "id": "lecture-notes-cor-complete-linear-factorization-theorem",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-cor-complete-linear-factorization-theorem",
+  "type": "Theorem",
+  "number": "A.5.26",
+  "title": "",
+  "body": "  The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .   "
+},
+{
+  "id": "lecture-notes-fta-example-1",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-fta-example-1",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.10",
+  "title": "Using the Fundamental Theorem of Algebra to Construct a Polynomial.",
+  "body": " Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has leading coefficient , degree and roots and . Determine what polynomial should equal. You may leave the polynomial in its factored form.   "
+},
+{
+  "id": "lecture-notes-fta-example-2",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-fta-example-2",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.11",
+  "title": "Using the Fundamental Theorem of Algebra to Construct a Polynomial.",
+  "body": " Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has leading coefficient , degree and roots and . Determine what polynomial should equal. You may leave the polynomial in its factored form.   "
+},
+{
+  "id": "lecture-notes-fta-example-3",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-fta-example-3",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.12",
+  "title": "Using the Fundamental Theorem of Algebra to Construct a Polynomial.",
+  "body": " Using the Fundamental Theorem of Algebra to Construct a Polynomial   Let be a real-valued polynomial that has degree and roots and . Determine what polynomial should equal if . You may leave the polynomial in its factored form.   "
+},
+{
+  "id": "lecture-notes-def-irreducible-polynomial",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-def-irreducible-polynomial",
+  "type": "Definition",
+  "number": "A.5.27",
+  "title": "",
+  "body": "  A real-valued polynomial is irreducible if it can be only be factored using complex numbers.   "
+},
+{
+  "id": "lecture-notes-thm-reducible-real-polynomials",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-thm-reducible-real-polynomials",
+  "type": "Theorem",
+  "number": "A.5.28",
+  "title": "",
+  "body": "  Any degree polynomial is reducible over the real numbers.   "
+},
+{
+  "id": "lecture-notes-even-degree-reducible",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-even-degree-reducible",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.13",
+  "title": "Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots.",
+  "body": " Factoring an Even Degree Polynomial That Does Not Have Any Rational Roots   Factor the polynomial . Express your final answer as a product of irreducible factors.   "
+},
+{
+  "id": "lecture-notes-thm-irreducibility-of-the-quadratic",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-thm-irreducibility-of-the-quadratic",
+  "type": "Theorem",
+  "number": "A.5.29",
+  "title": "",
+  "body": "  Let be any quadratic function. If the discriminant is negative, then is irreducible over the real numbers.    By the Complete Linear Factorization Theorem, The solutions to the equation given by the Quadratic Formula are the values of and by the Factor Theorem. We know that the Quadratic Formula only gives complex solutions when the discriminant is negative. Therefore, a quadratic polynomial is irreducible when the discriminant is negative.   "
+},
+{
+  "id": "lecture-notes-thm-polynomial-linear-quadratic-factors",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-thm-polynomial-linear-quadratic-factors",
+  "type": "Theorem",
+  "number": "A.5.30",
+  "title": "",
+  "body": "  Let be any real-valued polynomial. Then it can always be factored using linear and irreducible quadratic factors.   "
+},
+{
+  "id": "lecture-notes-thm-hard-example-factoring",
+  "level": "2",
+  "url": "chapter-5-lecture-notes.html#lecture-notes-thm-hard-example-factoring",
+  "type": "Worksheet Exercise",
+  "number": "A.5.3.14",
+  "title": "Illustrative example of Theorem A.5.30.",
+  "body": " Illustrative example of   Factor .        "
 },
 {
   "id": "backmatter-3",

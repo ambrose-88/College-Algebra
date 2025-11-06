@@ -466,6 +466,7 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list">
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-5-lecture-notes.html#ws-properties-polynomials" class="internal"><span class="codenumber">A.5.1</span> <span class="title">Properties of Polynomial Functions</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-5-lecture-notes.html#ws-factor-theorem" class="internal"><span class="codenumber">A.5.2</span> <span class="title">Graphing and Factor Theorem Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-5-lecture-notes.html#ws-fundamental-theorem-of-algebra" class="internal"><span class="codenumber">A.5.3</span> <span class="title">The Fundamental Theorem of Algebra</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -477,8 +478,368 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="rational-zeroes-theorem"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Rational Root Theorem</span>
 </h2>
-<div class="para" id="rational-zeroes-theorem-2"><div class="autopermalink" data-description="Paragraph"><a href="#rational-zeroes-theorem-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="autopermalink" data-description="Section 5.11: The Rational Root Theorem"><a href="#rational-zeroes-theorem" title="Copy heading and permalink for Section 5.11: The Rational Root Theorem" aria-label="Copy heading and permalink for Section 5.11: The Rational Root Theorem">🔗</a></div></section></div>
+<article class="theorem theorem-like" id="rational-root-theorem"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Rational Root Theorem.</span>
+</h3>
+<div class="para" id="rational-root-theorem-2">Let <span class="process-math">\(p(x)\)</span> be any polynomial function with leading coefficient <span class="process-math">\(a_n\)</span> and constant term <span class="process-math">\(a_0\text{.}\)</span> Then the possible rational roots are given by<div class="autopermalink" data-description="Paragraph"><a href="#rational-root-theorem-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="rational-root-theorem-3">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\text{all possible factors of } a_0}{\text{all possible factors of } a_n}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#rational-root-theorem-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem 5.11.1: Rational Root Theorem"><a href="#rational-root-theorem" title="Copy heading and permalink for Theorem 5.11.1: Rational Root Theorem" aria-label="Copy heading and permalink for Theorem 5.11.1: Rational Root Theorem">🔗</a></div></article><article class="example example-like" id="finding-rational-zeroes-updated"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding the Possible Rational Zeroes of a Polynomial Function, Version 1.</span>
+</h3>
+<div class="para" id="finding-rational-zeroes-updated-2-1">Find all the possible rational zeroes of <span class="process-math">\(p(x) = 2x^5 - 4x^3 - x^2 + 23x + 3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-rational-zeroes-updated-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="finding-rational-zeroes-updated-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="finding-rational-zeroes-updated-3-1">
+<span class="process-math">\(\pm 1, \pm 3, \pm\frac{1}{2}, \pm\frac{3}{2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-rational-zeroes-updated-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.11.2.1"><a href="#finding-rational-zeroes-updated-3" title="Copy heading and permalink for Answer 5.11.2.1" aria-label="Copy heading and permalink for Answer 5.11.2.1">🔗</a></div>
+</div></details><details id="finding-rational-zeroes-updated-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="finding-rational-zeroes-updated-4-1">The factors of <span class="process-math">\(3\)</span> are <span class="process-math">\(\pm 1\)</span> and <span class="process-math">\(\pm 3\text{,}\)</span> and the factors of <span class="process-math">\(2\)</span> are <span class="process-math">\(\pm 1\)</span> and <span class="process-math">\(\pm 2\text{.}\)</span> Therefore, the possible rational zeroes are<div class="autopermalink" data-description="Paragraph"><a href="#finding-rational-zeroes-updated-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-rational-zeroes-updated-4-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\pm 1, \pm 3}{\pm 1, \pm 2}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-rational-zeroes-updated-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-rational-zeroes-updated-4-3">
+<div class="para">When we simplify this list, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\pm 1, \pm 3, \pm\frac{1}{2}, \pm\frac{3}{2}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-rational-zeroes-updated-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 5.11.2.1"><a href="#finding-rational-zeroes-updated-4" title="Copy heading and permalink for Solution 5.11.2.1" aria-label="Copy heading and permalink for Solution 5.11.2.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Example 5.11.2: Finding the Possible Rational Zeroes of a Polynomial Function, Version 1"><a href="#finding-rational-zeroes-updated" title="Copy heading and permalink for Example 5.11.2: Finding the Possible Rational Zeroes of a Polynomial Function, Version 1" aria-label="Copy heading and permalink for Example 5.11.2: Finding the Possible Rational Zeroes of a Polynomial Function, Version 1">🔗</a></div></article><article class="example example-like" id="finding-possible-rational-zeroes"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding the Possible Rational Zeroes of a Polynomial Function, Version 2.</span>
+</h3>
+<div class="para" id="finding-possible-rational-zeroes-2-1">Find all the possible rational zeroes of <span class="process-math">\(p(x) = 6x^5 - 7x^2 - x + 8\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-possible-rational-zeroes-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="finding-possible-rational-zeroes-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="finding-possible-rational-zeroes-3-1">
+<span class="process-math">\(\pm 1, \pm 2, \pm 4, \pm 8, \pm\frac{2}{3}, \pm\frac{1}{3}, \pm\frac{4}{3}, \pm\frac{8}{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-possible-rational-zeroes-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.11.3.1"><a href="#finding-possible-rational-zeroes-3" title="Copy heading and permalink for Answer 5.11.3.1" aria-label="Copy heading and permalink for Answer 5.11.3.1">🔗</a></div>
+</div></details><details id="finding-possible-rational-zeroes-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="finding-possible-rational-zeroes-4-1">The factors of <span class="process-math">\(8\)</span> are <span class="process-math">\(\pm 1\text{,}\)</span> <span class="process-math">\(\pm 2\text{,}\)</span> <span class="process-math">\(\pm 4\text{,}\)</span> and <span class="process-math">\(\pm 8\text{,}\)</span> and the factors of <span class="process-math">\(6\)</span> are <span class="process-math">\(\pm 1\text{,}\)</span> <span class="process-math">\(\pm 2\text{,}\)</span> <span class="process-math">\(\pm 3\text{,}\)</span> <span class="process-math">\(\pm 6\text{.}\)</span> Therefore, the possible rational zeroes are<div class="autopermalink" data-description="Paragraph"><a href="#finding-possible-rational-zeroes-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-possible-rational-zeroes-4-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\pm 1, \pm 2, \pm 4, \pm 8}{\pm 1, \pm 2, \pm 3, \pm 6}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-possible-rational-zeroes-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-possible-rational-zeroes-4-3">
+<div class="para">When we simplify this list, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\pm 1, \pm 2, \pm 4, \pm 8, \pm\frac{2}{3}, \pm\frac{1}{3}, \pm\frac{4}{3}, \pm\frac{8}{3}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-possible-rational-zeroes-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 5.11.3.1"><a href="#finding-possible-rational-zeroes-4" title="Copy heading and permalink for Solution 5.11.3.1" aria-label="Copy heading and permalink for Solution 5.11.3.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Example 5.11.3: Finding the Possible Rational Zeroes of a Polynomial Function, Version 2"><a href="#finding-possible-rational-zeroes" title="Copy heading and permalink for Example 5.11.3: Finding the Possible Rational Zeroes of a Polynomial Function, Version 2" aria-label="Copy heading and permalink for Example 5.11.3: Finding the Possible Rational Zeroes of a Polynomial Function, Version 2">🔗</a></div></article><article class="example example-like" id="finding-zeroes-polynomial-function"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding Zeroes of a Polynomial Function.</span>
+</h3>
+<div class="para" id="finding-zeroes-polynomial-function-2-1">Find all the zeroes of <span class="process-math">\(p(x) = 9x^3 + 21x^2 - 17x + 3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="finding-zeroes-polynomial-function-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para logical" id="finding-zeroes-polynomial-function-3-1">
+<ul class="disc" id="finding-zeroes-polynomial-function-3-1-1">
+<li id="finding-zeroes-polynomial-function-3-1-1-1">
+<div class="para" id="finding-zeroes-polynomial-function-3-1-1-1-1">
+<span class="process-math">\(\displaystyle x = -3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#finding-zeroes-polynomial-function-3-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="finding-zeroes-polynomial-function-3-1-1-2">
+<div class="para" id="finding-zeroes-polynomial-function-3-1-1-2-1">
+<span class="process-math">\(\displaystyle x = \frac{1}{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#finding-zeroes-polynomial-function-3-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.11.4.1"><a href="#finding-zeroes-polynomial-function-3" title="Copy heading and permalink for Answer 5.11.4.1" aria-label="Copy heading and permalink for Answer 5.11.4.1">🔗</a></div>
+</div></details><details id="finding-zeroes-polynomial-function-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="finding-zeroes-polynomial-function-4-1">The factors of <span class="process-math">\(3\)</span> are <span class="process-math">\(\pm 1\text{,}\)</span> <span class="process-math">\(\pm 3\text{,}\)</span> and the factors of <span class="process-math">\(9\)</span> are <span class="process-math">\(\pm 1\text{,}\)</span> <span class="process-math">\(\pm 3\text{,}\)</span> <span class="process-math">\(\pm 9\text{.}\)</span> Therefore, the possible rational zeroes are<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-zeroes-polynomial-function-4-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\pm 1, \pm 3}{\pm 1, \pm 3, \pm 9}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-zeroes-polynomial-function-4-3">
+<div class="para">When we simplify this list, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\pm 1, \pm 3, \pm\frac{1}{3}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="finding-zeroes-polynomial-function-4-4">Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the function and built a table until I found that <span class="process-math">\(x = -3\)</span> is a zero of <span class="process-math">\(p(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="finding-zeroes-polynomial-function-4-5"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/rational-roots-table-1.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A table evaluating the function <span class="process-math">\(p(x)\)</span> at <span class="process-math">\(x = \pm 1\)</span> and <span class="process-math">\(x = \pm 3\text{.}\)</span> The final row shows that <span class="process-math">\(p(-3) = 0\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.5"><a href="#finding-zeroes-polynomial-function-4-5" title="Copy heading and permalink for Figure 5.11.5" aria-label="Copy heading and permalink for Figure 5.11.5">🔗</a></div></figcaption></figure><div class="para" id="finding-zeroes-polynomial-function-4-6">Since <span class="process-math">\(x = -3\)</span> is a zero of <span class="process-math">\(p(x)\text{,}\)</span> we can use synthetic division to factor <span class="process-math">\(p(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="finding-zeroes-polynomial-function-4-7"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/rational-roots-synthetic-1.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Synthetic division shows that the quotient is <span class="process-math">\(9x^2 - 6x + 1\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.6"><a href="#finding-zeroes-polynomial-function-4-7" title="Copy heading and permalink for Figure 5.11.6" aria-label="Copy heading and permalink for Figure 5.11.6">🔗</a></div></figcaption></figure><div class="para" id="finding-zeroes-polynomial-function-4-8">We also observe that <span class="process-math">\(q(x) = 9x^2 - 6x + 1\)</span> is a perfect square trinomial and factors as <span class="process-math">\(q(x) = (3x - 1)^2\text{.}\)</span> Therefore, our final factorization is<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-zeroes-polynomial-function-4-9">
+<div class="displaymath process-math">
+\begin{equation*}
+p(x) = (3x - 1)^2(x + 3)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-4-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="finding-zeroes-polynomial-function-4-10">Therefore, our zeroes are <span class="process-math">\(x = -3\)</span> and <span class="process-math">\(x = \frac{1}{3}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-4-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 5.11.4.1"><a href="#finding-zeroes-polynomial-function-4" title="Copy heading and permalink for Solution 5.11.4.1" aria-label="Copy heading and permalink for Solution 5.11.4.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Example 5.11.4: Finding Zeroes of a Polynomial Function"><a href="#finding-zeroes-polynomial-function" title="Copy heading and permalink for Example 5.11.4: Finding Zeroes of a Polynomial Function" aria-label="Copy heading and permalink for Example 5.11.4: Finding Zeroes of a Polynomial Function">🔗</a></div></article><article class="example example-like" id="finding-zeroes-polynomial-function-2"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding Zeroes of a Polynomial Function, Version 2.</span>
+</h3>
+<div class="para" id="finding-zeroes-polynomial-function-2-2-1">Find all the zeroes of <span class="process-math">\(p(x) = 72x^4-138x^3+41x^2+8x-3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="finding-zeroes-polynomial-function-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para logical" id="finding-zeroes-polynomial-function-2-3-1">
+<ul class="disc" id="finding-zeroes-polynomial-function-2-3-1-1">
+<li id="finding-zeroes-polynomial-function-2-3-1-1-1">
+<div class="para" id="finding-zeroes-polynomial-function-2-3-1-1-1-1">
+<span class="process-math">\(\displaystyle x = -\frac{1}{4}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#finding-zeroes-polynomial-function-2-3-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="finding-zeroes-polynomial-function-2-3-1-1-2">
+<div class="para" id="finding-zeroes-polynomial-function-2-3-1-1-2-1">
+<span class="process-math">\(\displaystyle x = \frac{1}{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#finding-zeroes-polynomial-function-2-3-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="finding-zeroes-polynomial-function-2-3-1-1-3">
+<div class="para" id="finding-zeroes-polynomial-function-2-3-1-1-3-1">
+<span class="process-math">\(\displaystyle x = \frac{3}{2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-3-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#finding-zeroes-polynomial-function-2-3-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.11.7.1"><a href="#finding-zeroes-polynomial-function-2-3" title="Copy heading and permalink for Answer 5.11.7.1" aria-label="Copy heading and permalink for Answer 5.11.7.1">🔗</a></div>
+</div></details><details id="finding-zeroes-polynomial-function-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="finding-zeroes-polynomial-function-2-4-1">The factors of <span class="process-math">\(-3\)</span> are <span class="process-math">\(\pm 1\text{,}\)</span> <span class="process-math">\(\pm 3\text{,}\)</span> and the factors of <span class="process-math">\(72\)</span> are <span class="process-math">\(\pm 1\text{,}\)</span> <span class="process-math">\(\pm 2\text{,}\)</span> <span class="process-math">\(\pm 3\text{,}\)</span> <span class="process-math">\(\pm 4\text{,}\)</span> <span class="process-math">\(\pm 6\text{,}\)</span> <span class="process-math">\(\pm 8\text{,}\)</span> <span class="process-math">\(\pm 9\text{,}\)</span> <span class="process-math">\(\pm 12\text{,}\)</span> <span class="process-math">\(\pm 18\text{,}\)</span> <span class="process-math">\(\pm 24\text{,}\)</span> <span class="process-math">\(\pm 36\text{,}\)</span> <span class="process-math">\(\pm 72\text{.}\)</span> Therefore, the possible rational roots are<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-zeroes-polynomial-function-2-4-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\pm 1, \pm 3}{\pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 8, \pm 9, \pm 12, \pm 18, \pm 24, \pm 36, \pm 72}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="finding-zeroes-polynomial-function-2-4-3">When we simplify this list, we have<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-zeroes-polynomial-function-2-4-4">
+<div class="displaymath process-math">
+\begin{equation*}
+\pm 1, \pm 3, \pm\frac{1}{2}, \pm\frac{3}{2}, \pm\frac{1}{3}, \pm\frac{1}{4}, \pm\frac{3}{4}, \pm\frac{1}{6}, \pm\frac{1}{8}, \pm\frac{3}{8}, \pm\frac{1}{9}, \pm\frac{1}{12}, \pm\frac{1}{18}, \pm\frac{1}{24}, \pm\frac{1}{36}, \pm\frac{1}{72}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="finding-zeroes-polynomial-function-2-4-5">Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the function and built a table until I found that <span class="process-math">\(x = \frac{3}{2}\)</span> is a zero of <span class="process-math">\(p(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="finding-zeroes-polynomial-function-2-4-6"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/rational-roots-table-2.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A table evaluating the function <span class="process-math">\(p(x)\)</span> at <span class="process-math">\(x = \pm 1\text{,}\)</span> <span class="process-math">\(x = \pm 3\text{,}\)</span> <span class="process-math">\(x=\pm\frac{1}{2}\text{,}\)</span> and <span class="process-math">\(x=\frac{3}{2}\text{.}\)</span> The final row shows that <span class="process-math">\(p\left(\frac{3}{2}\right) = 0\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.8"><a href="#finding-zeroes-polynomial-function-2-4-6" title="Copy heading and permalink for Figure 5.11.8" aria-label="Copy heading and permalink for Figure 5.11.8">🔗</a></div></figcaption></figure><div class="para" id="finding-zeroes-polynomial-function-2-4-7">Since <span class="process-math">\(x = \frac{3}{2}\)</span> is a zero of <span class="process-math">\(p(x)\text{,}\)</span> we can use synthetic division to factor <span class="process-math">\(p(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="finding-zeroes-polynomial-function-2-4-8"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/rational-roots-synthetic-2.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Synthetic division shows that the quotient is <span class="process-math">\(72x^3-30x^2-4x+2\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.9"><a href="#finding-zeroes-polynomial-function-2-4-8" title="Copy heading and permalink for Figure 5.11.9" aria-label="Copy heading and permalink for Figure 5.11.9">🔗</a></div></figcaption></figure><div class="para logical" id="finding-zeroes-polynomial-function-2-4-9">
+<div class="para">Therefore, we have the factorization</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p(x)=(72x^3-30x^2-4x+2)\left(x-\frac{1}{3}\right)\text{.}
+\end{equation*}
+</div>
+<div class="para">Now, we find the possible rational roots of the quotient. The factors of <span class="process-math">\(2\)</span> are <span class="process-math">\(\pm 1\)</span> and <span class="process-math">\(\pm 2\text{,}\)</span> and the factors of <span class="process-math">\(72\)</span> are <span class="process-math">\(\pm 1\text{,}\)</span> <span class="process-math">\(\pm 2\text{,}\)</span> <span class="process-math">\(\pm 3\text{,}\)</span> <span class="process-math">\(\pm 4\text{,}\)</span> <span class="process-math">\(\pm 6\text{,}\)</span> <span class="process-math">\(\pm 8\text{,}\)</span> <span class="process-math">\(\pm 9\text{,}\)</span> <span class="process-math">\(\pm 12\text{,}\)</span> <span class="process-math">\(\pm 18\text{,}\)</span> <span class="process-math">\(\pm 24\text{,}\)</span> <span class="process-math">\(\pm 36\text{,}\)</span> <span class="process-math">\(\pm 72\text{.}\)</span> Therefore, the possible rational zeroes are</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-zeroes-polynomial-function-2-4-10">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\pm 1, \pm 2}{\pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 8, \pm 9, \pm 12, \pm 18, \pm 24, \pm 36, \pm 72}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="finding-zeroes-polynomial-function-2-4-11">
+<div class="para">When we simplify this list, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\pm 1, \pm 2, \pm\frac{1}{2}, \pm\frac{1}{3}, \pm\frac{2}{3}, \pm\frac{1}{4}, \pm\frac{1}{6}, \pm\frac{1}{8}, \pm\frac{2}{9}, \pm\frac{1}{9}, \pm\frac{1}{12}, \pm\frac{1}{18}, \pm\frac{1}{24}, \pm\frac{1}{36}, \pm\frac{1}{72}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="finding-zeroes-polynomial-function-2-4-12">Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the quotient and built a table until I found that <span class="process-math">\(x = \frac{1}{3}\)</span> is a zero of <span class="process-math">\(q(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="finding-zeroes-polynomial-function-2-4-13"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/rational-roots-table-3.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A table evaluating the quotient <span class="process-math">\(q(x)\)</span> at <span class="process-math">\(x = \pm 1\text{,}\)</span> <span class="process-math">\(x = \pm 3\text{,}\)</span> <span class="process-math">\(x=\pm\frac{1}{2}\text{,}\)</span> and <span class="process-math">\(x=\pm\frac{1}{3}\text{.}\)</span> The final row shows that <span class="process-math">\(q\left(\frac{1}{3}\right) = 0\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.10"><a href="#finding-zeroes-polynomial-function-2-4-13" title="Copy heading and permalink for Figure 5.11.10" aria-label="Copy heading and permalink for Figure 5.11.10">🔗</a></div></figcaption></figure><div class="para" id="finding-zeroes-polynomial-function-2-4-14">Since <span class="process-math">\(x = \frac{3}{2}\)</span> is a zero of <span class="process-math">\(p(x)\text{,}\)</span> we can use synthetic division to factor <span class="process-math">\(p(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="finding-zeroes-polynomial-function-2-4-15"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/rational-roots-synthetic-3.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Synthetic division shows that the quotient is <span class="process-math">\(72x^2-6x-6\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.11"><a href="#finding-zeroes-polynomial-function-2-4-15" title="Copy heading and permalink for Figure 5.11.11" aria-label="Copy heading and permalink for Figure 5.11.11">🔗</a></div></figcaption></figure><div class="para logical" id="finding-zeroes-polynomial-function-2-4-16">
+<div class="para">Therefore, we have the factorization</div>
+<div class="displaymath process-math" id="finding-zeroes-polynomial-function-2-4-16-1">
+\begin{align*}
+p(x)\amp = 72x^4-138x^3+41x^2+8x-3\\\\
+p(x)\amp=(72x^3-30x^2-4x+2)\left(x-\frac{1}{3}\right)\\\\
+p(x)\amp=(72x^2-6x-6)\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\\\
+p(x)\amp=6(12x^2-x-1)\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\\\
+p(x)\amp=6(12x^2-4x+3x-1)\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\\\
+p(x)\amp=6[4x(3x-1)+1(3x-1)]\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\\\
+p(x)\amp=6(3x-1)(4x+1)\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\\\
+p(x)\amp=(3x-1)(4x+1)(3x-1)(2x-3)\\\\
+p(x)\amp=(3x-1)^2(4x+1)(2x-3)\\
+\end{align*}
+</div>
+<div class="para">By the Factor Theorem, the zeroes are <span class="process-math">\(x=\frac{3}{2}\text{,}\)</span> <span class="process-math">\(x=\frac{1}{3}\text{,}\)</span> and <span class="process-math">\(x=-\frac{1}{4}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#finding-zeroes-polynomial-function-2-4-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 5.11.7.1"><a href="#finding-zeroes-polynomial-function-2-4" title="Copy heading and permalink for Solution 5.11.7.1" aria-label="Copy heading and permalink for Solution 5.11.7.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Example 5.11.7: Finding Zeroes of a Polynomial Function, Version 2"><a href="#finding-zeroes-polynomial-function-2" title="Copy heading and permalink for Example 5.11.7: Finding Zeroes of a Polynomial Function, Version 2" aria-label="Copy heading and permalink for Example 5.11.7: Finding Zeroes of a Polynomial Function, Version 2">🔗</a></div></article><article class="example example-like" id="graph-rational-roots-test-pm-one"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Graphing a Degree 4 Polynomial.</span>
+</h3>
+<div class="para" id="graph-rational-roots-test-pm-one-2-1">Graph the function <span class="process-math">\(p(x) = x^4-11x^3+42x^2-64x+32\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="graph-rational-roots-test-pm-one-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<figure class="figure figure-like" id="graph-rational-roots-test-pm-one-3-1"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The graph of <span class="process-math">\(p(x)=x^4-11x^3+42x^2-64x+32\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.13"><a href="#graph-rational-roots-test-pm-one-3-1" title="Copy heading and permalink for Figure 5.11.13" aria-label="Copy heading and permalink for Figure 5.11.13">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Answer 5.11.12.1"><a href="#graph-rational-roots-test-pm-one-3" title="Copy heading and permalink for Answer 5.11.12.1" aria-label="Copy heading and permalink for Answer 5.11.12.1">🔗</a></div>
+</div></details><details id="graph-rational-roots-test-pm-one-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="graph-rational-roots-test-pm-one-4-1">The first step is to determine the end behavior of <span class="process-math">\(p(x)\text{.}\)</span> Since the leading term <span class="process-math">\(x^4\)</span> has a positive coefficient and even degree, both ends of the graph look similar to <span class="process-math">\(y=x^4\text{.}\)</span> Therefore, the graph travels up and to the right as <span class="process-math">\(x\)</span> approaches <span class="process-math">\(+\infty\text{.}\)</span> Similarly, the graph travels up and to the left as <span class="process-math">\(x\)</span> approaches <span class="process-math">\(-\infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-rational-roots-test-pm-one-4-2"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one-a.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The end behavior is drawn with an arrow going up and right and an arrow going down and left.<div class="autopermalink" data-description="Figure 5.11.14"><a href="#graph-rational-roots-test-pm-one-4-2" title="Copy heading and permalink for Figure 5.11.14" aria-label="Copy heading and permalink for Figure 5.11.14">🔗</a></div></figcaption></figure><div class="para" id="graph-rational-roots-test-pm-one-4-3">Next, since the constant term is <span class="process-math">\(a_0 = 32\text{,}\)</span> the <span class="process-math">\(y\)</span>-intercept is <span class="process-math">\((0,32)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-rational-roots-test-pm-one-4-4"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one-b.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The point <span class="process-math">\((0,32)\)</span> has been added to the plot.<div class="autopermalink" data-description="Figure 5.11.15"><a href="#graph-rational-roots-test-pm-one-4-4" title="Copy heading and permalink for Figure 5.11.15" aria-label="Copy heading and permalink for Figure 5.11.15">🔗</a></div></figcaption></figure><div class="para logical" id="graph-rational-roots-test-pm-one-4-5">
+<div class="para">Now, we have to find the zeroes of the polynomial. You should always try the Test for <span class="process-math">\(\pm 1\)</span> first. Adding the coefficients of <span class="process-math">\(p(x)\text{,}\)</span> we get the following calculation.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1-11+42-62+32=0
+\end{equation*}
+</div>
+<div class="para">Since the coefficients sum to 0, then <span class="process-math">\(x=1\)</span> is a zero of <span class="process-math">\(p(x)\text{.}\)</span> We use synthetic division to factor the polynomial.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="rational-roots-test-pm-one-synthetic-division-1"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one-synthetic-1.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Synthetic division gives us the quotient <span class="process-math">\(x^3-10x^2+32x-32\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.16"><a href="#rational-roots-test-pm-one-synthetic-division-1" title="Copy heading and permalink for Figure 5.11.16" aria-label="Copy heading and permalink for Figure 5.11.16">🔗</a></div></figcaption></figure><div class="para logical" id="graph-rational-roots-test-pm-one-4-7">
+<div class="para">Now, we can factor the polynomial as follows:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p(x)=(x^3-10x^2+32x-32)(x-1)
+\end{equation*}
+</div>
+<div class="para">Now, we start over with the quotient <span class="process-math">\(q(x)=x^3-10x^2+32x-32\text{.}\)</span> The Test for <span class="process-math">\(\pm 1\)</span> fails for <span class="process-math">\(q(x)\text{;}\)</span> so, we have to resort to the Rational Roots Theorem. The factors of <span class="process-math">\(-32\)</span> are <span class="process-math">\(\pm 1\text{,}\)</span> <span class="process-math">\(\pm 2\text{,}\)</span> <span class="process-math">\(\pm 4\text{,}\)</span> <span class="process-math">\(\pm 8\text{,}\)</span> <span class="process-math">\(\pm 16\text{,}\)</span> <span class="process-math">\(\pm 32\text{,}\)</span> and the factors of the leading coefficient <span class="process-math">\(1\)</span> are <span class="process-math">\(\pm 1\text{.}\)</span> Therefore, the possible rational zeroes are</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="graph-rational-roots-test-pm-one-4-8">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\pm 1, \pm 2, \pm 4, \pm 8, \pm 16, \pm 32}{\pm 1}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="graph-rational-roots-test-pm-one-4-9">
+<div class="para">When we simplify this list, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\pm 1, \pm 2, \pm 4, \pm 8, \pm 16, \pm 32\text{.}
+\end{equation*}
+</div>
+<div class="para">Since we already know that <span class="process-math">\(\pm 1\)</span> are not zeroes, we start building our table with <span class="process-math">\(\pm 2\text{.}\)</span> The last row in our table shows that <span class="process-math">\(x=2\)</span> is a zero of <span class="process-math">\(q(x)\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-rational-roots-test-pm-one-4-10"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one-table-1.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A table evaluating the quotient <span class="process-math">\(q(x)\)</span> at <span class="process-math">\(x = \pm 1\text{,}\)</span> <span class="process-math">\(x = \pm 3\text{,}\)</span> <span class="process-math">\(x=\pm\frac{1}{2}\text{,}\)</span> and <span class="process-math">\(x=\pm\frac{1}{3}\text{.}\)</span> The final row shows that <span class="process-math">\(q\left(\frac{1}{3}\right) = 0\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.17"><a href="#graph-rational-roots-test-pm-one-4-10" title="Copy heading and permalink for Figure 5.11.17" aria-label="Copy heading and permalink for Figure 5.11.17">🔗</a></div></figcaption></figure><div class="para" id="graph-rational-roots-test-pm-one-4-11">Since <span class="process-math">\(x = 2\)</span> is a zero of <span class="process-math">\(q(x)\text{,}\)</span> we can use synthetic division to factor <span class="process-math">\(q(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-rational-roots-test-pm-one-4-12"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one-synthetic-2.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Synthetic division shows that the quotient is <span class="process-math">\(x^2-8x+16\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.18"><a href="#graph-rational-roots-test-pm-one-4-12" title="Copy heading and permalink for Figure 5.11.18" aria-label="Copy heading and permalink for Figure 5.11.18">🔗</a></div></figcaption></figure><div class="para logical" id="graph-rational-roots-test-pm-one-4-13">
+<div class="para">Notice that <span class="process-math">\(x^2-8x+16\)</span> is a perfect square trinomial and factors as <span class="process-math">\((x-4)^2\text{.}\)</span> Therefore, our complete factorization is given by the following calculation.</div>
+<div class="displaymath process-math" id="graph-rational-roots-test-pm-one-4-13-3">
+\begin{align*}
+p(x)\amp=x^4-11x^3+42x^2-64x+32\\\\
+p(x)\amp=(x^3-10x^2+32x-32)(x-1)\\\\
+p(x)\amp=(x^2-8x+16)(x-2)(x-1)\\\\
+p(x)\amp=(x-4)^2)(x-2)(x-1)\\
+\end{align*}
+</div>
+<div class="para">Therefore, the <span class="process-math">\(x\)</span>-intercepts are <span class="process-math">\((4,0)\text{,}\)</span> <span class="process-math">\((2,0)\text{,}\)</span> and <span class="process-math">\((1,0)\text{.}\)</span> The multiplicities are <span class="process-math">\(2\text{,}\)</span> <span class="process-math">\(1\text{,}\)</span> and <span class="process-math">\(1\)</span> respectively. We add these points to the graph.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-rational-roots-test-pm-one-4-14"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one-c.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The <span class="process-math">\(x\)</span>-intercepts <span class="process-math">\((4,0)\text{,}\)</span> <span class="process-math">\((2,0)\text{,}\)</span> and <span class="process-math">\((1,0)\)</span> are added to the graph.<div class="autopermalink" data-description="Figure 5.11.19"><a href="#graph-rational-roots-test-pm-one-4-14" title="Copy heading and permalink for Figure 5.11.19" aria-label="Copy heading and permalink for Figure 5.11.19">🔗</a></div></figcaption></figure><div class="para" id="graph-rational-roots-test-pm-one-4-15">Finally, let us compute values at <span class="process-math">\(x=3\)</span> and <span class="process-math">\(x=5\text{:}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="selected-points-pm-2-graph"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Selected Points for <span class="process-math">\(p(x)=x^4-11x^3+42x^2-64x+32\)</span><div class="autopermalink" data-description="Table 5.11.20: Selected Points for p(x)=x^4-11x^3+42x^2-64x+32"><a href="#selected-points-pm-2-graph" title="Copy heading and permalink for Table 5.11.20: Selected Points for p(x)=x^4-11x^3+42x^2-64x+32" aria-label="Copy heading and permalink for Table 5.11.20: Selected Points for p(x)=x^4-11x^3+42x^2-64x+32">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b3 r0 l0 t0 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="l m b3 r0 l0 t0 lines"><span class="process-math">\(y = p(x)\)</span></th>
+<th scope="col" class="l m b3 r0 l0 t0 lines"><span class="process-math">\((x, y)\)</span></th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((3, 2)\)</span></td>
+</tr>
+<tr>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(13\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\((5, 13)\)</span></td>
+</tr>
+</table></div></figure><div class="para" id="graph-rational-roots-test-pm-one-4-17">We plot all these points in the following figure.<div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-rational-roots-test-pm-one-4-18"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one-d.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.21<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The additional points from the table are added to the graph.<div class="autopermalink" data-description="Figure 5.11.21"><a href="#graph-rational-roots-test-pm-one-4-18" title="Copy heading and permalink for Figure 5.11.21" aria-label="Copy heading and permalink for Figure 5.11.21">🔗</a></div></figcaption></figure><div class="para" id="graph-rational-roots-test-pm-one-4-19">Because a degree-<span class="process-math">\(4\)</span> polynomial can have at most <span class="process-math">\(3\)</span> turning points and our sketch is consistent with this bound, the graph is complete. Connect the points smoothly to finish the graph of <span class="process-math">\(p(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#graph-rational-roots-test-pm-one-4-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="graph-rational-roots-test-pm-one-4-20"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/chapter-5/graph-rational-roots-test-pm-one.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.11.22<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The graph of <span class="process-math">\(p(x)=x^4-11x^3+42x^2-64x+32\text{.}\)</span><div class="autopermalink" data-description="Figure 5.11.22"><a href="#graph-rational-roots-test-pm-one-4-20" title="Copy heading and permalink for Figure 5.11.22" aria-label="Copy heading and permalink for Figure 5.11.22">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 5.11.12.1"><a href="#graph-rational-roots-test-pm-one-4" title="Copy heading and permalink for Solution 5.11.12.1" aria-label="Copy heading and permalink for Solution 5.11.12.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Example 5.11.12: Graphing a Degree 4 Polynomial"><a href="#graph-rational-roots-test-pm-one" title="Copy heading and permalink for Example 5.11.12: Graphing a Degree 4 Polynomial" aria-label="Copy heading and permalink for Example 5.11.12: Graphing a Degree 4 Polynomial">🔗</a></div></article><div class="autopermalink" data-description="Section 5.11: The Rational Root Theorem"><a href="#rational-zeroes-theorem" title="Copy heading and permalink for Section 5.11: The Rational Root Theorem" aria-label="Copy heading and permalink for Section 5.11: The Rational Root Theorem">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="text-for-pm-one.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="irrational-zeroes.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
