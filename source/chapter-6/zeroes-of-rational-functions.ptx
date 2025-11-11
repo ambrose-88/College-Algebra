@@ -1,6 +1,103 @@
-<section xml:id="zeroes-rational-functions">
-    <title>The Zeros of Rational Functions</title>
-    <p>
+<section xml:id="zeroes-numerator-rational">
+    <title>Zeroes of the Numerator</title>
+    <subsection xml:id="subsec-zeroes-rational-functions">
+        <title>The Zeroes of Rational Functions</title>
+        <definition xml:id="def-zero-rational-function">
+            <title>Zeroes of a Rational Function</title>
+            <statement>
+                <p>
+                    Let <m>r(x)=\frac{p(x)}{d(x)}</m> be any fully simplified rational function. Then <m>x=c</m> is a zero of <m>r(x)</m> only if it is in the domain of <m>r(x)</m> and a zero of <m>p(x)</m>.
+                </p>
+            </statement>
+        </definition>
+        <p>Notice that it is not enough that <m>x=c</m> be a zero of the numerator <m>p(x)</m>; 
+            it must also be in the domain of the rational function <m>r(x)</m>. 
+            Therefore, if you cancel off <m>x-c</m> from the numerator and denominator when simplifying <m>r(x)</m>, we may not have zero since canceling factors does not affect the domain of the function. 
+            </p>
+        <p>
+            If <m>x=c</m> is not in the domain of <m>r(x)</m> before canceling off <m>x-c</m>, then something else occurs: we will either get a vertical asymptote or a hole in the graph.
+        We'll introduce both vertical asymptotes and holes later in this chapter.</p>
+        <example xml:id="example-zeroes-simplified-rational-function">
+    <title>Finding the Zeroes of a Fully Simplified Rational Function</title>
+    <statement>
+        <p>
+            Find the zeroes of the rational function <m>r(x)=\dfrac{x^3-x^2-8x+12}{x^2-3x-4}</m>.
+        </p>
         
-    </p>
+    </statement>
+        <answer>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>x=2</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x=-3</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                In order to find the zeroes of <m>r(x)</m>, we first need to see if it is fully simplified. We factor the numerator and denominator as follows.
+                <md>
+                    <mrow>r(x)\amp=\dfrac{x^3-x^2-8x+12}{x^2-3x-4}\\</mrow>
+                    <mrow>r(x)\amp=\dfrac{(x-2)^2(x+3)}{(x-4)(x+1)}\\</mrow>
+                </md>
+                Since there are no common factors, <m>r(x)</m> is fully simplified.  
+                Therefore, the zeroes of the numerator are also the zeroes of <m>r(x)</m>.
+                By the Factor Theorem, the factors <m>x-2</m> and <m>x+3</m> correspond to the zeroes <m>x=2</m> and <m>x=-3</m>, respectively.
+            </p>
+            </solution>
+        </example>
+    </subsection>
+    <subsection xml:id="subsec-multiplicity-rational-functions">
+        <title>How to Determine Multiplicity for Rational Functions</title>
+        <definition xml:id="def-multiplicity-rational-function">
+            <title>The Multiplicities of Zeroes for Rational Functions</title>
+            <statement>
+                <p>
+                   Let <m>r(x)=\frac{p(x)}{d(x)}</m> be any fully simplified rational function. The zero <m>x=c</m> has multiplicity <m>m</m> only if <m>(x-c)^m</m> is a factor of <m>p(x)</m>.
+                </p>
+            </statement>
+        </definition>  
+        <example>
+    <title>Finding the Multiplicities of Zeroes of a Fully Simplified Rational Function</title>
+    <statement>
+        <p>
+            Find the multiplicities of the zeroes of the rational function <m>r(x)=\dfrac{x^3-x^2-8x+12}{x^2-3x-4}</m>.
+        </p>
+    </statement>
+        <answer>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            The zero <m>x=2</m> has multiplicity <m>2</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>     
+                            The zero <m>x=-3</m> has multiplicity <m>1</m>.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                From the previous example, we have already factored <m>r(x)</m> as follows.
+                <md>
+                    <mrow>r(x)\amp=\dfrac{(x-2)^2(x+3)}{(x-4)(x+1)}\\</mrow>
+                </md>
+                By the definition of multiplicity for rational functions, since <m>(x-2)^2</m> is a factor of the numerator, the zero <m>x=2</m> has multiplicity <m>2</m>. 
+                Similarly, since <m>(x+3)^1</m> is a factor of the numerator, the zero <m>x=-3</m> has multiplicity <m>1</m>.
+            </p>
+            </solution>
+        </example>
+    </subsection>
 </section>

@@ -1,6 +1,50 @@
 <section xml:id="rational-functions">
     <title>Rational Functions</title>
+    <definition xml:id="rational-function">
+  <title>Definition</title>
+  <statement><p>A function <m>r(x)</m> is <term>rational</term> if there exist two polynomial functions <m>p(x)</m> and <m>q(x)</m> such that
+    <me>r(x) = \frac{p(x)}{q(x)}</me>
+  </p></statement>
+</definition>
+
+<example xml:id="determine-rational-or-not-1">
+  <title>Determine if a Function is Rational or Not</title>
+  <statement>
+    <p>Determine if the following functions are rational or not.</p>
     <p>
-        
+      <ol>
+        <li><p><m>f(x) = \frac{3x - 4}{x^2 - x + 3}</m></p></li>
+        <li><p><m>f(x) = \frac{3}{x^2 - 1}</m></p></li>
+        <li><p><m>f(x) = x^2 + x + 1</m></p></li>
+        <li><p><m>f(x) = \frac{x^2 - 2\sqrt{x} + 1}{x^4 + 1}</m></p></li>
+      </ol>
     </p>
+  </statement>
+  <solution>
+<p>
+    <ul>
+        <li>
+            <p>
+                This is a rational function since both the numerator and denominator are polynomials.
+            </p>
+        </li>
+        <li>
+            <p>
+                Since constants such as <m>3</m> are polynomials, this is a rational function.
+            </p>
+        </li>
+        <li>
+            <p>
+                Since we can rewrite this polynomial as <m>\frac{x^2 + x + 1}{1}</m> and <m>1</m> is a polynomial, this is a rational function.
+            </p>
+        </li>
+        <li>
+            <p>
+                The numerator is not a polynomial because there is a variable under the radical symbol. This is not a rational function.
+            </p>
+        </li>
+    </ul>
+</p>
+  </solution>
+</example>
 </section>

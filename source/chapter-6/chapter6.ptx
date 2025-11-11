@@ -9,8 +9,9 @@
   <!-- include sections -->
   <xi:include href="rational-functions.ptx"/>
   <xi:include href="zeroes-of-rational-functions.ptx"/>
-  <xi:include href="vertial-and-horizontal-asymptotes.ptx"/>
+  <xi:include href="vertical-asymptotes.ptx"/>
   <xi:include href="holes-rational-functions.ptx"/>
   <xi:include href="end-behavior-rational-functions.ptx"/>
+  <xi:include href="graphs-rational-functions.ptx"/>
   <xi:include href="rational-inequalities.ptx"/>
 </chapter>
