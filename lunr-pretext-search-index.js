@@ -2482,25 +2482,223 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Rational Functions",
-  "body": " Rational Functions    "
+  "body": " Rational Functions   Definition  A function is rational if there exist two polynomial functions and such that     Determine if a Function is Rational or Not   Determine if the following functions are rational or not.               This is a rational function since both the numerator and denominator are polynomials.    Since constants such as are polynomials, this is a rational function.    Since we can rewrite this polynomial as and is a polynomial, this is a rational function.    The numerator is not a polynomial because there is a variable under the radical symbol. This is not a rational function.       "
 },
 {
-  "id": "zeroes-rational-functions",
+  "id": "rational-function",
+  "level": "2",
+  "url": "rational-functions.html#rational-function",
+  "type": "Definition",
+  "number": "6.1.1",
+  "title": "Definition.",
+  "body": " Definition  A function is rational if there exist two polynomial functions and such that   "
+},
+{
+  "id": "determine-rational-or-not-1",
+  "level": "2",
+  "url": "rational-functions.html#determine-rational-or-not-1",
+  "type": "Example",
+  "number": "6.1.2",
+  "title": "Determine if a Function is Rational or Not.",
+  "body": " Determine if a Function is Rational or Not   Determine if the following functions are rational or not.               This is a rational function since both the numerator and denominator are polynomials.    Since constants such as are polynomials, this is a rational function.    Since we can rewrite this polynomial as and is a polynomial, this is a rational function.    The numerator is not a polynomial because there is a variable under the radical symbol. This is not a rational function.      "
+},
+{
+  "id": "zeroes-numerator-rational",
   "level": "1",
-  "url": "zeroes-rational-functions.html",
+  "url": "zeroes-numerator-rational.html",
   "type": "Section",
   "number": "6.2",
-  "title": "The Zeros of Rational Functions",
-  "body": " The Zeros of Rational Functions    "
+  "title": "Zeroes of the Numerator",
+  "body": " Zeroes of the Numerator   The Zeroes of Rational Functions   Zeroes of a Rational Function   Let be any fully simplified rational function. Then is a zero of only if it is in the domain of and a zero of .    Notice that it is not enough that be a zero of the numerator ; it must also be in the domain of the rational function . Therefore, if you cancel off from the numerator and denominator when simplifying , we may not have zero since canceling factors does not affect the domain of the function.  If is not in the domain of before canceling off , then something else occurs: we will either get a vertical asymptote or a hole in the graph. We'll introduce both vertical asymptotes and holes later in this chapter.   Finding the Zeroes of a Fully Simplified Rational Function   Find the zeroes of the rational function .                    In order to find the zeroes of , we first need to see if it is fully simplified. We factor the numerator and denominator as follows. Since there are no common factors, is fully simplified. Therefore, the zeroes of the numerator are also the zeroes of . By the Factor Theorem, the factors and correspond to the zeroes and , respectively.      How to Determine Multiplicity for Rational Functions   The Multiplicities of Zeroes for Rational Functions   Let be any fully simplified rational function. The zero has multiplicity only if is a factor of .     Finding the Multiplicities of Zeroes of a Fully Simplified Rational Function   Find the multiplicities of the zeroes of the rational function .       The zero has multiplicity .    The zero has multiplicity .       From the previous example, we have already factored as follows. By the definition of multiplicity for rational functions, since is a factor of the numerator, the zero has multiplicity . Similarly, since is a factor of the numerator, the zero has multiplicity .     "
 },
 {
-  "id": "vertical-horizontal-asymptotes",
+  "id": "def-zero-rational-function",
+  "level": "2",
+  "url": "zeroes-numerator-rational.html#def-zero-rational-function",
+  "type": "Definition",
+  "number": "6.2.1",
+  "title": "Zeroes of a Rational Function.",
+  "body": " Zeroes of a Rational Function   Let be any fully simplified rational function. Then is a zero of only if it is in the domain of and a zero of .   "
+},
+{
+  "id": "example-zeroes-simplified-rational-function",
+  "level": "2",
+  "url": "zeroes-numerator-rational.html#example-zeroes-simplified-rational-function",
+  "type": "Example",
+  "number": "6.2.2",
+  "title": "Finding the Zeroes of a Fully Simplified Rational Function.",
+  "body": " Finding the Zeroes of a Fully Simplified Rational Function   Find the zeroes of the rational function .                    In order to find the zeroes of , we first need to see if it is fully simplified. We factor the numerator and denominator as follows. Since there are no common factors, is fully simplified. Therefore, the zeroes of the numerator are also the zeroes of . By the Factor Theorem, the factors and correspond to the zeroes and , respectively.   "
+},
+{
+  "id": "def-multiplicity-rational-function",
+  "level": "2",
+  "url": "zeroes-numerator-rational.html#def-multiplicity-rational-function",
+  "type": "Definition",
+  "number": "6.2.3",
+  "title": "The Multiplicities of Zeroes for Rational Functions.",
+  "body": " The Multiplicities of Zeroes for Rational Functions   Let be any fully simplified rational function. The zero has multiplicity only if is a factor of .   "
+},
+{
+  "id": "subsec-multiplicity-rational-functions-3",
+  "level": "2",
+  "url": "zeroes-numerator-rational.html#subsec-multiplicity-rational-functions-3",
+  "type": "Example",
+  "number": "6.2.4",
+  "title": "Finding the Multiplicities of Zeroes of a Fully Simplified Rational Function.",
+  "body": " Finding the Multiplicities of Zeroes of a Fully Simplified Rational Function   Find the multiplicities of the zeroes of the rational function .       The zero has multiplicity .    The zero has multiplicity .       From the previous example, we have already factored as follows. By the definition of multiplicity for rational functions, since is a factor of the numerator, the zero has multiplicity . Similarly, since is a factor of the numerator, the zero has multiplicity .   "
+},
+{
+  "id": "zeroes-denominator-rational",
   "level": "1",
-  "url": "vertical-horizontal-asymptotes.html",
+  "url": "zeroes-denominator-rational.html",
   "type": "Section",
   "number": "6.3",
-  "title": "Vertical and Horinzontal Asymptotes",
-  "body": " Vertical and Horinzontal Asymptotes    "
+  "title": "Zeroes of the Denominator",
+  "body": " Zeroes of the Denominator   Domains of Rational Functions   The Domain of a Rational Function   The domain of a rational function are all values of except those that make the denominator equal to zero before canceling any common factors.     Finding the Domain   Determine the domain of the function .       To find the domain, we need to identify the values of that make the denominator equal to zero. To do this, we factor the denominator as follows: By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Thus, the domain is all real numbers except and .  In interval notation, the domain is .     Finding the Domain   Determine the domain of the function .       To find the domain, we need to identify the values of that make the denominator equal to zero. To do this, we factor the denominator as follows: While it is tempting to cancel off the common factor of , this will obscure the fact that makes the denominator equal to zero in the original equation. We must not perform the cancellation until we determine the domain  By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Thus, the domain is all real numbers except and .  In interval notation, the domain is .     Cancellations and Domain  If we wanted to graph the previous example, we will need to perform the cancellation at some point to continue the graphing process. How do keep track of the domain in this case without explicitly writing down the entire domain in interval notation?  When we perform the cancellation, we can write the condition that next to the simplified version of the function to remind ourselves that is not in the domain. The following calculation shows us how to do this: This leads us to an important idea for graphing rational functions: the graph of a rational function is the same as its simplified version but with holes or asymptotes whenever we cancel off linear factors. We'll explore this idea in more detail shortly.   The graph of and are identical except for a hole at .    The graph of     The graph of         Arrow Notation   Arrow Notation    Symbol  Read as…  Graphical Example     x approaches a from the left.    Example of a function that only approaches x = 2 from the left.       x approaches a from the right.    Example of a function that only approaches x = 2 from the right.       x approaches a (from both the left and right).    Function that approaches x = 2 from the left and from the right.       x approaches negative infinity.    An example where x approaches negative infinity.       x approaches (positive) infinity.    An example where x approaches positive infinity.       y approaches b.    Example of a function that approaches y = 2.       y approaches negative infinity.    An example where y approaches negative infinity.       y approaches (positive) infinity.    An example where y approaches positive infinity.         Vertical Asymptotes   Vertical Asymptote  The vertical line is a vertical asymptote of any fully simplified, rational function if as .    Note  A function can never cross a vertical asymptote.    Examples of Vertical Asymptotes    Symbols  Graphical Example    as    y approaches infinity when x approaches 2 from the right.      as    y approaches infinity when x approaches 2 from the left.      as    y approaches negative infinity when x approaches 2 from the right.      as    y approaches negative infinity when x approaches 2 from the left.        How to Find a Vertical Asymptote of a Rational Function   Let be any rational function. To find the vertical asymptotes of the graph, follow this procedure.   Completely factor the numerator and denominator into their linear and irreducible quadratic factors.    Find all the linear factors of the denominator. By the Factor Theorem, each linear factor corresponds to a zero of the denominator and will make undefined.    For each linear factor of the denominator, determine if it also appears in the numerator.   If it doesn't, then is a vertical asymptote of .    If the linear factor also appears in the numerator, then we have a vertical asymptote at only if the multiplicity of the denominator is larger that the multiplicity of the numerator.           Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.                The first step is to completely factor the numerator and denominator. Since the numerator is just a constant, we only have to factor the denominator.  To factor the denominator, first note that the coefficients of sum to 1; therefore, the Test for tells us that is a zero the denominator. We can use synthetic division to factor the polynomial.   Synthetic division shows that the quotient is    Notice that the quotient is a perfect square trinomial and can be factored as . Therefore, , and our fully factored rational function is By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Since neither linear factor appears in the numerator, we can conclude that the vertical lines and are vertical asymptotes of the graph.   The graph of with vertical asymptotes and drawn as red, vertical, dashed lines.       Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           In the last example, we saw that . Notice that the denominator is a perfect square trinomial; therefore, it factors as . Therefore, our completely factored polynomial is Since the multiplicity of is 1 in the numerator and 2 in the denominator, the denominator has the larger multiplicity. Therefore, the vertical line is an asymptote.   The graph of with a vertical asymptote at drawn as a red, vertical, dashed line.       Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           This rational function is already factored for us. Notice that the factor appears in both the numerator and denominator. Unlike the previous example, the multiplicities of are the same in the numerator and denominator. Since the denominator does not have a larger multiplicity, there is not a vertical asymptote at . In fact, since there are no other linear factors in the denominator to generate an asymptote, this rational function does not have any vertical asymptote.   The graph of has a hole at instead of a vertical asymptote at .        Multiplicities of the Denominator  While the multiplicity of a linear factor in the numerator tells us how we cross or bounce off the x-axis, the multiplicity of a linear factor in the denominator tells us how the graph behaves near a vertical asymptote. In fact, if we think of infinity as a point that we cannot see on the coordinate plane, then the multiplicity of a linear factor in the denominator tells us how the graph crosses or bounces off of infinity.  If the multiplicity is odd, the graph will cross at infinity, as we see in the figures below.   The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .      If the multiplicity is even, the graph will bounce off the vertical asymptote, as we see in the figures below.   The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .       Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.    Finding the Zeroes of the Denominator and Their Multiplicities   Find the zeroes of the denominator of the rational function and state their multiplicities.        with multiplicity 1     with multiplicity 2       The denominator is already factored for us. By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero.  Since the linear factors are and , the zeroes of the denominator are and .  Since the factor has multiplicity 1 and the factor has multiplicity 2, then the zero has multiplicity 1 and the zero has multiplicity 2.     "
+},
+{
+  "id": "subsec-domains-rational-2",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-domains-rational-2",
+  "type": "Theorem",
+  "number": "6.3.1",
+  "title": "The Domain of a Rational Function.",
+  "body": " The Domain of a Rational Function   The domain of a rational function are all values of except those that make the denominator equal to zero before canceling any common factors.   "
+},
+{
+  "id": "subsec-domains-rational-3",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-domains-rational-3",
+  "type": "Example",
+  "number": "6.3.2",
+  "title": "Finding the Domain.",
+  "body": " Finding the Domain   Determine the domain of the function .       To find the domain, we need to identify the values of that make the denominator equal to zero. To do this, we factor the denominator as follows: By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Thus, the domain is all real numbers except and .  In interval notation, the domain is .   "
+},
+{
+  "id": "subsec-domains-rational-4",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-domains-rational-4",
+  "type": "Example",
+  "number": "6.3.3",
+  "title": "Finding the Domain.",
+  "body": " Finding the Domain   Determine the domain of the function .       To find the domain, we need to identify the values of that make the denominator equal to zero. To do this, we factor the denominator as follows: While it is tempting to cancel off the common factor of , this will obscure the fact that makes the denominator equal to zero in the original equation. We must not perform the cancellation until we determine the domain  By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Thus, the domain is all real numbers except and .  In interval notation, the domain is .   "
+},
+{
+  "id": "subsec-domains-rational-5",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-domains-rational-5",
+  "type": "Note",
+  "number": "6.3.4",
+  "title": "Cancellations and Domain.",
+  "body": " Cancellations and Domain  If we wanted to graph the previous example, we will need to perform the cancellation at some point to continue the graphing process. How do keep track of the domain in this case without explicitly writing down the entire domain in interval notation?  When we perform the cancellation, we can write the condition that next to the simplified version of the function to remind ourselves that is not in the domain. The following calculation shows us how to do this: This leads us to an important idea for graphing rational functions: the graph of a rational function is the same as its simplified version but with holes or asymptotes whenever we cancel off linear factors. We'll explore this idea in more detail shortly.   The graph of and are identical except for a hole at .    The graph of     The graph of      "
+},
+{
+  "id": "arrow-notation",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#arrow-notation",
+  "type": "Table",
+  "number": "6.3.6",
+  "title": "Arrow Notation",
+  "body": " Arrow Notation    Symbol  Read as…  Graphical Example     x approaches a from the left.    Example of a function that only approaches x = 2 from the left.       x approaches a from the right.    Example of a function that only approaches x = 2 from the right.       x approaches a (from both the left and right).    Function that approaches x = 2 from the left and from the right.       x approaches negative infinity.    An example where x approaches negative infinity.       x approaches (positive) infinity.    An example where x approaches positive infinity.       y approaches b.    Example of a function that approaches y = 2.       y approaches negative infinity.    An example where y approaches negative infinity.       y approaches (positive) infinity.    An example where y approaches positive infinity.      "
+},
+{
+  "id": "vertical-asymptote-def",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#vertical-asymptote-def",
+  "type": "Definition",
+  "number": "6.3.7",
+  "title": "Vertical Asymptote.",
+  "body": " Vertical Asymptote  The vertical line is a vertical asymptote of any fully simplified, rational function if as .  "
+},
+{
+  "id": "subsec-vertical-asymptotes-3",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-vertical-asymptotes-3",
+  "type": "Note",
+  "number": "6.3.8",
+  "title": "Note.",
+  "body": " Note  A function can never cross a vertical asymptote.  "
+},
+{
+  "id": "vertical-asymptote-examples",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#vertical-asymptote-examples",
+  "type": "Table",
+  "number": "6.3.9",
+  "title": "Examples of Vertical Asymptotes",
+  "body": " Examples of Vertical Asymptotes    Symbols  Graphical Example    as    y approaches infinity when x approaches 2 from the right.      as    y approaches infinity when x approaches 2 from the left.      as    y approaches negative infinity when x approaches 2 from the right.      as    y approaches negative infinity when x approaches 2 from the left.      "
+},
+{
+  "id": "method-finding-vertical-asymptotes",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#method-finding-vertical-asymptotes",
+  "type": "Procedure",
+  "number": "6.3.10",
+  "title": "How to Find a Vertical Asymptote of a Rational Function.",
+  "body": " How to Find a Vertical Asymptote of a Rational Function   Let be any rational function. To find the vertical asymptotes of the graph, follow this procedure.   Completely factor the numerator and denominator into their linear and irreducible quadratic factors.    Find all the linear factors of the denominator. By the Factor Theorem, each linear factor corresponds to a zero of the denominator and will make undefined.    For each linear factor of the denominator, determine if it also appears in the numerator.   If it doesn't, then is a vertical asymptote of .    If the linear factor also appears in the numerator, then we have a vertical asymptote at only if the multiplicity of the denominator is larger that the multiplicity of the numerator.         "
+},
+{
+  "id": "vertical-asymptotes-linear-denominator-only",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#vertical-asymptotes-linear-denominator-only",
+  "type": "Example",
+  "number": "6.3.11",
+  "title": "Finding the Vertical Asymptotes of a Rational Function.",
+  "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.                The first step is to completely factor the numerator and denominator. Since the numerator is just a constant, we only have to factor the denominator.  To factor the denominator, first note that the coefficients of sum to 1; therefore, the Test for tells us that is a zero the denominator. We can use synthetic division to factor the polynomial.   Synthetic division shows that the quotient is    Notice that the quotient is a perfect square trinomial and can be factored as . Therefore, , and our fully factored rational function is By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Since neither linear factor appears in the numerator, we can conclude that the vertical lines and are vertical asymptotes of the graph.   The graph of with vertical asymptotes and drawn as red, vertical, dashed lines.     "
+},
+{
+  "id": "vertical-asymptote-exists-linear-both-numerator-denominator",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#vertical-asymptote-exists-linear-both-numerator-denominator",
+  "type": "Example",
+  "number": "6.3.14",
+  "title": "Finding the Vertical Asymptotes of a Rational Function.",
+  "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           In the last example, we saw that . Notice that the denominator is a perfect square trinomial; therefore, it factors as . Therefore, our completely factored polynomial is Since the multiplicity of is 1 in the numerator and 2 in the denominator, the denominator has the larger multiplicity. Therefore, the vertical line is an asymptote.   The graph of with a vertical asymptote at drawn as a red, vertical, dashed line.     "
+},
+{
+  "id": "vertical-asymptote-not-exist-linear-both-numerator-denominator",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#vertical-asymptote-not-exist-linear-both-numerator-denominator",
+  "type": "Example",
+  "number": "6.3.16",
+  "title": "Finding the Vertical Asymptotes of a Rational Function.",
+  "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           This rational function is already factored for us. Notice that the factor appears in both the numerator and denominator. Unlike the previous example, the multiplicities of are the same in the numerator and denominator. Since the denominator does not have a larger multiplicity, there is not a vertical asymptote at . In fact, since there are no other linear factors in the denominator to generate an asymptote, this rational function does not have any vertical asymptote.   The graph of has a hole at instead of a vertical asymptote at .     "
+},
+{
+  "id": "subsec-multiplicities-of-the-denominator-4",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator-4",
+  "type": "Figure",
+  "number": "6.3.18",
+  "title": "",
+  "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .     "
+},
+{
+  "id": "subsec-multiplicities-of-the-denominator-6",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator-6",
+  "type": "Figure",
+  "number": "6.3.19",
+  "title": "",
+  "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .     "
+},
+{
+  "id": "subsec-multiplicities-of-the-denominator-7",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator-7",
+  "type": "Note",
+  "number": "6.3.20",
+  "title": "Simplifying and Finding Multiplicities For the Denominator.",
+  "body": " Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.  "
+},
+{
+  "id": "subsec-multiplicities-of-the-denominator-8",
+  "level": "2",
+  "url": "zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator-8",
+  "type": "Example",
+  "number": "6.3.21",
+  "title": "Finding the Zeroes of the Denominator and Their Multiplicities.",
+  "body": " Finding the Zeroes of the Denominator and Their Multiplicities   Find the zeroes of the denominator of the rational function and state their multiplicities.        with multiplicity 1     with multiplicity 2       The denominator is already factored for us. By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero.  Since the linear factors are and , the zeroes of the denominator are and .  Since the factor has multiplicity 1 and the factor has multiplicity 2, then the zero has multiplicity 1 and the zero has multiplicity 2.   "
 },
 {
   "id": "holes-rational-functions",
@@ -2509,7 +2707,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.4",
   "title": "Holes in Rational Functions",
-  "body": " Holes in Rational Functions    "
+  "body": " Holes in Rational Functions  So, I kind of told a white lie earlier. The zeroes of the denominator may produce a vertical asymptote, but the zeroes of the denominator can also produce holes in the graph, as we will see in the following theorem.   Note  Most graphing utilities, including the TI-84, do not graph holes by default.    Theorem   Let be any rational function whose numerator and denominator have a common factor of , where the integer and the integer .  Then is undefined at since we cannot divide by zero, but comparing the multiplicities of in the numerator and denominator can still yield information about the behavior of the graph near . There are three different behaviors that can occur, as summarized in the following table.   Behaviors when a common factor (x − c) appears in numerator and denominator    Condition  Type of Behavior  Graphical Example     The line is a vertical asymptote.    Zero of the denominator produces a vertical asymptote.       There is a hole at the point .    Zero of the denominator produces a non–x-axis hole.       There is a hole at the point .    Hole occurs where an x-intercept would be; even multiplicity gives a bounce.          Hole vs. Asymptote at (simple)   Determine if the function has a hole or a vertical asymptote at .    There is a vertical asymptote .    Since the factor appears only in the denominator, there is no common factor. Therefore, there is a vertical asymptote at .     Hole vs. Asymptote at (canceled factor)   Determine if the function has a hole or a vertical asymptote at .    There is a hole at the point .    Since the multiplicity of in the numerator is and the multiplicity of in the denominator is , we cancel off the factors and evaluate at as follows. Since is not in the domain of , there is a hole at the point .     Hole vs. Asymptote at (higher multiplicity)   Determine if the function has a hole or a vertical asymptote at .    There is a hole at the point .    Since the multiplicity of in the numerator is and the multiplicity of in the denominator is , we cancel off one factor and evaluate at as follows. Since is not in the domain of , there is a hole at the point .    "
+},
+{
+  "id": "holes-rational-functions-2",
+  "level": "2",
+  "url": "holes-rational-functions.html#holes-rational-functions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "holes "
+},
+{
+  "id": "holes-graphing-utilities",
+  "level": "2",
+  "url": "holes-rational-functions.html#holes-graphing-utilities",
+  "type": "Note",
+  "number": "6.4.1",
+  "title": "Note.",
+  "body": " Note  Most graphing utilities, including the TI-84, do not graph holes by default.  "
+},
+{
+  "id": "holes-common-factor-theorem",
+  "level": "2",
+  "url": "holes-rational-functions.html#holes-common-factor-theorem",
+  "type": "Theorem",
+  "number": "6.4.2",
+  "title": "Theorem.",
+  "body": " Theorem   Let be any rational function whose numerator and denominator have a common factor of , where the integer and the integer .  Then is undefined at since we cannot divide by zero, but comparing the multiplicities of in the numerator and denominator can still yield information about the behavior of the graph near . There are three different behaviors that can occur, as summarized in the following table.   Behaviors when a common factor (x − c) appears in numerator and denominator    Condition  Type of Behavior  Graphical Example     The line is a vertical asymptote.    Zero of the denominator produces a vertical asymptote.       There is a hole at the point .    Zero of the denominator produces a non–x-axis hole.       There is a hole at the point .    Hole occurs where an x-intercept would be; even multiplicity gives a bounce.        "
+},
+{
+  "id": "hole-vs-asymptote-simple",
+  "level": "2",
+  "url": "holes-rational-functions.html#hole-vs-asymptote-simple",
+  "type": "Example",
+  "number": "6.4.4",
+  "title": "Hole vs. Asymptote at <span class=\"process-math\">\\(x=2\\)<\/span> (simple).",
+  "body": " Hole vs. Asymptote at (simple)   Determine if the function has a hole or a vertical asymptote at .    There is a vertical asymptote .    Since the factor appears only in the denominator, there is no common factor. Therefore, there is a vertical asymptote at .   "
+},
+{
+  "id": "hole-vs-asymptote-cancelled-factor",
+  "level": "2",
+  "url": "holes-rational-functions.html#hole-vs-asymptote-cancelled-factor",
+  "type": "Example",
+  "number": "6.4.5",
+  "title": "Hole vs. Asymptote at <span class=\"process-math\">\\(x=2\\)<\/span> (canceled factor).",
+  "body": " Hole vs. Asymptote at (canceled factor)   Determine if the function has a hole or a vertical asymptote at .    There is a hole at the point .    Since the multiplicity of in the numerator is and the multiplicity of in the denominator is , we cancel off the factors and evaluate at as follows. Since is not in the domain of , there is a hole at the point .   "
+},
+{
+  "id": "hole-vs-asymptote-higher-multiplicity",
+  "level": "2",
+  "url": "holes-rational-functions.html#hole-vs-asymptote-higher-multiplicity",
+  "type": "Example",
+  "number": "6.4.6",
+  "title": "Hole vs. Asymptote at <span class=\"process-math\">\\(x=2\\)<\/span> (higher multiplicity).",
+  "body": " Hole vs. Asymptote at (higher multiplicity)   Determine if the function has a hole or a vertical asymptote at .    There is a hole at the point .    Since the multiplicity of in the numerator is and the multiplicity of in the denominator is , we cancel off one factor and evaluate at as follows. Since is not in the domain of , there is a hole at the point .   "
 },
 {
   "id": "end-behavior-rational",
@@ -2517,15 +2769,186 @@ var ptx_lunr_docs = [
   "url": "end-behavior-rational.html",
   "type": "Section",
   "number": "6.5",
-  "title": "The End Behavior of a Rational Function",
-  "body": " The End Behavior of a Rational Function    "
+  "title": "End Behavior of Rational Functions",
+  "body": " End Behavior of Rational Functions   Other Types of Asymptotes    Horizontal Asymptote  The horizontal line is a horizontal asymptote for if as .    Note  Graphs of functions may cross a horizontal asymptote.    Horizontal Asymptotes    Symbols  Graphical Example    as    Approach b from below as x approaches infinity.      as \\   Approach b from above as x as approaches negative infinity.      as    Approach the same horizontal line in both directions.         Oblique (Slant) Asymptote  The line is an oblique asymptote for if approaches the graph of as .    Oblique Asymptotes    Symbols  Graphical Example    as    Function approaching a slant line as x approaches positive or negative infinity.         Nonlinear Asymptote  A nonlinear function is a nonlinear asymptote for if approaches the graph of as .    Nonlinear Asymptotes    Symbols  Graphical Example    as    Approach a quadratic curve as x approaches positive or negative infinity.         Approach a cubic curve as x approaches positive or negative infinity.         End Behavior of Rational Functions   End Behavior Criterion   Let be a rational function. Let be the degree of with leading coefficient , and let be the degree of with leading coefficient . The end behavior is determined by comparing and as summarized below.     Summary of End Behavior by Degrees    Condition  Type of Asymptote  How to Calculate Asymptote  Graphical Example     Horizontal  Line (the x-axis).    Degree denominator > degree numerator (case 1).           Degree denominator > degree numerator (case 2).       Horizontal  Line .    Approach constant ratio as x approaches plus or minus infinity..       Oblique  Use polynomial long division.    Slant asymptote from the division quotient.       Nonlinear  Use polynomial long division.    Nonlinear (e.g., quadratic) asymptote.        End Behavior   Find the end behavior of .     as .    Since the degree of the numerator is 3 and the degree of the denominator is 8, we see that the degree of the denominator is larger than the degree of the numerator. This shows the existence of a horizontal asymptote .  Therefore, as .   As the the values of get closer to , the graph of gets closer to but never reaches the -axis.       End Behavior   Find the end behavior of .     as .    Since the degree of the numerator is 12 and the degree of the denominator is 12, we see that the degrees of the numerator and denominator are equal. Therefore, there is a horizontal asymptote .  Therefore, as .   As the the values of get closer to , the graph of gets closer to but never reaches the line .       End Behavior   Find the end behavior of .     as , .    Since the degree of the numerator is 3 and the degree of the denominator is 2, the degree of the numerator is one more than the denominator. Therefore, there is an oblique asymptote found using polynomial long division.   Polynomial Long Division of by has a quotient of .    This gives us the oblique asymptote . Therefore, as .   As the the values of get closer to , the graph of gets closer to but never reaches the line .       End Behavior   Find the end behavior of .     as .    Since the degree of the numerator is 4 and the degree of the denominator is 2, the degree of the numerator is larger than the degree of the denominator by 2 or more. Therefore, there is a nonlinear asymptote found using polynomial long division.   Polynomial Long Division of by has a quotient of .    Therefore, the nonlinear asymptote is . Therefore, as .   As the the values of get closer to , the graph of gets closer to but never reaches the parabola .        Crossing Horizontal\/Oblique\/Nonlinear Asymptotes?  From our graphs, we notice that the graph of a rational function may cross its horizontal, oblique, or nonlinear asymptote. These are important points to plot when sketching the graph of since we may need to cross these asymptotes to make sure our end behavior is correct.   How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote   Let be a rational function with a horizontal, oblique, or nonlinear asymptote.  To find where crosses its horizontal, oblique, or nonlinear asymptote,  Set equal to the asymptote and solve for .  For each solution, evaluate to find the corresponding -coordinate.  Plot each point on the graph of .       Crossing an Asymptote   Find where crosses its horizontal asymptote .    The graph of crosses its horizontal asymptote at .    To find where crosses its horizontal asymptote, we set and solve for . Since the asymptote is horizontal, the -coordinate is always . Therefore, there is only one point where the graph crosses the horizontal asymptote:   The graph of crosses the line at the point .       Crossing an Asymptote   Find where crosses its oblique asymptote .    The graph of crosses its oblique asymptote at .    To find where crosses its oblique asymptote, we set and solve for . Evaluating  Therefore, there is only one point where the graph crosses the oblique asymptote:   The graph of crosses the line at the point .       "
+},
+{
+  "id": "horizontal-asymptote-def",
+  "level": "2",
+  "url": "end-behavior-rational.html#horizontal-asymptote-def",
+  "type": "Definition",
+  "number": "6.5.1",
+  "title": "Horizontal Asymptote.",
+  "body": " Horizontal Asymptote  The horizontal line is a horizontal asymptote for if as .  "
+},
+{
+  "id": "horizontal-asymptote-crossing-note",
+  "level": "2",
+  "url": "end-behavior-rational.html#horizontal-asymptote-crossing-note",
+  "type": "Note",
+  "number": "6.5.2",
+  "title": "Note.",
+  "body": " Note  Graphs of functions may cross a horizontal asymptote.  "
+},
+{
+  "id": "horizontal-asymptote-table",
+  "level": "2",
+  "url": "end-behavior-rational.html#horizontal-asymptote-table",
+  "type": "Table",
+  "number": "6.5.3",
+  "title": "Horizontal Asymptotes",
+  "body": " Horizontal Asymptotes    Symbols  Graphical Example    as    Approach b from below as x approaches infinity.      as \\   Approach b from above as x as approaches negative infinity.      as    Approach the same horizontal line in both directions.      "
+},
+{
+  "id": "oblique-asymptote-def",
+  "level": "2",
+  "url": "end-behavior-rational.html#oblique-asymptote-def",
+  "type": "Definition",
+  "number": "6.5.4",
+  "title": "Oblique (Slant) Asymptote.",
+  "body": " Oblique (Slant) Asymptote  The line is an oblique asymptote for if approaches the graph of as .  "
+},
+{
+  "id": "oblique-asymptote-table",
+  "level": "2",
+  "url": "end-behavior-rational.html#oblique-asymptote-table",
+  "type": "Table",
+  "number": "6.5.5",
+  "title": "Oblique Asymptotes",
+  "body": " Oblique Asymptotes    Symbols  Graphical Example    as    Function approaching a slant line as x approaches positive or negative infinity.      "
+},
+{
+  "id": "nonlinear-asymptote-def",
+  "level": "2",
+  "url": "end-behavior-rational.html#nonlinear-asymptote-def",
+  "type": "Definition",
+  "number": "6.5.6",
+  "title": "Nonlinear Asymptote.",
+  "body": " Nonlinear Asymptote  A nonlinear function is a nonlinear asymptote for if approaches the graph of as .  "
+},
+{
+  "id": "nonlinear-asymptote-table",
+  "level": "2",
+  "url": "end-behavior-rational.html#nonlinear-asymptote-table",
+  "type": "Table",
+  "number": "6.5.7",
+  "title": "Nonlinear Asymptotes",
+  "body": " Nonlinear Asymptotes    Symbols  Graphical Example    as    Approach a quadratic curve as x approaches positive or negative infinity.         Approach a cubic curve as x approaches positive or negative infinity.      "
+},
+{
+  "id": "end-behavior-theorem",
+  "level": "2",
+  "url": "end-behavior-rational.html#end-behavior-theorem",
+  "type": "Theorem",
+  "number": "6.5.8",
+  "title": "End Behavior Criterion.",
+  "body": " End Behavior Criterion   Let be a rational function. Let be the degree of with leading coefficient , and let be the degree of with leading coefficient . The end behavior is determined by comparing and as summarized below.   "
+},
+{
+  "id": "end-behavior-summary-table",
+  "level": "2",
+  "url": "end-behavior-rational.html#end-behavior-summary-table",
+  "type": "Table",
+  "number": "6.5.9",
+  "title": "Summary of End Behavior by Degrees",
+  "body": " Summary of End Behavior by Degrees    Condition  Type of Asymptote  How to Calculate Asymptote  Graphical Example     Horizontal  Line (the x-axis).    Degree denominator > degree numerator (case 1).           Degree denominator > degree numerator (case 2).       Horizontal  Line .    Approach constant ratio as x approaches plus or minus infinity..       Oblique  Use polynomial long division.    Slant asymptote from the division quotient.       Nonlinear  Use polynomial long division.    Nonlinear (e.g., quadratic) asymptote.      "
+},
+{
+  "id": "rational-end-behavior-example-5",
+  "level": "2",
+  "url": "end-behavior-rational.html#rational-end-behavior-example-5",
+  "type": "Example",
+  "number": "6.5.10",
+  "title": "End Behavior.",
+  "body": " End Behavior   Find the end behavior of .     as .    Since the degree of the numerator is 3 and the degree of the denominator is 8, we see that the degree of the denominator is larger than the degree of the numerator. This shows the existence of a horizontal asymptote .  Therefore, as .   As the the values of get closer to , the graph of gets closer to but never reaches the -axis.     "
+},
+{
+  "id": "rational-end-behavior-example-6",
+  "level": "2",
+  "url": "end-behavior-rational.html#rational-end-behavior-example-6",
+  "type": "Example",
+  "number": "6.5.12",
+  "title": "End Behavior.",
+  "body": " End Behavior   Find the end behavior of .     as .    Since the degree of the numerator is 12 and the degree of the denominator is 12, we see that the degrees of the numerator and denominator are equal. Therefore, there is a horizontal asymptote .  Therefore, as .   As the the values of get closer to , the graph of gets closer to but never reaches the line .     "
+},
+{
+  "id": "rational-end-behavior-example-7",
+  "level": "2",
+  "url": "end-behavior-rational.html#rational-end-behavior-example-7",
+  "type": "Example",
+  "number": "6.5.14",
+  "title": "End Behavior.",
+  "body": " End Behavior   Find the end behavior of .     as , .    Since the degree of the numerator is 3 and the degree of the denominator is 2, the degree of the numerator is one more than the denominator. Therefore, there is an oblique asymptote found using polynomial long division.   Polynomial Long Division of by has a quotient of .    This gives us the oblique asymptote . Therefore, as .   As the the values of get closer to , the graph of gets closer to but never reaches the line .     "
+},
+{
+  "id": "end-behavior-example-8",
+  "level": "2",
+  "url": "end-behavior-rational.html#end-behavior-example-8",
+  "type": "Example",
+  "number": "6.5.17",
+  "title": "End Behavior.",
+  "body": " End Behavior   Find the end behavior of .     as .    Since the degree of the numerator is 4 and the degree of the denominator is 2, the degree of the numerator is larger than the degree of the denominator by 2 or more. Therefore, there is a nonlinear asymptote found using polynomial long division.   Polynomial Long Division of by has a quotient of .    Therefore, the nonlinear asymptote is . Therefore, as .   As the the values of get closer to , the graph of gets closer to but never reaches the parabola .     "
+},
+{
+  "id": "lem-crossing-asymptotes",
+  "level": "2",
+  "url": "end-behavior-rational.html#lem-crossing-asymptotes",
+  "type": "Procedure",
+  "number": "6.5.20",
+  "title": "How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote.",
+  "body": " How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote   Let be a rational function with a horizontal, oblique, or nonlinear asymptote.  To find where crosses its horizontal, oblique, or nonlinear asymptote,  Set equal to the asymptote and solve for .  For each solution, evaluate to find the corresponding -coordinate.  Plot each point on the graph of .     "
+},
+{
+  "id": "subsec-crossing-asymptotes-4",
+  "level": "2",
+  "url": "end-behavior-rational.html#subsec-crossing-asymptotes-4",
+  "type": "Example",
+  "number": "6.5.21",
+  "title": "Crossing an Asymptote.",
+  "body": " Crossing an Asymptote   Find where crosses its horizontal asymptote .    The graph of crosses its horizontal asymptote at .    To find where crosses its horizontal asymptote, we set and solve for . Since the asymptote is horizontal, the -coordinate is always . Therefore, there is only one point where the graph crosses the horizontal asymptote:   The graph of crosses the line at the point .     "
+},
+{
+  "id": "subsec-crossing-asymptotes-5",
+  "level": "2",
+  "url": "end-behavior-rational.html#subsec-crossing-asymptotes-5",
+  "type": "Example",
+  "number": "6.5.23",
+  "title": "Crossing an Asymptote.",
+  "body": " Crossing an Asymptote   Find where crosses its oblique asymptote .    The graph of crosses its oblique asymptote at .    To find where crosses its oblique asymptote, we set and solve for . Evaluating  Therefore, there is only one point where the graph crosses the oblique asymptote:   The graph of crosses the line at the point .     "
+},
+{
+  "id": "graphs-rational",
+  "level": "1",
+  "url": "graphs-rational.html",
+  "type": "Section",
+  "number": "6.6",
+  "title": "The Graphs of Rational Functions",
+  "body": " The Graphs of Rational Functions   Procedure  Let be any rational function. Use the following steps to graph the function.   Find the -intercept (if it exists) and express it as a point .    Factor the numerator and denominator, but do not cancel any factors yet.    Find the zeroes of the denominator (if they exist) and determine the type of behavior (vertical asymptote or hole) for each zero.    Cancel off the common factors.    Determine the end behavior of the function.    Determine if the graph crosses the horizontal, oblique, or nonlinear. Plot any points of intersection.    Find the zeroes of the numerator (if they exist) and their multiplicities.  Express your -intercepts as and graph them as solid dots unless they correspond to a hole, in which case use an open dot.  Use the multiplicities to determine whether the graph crosses or bounces at each intercept.      Determine the multiplicities of the remaining zeroes of the denominator. The multiplicities of the denominator determine the graph's behavior near the vertical asymptotes.  Even multiplicities mean that the graph “bounces off infinity.”  Odd multiplicities mean that the graph “crosses from positive to negative infinity,” or vice versa.      Use the intercepts, end behavior, and multiplicities to draw a general sketch of the graph. Plot additional points as needed to further define the shape of the graph.       Graphing a Rational Function   Graph the function .     The graph of      We follow the steps from the above procedure to graph the function. First, we find the -intercept by evaluating . Thus, the -intercept is the point .   The graph of the -intercept    Next, we observe that both the numerator and denominator are already factored. By the Factor Theorem, we know that the zeroes are , , and . Therefore, the domain in interval notation is .  Now, we cancel off the common factor of from the numerator and denominator. Therefore, we know we have a hole at , and there are two vertical asymptotes: the vertical lines and . To find the value of the hole, we evaluate the simplified version of at . This calculation implies that the hole is at the point .   The graph of the hole and the vertical asymptotes and are added to the graph.    Next, we determine the end behavior of the function. Since the degree of the numerator is less than the degree of the denominator, the horizontal asymptote is (aka the -axis). To find if the graph crosses the horizontal asymptote, set and solve for . Since this equation has no solution, the graph does not cross the horizontal asymptote. This calculation also implies that there are no -intercepts.   The end behavior of the function is added to the graph.    Next, we determine the multiplicities of zeroes of the denominator. The factor has multiplicity 1. This implies that the graph crosses at infinity at .  The factor has multiplicity 2, which implies that the graph bounces off infinity at .   The behavior near the vertical asymptotes are added to the graph.    We now have enough information to sketch in the rest of the graph.   The graph of      "
+},
+{
+  "id": "procedure-for-graphing-rational-functions",
+  "level": "2",
+  "url": "graphs-rational.html#procedure-for-graphing-rational-functions",
+  "type": "Procedure",
+  "number": "6.6.1",
+  "title": "Procedure.",
+  "body": " Procedure  Let be any rational function. Use the following steps to graph the function.   Find the -intercept (if it exists) and express it as a point .    Factor the numerator and denominator, but do not cancel any factors yet.    Find the zeroes of the denominator (if they exist) and determine the type of behavior (vertical asymptote or hole) for each zero.    Cancel off the common factors.    Determine the end behavior of the function.    Determine if the graph crosses the horizontal, oblique, or nonlinear. Plot any points of intersection.    Find the zeroes of the numerator (if they exist) and their multiplicities.  Express your -intercepts as and graph them as solid dots unless they correspond to a hole, in which case use an open dot.  Use the multiplicities to determine whether the graph crosses or bounces at each intercept.      Determine the multiplicities of the remaining zeroes of the denominator. The multiplicities of the denominator determine the graph's behavior near the vertical asymptotes.  Even multiplicities mean that the graph “bounces off infinity.”  Odd multiplicities mean that the graph “crosses from positive to negative infinity,” or vice versa.      Use the intercepts, end behavior, and multiplicities to draw a general sketch of the graph. Plot additional points as needed to further define the shape of the graph.     "
+},
+{
+  "id": "graphing-rational-example",
+  "level": "2",
+  "url": "graphs-rational.html#graphing-rational-example",
+  "type": "Example",
+  "number": "6.6.2",
+  "title": "Graphing a Rational Function.",
+  "body": " Graphing a Rational Function   Graph the function .     The graph of      We follow the steps from the above procedure to graph the function. First, we find the -intercept by evaluating . Thus, the -intercept is the point .   The graph of the -intercept    Next, we observe that both the numerator and denominator are already factored. By the Factor Theorem, we know that the zeroes are , , and . Therefore, the domain in interval notation is .  Now, we cancel off the common factor of from the numerator and denominator. Therefore, we know we have a hole at , and there are two vertical asymptotes: the vertical lines and . To find the value of the hole, we evaluate the simplified version of at . This calculation implies that the hole is at the point .   The graph of the hole and the vertical asymptotes and are added to the graph.    Next, we determine the end behavior of the function. Since the degree of the numerator is less than the degree of the denominator, the horizontal asymptote is (aka the -axis). To find if the graph crosses the horizontal asymptote, set and solve for . Since this equation has no solution, the graph does not cross the horizontal asymptote. This calculation also implies that there are no -intercepts.   The end behavior of the function is added to the graph.    Next, we determine the multiplicities of zeroes of the denominator. The factor has multiplicity 1. This implies that the graph crosses at infinity at .  The factor has multiplicity 2, which implies that the graph bounces off infinity at .   The behavior near the vertical asymptotes are added to the graph.    We now have enough information to sketch in the rest of the graph.   The graph of     "
 },
 {
   "id": "rational-inequalities",
   "level": "1",
   "url": "rational-inequalities.html",
   "type": "Section",
-  "number": "6.6",
+  "number": "6.7",
   "title": "Rational Inequalities",
   "body": " Rational Inequalities    "
 },
@@ -4130,6 +4553,366 @@ var ptx_lunr_docs = [
   "number": "A.5.3.14",
   "title": "Illustrative example of Theorem A.5.30.",
   "body": " Illustrative example of   Factor .        "
+},
+{
+  "id": "chapter-6-lecture-notes",
+  "level": "1",
+  "url": "chapter-6-lecture-notes.html",
+  "type": "Section",
+  "number": "A.6",
+  "title": "Chapter 6 Lecture Notes",
+  "body": " Chapter 6 Lecture Notes   Rational Functions and their Properties   Definition   A function is rational if there exist two polynomial functions and such that      Determine if a Function is Rational or Not   Determine if the following functions are rational or not.             Zeroes of a Rational Function   Let be any fully simplified rational function. Then is a zero of only if it is in the domain of and a zero of .     The Multiplicities of Zeroes for Rational Functions   Let be any fully simplified rational function. The zero has multiplicity only if is a factor of .     Finding the Multiplicities of Zeroes of a Fully Simplified Rational Function   Find the zeroes and their multiplicities for the rational function .     The Domain of a Rational Function   The domain of a rational function are all values of except those that make the denominator equal to zero before canceling any common factors.     Finding the Domain   Determine the domain of the function .     Arrow Notation for x    Symbol  Read as…  Graphical Example     x approaches a from the left.    Example of a function that only approaches x = 2 from the left.       x approaches a from the right.    Example of a function that only approaches x = 2 from the right.       x approaches a (from both the left and right).    Function that approaches x = 2 from the left and from the right.       x approaches negative infinity.    An example where x approaches negative infinity.       x approaches (positive) infinity.    An example where x approaches positive infinity.        Arrow Notation for y    Symbol  Read as…  Graphical Example     y approaches b.    Example of a function that approaches y = 2.       y approaches negative infinity.    An example where y approaches negative infinity.       y approaches (positive) infinity.    An example where y approaches positive infinity.        Vertical Asymptote   The vertical line is a vertical asymptote of any fully simplified, rational function if as .     Note  A function can never cross a vertical asymptote.    Examples of Vertical Asymptotes    Symbols  Graphical Example    as    y approaches infinity when x approaches a from the right.      as    y approaches infinity when x approaches a from the left.      as    y approaches negative infinity when x approaches a from the right.      as    y approaches negative infinity when x approaches a from the left.        How to Find a Vertical Asymptote of a Rational Function   Let be any rational function. To find the vertical asymptotes of the graph, follow this procedure.  Completely factor the numerator and denominator into their linear and irreducible quadratic factors.  Find all the linear factors of the denominator. By the Factor Theorem, each linear factor corresponds to a zero of the denominator and will make undefined.   For each linear factor of the denominator, determine if it also appears in the numerator.  If it doesn't, then is a vertical asymptote of .  If the linear factor also appears in the numerator, then we have a vertical asymptote at only if the multiplicity of the denominator is larger than the multiplicity of the numerator.          Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .     Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    While the multiplicity of a linear factor in the numerator tells us how we cross or bounce off the x-axis, the multiplicity of a linear factor in the denominator tells us how the graph behaves near a vertical asymptote. In fact, if we think of infinity as a point that we cannot see on the coordinate plane, then the multiplicity of a linear factor in the denominator tells us how the graph crosses or bounces off of infinity.  If the multiplicity is odd, the graph will cross at infinity, as we see in the figures below.   The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .      If the multiplicity is even, the graph will bounce off the vertical asymptote, as we see in the figures below.   The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .       Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.    Finding the Zeroes of the Denominator and Their Multiplicities   Find the zeroes of the denominator of the rational function and state their multiplicities.     Theorem   Let be any rational function whose numerator and denominator have a common factor of , where the integer and the integer .  Then is undefined at since we cannot divide by zero, but comparing the multiplicities of in the numerator and denominator can still yield information about the behavior of the graph near . There are three different behaviors that can occur, as summarized in the following table.   Behaviors when a common factor (x − c) appears in numerator and denominator    Condition  Type of Behavior  Graphical Example     The line is a vertical asymptote.    Zero of the denominator produces a vertical asymptote.       There is a hole at the point .    Zero of the denominator produces a non–x-axis hole.       There is a hole at the point .    Hole occurs where an x-intercept would be; even multiplicity gives a bounce.          Hole vs. Asymptote at   Determine if the function has a hole or a vertical asymptote at .     Hole vs. Asymptote   Determine if the function has a hole or a vertical asymptote at .     Hole vs. Asymptote   Determine if the function has a hole or a vertical asymptote at .     Horizontal Asymptote   The horizontal line is a horizontal asymptote for if as .     Horizontal Asymptotes    Symbols  Graphical Example    as    Approach b from below as x approaches infinity.      as    Approach b from above as x approaches negative infinity.      as    Approach the same horizontal line in both directions.        Oblique (Slant) Asymptote   The line is an oblique asymptote for if approaches the graph of as .     Oblique Asymptotes    Symbols  Graphical Example    as    Function approaching a slant line as x approaches positive or negative infinity.        Nonlinear Asymptote   A nonlinear function is a nonlinear asymptote for if approaches the graph of as .     Nonlinear Asymptotes    Symbols  Graphical Example    as    Approach a quadratic curve as x approaches positive or negative infinity.         Approach a cubic curve as x approaches positive or negative infinity.        End Behavior Criterion   Let be a rational function. Let be the degree of with leading coefficient , and let be the degree of with leading coefficient . The end behavior is determined by comparing and as summarized below.     Summary of End Behavior by Degrees    Condition  Type of Asymptote  How to Calculate Asymptote  Graphical Example     Horizontal  Line (the x-axis).    Degree denominator > degree numerator (case 1).           Degree denominator > degree numerator (case 2).       Horizontal  Line .    Approach constant ratio as x approaches plus or minus infinity.       Oblique  Use polynomial long division.    Slant asymptote from the division quotient.       Nonlinear  Use polynomial long division.    Nonlinear (e.g., quadratic) asymptote.        End Behavior   Find the end behavior of .     End Behavior   Find the end behavior of .     End Behavior   Find the end behavior of .     End Behavior   Find the end behavior of .     How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote   Let be a rational function with a horizontal, oblique, or nonlinear asymptote.  To find where crosses its horizontal, oblique, or nonlinear asymptote,  Set equal to the asymptote and solve for .  For each solution, evaluate to find the corresponding -coordinate.  Plot each point on the graph of .       Crossing an Asymptote   Find where crosses its oblique asymptote .     Procedure  Let be any rational function. Use the following steps to graph the function.   Find the -intercept (if it exists) and express it as a point .    Factor the numerator and denominator, but do not cancel any factors yet.    Find the zeroes of the denominator (if they exist) and determine the type of behavior (vertical asymptote or hole) for each zero.    Cancel off the common factors.    Determine the end behavior of the function.    Determine if the graph crosses the horizontal, oblique, or nonlinear asymptote. Plot any points of intersection.    Find the zeroes of the numerator (if they exist) and their multiplicities.  Express your -intercepts as and graph them as solid dots unless they correspond to a hole, in which case use an open dot.  Use the multiplicities to determine whether the graph crosses or bounces at each intercept.      Determine the multiplicities of the remaining zeroes of the denominator. The multiplicities of the denominator determine the graph's behavior near the vertical asymptotes.  Even multiplicities mean that the graph “bounces off infinity.”  Odd multiplicities mean that the graph “crosses from positive to negative infinity,” or vice versa.      Use the intercepts, end behavior, and multiplicities to draw a general sketch of the graph. Plot additional points as needed to further define the shape of the graph.       Graphing a Rational Function   Graph the function .     "
+},
+{
+  "id": "lecture-notes-rational-function",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-rational-function",
+  "type": "Definition",
+  "number": "A.6.1",
+  "title": "Definition.",
+  "body": " Definition   A function is rational if there exist two polynomial functions and such that    "
+},
+{
+  "id": "lecture-notes-determine-rational-or-not-1",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-determine-rational-or-not-1",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.1",
+  "title": "Determine if a Function is Rational or Not.",
+  "body": " Determine if a Function is Rational or Not   Determine if the following functions are rational or not.           "
+},
+{
+  "id": "lecture-notes-def-zero-rational-function",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-def-zero-rational-function",
+  "type": "Definition",
+  "number": "A.6.2",
+  "title": "Zeroes of a Rational Function.",
+  "body": " Zeroes of a Rational Function   Let be any fully simplified rational function. Then is a zero of only if it is in the domain of and a zero of .   "
+},
+{
+  "id": "lecture-notes-def-multiplicity-rational-function",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-def-multiplicity-rational-function",
+  "type": "Definition",
+  "number": "A.6.3",
+  "title": "The Multiplicities of Zeroes for Rational Functions.",
+  "body": " The Multiplicities of Zeroes for Rational Functions   Let be any fully simplified rational function. The zero has multiplicity only if is a factor of .   "
+},
+{
+  "id": "lecture-notes-anon-1",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-anon-1",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.2",
+  "title": "Finding the Multiplicities of Zeroes of a Fully Simplified Rational Function.",
+  "body": " Finding the Multiplicities of Zeroes of a Fully Simplified Rational Function   Find the zeroes and their multiplicities for the rational function .   "
+},
+{
+  "id": "worksheet-graphing-rational-function-7",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#worksheet-graphing-rational-function-7",
+  "type": "Theorem",
+  "number": "A.6.4",
+  "title": "The Domain of a Rational Function.",
+  "body": " The Domain of a Rational Function   The domain of a rational function are all values of except those that make the denominator equal to zero before canceling any common factors.   "
+},
+{
+  "id": "worksheet-graphing-rational-function-8",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#worksheet-graphing-rational-function-8",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.3",
+  "title": "Finding the Domain.",
+  "body": " Finding the Domain   Determine the domain of the function .   "
+},
+{
+  "id": "lecture-notes-arrow-notation-x",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-arrow-notation-x",
+  "type": "Table",
+  "number": "A.6.5",
+  "title": "Arrow Notation for x",
+  "body": " Arrow Notation for x    Symbol  Read as…  Graphical Example     x approaches a from the left.    Example of a function that only approaches x = 2 from the left.       x approaches a from the right.    Example of a function that only approaches x = 2 from the right.       x approaches a (from both the left and right).    Function that approaches x = 2 from the left and from the right.       x approaches negative infinity.    An example where x approaches negative infinity.       x approaches (positive) infinity.    An example where x approaches positive infinity.      "
+},
+{
+  "id": "lecture-notes-arrow-notation-y",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-arrow-notation-y",
+  "type": "Table",
+  "number": "A.6.6",
+  "title": "Arrow Notation for y",
+  "body": " Arrow Notation for y    Symbol  Read as…  Graphical Example     y approaches b.    Example of a function that approaches y = 2.       y approaches negative infinity.    An example where y approaches negative infinity.       y approaches (positive) infinity.    An example where y approaches positive infinity.      "
+},
+{
+  "id": "lecture-notes-vertical-asymptote-def",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-vertical-asymptote-def",
+  "type": "Definition",
+  "number": "A.6.7",
+  "title": "Vertical Asymptote.",
+  "body": " Vertical Asymptote   The vertical line is a vertical asymptote of any fully simplified, rational function if as .   "
+},
+{
+  "id": "worksheet-graphing-rational-function-12",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#worksheet-graphing-rational-function-12",
+  "type": "Note",
+  "number": "A.6.8",
+  "title": "Note.",
+  "body": " Note  A function can never cross a vertical asymptote.  "
+},
+{
+  "id": "lecture-notes-vertical-asymptote-examples",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-vertical-asymptote-examples",
+  "type": "Table",
+  "number": "A.6.9",
+  "title": "Examples of Vertical Asymptotes",
+  "body": " Examples of Vertical Asymptotes    Symbols  Graphical Example    as    y approaches infinity when x approaches a from the right.      as    y approaches infinity when x approaches a from the left.      as    y approaches negative infinity when x approaches a from the right.      as    y approaches negative infinity when x approaches a from the left.      "
+},
+{
+  "id": "lecture-notes-method-finding-vertical-asymptotes",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-method-finding-vertical-asymptotes",
+  "type": "Procedure",
+  "number": "A.6.10",
+  "title": "How to Find a Vertical Asymptote of a Rational Function.",
+  "body": " How to Find a Vertical Asymptote of a Rational Function   Let be any rational function. To find the vertical asymptotes of the graph, follow this procedure.  Completely factor the numerator and denominator into their linear and irreducible quadratic factors.  Find all the linear factors of the denominator. By the Factor Theorem, each linear factor corresponds to a zero of the denominator and will make undefined.   For each linear factor of the denominator, determine if it also appears in the numerator.  If it doesn't, then is a vertical asymptote of .  If the linear factor also appears in the numerator, then we have a vertical asymptote at only if the multiplicity of the denominator is larger than the multiplicity of the numerator.        "
+},
+{
+  "id": "lecture-notes-vertical-asymptotes-linear-denominator-only",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-vertical-asymptotes-linear-denominator-only",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.4",
+  "title": "Finding the Vertical Asymptotes of a Rational Function.",
+  "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .   "
+},
+{
+  "id": "lecture-notes-vertical-asymptote-not-exist-linear-both-numerator-denominator",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-vertical-asymptote-not-exist-linear-both-numerator-denominator",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.5",
+  "title": "Finding the Vertical Asymptotes of a Rational Function.",
+  "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .   "
+},
+{
+  "id": "worksheet-graphing-rational-function-19",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#worksheet-graphing-rational-function-19",
+  "type": "Figure",
+  "number": "A.6.11",
+  "title": "",
+  "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .     "
+},
+{
+  "id": "worksheet-graphing-rational-function-21",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#worksheet-graphing-rational-function-21",
+  "type": "Figure",
+  "number": "A.6.12",
+  "title": "",
+  "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .     "
+},
+{
+  "id": "worksheet-graphing-rational-function-22",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#worksheet-graphing-rational-function-22",
+  "type": "Note",
+  "number": "A.6.13",
+  "title": "Simplifying and Finding Multiplicities For the Denominator.",
+  "body": " Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.  "
+},
+{
+  "id": "worksheet-graphing-rational-function-23",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#worksheet-graphing-rational-function-23",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.6",
+  "title": "Finding the Zeroes of the Denominator and Their Multiplicities.",
+  "body": " Finding the Zeroes of the Denominator and Their Multiplicities   Find the zeroes of the denominator of the rational function and state their multiplicities.   "
+},
+{
+  "id": "lecture-notes-holes-common-factor-theorem",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-holes-common-factor-theorem",
+  "type": "Theorem",
+  "number": "A.6.14",
+  "title": "Theorem.",
+  "body": " Theorem   Let be any rational function whose numerator and denominator have a common factor of , where the integer and the integer .  Then is undefined at since we cannot divide by zero, but comparing the multiplicities of in the numerator and denominator can still yield information about the behavior of the graph near . There are three different behaviors that can occur, as summarized in the following table.   Behaviors when a common factor (x − c) appears in numerator and denominator    Condition  Type of Behavior  Graphical Example     The line is a vertical asymptote.    Zero of the denominator produces a vertical asymptote.       There is a hole at the point .    Zero of the denominator produces a non–x-axis hole.       There is a hole at the point .    Hole occurs where an x-intercept would be; even multiplicity gives a bounce.        "
+},
+{
+  "id": "lecture-notes-hole-vs-asymptote-simple",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-hole-vs-asymptote-simple",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.7",
+  "title": "Hole vs. Asymptote at <span class=\"process-math\">\\(x=2\\)<\/span>.",
+  "body": " Hole vs. Asymptote at   Determine if the function has a hole or a vertical asymptote at .   "
+},
+{
+  "id": "lecture-notes-hole-vs-asymptote-cancelled-factor",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-hole-vs-asymptote-cancelled-factor",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.8",
+  "title": "Hole vs. Asymptote.",
+  "body": " Hole vs. Asymptote   Determine if the function has a hole or a vertical asymptote at .   "
+},
+{
+  "id": "lecture-notes-hole-vs-asymptote-higher-multiplicity",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-hole-vs-asymptote-higher-multiplicity",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.9",
+  "title": "Hole vs. Asymptote.",
+  "body": " Hole vs. Asymptote   Determine if the function has a hole or a vertical asymptote at .   "
+},
+{
+  "id": "lecture-notes-horizontal-asymptote-def",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-horizontal-asymptote-def",
+  "type": "Definition",
+  "number": "A.6.16",
+  "title": "Horizontal Asymptote.",
+  "body": " Horizontal Asymptote   The horizontal line is a horizontal asymptote for if as .   "
+},
+{
+  "id": "lecture-notes-horizontal-asymptote-table",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-horizontal-asymptote-table",
+  "type": "Table",
+  "number": "A.6.17",
+  "title": "Horizontal Asymptotes",
+  "body": " Horizontal Asymptotes    Symbols  Graphical Example    as    Approach b from below as x approaches infinity.      as    Approach b from above as x approaches negative infinity.      as    Approach the same horizontal line in both directions.      "
+},
+{
+  "id": "lecture-notes-oblique-asymptote-def",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-oblique-asymptote-def",
+  "type": "Definition",
+  "number": "A.6.18",
+  "title": "Oblique (Slant) Asymptote.",
+  "body": " Oblique (Slant) Asymptote   The line is an oblique asymptote for if approaches the graph of as .   "
+},
+{
+  "id": "lecture-notes-oblique-asymptote-table",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-oblique-asymptote-table",
+  "type": "Table",
+  "number": "A.6.19",
+  "title": "Oblique Asymptotes",
+  "body": " Oblique Asymptotes    Symbols  Graphical Example    as    Function approaching a slant line as x approaches positive or negative infinity.      "
+},
+{
+  "id": "lecture-notes-nonlinear-asymptote-def",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-nonlinear-asymptote-def",
+  "type": "Definition",
+  "number": "A.6.20",
+  "title": "Nonlinear Asymptote.",
+  "body": " Nonlinear Asymptote   A nonlinear function is a nonlinear asymptote for if approaches the graph of as .   "
+},
+{
+  "id": "lecture-notes-nonlinear-asymptote-table",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-nonlinear-asymptote-table",
+  "type": "Table",
+  "number": "A.6.21",
+  "title": "Nonlinear Asymptotes",
+  "body": " Nonlinear Asymptotes    Symbols  Graphical Example    as    Approach a quadratic curve as x approaches positive or negative infinity.         Approach a cubic curve as x approaches positive or negative infinity.      "
+},
+{
+  "id": "lecture-notes-end-behavior-theorem",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-end-behavior-theorem",
+  "type": "Theorem",
+  "number": "A.6.22",
+  "title": "End Behavior Criterion.",
+  "body": " End Behavior Criterion   Let be a rational function. Let be the degree of with leading coefficient , and let be the degree of with leading coefficient . The end behavior is determined by comparing and as summarized below.   "
+},
+{
+  "id": "lecture-notes-end-behavior-summary-table",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-end-behavior-summary-table",
+  "type": "Table",
+  "number": "A.6.23",
+  "title": "Summary of End Behavior by Degrees",
+  "body": " Summary of End Behavior by Degrees    Condition  Type of Asymptote  How to Calculate Asymptote  Graphical Example     Horizontal  Line (the x-axis).    Degree denominator > degree numerator (case 1).           Degree denominator > degree numerator (case 2).       Horizontal  Line .    Approach constant ratio as x approaches plus or minus infinity.       Oblique  Use polynomial long division.    Slant asymptote from the division quotient.       Nonlinear  Use polynomial long division.    Nonlinear (e.g., quadratic) asymptote.      "
+},
+{
+  "id": "lecture-notes-rational-end-behavior-example-5",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-rational-end-behavior-example-5",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.10",
+  "title": "End Behavior.",
+  "body": " End Behavior   Find the end behavior of .   "
+},
+{
+  "id": "lecture-notes-rational-end-behavior-example-6",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-rational-end-behavior-example-6",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.11",
+  "title": "End Behavior.",
+  "body": " End Behavior   Find the end behavior of .   "
+},
+{
+  "id": "lecture-notes-rational-end-behavior-example-7",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-rational-end-behavior-example-7",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.12",
+  "title": "End Behavior.",
+  "body": " End Behavior   Find the end behavior of .   "
+},
+{
+  "id": "lecture-notes-end-behavior-example-8",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-end-behavior-example-8",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.13",
+  "title": "End Behavior.",
+  "body": " End Behavior   Find the end behavior of .   "
+},
+{
+  "id": "lecture-notes-lem-crossing-asymptotes",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-lem-crossing-asymptotes",
+  "type": "Procedure",
+  "number": "A.6.24",
+  "title": "How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote.",
+  "body": " How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote   Let be a rational function with a horizontal, oblique, or nonlinear asymptote.  To find where crosses its horizontal, oblique, or nonlinear asymptote,  Set equal to the asymptote and solve for .  For each solution, evaluate to find the corresponding -coordinate.  Plot each point on the graph of .     "
+},
+{
+  "id": "worksheet-graphing-rational-function-41",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#worksheet-graphing-rational-function-41",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.14",
+  "title": "Crossing an Asymptote.",
+  "body": " Crossing an Asymptote   Find where crosses its oblique asymptote .   "
+},
+{
+  "id": "lecture-notes-procedure-for-graphing-rational-functions",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-procedure-for-graphing-rational-functions",
+  "type": "Procedure",
+  "number": "A.6.25",
+  "title": "Procedure.",
+  "body": " Procedure  Let be any rational function. Use the following steps to graph the function.   Find the -intercept (if it exists) and express it as a point .    Factor the numerator and denominator, but do not cancel any factors yet.    Find the zeroes of the denominator (if they exist) and determine the type of behavior (vertical asymptote or hole) for each zero.    Cancel off the common factors.    Determine the end behavior of the function.    Determine if the graph crosses the horizontal, oblique, or nonlinear asymptote. Plot any points of intersection.    Find the zeroes of the numerator (if they exist) and their multiplicities.  Express your -intercepts as and graph them as solid dots unless they correspond to a hole, in which case use an open dot.  Use the multiplicities to determine whether the graph crosses or bounces at each intercept.      Determine the multiplicities of the remaining zeroes of the denominator. The multiplicities of the denominator determine the graph's behavior near the vertical asymptotes.  Even multiplicities mean that the graph “bounces off infinity.”  Odd multiplicities mean that the graph “crosses from positive to negative infinity,” or vice versa.      Use the intercepts, end behavior, and multiplicities to draw a general sketch of the graph. Plot additional points as needed to further define the shape of the graph.     "
+},
+{
+  "id": "lecture-notes-graphing-rational-example",
+  "level": "2",
+  "url": "chapter-6-lecture-notes.html#lecture-notes-graphing-rational-example",
+  "type": "Worksheet Exercise",
+  "number": "A.6.1.15",
+  "title": "Graphing a Rational Function.",
+  "body": " Graphing a Rational Function   Graph the function .   "
 },
 {
   "id": "backmatter-3",
