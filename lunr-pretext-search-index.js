@@ -3040,7 +3040,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.10",
   "title": "Arithmetic Operations and Functions",
-  "body": " Arithmetic Operations and Functions    "
+  "body": " Arithmetic Operations and Functions   Definition   Let and be functions.   The sum of and , denoted , is given by     The difference of and , denoted , is given by     The product of and , denoted , is given by     The quotient of and , denoted , is given by         Performing Arithmetic Operations on Functions   For the functions and , find the following functions.                         For the sum, write each function down and combine like terms.     For the difference, write each function down, distribute the negative sign, and combine like terms.     For the product, write each function down and use FOIL to multiply.     For the quotient, write the division as a fraction with as the numerator and as the denominator.         The Domains of Sums, Differences, and Products of Functions  The domain of , , and consists of all elements common to the domains of and .  The Domain of a Quotient of Functions . The domain of consists of all elements common to the domains of and , excluding any for which .    Example 4   For the functions and , find the following functions and their domains.              , Domain:  , Domain:  , Domain:  , Domain:         The sum is given by the following calculation:     The difference is given by the following calculation:     The product is given by the following calculation:     We perform the division as given in the following calculation:      To find the domain, we note that is defined for all and is defined for . We will now draw each domain separately:   The domains of and graphed on the number line.   The graphs of x≠0 and x≤2, where the graph of x≠0 is drawn above the graph of x≤2.    To find the domain of , , and , we determine where we have shaded in both graphs.  At , we have an open dot in the domain of which means we didn't shade that point. Otherwise, we have shaded all points less than or equal to 2 in both graphs.  Therefore, the final domain is all the values of that are less than or equal to 2 but not equal to 0. The graph of the domain is shown in the following figure:   The domain of , , and graphed on the number line.    In interval notation, the domain for , , and is . . To find the domain of , we need use use the same domain as , , and but exclude any values of that make . Since the only value of that makes equal to zero is , we will put an open dot at instead of a solid dot. The updated graph for is given in the following graph:   The domain of graphed on the number line.    In interval notation, the domain for is .    "
+},
+{
+  "id": "definition-operations-on-functions",
+  "level": "2",
+  "url": "arithmetic-operations-functions.html#definition-operations-on-functions",
+  "type": "Definition",
+  "number": "7.10.1",
+  "title": "Definition.",
+  "body": " Definition   Let and be functions.   The sum of and , denoted , is given by     The difference of and , denoted , is given by     The product of and , denoted , is given by     The quotient of and , denoted , is given by       "
+},
+{
+  "id": "example-3-symbolic-combinations",
+  "level": "2",
+  "url": "arithmetic-operations-functions.html#example-3-symbolic-combinations",
+  "type": "Example",
+  "number": "7.10.2",
+  "title": "Performing Arithmetic Operations on Functions.",
+  "body": " Performing Arithmetic Operations on Functions   For the functions and , find the following functions.                         For the sum, write each function down and combine like terms.     For the difference, write each function down, distribute the negative sign, and combine like terms.     For the product, write each function down and use FOIL to multiply.     For the quotient, write the division as a fraction with as the numerator and as the denominator.       "
+},
+{
+  "id": "theorem-domains-of-functions",
+  "level": "2",
+  "url": "arithmetic-operations-functions.html#theorem-domains-of-functions",
+  "type": "Theorem",
+  "number": "7.10.3",
+  "title": "The Domains of Sums, Differences, and Products of Functions.",
+  "body": " The Domains of Sums, Differences, and Products of Functions  The domain of , , and consists of all elements common to the domains of and .  The Domain of a Quotient of Functions . The domain of consists of all elements common to the domains of and , excluding any for which .  "
+},
+{
+  "id": "example-4-domains-with-radical-and-rational",
+  "level": "2",
+  "url": "arithmetic-operations-functions.html#example-4-domains-with-radical-and-rational",
+  "type": "Example",
+  "number": "7.10.4",
+  "title": "Example 4.",
+  "body": " Example 4   For the functions and , find the following functions and their domains.              , Domain:  , Domain:  , Domain:  , Domain:         The sum is given by the following calculation:     The difference is given by the following calculation:     The product is given by the following calculation:     We perform the division as given in the following calculation:      To find the domain, we note that is defined for all and is defined for . We will now draw each domain separately:   The domains of and graphed on the number line.   The graphs of x≠0 and x≤2, where the graph of x≠0 is drawn above the graph of x≤2.    To find the domain of , , and , we determine where we have shaded in both graphs.  At , we have an open dot in the domain of which means we didn't shade that point. Otherwise, we have shaded all points less than or equal to 2 in both graphs.  Therefore, the final domain is all the values of that are less than or equal to 2 but not equal to 0. The graph of the domain is shown in the following figure:   The domain of , , and graphed on the number line.    In interval notation, the domain for , , and is . . To find the domain of , we need use use the same domain as , , and but exclude any values of that make . Since the only value of that makes equal to zero is , we will put an open dot at instead of a solid dot. The updated graph for is given in the following graph:   The domain of graphed on the number line.    In interval notation, the domain for is .   "
 },
 {
   "id": "composition-functions",
@@ -3049,7 +3085,52 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.11",
   "title": "The Composition of Functions",
-  "body": " The Composition of Functions    "
+  "body": " The Composition of Functions   Definition   Let and be functions.  The composition of and , denoted , is given by There are two additional definitions that are associated with composition.    is called the inner function since it appears inside the input of .     is called the outer function since it appears outside the input of .        Example 5   For the functions and , determine the expression that defines the following functions.                         In this example, is the outer function and is the inner function. The following calculation shows us how to compute the composition in this case:     In this example, is the outer function and is the inner function. The following calculation shows us how to compute the composition in this case:         Example 6   Let . Find two non-trivial functions and such that .    One possible solution is and .    One possible solution is to let and . Then,      Example 7   Let . Find two non-trivial functions and such that .    One possible solution is and .    One possible solution is to let and . Then,      Example 8   Let and . Evaluate the following.                         Since , we first find : Then, we use this result to find : Therefore, .    Since , we first find : Then, we use this result to find : Therefore, .       "
+},
+{
+  "id": "def-composition",
+  "level": "2",
+  "url": "composition-functions.html#def-composition",
+  "type": "Definition",
+  "number": "7.11.1",
+  "title": "Definition.",
+  "body": " Definition   Let and be functions.  The composition of and , denoted , is given by There are two additional definitions that are associated with composition.    is called the inner function since it appears inside the input of .     is called the outer function since it appears outside the input of .      "
+},
+{
+  "id": "example-5-composition",
+  "level": "2",
+  "url": "composition-functions.html#example-5-composition",
+  "type": "Example",
+  "number": "7.11.2",
+  "title": "Example 5.",
+  "body": " Example 5   For the functions and , determine the expression that defines the following functions.                         In this example, is the outer function and is the inner function. The following calculation shows us how to compute the composition in this case:     In this example, is the outer function and is the inner function. The following calculation shows us how to compute the composition in this case:       "
+},
+{
+  "id": "example-6-decompose-given-h",
+  "level": "2",
+  "url": "composition-functions.html#example-6-decompose-given-h",
+  "type": "Example",
+  "number": "7.11.3",
+  "title": "Example 6.",
+  "body": " Example 6   Let . Find two non-trivial functions and such that .    One possible solution is and .    One possible solution is to let and . Then,    "
+},
+{
+  "id": "example-7-decompose-radical",
+  "level": "2",
+  "url": "composition-functions.html#example-7-decompose-radical",
+  "type": "Example",
+  "number": "7.11.4",
+  "title": "Example 7.",
+  "body": " Example 7   Let . Find two non-trivial functions and such that .    One possible solution is and .    One possible solution is to let and . Then,    "
+},
+{
+  "id": "example-8-compose-evaluate",
+  "level": "2",
+  "url": "composition-functions.html#example-8-compose-evaluate",
+  "type": "Example",
+  "number": "7.11.5",
+  "title": "Example 8.",
+  "body": " Example 8   Let and . Evaluate the following.                         Since , we first find : Then, we use this result to find : Therefore, .    Since , we first find : Then, we use this result to find : Therefore, .      "
 },
 {
   "id": "one-to-one-functions",
@@ -3058,7 +3139,52 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.12",
   "title": "One-to-One Functions",
-  "body": " One-to-One Functions    "
+  "body": " One-to-One Functions   Definition   A function is one-to-one whenever implies .   Examples of One-to-One and Not One-to-One Functions    The graph is one to one since the -coordinate of every point on the graph is unique.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) lie on different horizontal lines.     The graph is not one to one since three different -coordinates all have the same -coordinate.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) all have the same y-coordinate since they lie on the same horizontal line.         Note  An informal description: a function is one-to-one if different inputs give different outputs.    The Horizontal Line Test  A function is one-to-one if and only if no horizontal line intersects its graph more than once.    Horizontal Line Test   Determine if the graph is of a one-to-one function.   The graph of a function that is in the shape of a checkmark.      Since we can find a horizontal line that intersects the graph twice, the function is not one-to-one.   The horizontal line intersects the graph twice which indicates that two points on the graph have the same -coordinate.       Horizontal Line Test   Determine if the graph is of a one-to-one function.   Graph for Example 2.      Every horizontal line except intersects the graph only once. Since the line is a horizontal asymptote, it does not intersect the graph at all. Therefore, the function is one-to-one.   The graph of horizontal lines and intersects the graph once, and the graph of does not intersect the graph at any point.      "
+},
+{
+  "id": "def-one-to-one",
+  "level": "2",
+  "url": "one-to-one-functions.html#def-one-to-one",
+  "type": "Definition",
+  "number": "7.12.1",
+  "title": "Definition.",
+  "body": " Definition   A function is one-to-one whenever implies .   Examples of One-to-One and Not One-to-One Functions    The graph is one to one since the -coordinate of every point on the graph is unique.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) lie on different horizontal lines.     The graph is not one to one since three different -coordinates all have the same -coordinate.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) all have the same y-coordinate since they lie on the same horizontal line.       "
+},
+{
+  "id": "note-informal-1-1",
+  "level": "2",
+  "url": "one-to-one-functions.html#note-informal-1-1",
+  "type": "Note",
+  "number": "7.12.3",
+  "title": "Note.",
+  "body": " Note  An informal description: a function is one-to-one if different inputs give different outputs.  "
+},
+{
+  "id": "thm-horizontal-line-test",
+  "level": "2",
+  "url": "one-to-one-functions.html#thm-horizontal-line-test",
+  "type": "Theorem",
+  "number": "7.12.4",
+  "title": "The Horizontal Line Test.",
+  "body": " The Horizontal Line Test  A function is one-to-one if and only if no horizontal line intersects its graph more than once.  "
+},
+{
+  "id": "example-1-1to1-from-graph-a",
+  "level": "2",
+  "url": "one-to-one-functions.html#example-1-1to1-from-graph-a",
+  "type": "Example",
+  "number": "7.12.5",
+  "title": "Horizontal Line Test.",
+  "body": " Horizontal Line Test   Determine if the graph is of a one-to-one function.   The graph of a function that is in the shape of a checkmark.      Since we can find a horizontal line that intersects the graph twice, the function is not one-to-one.   The horizontal line intersects the graph twice which indicates that two points on the graph have the same -coordinate.     "
+},
+{
+  "id": "example-2-1to1-from-graph-b",
+  "level": "2",
+  "url": "one-to-one-functions.html#example-2-1to1-from-graph-b",
+  "type": "Example",
+  "number": "7.12.8",
+  "title": "Horizontal Line Test.",
+  "body": " Horizontal Line Test   Determine if the graph is of a one-to-one function.   Graph for Example 2.      Every horizontal line except intersects the graph only once. Since the line is a horizontal asymptote, it does not intersect the graph at all. Therefore, the function is one-to-one.   The graph of horizontal lines and intersects the graph once, and the graph of does not intersect the graph at any point.     "
 },
 {
   "id": "inverse-functions",
@@ -3066,8 +3192,161 @@ var ptx_lunr_docs = [
   "url": "inverse-functions.html",
   "type": "Section",
   "number": "7.13",
-  "title": "The Inverse of a Function",
-  "body": " The Inverse of a Function    "
+  "title": "Inverse Functions",
+  "body": " Inverse Functions   Definition   Let be any function and let be any point on its graph. Then the inverse of is the set of all points of the form .     Important Note  The inverse of a function is rarely a function itself.    Example 3   Show that the inverse of is>not a function.    Let's consider some sample points from the graph of : By definition, the inverse has the sample points While its not explicitly stated, since we are just switching the coordinates, the graph of the inverse keeps the same shape as the original function but will be oriented in a different directed. Plotting the points for the inverse and drawing a parabola through them, we get the following graph.   The inverse of is a sideways parabola.    Since the inverse graph fails the vertical line test, the inverse is not a function.     Theorem  Any function that passes the horizontal line test has an inverse that is also a function.    Notation for an Inverse Function  If the inverse of is a function, we denote it by .    Warning  . If we want the reciprocal, we write .    Example 4   Show that has an inverse function. Graph the inverse function, and identity the inverse function from its graph.    First, let's graph the function .   Graph of .    Since the modified graph of passes the horizontal line test, the inverse for is a function.  To graph the inverse, we start with some sample points for : By definition, the inverse will have the points Plotting these points and drawing a half-parabola through them yields the following graph.   Graph of the inverse of .    From the graph, we can see that the inverse function is the square root function, Since the square root function is an inverse function for , we write instead of .     Inverse Function Property   Let be any one-to-one function. Then the inverse function exists and has the following properties.    for any in the domain of .  for any in the range of .  The domain of equals the range of .  The range of equals the domain of .       Example 9   Determine if and are inverse functions.    Even though and since the range of is and the domain of is , the two functions are not inverses of each other.     Example 10   Determine if and are inverse functions.    Since and and since both functions have domain and range of , the two functions are inverses of each other.     Finding the Inverse of a Function Algebraically     Replace with .  Interchange and .  Solve for .  Replace with .       Example 11   Find the inverse for .     .    We will follow the procedure outlined above to produce the following calculation: Therefore, the inverse function is .     Example 12   Find the inverse for .     .    We will follow the procedure outlined above to produce the following calculation: Therefore, the inverse function is .     Graphs of Inverse Functions   If the point is on the graph of , then the point is on the graph of .     Example 14   The graph of a one-to-one function with some sample points is given. Sketch the graph of .   Graph of for Example 14.      Since the sample points are , the corresponding points on the graph of the inverse function will be . Plotting these points and drawing a smooth curve through them yields the following graph.   Graph of drawn on the same coordinate plane as .    Notice that neither of these graphs are ones we are familiar with, but yet with enough information form one of the graphs, we can still find the graph of its inverse. We will be studying these functions in the next chapter.     Creating Inverses by restricting a function   Let be a function that is not one-to-one. If we restrict the domain of so that it is one-to-one on that domain, then the inverse of the restricted function will be a function.     Example 15   The function is not one-to-one since its graph does not pass the horizontal line test Find a restriction of the domain that will make one-to-one. Then find the inverse of the restricted function.    First, let's graph our function to see what the graph looks like.   Graph of .    Notice that our graph is a reciprocal function with a vertical asymptote at and a horizontal asymptote at . To make this function one-to-one, we can restrict the domain to or . Let's choose for our restriction. Now, let's find the inverse of the restricted function. The question becomes: do we choose the positive or negative root? Since , this implies that Solving for the square root, we get that This equation is only true if we choose the positive square root. Therefore, the inverse function is     "
+},
+{
+  "id": "def-inverse-as-swapped-pairs",
+  "level": "2",
+  "url": "inverse-functions.html#def-inverse-as-swapped-pairs",
+  "type": "Definition",
+  "number": "7.13.1",
+  "title": "Definition.",
+  "body": " Definition   Let be any function and let be any point on its graph. Then the inverse of is the set of all points of the form .   "
+},
+{
+  "id": "note-inverse-rarely-a-function",
+  "level": "2",
+  "url": "inverse-functions.html#note-inverse-rarely-a-function",
+  "type": "Note",
+  "number": "7.13.2",
+  "title": "Important Note.",
+  "body": " Important Note  The inverse of a function is rarely a function itself.  "
+},
+{
+  "id": "example-3-inverse-of-x-squared-not-a-function",
+  "level": "2",
+  "url": "inverse-functions.html#example-3-inverse-of-x-squared-not-a-function",
+  "type": "Example",
+  "number": "7.13.3",
+  "title": "Example 3.",
+  "body": " Example 3   Show that the inverse of is>not a function.    Let's consider some sample points from the graph of : By definition, the inverse has the sample points While its not explicitly stated, since we are just switching the coordinates, the graph of the inverse keeps the same shape as the original function but will be oriented in a different directed. Plotting the points for the inverse and drawing a parabola through them, we get the following graph.   The inverse of is a sideways parabola.    Since the inverse graph fails the vertical line test, the inverse is not a function.   "
+},
+{
+  "id": "thm-hlt-implies-inverse-is-function",
+  "level": "2",
+  "url": "inverse-functions.html#thm-hlt-implies-inverse-is-function",
+  "type": "Theorem",
+  "number": "7.13.5",
+  "title": "Theorem.",
+  "body": " Theorem  Any function that passes the horizontal line test has an inverse that is also a function.  "
+},
+{
+  "id": "remark-notation-inverse-function",
+  "level": "2",
+  "url": "inverse-functions.html#remark-notation-inverse-function",
+  "type": "Notation",
+  "number": "7.13.6",
+  "title": "Notation for an Inverse Function.",
+  "body": " Notation for an Inverse Function  If the inverse of is a function, we denote it by .  "
+},
+{
+  "id": "warning-inverse-vs-reciprocal",
+  "level": "2",
+  "url": "inverse-functions.html#warning-inverse-vs-reciprocal",
+  "type": "Note",
+  "number": "7.13.7",
+  "title": "Warning.",
+  "body": " Warning  . If we want the reciprocal, we write .  "
+},
+{
+  "id": "example-4-restricted-square-has-inverse",
+  "level": "2",
+  "url": "inverse-functions.html#example-4-restricted-square-has-inverse",
+  "type": "Example",
+  "number": "7.13.8",
+  "title": "Example 4.",
+  "body": " Example 4   Show that has an inverse function. Graph the inverse function, and identity the inverse function from its graph.    First, let's graph the function .   Graph of .    Since the modified graph of passes the horizontal line test, the inverse for is a function.  To graph the inverse, we start with some sample points for : By definition, the inverse will have the points Plotting these points and drawing a half-parabola through them yields the following graph.   Graph of the inverse of .    From the graph, we can see that the inverse function is the square root function, Since the square root function is an inverse function for , we write instead of .   "
+},
+{
+  "id": "thm-inverse-composition-properties",
+  "level": "2",
+  "url": "inverse-functions.html#thm-inverse-composition-properties",
+  "type": "Theorem",
+  "number": "7.13.11",
+  "title": "Inverse Function Property.",
+  "body": " Inverse Function Property   Let be any one-to-one function. Then the inverse function exists and has the following properties.    for any in the domain of .  for any in the range of .  The domain of equals the range of .  The range of equals the domain of .     "
+},
+{
+  "id": "example-9-check-sqrt-square-inverses",
+  "level": "2",
+  "url": "inverse-functions.html#example-9-check-sqrt-square-inverses",
+  "type": "Example",
+  "number": "7.13.12",
+  "title": "Example 9.",
+  "body": " Example 9   Determine if and are inverse functions.    Even though and since the range of is and the domain of is , the two functions are not inverses of each other.   "
+},
+{
+  "id": "example-10-check-linear-inverses",
+  "level": "2",
+  "url": "inverse-functions.html#example-10-check-linear-inverses",
+  "type": "Example",
+  "number": "7.13.13",
+  "title": "Example 10.",
+  "body": " Example 10   Determine if and are inverse functions.    Since and and since both functions have domain and range of , the two functions are inverses of each other.   "
+},
+{
+  "id": "lem-find-inverse-technique",
+  "level": "2",
+  "url": "inverse-functions.html#lem-find-inverse-technique",
+  "type": "Procedure",
+  "number": "7.13.14",
+  "title": "Finding the Inverse of a Function Algebraically.",
+  "body": " Finding the Inverse of a Function Algebraically     Replace with .  Interchange and .  Solve for .  Replace with .     "
+},
+{
+  "id": "example-11-find-inverse-linear",
+  "level": "2",
+  "url": "inverse-functions.html#example-11-find-inverse-linear",
+  "type": "Example",
+  "number": "7.13.15",
+  "title": "Example 11.",
+  "body": " Example 11   Find the inverse for .     .    We will follow the procedure outlined above to produce the following calculation: Therefore, the inverse function is .   "
+},
+{
+  "id": "example-12-find-inverse-rational",
+  "level": "2",
+  "url": "inverse-functions.html#example-12-find-inverse-rational",
+  "type": "Example",
+  "number": "7.13.16",
+  "title": "Example 12.",
+  "body": " Example 12   Find the inverse for .     .    We will follow the procedure outlined above to produce the following calculation: Therefore, the inverse function is .   "
+},
+{
+  "id": "thm-graph-points-swap",
+  "level": "2",
+  "url": "inverse-functions.html#thm-graph-points-swap",
+  "type": "Theorem",
+  "number": "7.13.17",
+  "title": "Graphs of Inverse Functions.",
+  "body": " Graphs of Inverse Functions   If the point is on the graph of , then the point is on the graph of .   "
+},
+{
+  "id": "example-14-graph-inverse-from-given-graph",
+  "level": "2",
+  "url": "inverse-functions.html#example-14-graph-inverse-from-given-graph",
+  "type": "Example",
+  "number": "7.13.18",
+  "title": "Example 14.",
+  "body": " Example 14   The graph of a one-to-one function with some sample points is given. Sketch the graph of .   Graph of for Example 14.      Since the sample points are , the corresponding points on the graph of the inverse function will be . Plotting these points and drawing a smooth curve through them yields the following graph.   Graph of drawn on the same coordinate plane as .    Notice that neither of these graphs are ones we are familiar with, but yet with enough information form one of the graphs, we can still find the graph of its inverse. We will be studying these functions in the next chapter.   "
+},
+{
+  "id": "lem-creating-inverses",
+  "level": "2",
+  "url": "inverse-functions.html#lem-creating-inverses",
+  "type": "Procedure",
+  "number": "7.13.21",
+  "title": "Creating Inverses by restricting a function.",
+  "body": " Creating Inverses by restricting a function   Let be a function that is not one-to-one. If we restrict the domain of so that it is one-to-one on that domain, then the inverse of the restricted function will be a function.   "
+},
+{
+  "id": "example-15-restrict-domain-then-invert",
+  "level": "2",
+  "url": "inverse-functions.html#example-15-restrict-domain-then-invert",
+  "type": "Example",
+  "number": "7.13.22",
+  "title": "Example 15.",
+  "body": " Example 15   The function is not one-to-one since its graph does not pass the horizontal line test Find a restriction of the domain that will make one-to-one. Then find the inverse of the restricted function.    First, let's graph our function to see what the graph looks like.   Graph of .    Notice that our graph is a reciprocal function with a vertical asymptote at and a horizontal asymptote at . To make this function one-to-one, we can restrict the domain to or . Let's choose for our restriction. Now, let's find the inverse of the restricted function. The question becomes: do we choose the positive or negative root? Since , this implies that Solving for the square root, we get that This equation is only true if we choose the positive square root. Therefore, the inverse function is    "
 },
 {
   "id": "exponential-functions",
@@ -4913,6 +5192,294 @@ var ptx_lunr_docs = [
   "number": "A.6.1.15",
   "title": "Graphing a Rational Function.",
   "body": " Graphing a Rational Function   Graph the function .   "
+},
+{
+  "id": "chapter-7-lecture-notes",
+  "level": "1",
+  "url": "chapter-7-lecture-notes.html",
+  "type": "Section",
+  "number": "A.7",
+  "title": "Chapter 7 Lecture Notes",
+  "body": " Chapter 7 Lecture Notes   Inverse Functions   Arithmetic Operations on Functions   Let and be functions.   The sum of and , denoted , is given by     The difference of and , denoted , is given by     The product of and , denoted , is given by     The quotient of and , denoted , is given by         Performing Arithmetic Operations on Functions   For the functions and , find the following functions.             The Domains of Sums, Differences, and Products of Functions     The domain of , , and consists of all elements common to the domains of and .    The domain of consists of all elements common to the domains of and , excluding any for which .       Finding Domains of Functions   For the functions and , find the following functions and their domains.             Composition of Functions   Let and be functions.  The composition of and , denoted , is given by There are two additional definitions that are associated with composition.   is called the inner function since it appears inside the input of .    is called the outer function since it appears outside the input of .        Finding the Composition of Two Functions   For the functions and , determine the expression that defines the following functions.           Decomposing a Function into a Composition   Let . Find two non-trivial functions and such that .     Decomposing a Function into a Composition   Let . Find two non-trivial functions and such that .     Evaluating Compositions of Functions   Let and . Evaluate the following.           Definition   A function is one-to-one whenever implies .   Examples of One-to-One and Not One-to-One Functions    The graph is one to one since the -coordinate of every point on the graph is unique.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) lie on different horizontal lines.     The graph is not one to one since three different -coordinates all have the same -coordinate.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) all have the same y-coordinate since they lie on the same horizontal line.         Note  An informal description: a function is one-to-one if different inputs give different outputs.    The Horizontal Line Test  A function is one-to-one if and only if no horizontal line intersects its graph more than once.    Horizontal Line Test   Determine if the graph is of a one-to-one function.   The graph of a function that is in the shape of a checkmark.       Horizontal Line Test   Determine if the graph is of a one-to-one function.   Graph for Example 2.       Definition   Let be any function and let be any point on its graph. Then the inverse of is the set of all points of the form .     Important Note  The inverse of a function is rarely a function itself.    Inverse of a function   Show that the inverse of is not a function.     Theorem  Any function that passes the horizontal line test has an inverse that is also a function.    Notation for an Inverse Function  If the inverse of is a function, we denote it by .    Warning  . If we want the reciprocal, we write .    Inverse of a Function   Show that has an inverse function. Graph the inverse function, and identify the inverse function from its graph.     Inverse Function Property   Let be any one-to-one function. Then the inverse function exists and has the following properties.    for any in the domain of .  for any in the range of .  The domain of equals the range of .  The range of equals the domain of .       Determine if two functions are inverses of each other   Determine if and are inverse functions.     Determine if two functions are inverses of each other   Determine if and are inverse functions.     Finding the Inverse of a Function Algebraically     Replace with .  Interchange and .  Solve for .  Replace with .       Find the inverse of a linear function   Find the inverse for .     Find the inverse of a rational function   Find the inverse for .     Graphs of Inverse Functions   If the point is on the graph of , then the point is on the graph of .     Example 14   The graph of a one-to-one function with some sample points is given. Sketch the graph of .   Graph of for Example 14.       Creating Inverses by restricting a function   Let be a function that is not one-to-one. If we restrict the domain of so that it is one-to-one on that domain, then the inverse of the restricted function will be a function.     Example 15   The function is not one-to-one since its graph does not pass the horizontal line test. Find a restriction of the domain that will make one-to-one. Then find the inverse of the restricted function.     "
+},
+{
+  "id": "lecture-notes-definition-operations-on-functions",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-definition-operations-on-functions",
+  "type": "Definition",
+  "number": "A.7.1",
+  "title": "Arithmetic Operations on Functions.",
+  "body": " Arithmetic Operations on Functions   Let and be functions.   The sum of and , denoted , is given by     The difference of and , denoted , is given by     The product of and , denoted , is given by     The quotient of and , denoted , is given by       "
+},
+{
+  "id": "lecture-notes-example-3-symbolic-combinations",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-3-symbolic-combinations",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.1",
+  "title": "Performing Arithmetic Operations on Functions.",
+  "body": " Performing Arithmetic Operations on Functions   For the functions and , find the following functions.           "
+},
+{
+  "id": "lecture-notes-theorem-domains-of-functions",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-theorem-domains-of-functions",
+  "type": "Theorem",
+  "number": "A.7.2",
+  "title": "The Domains of Sums, Differences, and Products of Functions.",
+  "body": " The Domains of Sums, Differences, and Products of Functions     The domain of , , and consists of all elements common to the domains of and .    The domain of consists of all elements common to the domains of and , excluding any for which .     "
+},
+{
+  "id": "lecture-notes-example-4-domains-with-radical-and-rational",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-4-domains-with-radical-and-rational",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.2",
+  "title": "Finding Domains of Functions.",
+  "body": " Finding Domains of Functions   For the functions and , find the following functions and their domains.           "
+},
+{
+  "id": "lecture-notes-def-composition",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-def-composition",
+  "type": "Definition",
+  "number": "A.7.3",
+  "title": "Composition of Functions.",
+  "body": " Composition of Functions   Let and be functions.  The composition of and , denoted , is given by There are two additional definitions that are associated with composition.   is called the inner function since it appears inside the input of .    is called the outer function since it appears outside the input of .      "
+},
+{
+  "id": "lecture-notes-example-5-composition",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-5-composition",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.3",
+  "title": "Finding the Composition of Two Functions.",
+  "body": " Finding the Composition of Two Functions   For the functions and , determine the expression that defines the following functions.         "
+},
+{
+  "id": "lecture-notes-example-6-decompose-given-h",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-6-decompose-given-h",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.4",
+  "title": "Decomposing a Function into a Composition.",
+  "body": " Decomposing a Function into a Composition   Let . Find two non-trivial functions and such that .   "
+},
+{
+  "id": "lecture-notes-example-7-decompose-radical",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-7-decompose-radical",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.5",
+  "title": "Decomposing a Function into a Composition.",
+  "body": " Decomposing a Function into a Composition   Let . Find two non-trivial functions and such that .   "
+},
+{
+  "id": "lecture-notes-example-8-compose-evaluate",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-8-compose-evaluate",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.6",
+  "title": "Evaluating Compositions of Functions.",
+  "body": " Evaluating Compositions of Functions   Let and . Evaluate the following.         "
+},
+{
+  "id": "lecture-notes-def-one-to-one",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-def-one-to-one",
+  "type": "Definition",
+  "number": "A.7.4",
+  "title": "Definition.",
+  "body": " Definition   A function is one-to-one whenever implies .   Examples of One-to-One and Not One-to-One Functions    The graph is one to one since the -coordinate of every point on the graph is unique.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) lie on different horizontal lines.     The graph is not one to one since three different -coordinates all have the same -coordinate.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) all have the same y-coordinate since they lie on the same horizontal line.       "
+},
+{
+  "id": "lecture-notes-note-informal-1-1",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-note-informal-1-1",
+  "type": "Note",
+  "number": "A.7.6",
+  "title": "Note.",
+  "body": " Note  An informal description: a function is one-to-one if different inputs give different outputs.  "
+},
+{
+  "id": "lecture-notes-thm-horizontal-line-test",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-thm-horizontal-line-test",
+  "type": "Theorem",
+  "number": "A.7.7",
+  "title": "The Horizontal Line Test.",
+  "body": " The Horizontal Line Test  A function is one-to-one if and only if no horizontal line intersects its graph more than once.  "
+},
+{
+  "id": "lecture-notes-example-1-1to1-from-graph-a",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-1-1to1-from-graph-a",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.7",
+  "title": "Horizontal Line Test.",
+  "body": " Horizontal Line Test   Determine if the graph is of a one-to-one function.   The graph of a function that is in the shape of a checkmark.     "
+},
+{
+  "id": "lecture-notes-example-2-1to1-from-graph-b",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-2-1to1-from-graph-b",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.8",
+  "title": "Horizontal Line Test.",
+  "body": " Horizontal Line Test   Determine if the graph is of a one-to-one function.   Graph for Example 2.     "
+},
+{
+  "id": "lecture-notes-def-inverse-as-swapped-pairs",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-def-inverse-as-swapped-pairs",
+  "type": "Definition",
+  "number": "A.7.10",
+  "title": "Definition.",
+  "body": " Definition   Let be any function and let be any point on its graph. Then the inverse of is the set of all points of the form .   "
+},
+{
+  "id": "lecture-notes-note-inverse-rarely-a-function",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-note-inverse-rarely-a-function",
+  "type": "Note",
+  "number": "A.7.11",
+  "title": "Important Note.",
+  "body": " Important Note  The inverse of a function is rarely a function itself.  "
+},
+{
+  "id": "lecture-notes-example-3-inverse-of-x-squared-not-a-function",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-3-inverse-of-x-squared-not-a-function",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.9",
+  "title": "Inverse of a function.",
+  "body": " Inverse of a function   Show that the inverse of is not a function.   "
+},
+{
+  "id": "lecture-notes-thm-hlt-implies-inverse-is-function",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-thm-hlt-implies-inverse-is-function",
+  "type": "Theorem",
+  "number": "A.7.12",
+  "title": "Theorem.",
+  "body": " Theorem  Any function that passes the horizontal line test has an inverse that is also a function.  "
+},
+{
+  "id": "lecture-notes-remark-notation-inverse-function",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-remark-notation-inverse-function",
+  "type": "Notation",
+  "number": "A.7.13",
+  "title": "Notation for an Inverse Function.",
+  "body": " Notation for an Inverse Function  If the inverse of is a function, we denote it by .  "
+},
+{
+  "id": "lecture-notes-warning-inverse-vs-reciprocal",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-warning-inverse-vs-reciprocal",
+  "type": "Note",
+  "number": "A.7.14",
+  "title": "Warning.",
+  "body": " Warning  . If we want the reciprocal, we write .  "
+},
+{
+  "id": "lecture-notes-example-4-restricted-square-has-inverse",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-4-restricted-square-has-inverse",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.10",
+  "title": "Inverse of a Function.",
+  "body": " Inverse of a Function   Show that has an inverse function. Graph the inverse function, and identify the inverse function from its graph.   "
+},
+{
+  "id": "lecture-notes-thm-inverse-composition-properties",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-thm-inverse-composition-properties",
+  "type": "Theorem",
+  "number": "A.7.15",
+  "title": "Inverse Function Property.",
+  "body": " Inverse Function Property   Let be any one-to-one function. Then the inverse function exists and has the following properties.    for any in the domain of .  for any in the range of .  The domain of equals the range of .  The range of equals the domain of .     "
+},
+{
+  "id": "lecture-notes-example-9-check-sqrt-square-inverses",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-9-check-sqrt-square-inverses",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.11",
+  "title": "Determine if two functions are inverses of each other.",
+  "body": " Determine if two functions are inverses of each other   Determine if and are inverse functions.   "
+},
+{
+  "id": "lecture-notes-example-10-check-linear-inverses",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-10-check-linear-inverses",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.12",
+  "title": "Determine if two functions are inverses of each other.",
+  "body": " Determine if two functions are inverses of each other   Determine if and are inverse functions.   "
+},
+{
+  "id": "lecture-notes-lem-find-inverse-technique",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-lem-find-inverse-technique",
+  "type": "Procedure",
+  "number": "A.7.16",
+  "title": "Finding the Inverse of a Function Algebraically.",
+  "body": " Finding the Inverse of a Function Algebraically     Replace with .  Interchange and .  Solve for .  Replace with .     "
+},
+{
+  "id": "lecture-notes-example-11-find-inverse-linear",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-11-find-inverse-linear",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.13",
+  "title": "Find the inverse of a linear function.",
+  "body": " Find the inverse of a linear function   Find the inverse for .   "
+},
+{
+  "id": "lecture-notes-example-12-find-inverse-rational",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-12-find-inverse-rational",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.14",
+  "title": "Find the inverse of a rational function.",
+  "body": " Find the inverse of a rational function   Find the inverse for .   "
+},
+{
+  "id": "lecture-notes-thm-graph-points-swap",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-thm-graph-points-swap",
+  "type": "Theorem",
+  "number": "A.7.17",
+  "title": "Graphs of Inverse Functions.",
+  "body": " Graphs of Inverse Functions   If the point is on the graph of , then the point is on the graph of .   "
+},
+{
+  "id": "lecture-notes-example-14-graph-inverse-from-given-graph",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-14-graph-inverse-from-given-graph",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.15",
+  "title": "Example 14.",
+  "body": " Example 14   The graph of a one-to-one function with some sample points is given. Sketch the graph of .   Graph of for Example 14.     "
+},
+{
+  "id": "lecture-notes-lem-creating-inverses",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-lem-creating-inverses",
+  "type": "Procedure",
+  "number": "A.7.19",
+  "title": "Creating Inverses by restricting a function.",
+  "body": " Creating Inverses by restricting a function   Let be a function that is not one-to-one. If we restrict the domain of so that it is one-to-one on that domain, then the inverse of the restricted function will be a function.   "
+},
+{
+  "id": "lecture-notes-example-15-restrict-domain-then-invert",
+  "level": "2",
+  "url": "chapter-7-lecture-notes.html#lecture-notes-example-15-restrict-domain-then-invert",
+  "type": "Worksheet Exercise",
+  "number": "A.7.1.16",
+  "title": "Example 15.",
+  "body": " Example 15   The function is not one-to-one since its graph does not pass the horizontal line test. Find a restriction of the domain that will make one-to-one. Then find the inverse of the restricted function.   "
 },
 {
   "id": "backmatter-3",
