@@ -1,6 +1,186 @@
 <section xml:id="composition-functions">
     <title>The Composition of Functions</title>
-    <p>
-        
+    <definition xml:id="def-composition">
+    <title>Definition</title>
+    <statement>
+    <p>Let <m>f</m> and <m>g</m> be functions.</p>
+
+    <p>The <term>composition</term> of <m>f</m> and <m>g</m>, denoted <m>f\circ g</m>, is given by
+      <me>(f\circ g)(x)=f\big(g(x)\big)</me>
+      There are two additional definitions that are associated with composition.
+      <ul>
+        <li>
+            <p>
+                <m>g(x)</m> is called the <term>inner function</term> since it appears inside the input of <m>f(x)</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>f(x)</m> is called the <term>outer function</term> since it appears outside the input of <m>g(x)</m>.
+            </p>
+        </li>
+      </ul>
     </p>
+</statement>
+  </definition>
+
+  <example xml:id="example-5-composition">
+    <title>Example 5</title>
+    <statement>
+      <p>For the functions <m>f(x)=\sqrt{x-2}</m> and <m>g(x)=\dfrac{1}{x}</m>, determine the expression that defines the following functions.</p>
+      <p>
+        <ul>
+          <li><p><m>(f\circ g)(x)</m></p></li>
+          <li><p><m>(g\circ f)(x)</m></p></li>
+        </ul>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ul>
+          <li>
+            <p><m>(f\circ g)(x)=\sqrt{\dfrac{1}{x}-2}</m></p>
+          </li>
+          <li>
+            <p><m>(g\circ f)(x)=\dfrac{1}{\sqrt{x-2}}</m></p>
+          </li>
+        </ul>
+      </p>
+    </answer>
+    <solution>
+      <p> 
+        <ul>
+          <li>
+            <p>In this example, <m>f(x)=\sqrt{x-2}</m> is the outer function and <m>g(x)=\dfrac{1}{x}</m> is the inner function. The following calculation shows us how to compute the composition in this case:
+              <md>
+                <mrow>(f\circ g)(x)\amp=f(g(x))\\</mrow>
+                <mrow>\amp=f\left(\dfrac{1}{x}\right)\\</mrow>
+                <mrow>\amp=\sqrt{\dfrac{1}{x}-2}\\</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>In this example, <m>g(x)=\dfrac{1}{x}</m> is the outer function and <m>f(x)=\sqrt{x-2}</m> is the inner function. The following calculation shows us how to compute the composition in this case:
+              <md>
+                <mrow>(g\circ f)(x)\amp=g(f(x))\\</mrow>
+                <mrow>\amp=g\left(\sqrt{x-2}\right)\\</mrow>
+                <mrow>\amp=\dfrac{1}{\sqrt{x-2}}\\</mrow>
+              </md>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </solution>
+  </example>
+
+  <example xml:id="example-6-decompose-given-h">
+    <title>Example 6</title>
+    <statement>
+      <p>Let <m>h(x)=(x-2)^2</m>. Find two non-trivial functions <m>f(x)</m> and <m>g(x)</m> such that <m>h(x)=(f\circ g)(x)</m>.</p>
+    </statement>
+    <answer>
+      <p>
+        One possible solution is <m>g(x)=x-2</m> and <m>f(x)=x^2</m>.
+      </p>
+    </answer>
+    <solution>
+        <p>One possible solution is to let <m>g(x)=x-2</m> and <m>f(x)=x^2</m>. Then,
+          <md>
+            <mrow>(f\circ g)(x)\amp=f(g(x))\\</mrow>
+            <mrow>\amp=f(x-2)\\</mrow>
+            <mrow>\amp=(x-2)^2\\</mrow>
+          </md>
+        </p>
+    </solution>
+  </example>
+
+  <example xml:id="example-7-decompose-radical">
+    <title>Example 7</title>
+    <statement>
+      <p>Let <m>h(x)=\sqrt{3-x^2}</m>. Find two non-trivial functions <m>f(x)</m> and <m>g(x)</m> such that <m>h(x)=(f\circ g)(x)</m>.</p>
+    </statement>
+    <answer>
+      <p>
+        One possible solution is <m>g(x)=3-x^2</m> and <m>f(x)=\sqrt{x}</m>.
+      </p>
+    </answer>
+    <solution>
+      <p>
+        One possible solution is to let <m>g(x)=3-x^2</m> and <m>f(x)=\sqrt{x}</m>. Then,
+          <md>
+            <mrow>(f\circ g)(x)\amp=f(g(x))\\</mrow>
+            <mrow>\amp=f(3-x^2)\\</mrow>
+            <mrow>\amp=\sqrt{3-x^2}\\</mrow>
+          </md>
+      </p>
+    </solution>
+  </example>
+
+  <example xml:id="example-8-compose-evaluate">
+    <title>Example 8</title>
+    <statement>
+      <p>Let <m>f(x)=x^2-1</m> and <m>g(x)=3x-5</m>. Evaluate the following.</p>
+      <p>
+        <ul>
+          <li><p><m>(f\circ g)(3)</m></p></li>
+          <li><p><m>(g\circ f)(3)</m></p></li>
+        </ul>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ul>
+          <li>
+            <p><m>(f\circ g)(3)=15</m></p>
+          </li>
+          <li>
+            <p><m>(g\circ f)(3)=19</m></p>
+          </li>
+        </ul>
+      </p>
+    </answer>
+    <solution>
+      <p>
+        <ul>
+          <li>
+            <p>Since <m>(f\circ g)(3)=f(g(3))</m>, we first find <m>g(3)</m>:
+              <md>
+                <mrow>g(3)\amp=3(3)-5\\</mrow>
+                <mrow>\amp=9-5\\</mrow>
+                <mrow>\amp=4\\</mrow>
+              </md>
+            Then, we use this result to find <m>f(g(3))</m>:
+              <md>
+                <mrow>(f\circ g)(3)\amp=f(g(3))\\</mrow>
+                <mrow>\amp=f(4)\\</mrow>
+                <mrow>\amp=(4)^2-1\\</mrow>
+                <mrow>\amp=16-1\\</mrow>
+                <mrow>\amp=15\\</mrow>
+              </md>
+            Therefore, <m>(f\circ g)(3)=15</m>.
+            </p>
+          </li>
+          <li>
+            <p>Since <m>(g\circ f)(3)=g(f(3))</m>, we first find <m>f(3)</m>:
+              <md>
+                <mrow>f(3)\amp=(3)^2-1\\</mrow>
+                <mrow>\amp=9-1\\</mrow>
+                <mrow>\amp=8\\</mrow>
+              </md>
+            Then, we use this result to find <m>g(f(3))</m>:
+              <md>
+                <mrow>(g\circ f)(3)\amp=g(f(3))\\</mrow>
+                <mrow>\amp=g(8)\\</mrow>
+                <mrow>\amp=3(8)-5\\</mrow>
+                <mrow>\amp=24-5\\</mrow>
+                <mrow>\amp=19\\</mrow>
+              </md>
+            Therefore, <m>(g\circ f)(3)=19</m>.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </solution>
+  </example>
+
 </section>
