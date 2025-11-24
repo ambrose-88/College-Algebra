@@ -1,6 +1,146 @@
 <section xml:id="exponential-functions">
     <title>Exponential Functions</title>
-    <p>
-        
-    </p>
+    <definition>
+        <statement>
+            <p>
+                An <term>exponential function</term> is any function of the form <m>f(x)=a^x</m>, where <m>a&gt;0</m> is a positive real number not equal to 1.
+            </p>
+        </statement>
+    </definition>
+<example xml:id="evaluating-exponential-functions">
+    <statement>
+        <p>
+            Evaluate the following functions.
+            <ul>
+                <li>
+                    <p><m>f(x)=2^x</m> at <m>x=3</m></p>
+                </li>
+                <li>
+                    <p><m>g(x)=3^{-x}</m> at <m>x=2</m></p>
+                </li>
+                <li>
+                    <p><m>h(x)=\left(\frac{3}{2}\right)^x</m> at <m>x=4</m></p>
+                </li>
+                <li>
+                    <p>
+                    <m>m(x)=\left(\frac{1}{4}\right)^x</m> at <m>x=-2</m>
+                    </p>
+                </li>
+                <li>
+                    <p><m>k(x)=5^x</m> at <m>x=\frac{3}{2}</m></p>
+                </li>
+                <li>
+                    <p>
+                        <m>f(x)=7^{x}</m> at <m>x=\pi</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>f(3)=8</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>g(2)=\frac{1}{9}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>h(4)=\frac{81}{16}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>m(-2)=16</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>k\left(\frac{3}{2}\right)=5\sqrt{5}\approx 11.18</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>f(\pi)=7^{\pi}\approx 451.81</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            <ul>
+                <li>
+                    <p> Similar to evaluating other types of functions, we replace <m>x</m> with <m>3</m> in the function <m>f(x)=2^x</m> and simplify.
+                        <md>
+                            <mrow>f(x) \amp= 2^x\\</mrow>
+                            <mrow>f(3) \amp= 2^3\\</mrow>
+                            <mrow> \amp= 8\\</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p> This problem will use the property of exponents that states <m>a^{-n}=\frac{1}{a^n}</m> to simplify our answer.
+                        <md>
+                            <mrow>g(x) \amp= 3^{-x}\\</mrow>
+                            <mrow>g(2) \amp= 3^{-2}\\</mrow>
+                            <mrow> \amp= \frac{1}{3^2}\\</mrow>
+                            <mrow> \amp= \frac{1}{9}\\</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p> This time, we will use the property of exponents that states <m>\left(\frac{a}{b}\right)^n=\frac{a^n}{b^n}</m> to simplify our answer.
+                        <md>
+                            <mrow>h(x) \amp= \left(\frac{3}{2}\right)^x\\</mrow>
+                            <mrow>h(4) \amp= \left(\frac{3}{2}\right)^4\\</mrow>
+                            <mrow> \amp= \frac{3^4}{2^4}\\</mrow>
+                            <mrow> \amp= \frac{81}{16}\\</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We will use another property of exponents to simplify: <m>\frac{1}{a^{-x}}=a^x</m>.
+                        <md>
+                            <mrow>m(x) \amp= \left(\frac{1}{4}\right)^x\\</mrow>
+                            <mrow>m(-2) \amp= \left(\frac{1}{4}\right)^{-2}\\</mrow>
+                            <mrow>\amp=\frac{1}{4^{-2}}\\</mrow>
+                            <mrow> \amp= 4^2\\</mrow>
+                            <mrow> \amp= 16\\</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p> While we will use the property of exponents that states <m>a^{m/n}=\sqrt[n]{a^m}</m>, notice that our answer will usual contain some sort of radical
+                        In order to get a more meaningful form for applications, we will have to enter it into our calculator to get the approximation.
+                        <md>
+                            <mrow>k(x) \amp= 5^x\\</mrow>
+                            <mrow>k\left(\frac{3}{2}\right) \amp= 5^{3/2}\\</mrow>
+                            <mrow> \amp= \sqrt{5^3}\\</mrow>
+                            <mrow> \amp= \sqrt{5^2 \cdot 5}\\</mrow>
+                            <mrow> \amp= 5\sqrt{5}\\</mrow>
+                            <mrow> \amp \approx 11.18\\</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p> We can even evaluate exponential functions at irrational numbers, but it will take a calculator to get an approximate value.
+                        <md>
+                            <mrow>f(x) \amp= 7^x\\</mrow>
+                            <mrow>f(\pi) \amp= 7^{\pi}\\</mrow>
+                            <mrow> \amp \approx 451.81\\</mrow>
+                        </md>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </solution>
+</example>
 </section>
