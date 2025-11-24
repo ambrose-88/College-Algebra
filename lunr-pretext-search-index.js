@@ -3355,7 +3355,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.1",
   "title": "Exponential Functions",
-  "body": " Exponential Functions    "
+  "body": " Exponential Functions    An exponential function is any function of the form , where is a positive real number not equal to 1.      Evaluate the following functions.   at    at    at     at     at     at                                               Similar to evaluating other types of functions, we replace with in the function and simplify.     This problem will use the property of exponents that states to simplify our answer.     This time, we will use the property of exponents that states to simplify our answer.     We will use another property of exponents to simplify: .     While we will use the property of exponents that states , notice that our answer will usual contain some sort of radical In order to get a more meaningful form for applications, we will have to enter it into our calculator to get the approximation.     We can even evaluate exponential functions at irrational numbers, but it will take a calculator to get an approximate value.        "
+},
+{
+  "id": "exponential-functions-2",
+  "level": "2",
+  "url": "exponential-functions.html#exponential-functions-2",
+  "type": "Definition",
+  "number": "8.1.1",
+  "title": "",
+  "body": "  An exponential function is any function of the form , where is a positive real number not equal to 1.   "
+},
+{
+  "id": "evaluating-exponential-functions",
+  "level": "2",
+  "url": "exponential-functions.html#evaluating-exponential-functions",
+  "type": "Example",
+  "number": "8.1.2",
+  "title": "",
+  "body": "  Evaluate the following functions.   at    at    at     at     at     at                                               Similar to evaluating other types of functions, we replace with in the function and simplify.     This problem will use the property of exponents that states to simplify our answer.     This time, we will use the property of exponents that states to simplify our answer.     We will use another property of exponents to simplify: .     While we will use the property of exponents that states , notice that our answer will usual contain some sort of radical In order to get a more meaningful form for applications, we will have to enter it into our calculator to get the approximation.     We can even evaluate exponential functions at irrational numbers, but it will take a calculator to get an approximate value.       "
 },
 {
   "id": "properties-exponential-functions",
