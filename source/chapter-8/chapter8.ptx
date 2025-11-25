@@ -9,7 +9,6 @@
   <!-- include sections -->
   <xi:include href="exponential-functions.ptx"/>
   <xi:include href="properties-exponential-functions.ptx"/>
-  <xi:include href="graphing-exponential-functions.ptx"/>
   <xi:include href="the-number-e.ptx"/>
   <xi:include href="logarithmic-functions.ptx"/>
   <xi:include href="properties-logarithmic-functions.ptx"/>

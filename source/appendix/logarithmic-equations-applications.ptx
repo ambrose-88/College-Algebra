@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="ws-logarithmic-equations-applications" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Equations and Applications Using Logarithms</title>
+<lemma xml:id="lem-method-exponential-same-base">
+    <title>Solving Exponential Equations by Rewriting with a Common Base</title>
+    <statement>
+        <p>
+            Use the following steps to solve exponential equations that can be rewritten with the same base.
+            <ol>
+                <li>
+                    <p>
+                        Rewrite both sides of the equation as <m>b^m=b^n</m> for some base <m>b</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Apply <m>\log_b(\cdot)</m> to both sides of the equation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the cancellation property <m>\log_b(b^x)=x</m> to get an equation of the form <m>m=n</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Solve the resulting equation for <m>x</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</lemma>
+<example xml:id="lecture-notes-ex-solving-exponential-same-base-1" workspace="3in">
+    <title>Solving Exponential Equations by Rewriting with a Common Base</title>
+    <statement>
+        <p>
+            Solve <m>5^{3x-6}=125</m>.
+        </p>
+    </statement>
+</example>
+<example xml:id="lecture-notes-ex-solving-exponential-same-base-2" workspace="3in">
+    <title>Solving Exponential Equations by Rewriting with a Common Base</title>
+    <statement>
+        <p>
+            Solve <m>8^{x+2}=4^{x-3}</m>.
+        </p>
+    </statement>
+</example>
+<lemma xml:id="lem-method-solving-exponential-equations-different-bases">
+    <title>Solving Exponential Equations Using Logarithms</title>
+    <statement>
+        <p>
+            Use the following steps to solve exponential equations that cannot be rewritten with a common base.
+            <ol>
+                <li>
+                    <p>
+                        Rewrite both sides of the equation as <m>(b_1)^m=(b_2)^n</m>., where <m>b_1\ne b_2</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Apply <m>\ln(\cdot)</m> to both sides of the equation, where <m>b</m> is any positive real number not equal to 1. Common choices for <m>b</m> are 10 or <m>e</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the law <m>ln(b^x)=x\ln(b)</m> to rewrite the equation in the form <m>m\ln(b_1)=n\ln(b_2)</m>. This will remove any variables from the exponents.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Solve the resulting equation for <m>x</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</lemma>
+<example xml:id="lecture-notes-ex-solving-exponential-different-bases-1" workspace="3in">
+    <title>Solving Exponential Equations Using Logarithms</title>
+    <statement>
+        <p>
+            Solve <m>5^x=13</m>.
+        </p>
+    </statement>
+</example>
+<example xml:id="lecture-notes-ex-solving-exponential-different-bases-2" workspace="3in">
+    <title>Solving Exponential Equations Using Logarithms</title>
+    <statement>
+        <p>
+            Solve <m>3^{2x-1}=7^{x+1}</m>.
+        </p>
+    </statement>
+</example>
+<lemma xml:id="lecture-notes-lem-solving-logarithmic-equations">
+    <title>Solving Logarithmic Equations</title>
+    <statement>
+    <p>Use the following steps to solve logarithmic equations.</p>
+    <ol>
+        <li>
+            <p>
+                Rewrite your equation as <m>log_b(M)=c</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Apply the function <m>b^{(\cdot)}</m> to both sides of the equation to get the equation <m>b^{\log_b(M)}=b^c</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Use the cancellation property <m>b^{\log_b(M)}=M</m> to get the equation <m>M=b^c</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Solve the resulting equation for <m>x</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Check your solution(s) in the original equation for extraneous solutions.
+            </p>
+        </li>
+    </ol>
+    </statement>
+</lemma>
+<example xml:id="lecture-notes-ex-solving-logarithmic-equations-1" workspace="3in">
+    <title>Solving Logarithmic Equations</title>
+    <statement>
+        <p>
+            Solve <m>4\ln(3x)=8</m>.
+        </p>
+    </statement>
+</example>
+<example xml:id="lecture-notes-ex-solving-logarithmic-equations-2" workspace="3in">
+    <title>Solving Logarithmic Equations</title>
+    <statement>
+        <p>
+            Solve <m>\log(10x)=1-\log(2x)</m>.
+        </p>
+    </statement>
+</example>
+<theorem xml:id="lecture-notes-thm-compound-interest">
+    <title>Compound Interest Formula</title>
+    <statement>
+        <p>
+            The formula for calculating the amount <m>A</m> in an account after <m>t</m> years with a principal amount <m>P</m>, an annual interest rate <m>r</m> (written as a decimal), and interest compounded <m>n</m> times per year is
+            <m>A=P\left(1+\frac{r}{n}\right)^{nt}</m>.
+        </p>
+    </statement>
+</theorem>
+<example xml:id="lecture-notes-ex-compound-interest-1" workspace="3in">
+    <title>Compound Interest</title>
+    <statement>
+        <p>
+            Find the amount in an account after 10 years if $5,000 is deposited at an annual interest rate of 6% compounded monthly.
+        </p>
+    </statement>
+</example>
+<example xml:id="lecture-notes-ex-compound-interest-2" workspace="3in">
+    <title>Compound Interest</title>
+    <statement>
+        <p>     
+            How long will it take for an investment of $8,000 to double if the annual interest rate is 5% compounded quarterly?
+        </p>
+    </statement>
+</example>
+<example xml:id="lecture-notes-ex-compound-interest-3" workspace="3in">
+    <title>Compound Interest</title>
+    <statement>
+        <p>     
+            Find the annual interest rate needed for an investment of $12,000 to grow to $20,000 in 8 years if the interest is compounded daily.
+        </p>
+    </statement>
+    </example>
+    <theorem xml:id="lecture-notes-thm-exponential-growth-decay">
+    <title>Exponential Growth and Decay</title>
+    <statement>
+        <p>
+            The formula for exponential growth and decay is <m>P=P_0e^{kt}</m>, where <m>P_0</m> is the initial amount, <m>P</m> is the amount after time <m>t</m>, and <m>k</m> is the growth or decay rate. 
+            <ul>
+                <li>
+                    <p>
+                        If <m>k &gt; 0</m>, the equation models exponential growth.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>k &lt; 0</m>, the equation models exponential decay.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</theorem>
+<example xml:id="lecture-notes-ex-exponential-growth-1" workspace="3in">
+    <title>Exponential Growth</title>
+    <statement>
+        <p>
+            A skull cleaning factory cleans animal skulls such as deer, buffalo, and other types of animal skulls using flesh-eating beetles to clean the skulls.  The factory owner started with only 10 adult beetles.  After 40 days, the beetle population grew to 30 adult beetles.  How long did it take before the beetle population reached 10,000 beetles?  Round to the nearest whole number.
+        </p>
+    </statement>
+</example>
+<example xml:id="lecture-notes-ex-exponential-decay-1" workspace="3in">
+    <title>Exponential Decay</title>
+    <statement>
+        <p>
+            A certain radioactive isotope leaks into a small stream.  Three hundred days after the leak, 2% of the original amount of the substance remained.  Determine the half-life of this radioactive isotope.  Round to the nearest whole number.
+        </p>
+    </statement>
+</example>
+</worksheet>
