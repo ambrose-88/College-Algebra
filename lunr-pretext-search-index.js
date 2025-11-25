@@ -3382,23 +3382,50 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.2",
   "title": "The Properties of Exponential Functions",
-  "body": " The Properties of Exponential Functions    "
+  "body": " The Properties of Exponential Functions   Exponential Functions with   Let be an exponential function where . The graph of has the following properties:   Domain:     Range:      -intercept: .    End Behavior:   As     As . This implies the -axis is a horizontal asymptote.       The function is increasing on .      The graph of where . The sample points , , , , and are plotted.       Graphing an Exponential Function with   Graph .     The graph of . The sample points , , , , and are plotted.      As long as you know your powers of the base and the properties of exponential functions, you can plot points and sketch the graph of any rational function. The following table gives some sample points for when    Sample Points for      Point                              First, we plot these five points on the coordinate plane.   The sample points , , , , and plotted on the coordinate plane.    Next, we draw a curve through the points, making sure the graph will approach but never reach the -axis as .   The graph of and its sample points , , , , and are plotted.       Exponential Functions with   Let be an exponential function where . The graph of has the following properties:   Domain:     Range:      -intercept: .    End Behavior:   As . This implies the -axis is a horizontal asymptote.    As        The function is decreasing on .      The graph of where . The sample points , , , , and are plotted.       Graphing an Exponential Function with   Graph .     The graph of . The sample points , , , , and are plotted.      As long as you know your powers of the base and the properties of exponential functions, you can plot points and sketch the graph of any rational function. The following table gives some sample points for when    Sample Points for      Point                              First, we plot these five points on the coordinate plane.   The sample points , , , , and plotted on the coordinate plane.    Next, we draw a curve through the points, making sure the graph will approach but never reach the -axis as .   The graph of and its sample points , , , , and are plotted.      "
 },
 {
-  "id": "graphing-exponential-functions",
-  "level": "1",
-  "url": "graphing-exponential-functions.html",
-  "type": "Section",
-  "number": "8.3",
-  "title": "Graphing Exponential Functions",
-  "body": " Graphing Exponential Functions    "
+  "id": "thm-exponential-functions-a-gt-1",
+  "level": "2",
+  "url": "properties-exponential-functions.html#thm-exponential-functions-a-gt-1",
+  "type": "Theorem",
+  "number": "8.2.1",
+  "title": "Exponential Functions with <span class=\"process-math\">\\(a &gt; 1\\)<\/span>.",
+  "body": " Exponential Functions with   Let be an exponential function where . The graph of has the following properties:   Domain:     Range:      -intercept: .    End Behavior:   As     As . This implies the -axis is a horizontal asymptote.       The function is increasing on .      The graph of where . The sample points , , , , and are plotted.     "
+},
+{
+  "id": "example-graph-exp-a-gt-1",
+  "level": "2",
+  "url": "properties-exponential-functions.html#example-graph-exp-a-gt-1",
+  "type": "Example",
+  "number": "8.2.3",
+  "title": "Graphing an Exponential Function with <span class=\"process-math\">\\(a &gt; 1\\)<\/span>.",
+  "body": " Graphing an Exponential Function with   Graph .     The graph of . The sample points , , , , and are plotted.      As long as you know your powers of the base and the properties of exponential functions, you can plot points and sketch the graph of any rational function. The following table gives some sample points for when    Sample Points for      Point                              First, we plot these five points on the coordinate plane.   The sample points , , , , and plotted on the coordinate plane.    Next, we draw a curve through the points, making sure the graph will approach but never reach the -axis as .   The graph of and its sample points , , , , and are plotted.     "
+},
+{
+  "id": "thm-exponential-functions-a-lt-1",
+  "level": "2",
+  "url": "properties-exponential-functions.html#thm-exponential-functions-a-lt-1",
+  "type": "Theorem",
+  "number": "8.2.8",
+  "title": "Exponential Functions with <span class=\"process-math\">\\(0 &lt; a &lt; 1\\)<\/span>.",
+  "body": " Exponential Functions with   Let be an exponential function where . The graph of has the following properties:   Domain:     Range:      -intercept: .    End Behavior:   As . This implies the -axis is a horizontal asymptote.    As        The function is decreasing on .      The graph of where . The sample points , , , , and are plotted.     "
+},
+{
+  "id": "example-graph-exp-2-negx",
+  "level": "2",
+  "url": "properties-exponential-functions.html#example-graph-exp-2-negx",
+  "type": "Example",
+  "number": "8.2.10",
+  "title": "Graphing an Exponential Function with <span class=\"process-math\">\\(0 &lt; a &lt; 1\\)<\/span>.",
+  "body": " Graphing an Exponential Function with   Graph .     The graph of . The sample points , , , , and are plotted.      As long as you know your powers of the base and the properties of exponential functions, you can plot points and sketch the graph of any rational function. The following table gives some sample points for when    Sample Points for      Point                              First, we plot these five points on the coordinate plane.   The sample points , , , , and plotted on the coordinate plane.    Next, we draw a curve through the points, making sure the graph will approach but never reach the -axis as .   The graph of and its sample points , , , , and are plotted.     "
 },
 {
   "id": "the-number-e",
   "level": "1",
   "url": "the-number-e.html",
   "type": "Section",
-  "number": "8.4",
+  "number": "8.3",
   "title": "The Number <span class=\"process-math\">\\(e\\)<\/span>",
   "body": " The Number    "
 },
@@ -3407,7 +3434,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "logarithmic-functions.html",
   "type": "Section",
-  "number": "8.5",
+  "number": "8.4",
   "title": "Logarithmic Functions",
   "body": " Logarithmic Functions    "
 },
@@ -3416,7 +3443,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "properties-logarithmic-functions.html",
   "type": "Section",
-  "number": "8.6",
+  "number": "8.5",
   "title": "The Properties of Logarithmic Functions",
   "body": " The Properties of Logarithmic Functions    "
 },
@@ -3425,7 +3452,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "graphing-logarithmic-functions.html",
   "type": "Section",
-  "number": "8.7",
+  "number": "8.6",
   "title": "Graphing Logarithmic Functions",
   "body": " Graphing Logarithmic Functions    "
 },
@@ -3434,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "cancellation-properties-logarithms.html",
   "type": "Section",
-  "number": "8.8",
+  "number": "8.7",
   "title": "The Cancellation Properties of Logarithms",
   "body": " The Cancellation Properties of Logarithms    "
 },
@@ -3443,7 +3470,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "evaluating-logarithmic-functions.html",
   "type": "Section",
-  "number": "8.9",
+  "number": "8.8",
   "title": "Evaluating Logarithmic Functions",
   "body": " Evaluating Logarithmic Functions    "
 },
@@ -3452,7 +3479,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "solving-exponential-equations.html",
   "type": "Section",
-  "number": "8.10",
+  "number": "8.9",
   "title": "Solving Equations Involving Exponential Functions",
   "body": " Solving Equations Involving Exponential Functions    "
 },
@@ -3461,7 +3488,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "laws-logarithms.html",
   "type": "Section",
-  "number": "8.11",
+  "number": "8.10",
   "title": "The Laws of Logarithms",
   "body": " The Laws of Logarithms    "
 },
@@ -3470,7 +3497,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "solving-logarithmic-equations.html",
   "type": "Section",
-  "number": "8.12",
+  "number": "8.11",
   "title": "Solving Equations Involving Exponential Functions",
   "body": " Solving Equations Involving Exponential Functions    "
 },
@@ -3479,7 +3506,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "applications-exponential-logarithmic.html",
   "type": "Section",
-  "number": "8.13",
+  "number": "8.12",
   "title": "Applications of Exponential and Logarithmic Functions",
   "body": " Applications of Exponential and Logarithmic Functions    "
 },
@@ -5498,6 +5525,465 @@ var ptx_lunr_docs = [
   "number": "A.7.1.16",
   "title": "Example 15.",
   "body": " Example 15   The function is not one-to-one since its graph does not pass the horizontal line test. Find a restriction of the domain that will make one-to-one. Then find the inverse of the restricted function.   "
+},
+{
+  "id": "chapter-8-lecture-notes",
+  "level": "1",
+  "url": "chapter-8-lecture-notes.html",
+  "type": "Section",
+  "number": "A.8",
+  "title": "Chapter 8 Lecture Notes",
+  "body": " Chapter 8 Lecture Notes   Exponential and Logarithmic Functions     An exponential function is any function of the form , where is a positive real number not equal to 1.      Evaluating Exponential Functions   Evaluate the following functions.  at  at  at  at  at  at       Exponential Functions with   Let be an exponential function where . The graph of has the following properties:  Domain:  Range:  -intercept: .   End Behavior:  As  As . This implies the -axis is a horizontal asymptote.     The function is increasing on .     The graph of where . The sample points , , , , and are plotted.   Graph of f(x)=a^x for a>1       Graphing an Exponential Function with   Graph .     Exponential Functions with   Let be an exponential function where . The graph of has the following properties:  Domain:  Range:  -intercept: .   End Behavior:  As . This implies the -axis is a horizontal asymptote.  As     The function is decreasing on .     The graph of where . The sample points , , , , and are plotted.   Graph of f(x)=a^x for 0<a<1       Graphing an Exponential Function with   Graph .         The mathematical constant is an irrational number approximately equal to .    The function is called the natural exponential function .      The graph of the natural exponential function . The graph of is shown as a red, dashed curve, and is shown as a blue, dashed curve for comparison.       Evaluating   Use a calculator to evaluate the following.  at  at  at  at       How to Solve for a Variable in the Exponent using graphs   Let . Solve the equation using a graph.      Let be an exponential function with and . The inverse function of is called the logarithmic function with base and is denoted by . This means that if and only if . In other words, is the exponent to which we must raise to obtain the value .     Parentheses in Logarithmic Expressions     When you take a logarithm of a single term, it is common practice to drop the parentheses like this: . I will never drop the parentheses in my lecture notes.    Taking the logarithm of an expression with more than one term always requires parentheses: .        Two logarithmic functions are given special notation.  The logarithmic function with base 10 is called the common logarithm and is denoted by . In other words, .  The logarithmic function with base is called the natural logarithm and is denoted by . In other words, .       Converting Logarithmic to Exponential Form   Convert each logarithmic equation to its equivalent exponential form.          Converting Exponential to Logarithmic Form   Convert each exponential equation to its equivalent logarithmic form.           Properties of Logarithms    Let be an exponential function with inverse . Then the following cancellation properties are true:    for all .     for all real numbers .        Using the Cancellation Properties   Use the cancellation properties of logarithms to simplify each expression.           Evaluating Logarithmic Expressions with a Calculator   Use a calculator to evaluate each expression. Round your answer to four decimal places, if necessary.         Other Useful Properties of Logarithms   let . Then the following properties are true for any base :                 Using Other Useful Properties of Logarithms   Use the properties of logarithms to simplify each expression.         Laws of Logarithms   Let . Then the following laws are true for any base :                      Using the Laws of Logarithms   Evaluate the logarithmic expression .     Using the Laws of Logarithms   Evaluate the logarithmic expression .     Using the Laws of Logarithms   Evaluate the logarithmic expression .     Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.     Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.     Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.     Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.     Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.     Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.     Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.     Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.     Change of Base Formula   For any positive numbers , , and , where and , the logarithm of with base can be computed using logarithms with base as follows:      Using the Change of Base Formula with a Calculator   Use the change of base formula to evaluate using a calculator or Desmos. Round your answer to four decimal places, if necessary.     Using the Change of Base Formula to Graph a Logarithmic Function with a Calculator   Graph the function using a calculator or Desmos.      Solving Equations and Applications Using Logarithms   Solving Exponential Equations by Rewriting with a Common Base   Use the following steps to solve exponential equations that can be rewritten with the same base.   Rewrite both sides of the equation as for some base .    Apply to both sides of the equation.    Use the cancellation property to get an equation of the form .    Solve the resulting equation for .        Solving Exponential Equations by Rewriting with a Common Base   Solve .     Solving Exponential Equations by Rewriting with a Common Base   Solve .     Solving Exponential Equations Using Logarithms   Use the following steps to solve exponential equations that cannot be rewritten with a common base.   Rewrite both sides of the equation as ., where .    Apply to both sides of the equation, where is any positive real number not equal to 1. Common choices for are 10 or .    Use the law to rewrite the equation in the form . This will remove any variables from the exponents.    Solve the resulting equation for .        Solving Exponential Equations Using Logarithms   Solve .     Solving Exponential Equations Using Logarithms   Solve .     Solving Logarithmic Equations   Use the following steps to solve logarithmic equations.    Rewrite your equation as .    Apply the function to both sides of the equation to get the equation .    Use the cancellation property to get the equation .    Solve the resulting equation for .    Check your solution(s) in the original equation for extraneous solutions.       Solving Logarithmic Equations   Solve .     Solving Logarithmic Equations   Solve .     Compound Interest Formula   The formula for calculating the amount in an account after years with a principal amount , an annual interest rate (written as a decimal), and interest compounded times per year is .     Compound Interest   Find the amount in an account after 10 years if $5,000 is deposited at an annual interest rate of 6% compounded monthly.     Compound Interest   How long will it take for an investment of $8,000 to double if the annual interest rate is 5% compounded quarterly?     Compound Interest   Find the annual interest rate needed for an investment of $12,000 to grow to $20,000 in 8 years if the interest is compounded daily.     Exponential Growth and Decay   The formula for exponential growth and decay is , where is the initial amount, is the amount after time , and is the growth or decay rate.   If , the equation models exponential growth.    If , the equation models exponential decay.        Exponential Growth   A skull cleaning factory cleans animal skulls such as deer, buffalo, and other types of animal skulls using flesh-eating beetles to clean the skulls. The factory owner started with only 10 adult beetles. After 40 days, the beetle population grew to 30 adult beetles. How long did it take before the beetle population reached 10,000 beetles? Round to the nearest whole number.     Exponential Decay   A certain radioactive isotope leaks into a small stream. Three hundred days after the leak, 2% of the original amount of the substance remained. Determine the half-life of this radioactive isotope. Round to the nearest whole number.     "
+},
+{
+  "id": "ws-exponential-logarithmic-functions-2",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#ws-exponential-logarithmic-functions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential function "
+},
+{
+  "id": "lecture-notes-evaluating-exponential-functions",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-evaluating-exponential-functions",
+  "type": "Worksheet Exercise",
+  "number": "A.8.1.1",
+  "title": "Evaluating Exponential Functions.",
+  "body": " Evaluating Exponential Functions   Evaluate the following functions.  at  at  at  at  at  at     "
+},
+{
+  "id": "lecture-notes-thm-exponential-functions-a-gt-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-thm-exponential-functions-a-gt-1",
+  "type": "Theorem",
+  "number": "A.8.2",
+  "title": "Exponential Functions with <span class=\"process-math\">\\(a &gt; 1\\)<\/span>.",
+  "body": " Exponential Functions with   Let be an exponential function where . The graph of has the following properties:  Domain:  Range:  -intercept: .   End Behavior:  As  As . This implies the -axis is a horizontal asymptote.     The function is increasing on .     The graph of where . The sample points , , , , and are plotted.   Graph of f(x)=a^x for a>1     "
+},
+{
+  "id": "lecture-notes-example-graph-exp-a-gt-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-example-graph-exp-a-gt-1",
+  "type": "Worksheet Exercise",
+  "number": "A.8.1.2",
+  "title": "Graphing an Exponential Function with <span class=\"process-math\">\\(a &gt; 1\\)<\/span>.",
+  "body": " Graphing an Exponential Function with   Graph .   "
+},
+{
+  "id": "lecture-notes-thm-exponential-functions-a-lt-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-thm-exponential-functions-a-lt-1",
+  "type": "Theorem",
+  "number": "A.8.4",
+  "title": "Exponential Functions with <span class=\"process-math\">\\(0 &lt; a &lt; 1\\)<\/span>.",
+  "body": " Exponential Functions with   Let be an exponential function where . The graph of has the following properties:  Domain:  Range:  -intercept: .   End Behavior:  As . This implies the -axis is a horizontal asymptote.  As     The function is decreasing on .     The graph of where . The sample points , , , , and are plotted.   Graph of f(x)=a^x for 0<a<1     "
+},
+{
+  "id": "lecture-notes-example-graph-exp-2-negx",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-example-graph-exp-2-negx",
+  "type": "Worksheet Exercise",
+  "number": "A.8.1.3",
+  "title": "Graphing an Exponential Function with <span class=\"process-math\">\\(0 &lt; a &lt; 1\\)<\/span>.",
+  "body": " Graphing an Exponential Function with   Graph .   "
+},
+{
+  "id": "lecture-notes-def-e",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-def-e",
+  "type": "Definition",
+  "number": "A.8.6",
+  "title": "",
+  "body": "     The mathematical constant is an irrational number approximately equal to .    The function is called the natural exponential function .      The graph of the natural exponential function . The graph of is shown as a red, dashed curve, and is shown as a blue, dashed curve for comparison.     "
+},
+{
+  "id": "lecture-notes-evaluting-functions-base-e",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-evaluting-functions-base-e",
+  "type": "Example",
+  "number": "A.8.8",
+  "title": "Evaluating <span class=\"process-math\">\\(y=e^x\\)<\/span>.",
+  "body": " Evaluating   Use a calculator to evaluate the following.  at  at  at  at     "
+},
+{
+  "id": "lecture-notes-example-solve-for-variable-in-exponent-using-graphs",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-example-solve-for-variable-in-exponent-using-graphs",
+  "type": "Example",
+  "number": "A.8.9",
+  "title": "How to Solve for a Variable in the Exponent using graphs.",
+  "body": " How to Solve for a Variable in the Exponent using graphs   Let . Solve the equation using a graph.   "
+},
+{
+  "id": "lecture-notes-def-logarithm",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-def-logarithm",
+  "type": "Definition",
+  "number": "A.8.10",
+  "title": "",
+  "body": "  Let be an exponential function with and . The inverse function of is called the logarithmic function with base and is denoted by . This means that if and only if . In other words, is the exponent to which we must raise to obtain the value .   "
+},
+{
+  "id": "ws-exponential-logarithmic-functions-12",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#ws-exponential-logarithmic-functions-12",
+  "type": "Note",
+  "number": "A.8.11",
+  "title": "Parentheses in Logarithmic Expressions.",
+  "body": " Parentheses in Logarithmic Expressions     When you take a logarithm of a single term, it is common practice to drop the parentheses like this: . I will never drop the parentheses in my lecture notes.    Taking the logarithm of an expression with more than one term always requires parentheses: .     "
+},
+{
+  "id": "lecture-notation-common-natural-log",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notation-common-natural-log",
+  "type": "Notation",
+  "number": "A.8.12",
+  "title": "",
+  "body": "  Two logarithmic functions are given special notation.  The logarithmic function with base 10 is called the common logarithm and is denoted by . In other words, .  The logarithmic function with base is called the natural logarithm and is denoted by . In other words, .     "
+},
+{
+  "id": "lecture-notes-converting-log-to-exponential",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-converting-log-to-exponential",
+  "type": "Example",
+  "number": "A.8.13",
+  "title": "Converting Logarithmic to Exponential Form.",
+  "body": " Converting Logarithmic to Exponential Form   Convert each logarithmic equation to its equivalent exponential form.        "
+},
+{
+  "id": "lecture-notes-converting-exponential-to-log",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-converting-exponential-to-log",
+  "type": "Example",
+  "number": "A.8.14",
+  "title": "Converting Exponential to Logarithmic Form.",
+  "body": " Converting Exponential to Logarithmic Form   Convert each exponential equation to its equivalent logarithmic form.        "
+},
+{
+  "id": "lecture-notes-thm-cancellation-properties",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-thm-cancellation-properties",
+  "type": "Theorem",
+  "number": "A.8.15",
+  "title": "",
+  "body": "  Let be an exponential function with inverse . Then the following cancellation properties are true:    for all .     for all real numbers .      "
+},
+{
+  "id": "lecture-notes-ex-logarithmic-cancellation-properties",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-logarithmic-cancellation-properties",
+  "type": "Example",
+  "number": "A.8.16",
+  "title": "Using the Cancellation Properties.",
+  "body": " Using the Cancellation Properties   Use the cancellation properties of logarithms to simplify each expression.         "
+},
+{
+  "id": "lecture-notes-ex-evaluating-logarithmic-calculator",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-evaluating-logarithmic-calculator",
+  "type": "Example",
+  "number": "A.8.17",
+  "title": "Evaluating Logarithmic Expressions with a Calculator.",
+  "body": " Evaluating Logarithmic Expressions with a Calculator   Use a calculator to evaluate each expression. Round your answer to four decimal places, if necessary.       "
+},
+{
+  "id": "lecture-notes-thm-other-useful-properties",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-thm-other-useful-properties",
+  "type": "Theorem",
+  "number": "A.8.18",
+  "title": "Other Useful Properties of Logarithms.",
+  "body": " Other Useful Properties of Logarithms   let . Then the following properties are true for any base :               "
+},
+{
+  "id": "lecture-notes-ex-using-other-useful-properties",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-other-useful-properties",
+  "type": "Example",
+  "number": "A.8.19",
+  "title": "Using Other Useful Properties of Logarithms.",
+  "body": " Using Other Useful Properties of Logarithms   Use the properties of logarithms to simplify each expression.       "
+},
+{
+  "id": "lecture-notes-thm-laws-of-logarithms",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-thm-laws-of-logarithms",
+  "type": "Theorem",
+  "number": "A.8.20",
+  "title": "Laws of Logarithms.",
+  "body": " Laws of Logarithms   Let . Then the following laws are true for any base :                    "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-1",
+  "type": "Example",
+  "number": "A.8.21",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-2",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-2",
+  "type": "Example",
+  "number": "A.8.22",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-3",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-3",
+  "type": "Example",
+  "number": "A.8.23",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-rewrite-2",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-2",
+  "type": "Example",
+  "number": "A.8.24",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-rewrite-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-1",
+  "type": "Example",
+  "number": "A.8.25",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-rewrite-3",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-3",
+  "type": "Example",
+  "number": "A.8.26",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-rewrite-4",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-4",
+  "type": "Example",
+  "number": "A.8.27",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-rewrite-5",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-5",
+  "type": "Example",
+  "number": "A.8.28",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-rewrite-6",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-6",
+  "type": "Example",
+  "number": "A.8.29",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-rewrite-7",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-7",
+  "type": "Example",
+  "number": "A.8.30",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
+},
+{
+  "id": "lecture-notes-ex-using-laws-of-logarithms-rewrite-8",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-8",
+  "type": "Example",
+  "number": "A.8.31",
+  "title": "Using the Laws of Logarithms.",
+  "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
+},
+{
+  "id": "lecture-def-change-of-base-formula",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-def-change-of-base-formula",
+  "type": "Definition",
+  "number": "A.8.32",
+  "title": "Change of Base Formula.",
+  "body": " Change of Base Formula   For any positive numbers , , and , where and , the logarithm of with base can be computed using logarithms with base as follows:    "
+},
+{
+  "id": "lecture-notes-ex-change-of-base-calculator",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-change-of-base-calculator",
+  "type": "Example",
+  "number": "A.8.33",
+  "title": "Using the Change of Base Formula with a Calculator.",
+  "body": " Using the Change of Base Formula with a Calculator   Use the change of base formula to evaluate using a calculator or Desmos. Round your answer to four decimal places, if necessary.   "
+},
+{
+  "id": "lecture-notes-ex-graph-change-of-base-calculator-2",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-graph-change-of-base-calculator-2",
+  "type": "Example",
+  "number": "A.8.34",
+  "title": "Using the Change of Base Formula to Graph a Logarithmic Function with a Calculator.",
+  "body": " Using the Change of Base Formula to Graph a Logarithmic Function with a Calculator   Graph the function using a calculator or Desmos.   "
+},
+{
+  "id": "lem-method-exponential-same-base",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lem-method-exponential-same-base",
+  "type": "Procedure",
+  "number": "A.8.35",
+  "title": "Solving Exponential Equations by Rewriting with a Common Base.",
+  "body": " Solving Exponential Equations by Rewriting with a Common Base   Use the following steps to solve exponential equations that can be rewritten with the same base.   Rewrite both sides of the equation as for some base .    Apply to both sides of the equation.    Use the cancellation property to get an equation of the form .    Solve the resulting equation for .      "
+},
+{
+  "id": "lecture-notes-ex-solving-exponential-same-base-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-solving-exponential-same-base-1",
+  "type": "Example",
+  "number": "A.8.36",
+  "title": "Solving Exponential Equations by Rewriting with a Common Base.",
+  "body": " Solving Exponential Equations by Rewriting with a Common Base   Solve .   "
+},
+{
+  "id": "lecture-notes-ex-solving-exponential-same-base-2",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-solving-exponential-same-base-2",
+  "type": "Example",
+  "number": "A.8.37",
+  "title": "Solving Exponential Equations by Rewriting with a Common Base.",
+  "body": " Solving Exponential Equations by Rewriting with a Common Base   Solve .   "
+},
+{
+  "id": "lem-method-solving-exponential-equations-different-bases",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lem-method-solving-exponential-equations-different-bases",
+  "type": "Procedure",
+  "number": "A.8.38",
+  "title": "Solving Exponential Equations Using Logarithms.",
+  "body": " Solving Exponential Equations Using Logarithms   Use the following steps to solve exponential equations that cannot be rewritten with a common base.   Rewrite both sides of the equation as ., where .    Apply to both sides of the equation, where is any positive real number not equal to 1. Common choices for are 10 or .    Use the law to rewrite the equation in the form . This will remove any variables from the exponents.    Solve the resulting equation for .      "
+},
+{
+  "id": "lecture-notes-ex-solving-exponential-different-bases-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-solving-exponential-different-bases-1",
+  "type": "Example",
+  "number": "A.8.39",
+  "title": "Solving Exponential Equations Using Logarithms.",
+  "body": " Solving Exponential Equations Using Logarithms   Solve .   "
+},
+{
+  "id": "lecture-notes-ex-solving-exponential-different-bases-2",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-solving-exponential-different-bases-2",
+  "type": "Example",
+  "number": "A.8.40",
+  "title": "Solving Exponential Equations Using Logarithms.",
+  "body": " Solving Exponential Equations Using Logarithms   Solve .   "
+},
+{
+  "id": "lecture-notes-lem-solving-logarithmic-equations",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-lem-solving-logarithmic-equations",
+  "type": "Procedure",
+  "number": "A.8.41",
+  "title": "Solving Logarithmic Equations.",
+  "body": " Solving Logarithmic Equations   Use the following steps to solve logarithmic equations.    Rewrite your equation as .    Apply the function to both sides of the equation to get the equation .    Use the cancellation property to get the equation .    Solve the resulting equation for .    Check your solution(s) in the original equation for extraneous solutions.     "
+},
+{
+  "id": "lecture-notes-ex-solving-logarithmic-equations-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-solving-logarithmic-equations-1",
+  "type": "Example",
+  "number": "A.8.42",
+  "title": "Solving Logarithmic Equations.",
+  "body": " Solving Logarithmic Equations   Solve .   "
+},
+{
+  "id": "lecture-notes-ex-solving-logarithmic-equations-2",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-solving-logarithmic-equations-2",
+  "type": "Example",
+  "number": "A.8.43",
+  "title": "Solving Logarithmic Equations.",
+  "body": " Solving Logarithmic Equations   Solve .   "
+},
+{
+  "id": "lecture-notes-thm-compound-interest",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-thm-compound-interest",
+  "type": "Theorem",
+  "number": "A.8.44",
+  "title": "Compound Interest Formula.",
+  "body": " Compound Interest Formula   The formula for calculating the amount in an account after years with a principal amount , an annual interest rate (written as a decimal), and interest compounded times per year is .   "
+},
+{
+  "id": "lecture-notes-ex-compound-interest-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-compound-interest-1",
+  "type": "Example",
+  "number": "A.8.45",
+  "title": "Compound Interest.",
+  "body": " Compound Interest   Find the amount in an account after 10 years if $5,000 is deposited at an annual interest rate of 6% compounded monthly.   "
+},
+{
+  "id": "lecture-notes-ex-compound-interest-2",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-compound-interest-2",
+  "type": "Example",
+  "number": "A.8.46",
+  "title": "Compound Interest.",
+  "body": " Compound Interest   How long will it take for an investment of $8,000 to double if the annual interest rate is 5% compounded quarterly?   "
+},
+{
+  "id": "lecture-notes-ex-compound-interest-3",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-compound-interest-3",
+  "type": "Example",
+  "number": "A.8.47",
+  "title": "Compound Interest.",
+  "body": " Compound Interest   Find the annual interest rate needed for an investment of $12,000 to grow to $20,000 in 8 years if the interest is compounded daily.   "
+},
+{
+  "id": "lecture-notes-thm-exponential-growth-decay",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-thm-exponential-growth-decay",
+  "type": "Theorem",
+  "number": "A.8.48",
+  "title": "Exponential Growth and Decay.",
+  "body": " Exponential Growth and Decay   The formula for exponential growth and decay is , where is the initial amount, is the amount after time , and is the growth or decay rate.   If , the equation models exponential growth.    If , the equation models exponential decay.      "
+},
+{
+  "id": "lecture-notes-ex-exponential-growth-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-exponential-growth-1",
+  "type": "Example",
+  "number": "A.8.49",
+  "title": "Exponential Growth.",
+  "body": " Exponential Growth   A skull cleaning factory cleans animal skulls such as deer, buffalo, and other types of animal skulls using flesh-eating beetles to clean the skulls. The factory owner started with only 10 adult beetles. After 40 days, the beetle population grew to 30 adult beetles. How long did it take before the beetle population reached 10,000 beetles? Round to the nearest whole number.   "
+},
+{
+  "id": "lecture-notes-ex-exponential-decay-1",
+  "level": "2",
+  "url": "chapter-8-lecture-notes.html#lecture-notes-ex-exponential-decay-1",
+  "type": "Example",
+  "number": "A.8.50",
+  "title": "Exponential Decay.",
+  "body": " Exponential Decay   A certain radioactive isotope leaks into a small stream. Three hundred days after the leak, 2% of the original amount of the substance remained. Determine the half-life of this radioactive isotope. Round to the nearest whole number.   "
 },
 {
   "id": "backmatter-3",
